@@ -99,4 +99,3 @@ email <b>max @ this website</b>
     <h3 id="experienced-in-agile-and-waterfall-i-have-a-flexible-process-focused-on-research-planing-iteration-and-execution-i-lead-projects-from-stakeholder-interviews-through-user-journeys-wireframes-to-final-handoff">Experienced in agile and waterfall. I have a flexible process, focused on research, planing, iteration, and execution. I lead projects from stakeholder interviews, through user journeys, wireframes, to final handoff.</h3>
   </div>
 </div>
-</div>

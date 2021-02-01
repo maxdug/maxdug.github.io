@@ -370,17 +370,22 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
   font-size: 14px;
   text-align: center;
 	font-family: verdana;
+	/* -webkit-filter: grayscale(0%);
+	filter: grayscale(0%); */
+}
+#about_max a:link, #about_max a:visited {
+	font-weight: bold;
+	color: #555;
+	text-decoration: none;
+}
+/* #resume:hover + #about_max {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-}
-#about_max:hover {
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
-}
-body.touch #about_max {
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
-}
+} */
+/* #resume:hover + body.touch #about_max {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+} */
 #max_1 {
   flex-basis: 100%;
   padding: 6% 30% 6% 4%;
@@ -389,7 +394,7 @@ body.touch #about_max {
 #max_2 {
   flex-basis: 100%;
   padding: 0 30% 0 4%;
-	color: #ddd;
+	color: White;
 }
 #resume {
   width: 100%;
@@ -397,6 +402,22 @@ body.touch #about_max {
   background-color:  var(--Light);
   display: flex;
   flex-wrap: wrap;
+	justify-content: center;
+}
+#resume:hover {
+  background-color:  var(--Active);
+}
+#resume:hover h1 {
+  color: #99ccff;
+}
+#resume:hover h2 {
+  color: #003377;
+}
+#resume:hover h3 {
+  color: #004499;
+}
+#resume:hover h4 {
+  color: #99ccff;
 }
 #resume h1 {
   flex-basis: 100%;

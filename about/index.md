@@ -6,8 +6,7 @@ section: about
 ---
 
 <div id="about_max">
-<!-- <div id="max_1"><b>Hello, I'm Max</b>👋, a designer with 8+ years of crafting digital experiences👾. I also dabble in development and have a passion for the process of making things. I live in NYC🗽 with my girlfriend 👩 and <a href="https://www.instagram.com/explore/tags/themightysobo/">our dog Sobo 🐕</a>. I'm an avid backpacker🚶‍♂️‍ and finished 2,190 mile <a href="https://en.wikipedia.org/wiki/Appalachian_Trail">Appalachian Trail</a> from Maine🦞 to Georgia🍑 in 2018.</div> -->
-<div id="max_1"><b>Hello, I'm Max</b>, a designer with 7+ years of crafting digital experiences. I also dabble in development and have a passion for the process of making things. I live in NYC with my girlfriend and <a href="https://www.instagram.com/explore/tags/themightysobo/">our dog Sobo</a>. I'm an avid backpacker and finished the 2,190 mile <a href="https://en.wikipedia.org/wiki/Appalachian_Trail">Appalachian Trail</a> from Maine to Georgia in 2018.</div>
+<div id="max_1"><b>Hello, I'm Max</b>👋, a designer with 8+ years of crafting digital experiences👾. I also dabble in development and have a passion for the process of making things. I live in NYC🗽 with my girlfriend 👩 and <a href="https://www.instagram.com/explore/tags/themightysobo/">our dog Sobo 🐕</a>. I'm an avid backpacker🚶‍♂️‍ and finished 2,190 mile <a href="https://en.wikipedia.org/wiki/Appalachian_Trail">Appalachian Trail</a> from Maine🦞 to Georgia🍑 in 2018.</div>
 
 	<div id="max_2"><b>Cheers!</b> To get in touch,<br />
 email <b>max @ this website</b>

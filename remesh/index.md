@@ -8,7 +8,7 @@ section: design
 <div class="order-flip">
   <div class="two-thirds-tile">
     <div class="video">
-      <iframe src="https://player.vimeo.com/video/277722698?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <iframe src="https://player.vimeo.com/video/509438727?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
   </div>
 <div class="third-text" markdown="1">

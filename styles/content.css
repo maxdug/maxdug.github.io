@@ -285,9 +285,7 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
 			88"""   88"Yb   Yb   dP  o.  88  88""    Yb         88
 			88      88  Yb   YbodP   "bodP'  888888   YboodP    88
 -------------------------------------------------------------------- */
-.hero {
 
-}
 .project-container {
 	max-width: 1440px;
 	width: 98%;
@@ -393,31 +391,15 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
 }
 #max_2 {
   flex-basis: 100%;
-  padding: 0 30% 0 4%;
+  padding: 0 30% 20px 4%;
 	color: White;
 }
 #resume {
   width: 100%;
   padding: 20px 0;
-  background-color:  var(--Light);
   display: flex;
   flex-wrap: wrap;
 	justify-content: center;
-}
-#resume:hover {
-  background-color:  var(--Active);
-}
-#resume:hover h1 {
-  color: #99ccff;
-}
-#resume:hover h2 {
-  color: #003377;
-}
-#resume:hover h3 {
-  color: #004499;
-}
-#resume:hover h4 {
-  color: #99ccff;
 }
 #resume h1 {
   flex-basis: 100%;
@@ -425,7 +407,7 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
   margin: 20px 0;
   font-size: 50px;
   text-align: center;
-  color: White;
+  color: #777;
   letter-spacing: .7em;
   line-height: normal;
 	text-indent: .7em;
@@ -451,7 +433,7 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
 #resume h4 {
   font-size: 13px;
   text-align: center;
-  color: White;
+  color: var(--MediumDark);
 }
 
 
@@ -618,7 +600,7 @@ a.tile_thumb, a.tile_tall_thumb, a.half_thumb, a.half_thumb_short {
 	padding: 10% 29% 10% 15px;
 }
 #max_2 {
-  padding: 0 29% 0 15px;
+  padding: 0 29% 20px 15px;
 }
 .item {
   flex-basis: 100%;

@@ -18,7 +18,7 @@ email <b>max @ this website</b>
 	<h1>Experience</h1>
 	<div class="item">
 			<h2>BCG</h2>
-			<h3>Senior Designer / Developer</h3>
+			<h3>Senior Product Designer / Developer</h3>
 			<h4>Jul 2019 - Present<br />
 			(contract)</h4>
 	</div>

@@ -80,12 +80,8 @@ email <b>max @ this website</b>
 					</div>
 					<div class="item">
 						<h2>Javascript</h2>
-						<h3>ES6,</h3>
+						<h3></h3>
 						<h4>React and Node.js in progress</h4>
-					</div>
-					<div class="item">
-						<h2>Python</h2>
-						<h4>in progress</h4>
 					</div>
 
 	<h1>Expertise</h1>

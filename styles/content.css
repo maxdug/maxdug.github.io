@@ -359,7 +359,7 @@ body.touch a.tile_thumb, body.touch a.tile_tall_thumb, body.touch a.half_thumb, 
 			dP""""Yb  88oodP   YbodP   `YbodP'    88
 ----------------------------------------------------- */
 #about_max {
-  max-width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
   height: 350px;
   background: url(/about/max-duggan.jpg) 100% 0 no-repeat;

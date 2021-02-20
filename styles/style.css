@@ -19,12 +19,12 @@ img {
 }
 
 body {
+  display: flex;
+  height: calc(100vh - 60px);
+  flex-direction: column;
+  margin: 60px 0 0;
   color: var(--MediumDark);
-  font-size: 12px;
-  font-family: verdana, sans-serif;
-  min-height: 100vh; /* Avoid the IE 10-11 `min-height` */
-  display: flex; /* used for sticky footer */
-  flex-direction: column; /* used for sticky footer */
+  font-family: "Oxygen", verdana, sans-serif;
 }
 
 :root {
@@ -41,8 +41,7 @@ body {
   --Dark: #333; /*  */
 }
 
-a:link,
-a:visited {
+a {
   color: var(--MediumLight);
   text-decoration: underline;
 }
@@ -59,6 +58,7 @@ p {
   letter-spacing: 1px;
   line-height: 1.5em;
   color: var(--MediumDark);
+  font-weight: lighter;
 }
 hr {
   height: 1px;
@@ -117,6 +117,16 @@ ol {
   background-color: var(--Light) !important;
 }
 
+.button {
+  text-decoration: none;
+  color: #eee;
+  background: #333;
+  padding: .8em 2em;
+}
+.button:hover {
+  background: black;
+  color: white;
+}
 input {
   width: 100%;
   padding: 10px;
@@ -154,8 +164,7 @@ h6 {
   font-family: "Oxygen", sans-serif;
 }
 h1,
-h1 a:link,
-h1 a:visited {
+h1 a {
   font-size: 15px;
   margin: 0 0 6px 0;
   color: var(--Dark);
@@ -168,8 +177,7 @@ h1 a:hover {
   color: Black;
 }
 h2,
-h2 a:link,
-h2 a:visited {
+h2 a {
   font-size: 12px;
   margin: 0 0 6px 0;
   color: var(--Dark);
@@ -183,8 +191,7 @@ h2 a:hover {
 }
 
 h3,
-h3 a:link,
-h3 a:visited {
+h3 a {
   font-size: 30px;
   margin: 0 0 5px 0;
   color: var(--Dark);
@@ -195,16 +202,112 @@ h3 a:hover {
   color: Black;
 }
 
+
+header, footer {
+	width: 100%;
+	letter-spacing: .2em;
+	background: var(--ExtraLight);
+	text-transform: uppercase;
+	font-size: .7em;
+	color: var(--MediumDark);
+}
+header {
+	position: fixed;
+	top: 0;
+	z-index: 999;
+}
+footer {
+	justify-self: flex-end;
+}
+header .container, footer .container {
+	display: flex;
+    max-width: 1440px;
+	width: 98%;
+	height: 50px;
+	margin: 0 auto;
+	padding: 0 1%;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#name {
+	flex: 1 0 160px;
+	color: var(--Dark);
+	text-decoration: none;
+	font-size: 1.2em;
+}
+#name:hover {
+	color: var(--Secondary);
+}
+body.touch #name:hover {
+	color: var(--Secondary);
+}
+
+nav {
+	flex: 0 0 18em;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+nav a {
+	padding-bottom: 3px;
+	color: var(--Dark);
+	text-decoration: none;
+}
+nav a:hover, nav a.sfhover {
+	color: var(--Secondary);
+}
+#design a.design, #blog a.blog, #art a.art, #about a.about {
+	border-bottom: solid 3px var(--Secondary);
+}
+
+.footer-space {
+	flex: 1 0 auto;
+  height: 2px;
+}
+#copyright {
+	flex: 1 0 160px;
+}
+#back-top {
+	text-decoration: none;
+}
+.footer-links {
+    flex: 1 0 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-links a {
+	margin-left: 2%;
+	text-decoration: none;
+}
+footer svg {
+	max-width: 1.7em;
+	max-height: 1.7em;
+}
+footer a:hover .footerIcon{
+	fill:  var(--Secondary);
+}
+
+a .footerIcon {
+	fill: #444;
+}
+
+body.touch footer a:hover .footerIcon {
+	fill: #444;
+}
+
 /* ---------------------------------------------
 			88  88   dP"Yb   8b    d8  888888
 			88  88  dP   Yb  88b  d88  88__
 			888888  Yb   dP  88YbdP88  88""
 			88  88   YbodP   88 YY 88  888888
 ----------------------------------------------- */
-.container {
+main {
   max-width: 1440px;
   width: 98%;
-  margin: 0 auto 20px;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
@@ -266,6 +369,9 @@ a:hover.half_thumb svg {
   padding: 30px;
   fill: White;
 }
+.tile-logo {
+  fill: white;
+}
 a.tile_thumb,
 a.half_thumb {
   width: 100%;
@@ -318,7 +424,7 @@ body.touch a.half_thumb_short {
 			88      88  Yb   YbodP   "bodP'  888888   YboodP    88
 -------------------------------------------------------------------- */
 
-.project-container {
+main.project {
   max-width: 1440px;
   width: 98%;
   margin: 0 auto 20px;
@@ -402,11 +508,8 @@ body.touch a.half_thumb_short {
   /* -webkit-filter: grayscale(0%);
 	filter: grayscale(0%); */
 }
-#about_max a:link,
-#about_max a:visited {
-  font-weight: bold;
-  color: #555;
-  text-decoration: none;
+#about_max a {
+  color: #333;
 }
 /* #resume:hover + #about_max {
 	-webkit-filter: grayscale(100%);
@@ -416,12 +519,12 @@ body.touch a.half_thumb_short {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 } */
-#max_1 {
+#blurb-one {
   flex-basis: 100%;
   padding: 6% 30% 6% 4%;
   color: var(--Dark);
 }
-#max_2 {
+#blurb-two {
   flex-basis: 100%;
   padding: 0 30% 20px 4%;
   color: White;
@@ -516,19 +619,8 @@ tr:nth-child(even) {
     display: block;
   }
 
-  /* G L O B A L
------------------------------------------------ */
-  body {
-    margin-top: 70px;
-    min-height: calc(100vh - 70px);
-  }
-
   /* H O M E
 ----------------------------------------------- */
-  .container {
-    width: 99.4%;
-    margin-top: 15px;
-  }
   .tile {
     margin: 2px;
     flex-basis: calc(33.33% - 4px);
@@ -543,7 +635,7 @@ tr:nth-child(even) {
     background-position: 87% 0;
     font-size: 13px;
   }
-  #max_1 {
+  #blurb-one {
     padding: 7% 30% 7% 4%;
   }
   #resume h1 {
@@ -569,10 +661,44 @@ tr:nth-child(even) {
     min-height: calc(100vh - 60px);
   }
 
+
+  /* Header & Footer
+----------------------------------------------- */
+header .container, footer .container {
+  height: 60px;
+  flex-wrap: wrap;
+}
+footer .container {
+  height: 70px;
+}
+#name {
+  text-align: center;
+}
+nav {
+  flex-grow: 1;
+  justify-content: space-around;
+}
+#copyright {
+  flex: 1 0 80px;
+  text-align: center;
+}
+#back-top {
+  flex: 1 0 160px;
+  text-align: center;
+  order: 1;
+}
+.footer-links {
+  justify-content: center;
+}
+
+
+
+
   /* H O M E
 ----------------------------------------------- */
-  .container {
+  main {
     width: 100%;
+    margin-bottom: 0;
   }
   .tile {
     flex-basis: 100%;
@@ -643,10 +769,10 @@ tr:nth-child(even) {
     text-align: left;
     letter-spacing: 1px;
   }
-  #max_1 {
+  #blurb-one {
     padding: 10% 29% 10% 15px;
   }
-  #max_2 {
+  #blurb-two {
     padding: 0 29% 20px 15px;
   }
   .item {

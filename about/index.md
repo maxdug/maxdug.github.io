@@ -9,11 +9,6 @@ section: about
 
 <div id="blurb-one">
 	<b>Hello, I'm Max</b>, a designer with 8+ years of crafting digital experiences. I live in NYC with my girlfriend and <a href="https://www.instagram.com/explore/tags/themightysobo/">our dog Sobo</a>. I'm an avid backpacker and finished the <a href="https://en.wikipedia.org/wiki/Appalachian_Trail">AT</a> in 2018.
-</div><!-- End About Blurb -->
-
-<div id="blurb-two">
-	<b>Cheers!</b> To get in touch,<br />
-	email <b>max @ this website</b>
 </div>
 
 </div>

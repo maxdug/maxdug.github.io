@@ -155,16 +155,10 @@ textarea:focus {
 
 /* H E A D E R S
 ----------------------------------------------- */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Oxygen", sans-serif;
 }
-h1,
-h1 a {
+h1, h1 a {
   font-size: 15px;
   margin: 0 0 6px 0;
   color: var(--Dark);
@@ -176,8 +170,7 @@ h1 a {
 h1 a:hover {
   color: Black;
 }
-h2,
-h2 a {
+h2, h2 a {
   font-size: 12px;
   margin: 0 0 6px 0;
   color: var(--Dark);
@@ -190,8 +183,7 @@ h2 a:hover {
   color: Black;
 }
 
-h3,
-h3 a {
+h3, h3 a {
   font-size: 30px;
   margin: 0 0 5px 0;
   color: var(--Dark);
@@ -279,6 +271,7 @@ nav a:hover, nav a.sfhover {
     justify-content: flex-end;
 }
 .footer-links a {
+  width: 20px;
 	margin-left: 2%;
 	text-decoration: none;
 }

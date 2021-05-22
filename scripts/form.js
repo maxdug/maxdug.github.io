@@ -10,4 +10,8 @@ document.getElementById('wordgate-form').addEventListener('submit', function che
 
   && document.getElementById('citi-input').value == 'givemeaccess') window.location.href = '/citi/citi.html';
 
+  if (document.getElementById('bcg-input')
+
+  && document.getElementById('bcg-input').value == 'givemeaccess') window.location.href = '/bcg/bcg.html';
+
 });

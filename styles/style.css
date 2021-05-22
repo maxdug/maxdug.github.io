@@ -363,8 +363,8 @@ a:hover.tile_thumb svg,
 a:hover.half_thumb svg, a:hover.tile_thumb img,
 a:hover.half_thumb img {
   display: block;
-  width: 100%;
-  height: 100px;
+  width: auto;
+  max-height: 50%;
   padding: 30px;
   fill: White;
 }

@@ -4,14 +4,14 @@ document.getElementById('wordgate-form').addEventListener('submit', function che
 
   if (document.getElementById('uwm-input')
 
-  && document.getElementById('uwm-input').value == 'givemeaccess') window.location.href = '/uwm/uwm.html';
+  && document.getElementById('uwm-input').value == 'letmein') window.location.href = '/uwm/uwm.html';
 
   if (document.getElementById('citi-input')
 
-  && document.getElementById('citi-input').value == 'givemeaccess') window.location.href = '/citi/citi.html';
+  && document.getElementById('citi-input').value == 'letmein') window.location.href = '/citi/citi.html';
 
   if (document.getElementById('bcg-input')
 
-  && document.getElementById('bcg-input').value == 'givemeaccess') window.location.href = '/bcg/bcg.html';
+  && document.getElementById('bcg-input').value == 'letmein') window.location.href = '/bcg/bcg.html';
 
 });

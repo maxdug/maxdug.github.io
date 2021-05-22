@@ -6,7 +6,7 @@ section: design
 ---
 
 <div class="tile">
-	<a href="/bcg" class="tile_thumb" style="background-image: url(../bcg/bcg-thumb.jpg);">
+	<a href="/bcg" class="half_thumb" style="background-image: url(../bcg/bcg-thumb.jpg);">
 	<img class="tile-logo" src="/bcg/bcg-logo.png">
 		<span class="title">BCG</span>
 		<span class="lock"><img src="images/lock.svg" alt="This project is locked"></span>

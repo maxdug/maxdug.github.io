@@ -4,7 +4,7 @@ title: MAX DUGGAN | DESIGN
 description: A condensed set of Max Duggan's design work.
 section: design
 ---
-
+<div><!-- Just for keeping As from being wrapped in Ps -->
 <a class="tile" href="/bcg" style="background-image: url(../bcg/bcg-thumb.jpg);">
 	<img class="tile-logo" src="/bcg/bcg-logo.png">
 	<span class="title">BCG</span>
@@ -92,3 +92,5 @@ section: design
 		<span class="title">La Baguette</span>
 	</a>
 </div>
+
+</div><!-- end of div to keep As from being wrapped in Ps -->

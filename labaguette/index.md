@@ -11,9 +11,8 @@ section: design
 # **LA BAGUETTE** CAFE & BAKERY
 ## **Date** | 2013
 ## **Type** | Branding
-La Baguette is a family owned French bakery and cafe in Norman, Oklahoma. Along with their cafe locations, they operate a bakery facility that supplies hotels and restaurants. The color scheme is utilized to distinguish the business structure of the company–green is used to signify the cafe, while blue represents the bakery. This color scheme enabled me to develop individual, yet consistent identities for each. The logotype was created using hand lettering and made a set of food symbols based on the staple foods. This created a brand package that gave a consistent image across a two pronged business.  
+La Baguette is a family owned cafe & bakery. In this branding, I used color distinguish the cafe (green) and bakery (blue) sides of the business. The logotype was created using hand lettering and made a set of food symbols based on the staple foods.
 
-<a class="max" rel="group" href="labaguette_011.jpg" ><img src="labaguette_011.jpg" alt=" "/></a>
 </div>
 
 <div class="half-tile"><a class="max" rel="group" href="labaguette_03.jpg" ><img src="labaguette_03.jpg" alt=" "/></a></div>

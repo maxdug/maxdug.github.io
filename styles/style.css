@@ -257,7 +257,7 @@ nav a {
 nav a:hover, nav a.sfhover {
 	color: var(--Secondary);
 }
-#design a.design, #blog a.blog, #art a.art, #about a.about {
+#design a.work, #blog a.blog, #art a.art, #about a.about {
 	border-bottom: solid 3px var(--Secondary);
 }
 
@@ -338,12 +338,14 @@ main {
   display: none;
   width: 100%;
   height: 100px;
+  max-height: 40%;
   padding: 30px;
   -moz-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
   -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
   -o-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
   -ms-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
+  fill: White;
 }
 .tile img.tile-logo {
   width: auto;
@@ -351,9 +353,6 @@ main {
 .tile:hover svg,
 .tile:hover .tile-logo {
   display: block;
-  max-height: 40%;
-  padding: 30px;
-  fill: White;
 }
 .lock {
   width: 10px;

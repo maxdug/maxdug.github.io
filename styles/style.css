@@ -232,7 +232,15 @@ header .container, footer .container {
 	flex: 1 0 160px;
 	color: var(--Dark);
 	text-decoration: none;
-	font-size: 1.2em;
+	font-size: 1.5em;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin-top: 10px;
+}
+#name img {
+  flex: 0 0 50px;
+  margin-right: 10px;
 }
 #name:hover {
 	color: var(--Secondary);
@@ -240,6 +248,12 @@ header .container, footer .container {
 body.touch #name:hover {
 	color: var(--Secondary);
 }
+
+
+
+
+
+
 
 nav {
 	flex: 0 0 18em;
@@ -594,10 +608,7 @@ tr:nth-child(even) {
 footer .container {
   height: 70px;
 }
-#name {
-  text-align: center;
-  margin-top: 10px;
-}
+
 nav {
   flex-grow: 1;
   justify-content: space-around;
@@ -667,7 +678,7 @@ footer .container {
   height: 70px;
 }
 #name {
-  text-align: center;
+  justify-content: center;
   margin-top: 10px;
 }
 nav {

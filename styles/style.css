@@ -303,7 +303,7 @@ body.touch footer a:hover .footerIcon {
 			888888  Yb   dP  88YbdP88  88""
 			88  88   YbodP   88 YY 88  888888
 ----------------------------------------------- */
-main, .main {
+main {
   max-width: 1440px;
   width: 98%;
   margin: 0 auto;
@@ -312,9 +312,11 @@ main, .main {
   flex: 0 0 auto; /* used for sticky footer */
 }
 .tile {
-  display: flex;
   flex: 1 0 calc(25% - 4px);
   margin: 2px;
+}
+.tile a {
+  display: flex;
   position: relative;
   height: 200px;
   align-items: center;
@@ -324,7 +326,8 @@ main, .main {
   background-size: cover;
   filter: grayscale(100%);
 }
-.tile:hover {
+
+.tile a:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
 }
@@ -342,10 +345,13 @@ main, .main {
   -ms-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
 }
+.tile img.tile-logo {
+  width: auto;
+}
 .tile:hover svg,
 .tile:hover .tile-logo {
   display: block;
-  max-height: 50%;
+  max-height: 40%;
   padding: 30px;
   fill: White;
 }
@@ -387,10 +393,7 @@ body.touch .tile svg,
 body.touch .tile .tile-logo {
   display: block;
 }
-body.touch a.tile_thumb,
-body.touch a.tile_tall_thumb,
-body.touch a.half_thumb,
-body.touch a.half_thumb_short {
+body.touch .tile a {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
   background-size: cover;
@@ -616,7 +619,6 @@ nav {
   /* H O M E
 ----------------------------------------------- */
   .tile {
-    margin: 2px;
     flex-basis: calc(33.33% - 4px);
   }
 
@@ -698,29 +700,21 @@ nav {
   .tile {
     flex-basis: 100%;
   }
-  .tile_thumb svg,
-  .tile_tall_thumb svg,
-  .half_thumb svg,
-  .half_thumb_short svg {
-    width: 200px;
-    height: 70px;
-  }
-  a:hover.tile_thumb svg,
-  a:hover.tile_tall_thumb svg,
-  a:hover.half_thumb svg,
-  a:hover.half_thumb_short svg {
-    display: block;
-    width: 200px;
-    height: 70px;
-  }
-  a.tile_thumb,
-  a.tile_tall_thumb,
-  a.half_thumb,
-  a.half_thumb_short {
+  .tile a {
     width: 100%;
     height: 100px;
     background-size: cover;
   }
+ .tile a svg {
+    width: 200px;
+    height: 70px;
+  }
+  .tile a:hover svg {
+    display: block;
+    width: 200px;
+    height: 70px;
+  }
+
 
   /* P R O J E C T
 ----------------------------------------------- */

@@ -361,6 +361,9 @@ main {
   margin: 10px;
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
 }
+.tile img.tile-logo {
+  width: auto;
+}
 .tile-logo {
   display: none;
   fill: White;

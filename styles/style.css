@@ -127,7 +127,8 @@ ol {
   background: black;
   color: white;
 }
-input {
+input, input[type="password"] {
+  -webkit-appearance: none;
   width: 100%;
   padding: 10px;
   border: 1px solid var(--Light);
@@ -136,11 +137,13 @@ input {
   margin: 10px 0;
 }
 
-input[type="submit"] {
+input[type="submit"], input[type="button"] {
+  -webkit-appearance: none;
+  border-radius: 0;
   background-color: var(--Dark);
   color: white;
 }
-input[type="submit"]:hover {
+input[type="submit"]:hover, input[type="button"]:hover {
   background-color: Black;
   color: white;
 }

@@ -30,9 +30,6 @@ From our initial research, we showed some of our analysis and an overarching con
 </div>
 <div class="half-tile"><a class="max" rel="group" href="uwm-content-model.jpg" title="I also took the content and broke it up by purpose. This modeling allowed us to zone our design by the various content uses."><img src="uwm-content-model.jpg" alt=" "/></a></div>
 <div class="half-tile"><a class="max" rel="group" href="uwm-content-zones-initial.jpg" title="We took the model further by serving up content by mapping content's purpose to user type."><img src="uwm-content-zones-initial.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="uwm-templates.jpg" title="Depending on the user's state, their journey through the pages would be adjusted."><img src="uwm-templates.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="uwm-template-variations.jpg" ><img src="uwm-template-variations.jpg" alt=" "/></a></div>
-
 
 <div class="order-flip">
 <div class="full-text" markdown="1">
@@ -44,11 +41,14 @@ To understand our target audience, I ran ethnographic studies with a variety of 
 </div>
 
 
-<div class="half-text" markdown="1">
+<div class="full-text" markdown="1">
 # **User Journey**
 A big part of the challenge was dealing with users at various states, for this, we made user journeys in addition to breaking the site architecture up by logged in, logged out, and cookied users.
 </div>
-<div class="half-tile"><a class="max" rel="group" href="uwm-user-journey.jpg" title="Here is an example of the journey of a prospective user."><img src="uwm-user-journey.jpg" alt=" "/></a></div>
+<div class="third-tile"><a class="max" rel="group" href="uwm-user-journey.jpg" title="Here is an example of the journey of a prospective user."><img src="uwm-user-journey.jpg" alt=" "/></a></div>
+<div class="third-tile"><a class="max" rel="group" href="uwm-templates.jpg" title="Depending on the user's state, their journey through the pages would be adjusted."><img src="uwm-templates.jpg" alt=" "/></a></div>
+<div class="third-tile"><a class="max" rel="group" href="uwm-template-variations.jpg" ><img src="uwm-template-variations.jpg" alt=" "/></a></div>
+
 
 
 <div class="full-text" markdown="1">
@@ -68,8 +68,8 @@ Because of the speed of this project and my history in visual design, we went in
 <div class="third-tile"><a class="max" rel="group" href="wires-1.jpg" ><img src="wires-1.jpg" alt=" "/></a></div>
 <div class="third-tile"><a class="max" rel="group" href="visuals-1.jpg" ><img src="visuals-1.jpg" alt=" "/></a></div>
 
-<div class="half-tile"><a class="max" rel="group" href="wires-visuals.jpg" ><img src="wires-visuals.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="mobile-1.jpg" title="Because we worked with a simple grid system for the homepage, many modules were able to remain the same size from desktop through to mobile." ><img src="mobile-1.jpg" alt=" "/></a></div>
+<!--<div class="half-tile"><a class="max" rel="group" href="wires-visuals.jpg" ><img src="wires-visuals.jpg" alt=" "/></a></div>
+<div class="half-tile"><a class="max" rel="group" href="mobile-1.jpg" title="Because we worked with a simple grid system for the homepage, many modules were able to remain the same size from desktop through to mobile." ><img src="mobile-1.jpg" alt=" "/></a></div>-->
 
 <div class="full-text" markdown="1">
 # **Keeping it all together**
@@ -83,5 +83,5 @@ We managed a high level of complexity by utilizing a single source of reference 
 
 
 <div class="full-text" markdown="1">
-## **Design Credits** | Pam Tamayo
+## **Visual Design Credits** | Pam Tamayo
 </div>

@@ -17,7 +17,7 @@ After a a successful site redesign, Nixon wanted to use Fluid's Configure custom
 
 <div class="full-text" markdown="1">
 # **Complex** Challenges
-There are lots of customization tools popping up, but I found the they take the user on a journeys that are so complex they would require prior knowledge of that specific tool. I strove to make our system as uncomplicated as possible, within the technical framework of the Configure system and keeping the overall look and structure feeling like a part of the Nixon product page family.
+There are lots of customization tools popping up, but I found the they take the user on complex journeys that require prior knowledge of that specific tool. I strove to make our system as uncomplicated as possible, within the technical framework of the Configure system and keeping the overall look and structure feeling like a part of the Nixon product page family.
 </div>
 
 <div class="full-tile"></div>

@@ -1,102 +1,30 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0">
-    <title></title>
-    <style media="screen">
-      body {
-        display: flex;
-        height: 100%;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        background-color: #6dd;
-        font-family: sans-serif;
-        min-height: 100vh;
-        margin: 0;
-      }
-      ul {
-        list-style: none;
-        font-size: 1.5rem;
-        color: white;
-        margin: 0;
-        padding: 0;
-      }
-      a {
-        list-style: none;
-        color: white;
-        text-decoration: none;
-      }
-      label {
-        cursor: pointer;
-      }
-      li {
-        margin: 0 0 30px;
-      }
-      .start-checkbox {
-
-      }
-      input[type=checkbox] {
-        appearance: none;
-          background-color: #fff;
-          margin: 0 20px 0 0;
-          width: 40px;
-          height: 40px;
-          border-radius: 20%;
-            font: inherit;
-            display: inline-grid;
-            place-content: center;
-            cursor: pointer;
-      }
-
-input[type="checkbox"]::before {
-  content: "";
-  width: 0.65em;
-  height: 0.65em;
-  clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
-  transform: scale(0);
-  transform-origin: bottom left;
-  transition: 120ms transform ease-in-out;
-  box-shadow: inset 1em 1em var(--form-control-color);
-  /* Windows High Contrast Mode */
-  background-color: CanvasText;
-}
-
-input[type="checkbox"]:checked::before {
-  transform: scale(1);
-}
-
-input[type="checkbox"]:focus {
-  outline: max(2px, 0.15em) solid currentColor;
-  outline-offset: max(2px, 0.15em);
-}
-
-input[type="checkbox"]:disabled {
-  --form-control-color: var(--form-control-disabled);
-
-  color: var(--form-control-disabled);
-  cursor: not-allowed;
-}
-
-
-
-
-    </style>
-  </head>
-  <body>
-    <ul>
-      <li><label><input type="checkbox">Have you caused harm?</label></li>
-      <li><label><input type="checkbox">What is weighing most on your mind?</label></li>
-      <li><label><input type="checkbox">What would you tell a friend with this issue?</label></li>
-      <li><label><input type="checkbox">Be thankful for:</label></li>
-      <li><label><input type="checkbox">Tember & Sobo</label></li>
-      <li><label><input type="checkbox">Family</label></li>
-      <li><label><input type="checkbox">Friends</label></li>
-      <li><label><input type="checkbox">Physical Health</label></li>
-      <li><label><input type="checkbox">Mental Health</label></li>
-      <li><label><input type="checkbox">Nature</label></li>
-      <li><a href="/stretch">Stretch ></a></li>
-    </ul>
-  </body>
-</html>
+---
+layout: guide
+title: MAX DUGGAN | Daily Guide
+description: Checklist of daily life
+section: extra
+---
+<div class="checklist">
+  <label>INVESTIGATE</label>
+  <label><input type="checkbox">Have I done Harm?</label>
+  <label><input type="checkbox">Have I overspent?</label>
+  <label><input type="checkbox">Have I eaten poorly?</label>
+  <label><input type="checkbox">Have I over-promised?</label>
+  <label><input type="checkbox">Does someone need me?</label>
+  <label><input type="checkbox">What is most on my mind?</label>
+  <label>NURTURE</label>
+  <label><input type="checkbox">What would I advise a friend with this problem?</label>
+  <label><input type="checkbox">Can I make it more interesting?</label>
+  <label><input type="checkbox">Can I break it up?</label>
+  <label>BE THANKFUL</label>
+  <label><input type="checkbox">Tember & Sobo</label>
+  <label><input type="checkbox">Family</label>
+  <label><input type="checkbox">Friends</label>
+  <label><input type="checkbox">Home</label>
+  <label><input type="checkbox">Food & Water</label>
+  <label><input type="checkbox">Senses</label>
+  <label><input type="checkbox">Physical capability</label>
+  <label><input type="checkbox">Mental Health</label>
+  <label><input type="checkbox">Earth</label>
+  <a href="/stretch">Stretch ></a>
+</div><!-- End Checklist -->

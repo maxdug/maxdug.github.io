@@ -1,21 +1,14 @@
 ---
-layout: project
-title: New York &amp; Company | In-store Kiosk
-description: E-commerce in person
+layout: guide
+title: MAX DUGGAN | Daily Guide
+description: Checklist of daily life
+section: extra
 ---
-
-<div class="tile">
-	<a style="" href="../morning">
-		<span class="title">Morning</span>
-	</a>
-</div><!-- End Tile -->
-<div class="tile">
-	<a style="" href="../work">
-		<span class="title">Work</span>
-	</a>
-</div><!-- End Tile -->
-<div class="tile">
-	<a style="" href="../personal">
-		<span class="title">Personal</span>
-	</a>
-</div><!-- End Tile -->
+<div class="checklist">
+  <label><input type="checkbox">Bathroom & Weight Check</label>
+  <label><input type="checkbox">Dog Out</label>
+  <label><input type="checkbox">Dog Water</label>
+  <label><input type="checkbox">Curtains / Windows</label>
+  <label><input type="checkbox">Cleanup</label>
+  <a href="/meditate">Meditate & Drink Water ></a>
+</div><!-- End Checklist -->

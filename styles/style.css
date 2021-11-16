@@ -787,3 +787,71 @@ nav {
 }
 
 /* For ascii art, I used 4Max from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project */
+
+
+
+
+
+
+
+
+
+
+
+
+/* In Progress */
+.new-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: -10px;
+}
+.new-container h1 {
+  margin: 30px 0 15px 0;
+  font-size: 30px;
+  color: #333;
+  line-height: inherit;
+  text-align: center;
+}
+
+.new-container h2 {
+  margin: 50px 0 15px 0;
+  font-size: 24px;
+  color: #333;
+  line-height: inherit;
+  text-align: center;
+}
+
+.hero {
+  display: flex;
+  flex: 0 0 100%;
+  height: 200px;
+  margin: 0 0 20px 0;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.new-hero-logo {
+  flex: 0 1 180px;
+  margin: 10px;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
+}
+
+.new-text {
+  max-width: 720px;
+  margin: 0 6%;
+}
+
+.new-image-tile {
+  flex: 0 0 100%
+}
+.new-image-tile a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.new-image-tile img {
+  max-width: 1024px;
+}

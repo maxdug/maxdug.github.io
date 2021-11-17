@@ -807,19 +807,21 @@ nav {
   margin-top: -10px;
 }
 .new-container h1 {
-  margin: 30px 0 15px 0;
+  margin: 30px 0 10px 0;
   font-size: 30px;
   color: #333;
   line-height: inherit;
   text-align: center;
+  letter-spacing: .04em;
 }
 
 .new-container h2 {
-  margin: 50px 0 15px 0;
-  font-size: 24px;
+  margin: 50px 0 10px 0;
+  font-size: 18px;
   color: #333;
   line-height: inherit;
   text-align: center;
+  letter-spacing: .04em;
 }
 
 .hero {
@@ -855,3 +857,16 @@ nav {
 .new-image-tile img {
   max-width: 1024px;
 }
+
+@media (max-width: 720px) {
+  .new-container h1 {
+    margin: 10px 0 10px 0;
+    font-size: 22px;
+    text-align: left;
+  }
+
+  .new-container h2 {
+    margin: 35px 0 10px 0;
+    text-align: left;
+  }
+}/* End Media under 720px */

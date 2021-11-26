@@ -853,13 +853,13 @@ nav {
   flex: 0 0 100%;
   margin: 0 0 20px;
 }
-.new-image-tile.fifth {
-  flex: 1 0 160px;
-  max-width: 33%;
-  margin: 0 0 20px;
+.new-image-tile.sixth {
+  flex: 1 0 180px;
+  min-width: 33%;
+  max-width: 320px;
 }
 
-.fifth-container {
+.gallery-container {
   flex: 1 0 160px;
   max-width: 1024px;
   margin: 0 5%;
@@ -916,3 +916,14 @@ nav {
     text-align: left;
   }
 }/* End Media under 720px */
+
+
+
+.full-width-video {
+  flex: 1 0 160px;
+  flex-basis: 160px;
+  max-width: 1024px;
+  margin: 0 5%;
+  padding: 0 calc(45% - 512px);
+  min-width: 51%;
+}

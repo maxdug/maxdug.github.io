@@ -73,11 +73,27 @@ strong {
 
 q,
 blockquote {
-  padding: 5% 7% 7% 7%;
+  padding: 4%;
   display: block;
   clear: both;
   font-size: 22px;
 }
+q::before, blockquote::before {
+  display: block;
+  height: 24px;
+  margin-left: -30px;
+  font-size: 60px;
+}
+q::after, blockquote::after {
+  display: none;
+}
+q .author {
+  display: block;
+  float: right;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
 ul {
   list-style: disc;
   padding: 0 0 0 20px;
@@ -925,5 +941,14 @@ nav {
   max-width: 1024px;
   margin: 0 5%;
   padding: 0 calc(45% - 512px);
+  min-width: 51%;
+}
+
+.article-width-video {
+  flex: 1 0 160px;
+  flex-basis: 160px;
+  max-width: 720px;
+  margin: 0 5%;
+  padding: 0 calc(45% - 360px);
   min-width: 51%;
 }

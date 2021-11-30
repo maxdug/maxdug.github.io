@@ -964,9 +964,7 @@ nav {
 }
 
 .article-width-video {
-  flex: 1 0 160px;
-  flex-basis: 160px;
+  width: 90%;
   max-width: 720px;
   margin: 0 5%;
-  padding: 0 calc(45% - 360px);
 }

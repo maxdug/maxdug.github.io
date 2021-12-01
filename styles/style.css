@@ -157,7 +157,9 @@ input, input[type="password"] {
 
 input[type="submit"], input[type="button"] {
   -webkit-appearance: none;
-  border-radius: 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 21px;
   background-color: var(--Dark);
   color: white;
 }
@@ -178,6 +180,7 @@ textarea:focus, input[type="password"]:focus {
 ----------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: .1em;
+  width: 100%;
 }
 h1, h1 a {
   font-size: 24px;
@@ -185,7 +188,6 @@ h1, h1 a {
   color: var(--Dark);
   font-weight: 400;
   text-transform: uppercase;
-  line-height: 18px;
 }
 h1 a:hover {
   color: Black;
@@ -352,6 +354,7 @@ main {
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
 }
+
 .tile {
   flex: 1 0 calc(25% - 4px);
   margin: 2px;
@@ -480,14 +483,19 @@ main.project {
 ----------------------------------------------- */
 .full-text {
   display: flex;
+  width: 90%;
   flex-flow: row wrap;
   margin: 20px 5% 0;
   padding: 0 calc(45% - 360px);
+  /* flex: 1 0 720px; */
 }
-.full-text h2, .full-text h3,  .full-text h4 {
+/* .full-text h2, .full-text h3,  .full-text h4 {
   text-align: center;
   width: 100%;
-}
+  flex: 1 0 100%;
+display: block;
+text-align: center;
+} */
 .half-text {
   flex-basis: 47%;
   width: 47%;
@@ -497,6 +505,9 @@ main.project {
   flex-basis: 30%;
   width: 30%;
   margin: 1.5%;
+}
+.align-center {
+  text-align: center;
 }
 
 /* I M A G E S
@@ -744,8 +755,8 @@ nav {
     width: 100%;
     margin-bottom: 0;
   }
-  .tile {
-    flex-basis: 100%;
+  .tile, .tile.double {
+    flex-basis: calc(100% - 4px);
   }
   .tile a {
     width: 100%;
@@ -776,7 +787,6 @@ nav {
   .order-flip .third-tile {
     order: 2;
   }
-  .full-text,
   .half-text,
   .third-text {
     flex-basis: 96%;
@@ -948,4 +958,18 @@ nav {
   width: 90%;
   max-width: 720px;
   margin: 0 auto;
+}
+.work-projects {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  flex: 0 0 auto; /* used for sticky footer */
+}
+.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh  {
+  display: none;
+}
+#wordgate-form {
+  width: 100%;
 }

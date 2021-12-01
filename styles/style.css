@@ -356,6 +356,9 @@ main {
   flex: 1 0 calc(25% - 4px);
   margin: 2px;
 }
+.tile.double {
+  flex: 1 0 calc(50% - 4px);
+}
 .tile a {
   display: flex;
   position: relative;

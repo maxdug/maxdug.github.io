@@ -180,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: .1em;
 }
 h1, h1 a {
-  font-size: 15px;
+  font-size: 24px;
   margin: 0 0 6px 0;
   color: var(--Dark);
   font-weight: 400;
@@ -191,7 +191,7 @@ h1 a:hover {
   color: Black;
 }
 h2, h2 a {
-  font-size: 12px;
+  font-size: 18px;
   margin: 0 0 6px 0;
   color: var(--Dark);
   font-weight: 400;
@@ -203,7 +203,7 @@ h2 a:hover {
 }
 
 h3, h3 a {
-  font-size: 30px;
+  font-size: 16px;
   margin: 0 0 5px 0;
   color: var(--Dark);
   font-weight: 400;
@@ -345,10 +345,10 @@ body.touch footer a:hover .footerIcon {
 			88  88   YbodP   88 YY 88  888888
 ----------------------------------------------- */
 main {
-  /* max-width: 1440px;
-  width: 98%;
-  margin: 0 auto; */
   display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
 }
@@ -479,10 +479,14 @@ main.project {
 /* T E X T
 ----------------------------------------------- */
 .full-text {
-  flex-basis: 80%;
-  width: 80%;
-  margin: 30px 10% 10px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 20px 5% 0;
+  padding: 0 calc(45% - 360px);
+}
+.full-text h2, .full-text h3,  .full-text h4 {
   text-align: center;
+  width: 100%;
 }
 .half-text {
   flex-basis: 47%;
@@ -568,7 +572,7 @@ main.project {
   flex-basis: 30%;
   padding: 0 10% 40px;
 }
-#resume h2 {
+#resume h2, #resume h2 a {
   font-size: 12px;
   font-weight: 700;
   line-height: 18px;
@@ -829,29 +833,8 @@ nav {
 
 
 /* In Progress */
-.new-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-top: -10px;
-}
-.new-container h1 {
-  margin: 30px 0 10px 0;
-  font-size: 30px;
-  color: #333;
-  line-height: inherit;
-  text-align: center;
-  letter-spacing: .04em;
-}
 
-.new-container h2 {
-  margin: 20px 0 10px 0;
-  font-size: 22px;
-  color: #333;
-  line-height: inherit;
-  text-align: center;
-  letter-spacing: .04em;
-}
+
 
 .hero {
   display: flex;
@@ -870,17 +853,11 @@ nav {
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
 }
 
-.new-text {
-  display: flex;
-  flex-flow: row wrap;
-  max-width: 720px;
-  margin: 20px 5% 0;
-  padding: 0 calc(45% - 360px);
-}
+
 
 .new-image-tile {
   flex: 0 0 100%;
-  margin: 0 0 20px;
+  margin: 0 auto 20px;
 }
 .new-image-tile.third {
   flex: 1 0 180px;
@@ -892,6 +869,9 @@ nav {
   flex: 1 0 180px;
   min-width: 50%;
   max-width: 320px;
+}
+.new-image-tile.tentwentyfour {
+  max-width: 1024px;
 }
 .new-image-tile.article {
   max-width: 720px;
@@ -914,8 +894,6 @@ nav {
   text-decoration: none;
 }
 .new-image-tile img {
-  max-width: 1024px;
-  padding: 0 calc(50% - 512px);
 }
 
 .new-image-tile figcaption {
@@ -969,5 +947,5 @@ nav {
 .article-width-video {
   width: 90%;
   max-width: 720px;
-  margin: 0 5%;
+  margin: 0 auto;
 }

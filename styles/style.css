@@ -628,8 +628,8 @@ text-align: center;
   margin: 0 auto;
   height: 350px;
   background: url(/about/max-duggan.jpg) 100% 0 no-repeat;
-  line-height: 22px;
-  font-size: 14px;
+  line-height: 1.6em;
+  font-size: 1.2em;
   text-align: center;
 }
 #about_max a {
@@ -638,11 +638,11 @@ text-align: center;
 #blurb-one {
   flex-basis: 100%;
   padding: 6% 30% 6% 4%;
-  color: var(--Dark);
+  color: #333;
 }
 #resume {
   width: 100%;
-  padding: 20px 0;
+  padding: 20px calc(50% - 512px);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -650,12 +650,11 @@ text-align: center;
 #resume h1 {
   flex-basis: 100%;
   width: 100%;
-  margin: 20px 0;
+  margin: 30px 0 20px 0;
   font-size: 50px;
   text-align: center;
   color: #777;
   letter-spacing: 0.4em;
-  line-height: normal;
   text-indent: 0.7em;
 }
 .item {
@@ -663,23 +662,23 @@ text-align: center;
   padding: 0 10% 40px;
 }
 #resume h2, #resume h2 a {
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 18px;
   text-align: center;
-  color: var(--MediumDark);
+  font-size: 1em;
+  color: #333;
+  margin: 0 0 10px;
 }
 #resume h3 {
-  font-size: 14px;
-  line-height: 18px;
-  padding: 0 0 2px 0;
   text-align: center;
-  color: var(--MediumLight);
+  font-size: 1em;
+  color: #555;
+  text-transform: inherit;
+  margin: 0 0 10px;
 }
 #resume h4 {
-  font-size: 13px;
   text-align: center;
-  color: var(--MediumDark);
+  font-size: .8em;
+  color: #777;
+  margin: 0;
 }
 
 /* TABLES */
@@ -766,7 +765,6 @@ nav {
 ----------------------------------------------- */
   #about_max {
     background-position: 87% 0;
-    font-size: 13px;
   }
   #blurb-one {
     padding: 7% 30% 7% 4%;
@@ -889,12 +887,10 @@ nav {
 ----------------------------------------------- */
   #about_max {
     background-position: 86% 0;
-    font-size: 12px;
-    line-height: 18px;
     text-align: left;
   }
   #blurb-one {
-    padding: 10% 29% 10% 15px;
+    padding: 4% 29% 10% 15px;
   }
   #blurb-two {
     padding: 0 29% 20px 15px;
@@ -1046,7 +1042,7 @@ nav {
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
 }
-.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco  {
+.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco, .maxduggan .maxduggan  {
   display: none;
 }
 #wordgate-form {

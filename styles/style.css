@@ -408,6 +408,7 @@ main {
   margin: 0 auto;
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
+  justify-content: space-between;
 }
 
 .container.tentwentyfour, .content.tentwentyfour {
@@ -462,7 +463,6 @@ main {
   display: block;
 }
 
-
 .tile svg, .tile img.tile-logo {
   display: none;
   max-width: calc(80% - 20px);
@@ -507,8 +507,6 @@ main {
   display: none;
 }
 
-
-
 body.touch .title {
   display: none;
 }
@@ -537,17 +535,6 @@ body.touch .tile a {
 			88      88  Yb   YbodP   "bodP'  888888   YboodP    88
 -------------------------------------------------------------------- */
 
-main.project {
-  max-width: 1440px;
-  width: 98%;
-  margin: 0 auto 20px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  flex: 0 0 auto; /* used for sticky footer */
-}
-
 .order-flip {
   display: flex;
   width: 100%;
@@ -560,7 +547,7 @@ main.project {
   text-align: center;
 }
 
-/* I M A G E S
+/* CONTENT LAYOUT
 ----------------------------------------------- */
 .content {
   flex: 0 0 calc(100% - 24px);
@@ -865,9 +852,6 @@ nav {
   #blurb-one {
     padding: 4% 29% 10% 15px;
   }
-  #blurb-two {
-    padding: 0 29% 20px 15px;
-  }
   .item {
     flex-basis: 100%;
     padding: 0 10px 30px;
@@ -891,8 +875,6 @@ nav {
 
 
 /* In Progress */
-
-
 
 .hero {
   display: flex;
@@ -936,16 +918,6 @@ nav {
   }
 }/* End Media under 720px */
 
-
-
-.full-width-video {
-  flex: 1 0 160px;
-  flex-basis: 160px;
-  max-width: 1024px;
-  margin: 0 5%;
-  padding: 0 calc(45% - 512px);
-  min-width: 51%;
-}
 
 .article-width-video {
   width: 90%;

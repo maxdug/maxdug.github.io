@@ -1,5 +1,5 @@
 ---
-layout: blank
+layout: default
 title: MAX DUGGAN | ABOUT
 description: A small snippet about Max Duggan
 section: about

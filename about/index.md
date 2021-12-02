@@ -99,7 +99,7 @@ section: about
 
 </div><!-- End Resume -->
 
-<div class="full-text">
+<div class="content article">
 	<a class="button" href="../max-duggan-resume.pdf" target="_blank">Download PDF Resume</a>
 </div>
 <br><br>

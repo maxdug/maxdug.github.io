@@ -7,12 +7,12 @@ class: remesh
 ---
 
 <div class="order-flip">
-  <div class="two-thirds-tile">
-    <div class="video">
-      <iframe src="https://player.vimeo.com/video/509438727?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-    </div>
+<div class="content two-thirds">
+  <div class="video">
+    <iframe src="https://player.vimeo.com/video/509438727?autoplay=1&loop=1&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
   </div>
-<div class="third-text" markdown="1">
+</div>
+<div class="content third" markdown="1">
 # **Remesh**<br>Research through conversation
 ### **Freelance |** Animation
 ### **Date |** May & June 2018  

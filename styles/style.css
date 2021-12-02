@@ -410,7 +410,7 @@ main {
   flex: 0 0 auto; /* used for sticky footer */
 }
 
-.container.content {
+.container.tentwentyfour, .content.tentwentyfour {
     /* Used for Most not full screen content */
     display: flex;
     flex-flow: row wrap;
@@ -420,7 +420,7 @@ main {
     padding: 0 calc(50% - 512px);
 }
 
-.container.article {
+.container.article, .content.article {
     /* Designed for best legibility of large amounts of text information */
     display: flex;
     flex-flow: row wrap;
@@ -461,6 +461,7 @@ main {
 .tile {
   display: block;
 }
+
 
 .tile svg, .tile img.tile-logo {
   display: none;
@@ -549,72 +550,68 @@ main.project {
 
 .order-flip {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
 
-/* T E X T
------------------------------------------------ */
-
-
-
-.full-text {
-  display: flex;
-  width: 90%;
-  flex-flow: row wrap;
-  margin: 20px 5% 0;
-  padding: 0 calc(45% - 360px);
-  /* flex: 1 0 720px; */
-  justify-content: center;
-}
-/* .full-text h2, .full-text h3,  .full-text h4 {
-  text-align: center;
-  width: 100%;
-  flex: 1 0 100%;
-display: block;
-text-align: center;
-} */
-.half-text {
-  flex-basis: 47%;
-  width: 47%;
-  margin: 1.5%;
-}
-.third-text {
-  flex-basis: 30%;
-  width: 30%;
-  margin: 1.5%;
-}
 .align-center {
   text-align: center;
 }
 
 /* I M A G E S
 ----------------------------------------------- */
-.full-tile {
-  flex-basis: calc(100% - 2px);
-  width: calc(100% - 2px);
-  margin: 1px 0;
+.content {
+  flex: 0 0 calc(100% - 24px);
+  margin: 0 12px 20px;
 }
-.two-thirds-tile {
-  flex-basis: calc(66.6% - 2px);
-  width: calc(66.6% - 2px);
-  margin: 1px 0;
+.content.full {
+  flex: 1 0 260px;
+  min-width: calc(50% - 24px);
 }
-.half-tile {
-  flex-basis: 49%;
-  width: 49%;
-  margin: 0.5%;
+.content.two-thirds {
+  flex: 1 0 260px;
+  min-width: calc(66% - 24px);
+  max-width: 720px;
 }
-.third-tile {
-  flex-basis: 32%;
-  width: 32%;
-  margin: 0.5%;
+.content.half {
+  flex: 1 0 260px;
+  min-width: calc(50% - 24px);
+  max-width: 512px;
 }
-.fourth-tile {
-  flex-basis: 24%;
-  width: 24%;
-  margin: 0.5%;
+.content.third {
+  flex: 1 0 260px;
+  min-width: calc(33% - 24px);
+  max-width: 320px;
+}
+.content.fourth {
+  flex: 1 0 260px;
+  min-width: calc(25% - 24px);
+  max-width: 256px;
+}
+
+.content a {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-flow: row wrap;
+  text-decoration: none;
+}
+
+.content figcaption {
+  display: none;
+  color: #777;
+  background: hsla(0,100%,100%,0.8);
+  padding: 10px 6px;
+  font-size: .8em;
+  text-align: center;
+  margin: calc(-.8em + -20px) 0;
+  line-height: 2em;
+}
+
+.content:hover figcaption {
+  display: inline;
 }
 
 /* --------------------------------------------------
@@ -853,34 +850,10 @@ nav {
 
   /* P R O J E C T
 ----------------------------------------------- */
-  .order-flip .full-text,
-  .order-flip .two-thirds-text,
-  .order-flip .half-text,
-  .order-flip .third-text {
-    order: 1;
-  }
-  .order-flip .two-thirds-tile,
-  .order-flip .half-tile,
-  .order-flip .third-tile {
+  .order-flip .content.two-thirds,
+  .order-flip .content.half,
+  .order-flip .content.half {
     order: 2;
-  }
-  .half-text,
-  .third-text {
-    flex-basis: 96%;
-    width: 96%;
-    text-align: left;
-    margin: 20px auto 0;
-  }
-  .two-thirds-tile,
-  .half-tile,
-  .third-tile {
-    flex-basis: 100%;
-    width: 100%;
-  }
-  .fourth-tile {
-    flex-basis: 49.5%;
-    width: 49.5%;
-    margin: 0 0 0.5% 0;
   }
 
   /* A B O U T
@@ -940,61 +913,6 @@ nav {
 
 
 
-.new-image-tile {
-  flex: 0 0 100%;
-  margin: 0 auto 20px;
-}
-.new-image-tile.third {
-  flex: 1 0 180px;
-  min-width: 32%;
-  max-width: 320px;
-  margin: 0 .5% 20px;
-}
-.new-image-tile.half {
-  flex: 1 0 180px;
-  min-width: 50%;
-  max-width: 320px;
-}
-.new-image-tile.tentwentyfour {
-  max-width: 1024px;
-}
-.new-image-tile.article {
-  max-width: 720px;
-}
-.gallery-container {
-  flex: 1 0 160px;
-  max-width: 1024px;
-  margin: 0 5%;
-  padding: 0 calc(45% - 512px);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-.new-image-tile a {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  flex-flow: row wrap;
-  text-decoration: none;
-}
-.new-image-tile img {
-}
-
-.new-image-tile figcaption {
-  display: none;
-  color: #777;
-  background: hsla(0,100%,100%,0.8);
-  padding: 10px 6px;
-  font-size: .8em;
-  text-align: center;
-  margin: calc(-.8em + -20px) 0;
-  line-height: 2em;
-}
-
-.new-image-tile:hover figcaption {
-  display: inline;
-}
 
 .featured-link {
   display: block;

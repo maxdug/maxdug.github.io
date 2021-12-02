@@ -6,9 +6,9 @@ section: design
 class: labaguette
 ---
 
-<div class="two-thirds-tile"><a class="max" rel="group" href="labaguette_01.jpg" ><img src="labaguette_01.jpg" alt=" "/></a></div>
+<div class="content two-thirds"><a class="max" rel="group" href="labaguette_01.jpg" ><img src="labaguette_01.jpg" alt=" "/></a></div>
 
-<div class="third-text" markdown="1">
+<div class="content third" markdown="1">
 # **LA BAGUETTE**<br>CAFE & BAKERY
 ### **Date** | 2013
 ### **Type** | Branding
@@ -16,15 +16,15 @@ La Baguette is a family owned cafe & bakery. In this branding, I used color dist
 
 </div>
 
-<div class="half-tile"><a class="max" rel="group" href="labaguette_03.jpg" ><img src="labaguette_03.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="labaguette-logo.gif" ><img src="labaguette-logo.gif" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette_03.jpg" ><img src="labaguette_03.jpg" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette-logo.gif" ><img src="labaguette-logo.gif" alt=" "/></a></div>
 
-<div class="half-tile"><a class="max" rel="group" href="labaguette_04.jpg" ><img src="labaguette_04.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="labaguette_05.jpg" ><img src="labaguette_05.jpg" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette_04.jpg" ><img src="labaguette_04.jpg" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette_05.jpg" ><img src="labaguette_05.jpg" alt=" "/></a></div>
 
-<div class="third-tile"><a class="max" rel="group" href="labaguette_06.jpg" ><img src="labaguette_06.jpg" alt=" "/></a></div>
-<div class="third-tile"><a class="max" rel="group" href="labaguette_07.jpg" ><img src="labaguette_07.jpg" alt=" "/></a></div>
-<div class="third-tile"><a class="max" rel="group" href="labaguette_08.jpg" ><img src="labaguette_08.jpg" alt=" "/></a></div>
+<div class="content third"><a class="max" rel="group" href="labaguette_06.jpg" ><img src="labaguette_06.jpg" alt=" "/></a></div>
+<div class="content third"><a class="max" rel="group" href="labaguette_07.jpg" ><img src="labaguette_07.jpg" alt=" "/></a></div>
+<div class="content third"><a class="max" rel="group" href="labaguette_08.jpg" ><img src="labaguette_08.jpg" alt=" "/></a></div>
 
-<div class="half-tile"><a class="max" rel="group" href="labaguette_09.jpg" ><img src="labaguette_09.jpg" alt=" "/></a></div>
-<div class="half-tile"><a class="max" rel="group" href="labaguette_010.jpg" ><img src="labaguette_010.jpg" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette_09.jpg" ><img src="labaguette_09.jpg" alt=" "/></a></div>
+<div class="content half"><a class="max" rel="group" href="labaguette_010.jpg" ><img src="labaguette_010.jpg" alt=" "/></a></div>

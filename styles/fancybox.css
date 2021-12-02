@@ -55,36 +55,29 @@ cursor:pointer;
 z-index:1010}
 
 .fancybox-prev span {
-  background-image: url('/images/previous.svg');
-  -moz-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -webkit-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -o-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -ms-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
+  background-image: url('/images/previous.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .fancybox-next span {
-  background-image: url('/images/next.svg');
-  -moz-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -webkit-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -o-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -ms-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
+  background-image: url('/images/next.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
-
 .fancybox-close {
-  background-image: url(/images/close.svg);
-  -moz-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -webkit-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -o-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  -ms-filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
-  filter: drop-shadow(0px 0px 8px rgba(0,0,0,.8));
+  background-image: url(/images/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 .fancybox-close{
   position:fixed;
   top: 20px;
   right: 20px;
-  width:30px;
-  height:20px;
+  width:50px;
+  height:50px;
   cursor:pointer;
   z-index:1004
 }
@@ -103,8 +96,8 @@ z-index:1010}
 .fancybox-prev span,.fancybox-next span {
   position:fixed;
   top:50%;
-  width: 30px;
-  height: 22px;
+  width: 50px;
+  height: 50px;
   margin-top: 0;
   cursor:pointer;
   z-index:1003

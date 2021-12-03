@@ -7,12 +7,15 @@ class: uwm
 ---
 
 <div class="content article">
-<h1><b>Private</b> Case Study</h1>
-<p>Please email <b>max @ this website</b> to get access</p>
-
+  <h3><b>UWM</b> Private Project</h3>
+  <p>Email <b>max @ this website</b> for access</p>
   <form  onsubmit="checkPassword()" id="wordgate-form">
-		<input id="uwm-input" type="password">
+    <div class="group">
+		<input id="uwm-input" type="password" required>
+      <span class="highlight"></span>
+      <span class="bar"></span>
+      <label>Enter Password</label>
+    </div>
     <input type="submit" value="Open Project">
   </form>
-
-</div><!-- End Full Text -->
+</div><!-- End content article -->

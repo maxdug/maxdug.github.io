@@ -5,11 +5,12 @@ description: Online walkthrough of product use
 section: design
 class: sani
 ---
+<div class="container tentwentyfour">
 
 <div class="content third" markdown="1">
 # **Sani**<br>Virtual Product Tour
-### **Company** | Flightpath
-### **Role** | Visual Design and Technology Research
+#### **Agency** | Flightpath
+#### **Role** | Visual Design and Technology Research
 I worked on Sani Professional while at Flightpath. Sani Professional provides sanitizing wipes, and other cleaning solutions for the restaurant and food service industry. They challenged us to create a way for customers to better understand all of the uses for their products. Our solution was to create a virtual tour of a restaurant - from the kitchen, through the main area, even into the bathroom.
 </div>
 
@@ -24,3 +25,5 @@ I worked on Sani Professional while at Flightpath. Sani Professional provides sa
 
 <div class="content half"><a class="max" rel="group" href="04-sani-product-added-nav.jpg" ><img src="04-sani-product-added-nav.jpg" alt=" "/></a></div>
 <div class="content half"><a class="max" rel="group" href="05-sani-evaluation.jpg" ><img src="05-sani-evaluation.jpg" alt=" "/></a></div>
+
+</div><!-- End TenTwentyFour -->

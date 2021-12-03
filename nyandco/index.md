@@ -10,16 +10,17 @@ class: nyandco
 <div class="content two-thirds"><a class="max" rel="group" href="kiosk-1.jpg" ><img src="kiosk-1.jpg" alt=" "/></a></div>
 <div class="content third" markdown="1">
 # **New York & Company** In-store Kiosk
-### **Role** | Senior Visual Design
-### **Team** | Tember Hopkins • Pamela Tamayo
+#### **Agency** | Fluid
+#### **Role** | Senior Visual Design
+#### **Team** | Tember Hopkins • Pamela Tamayo
 New York & Company asked Fluid to develop an in-store kiosk that allows customers to browse and purchase from a larger online inventory while in store act as an employee tool to help customers. The kiosk integrated barcode scanner and credit card terminal and aimed to drive more in-store customers to the website.
 </div>
 </div>
 
 <div class="content half" markdown="1">
-## **Unique** Viewport
+### **Unique** Viewport
 We took advantage of the format with large imagery to grab the user when browsing, and designed modals to make sensitive checkout information more inconspicuous.
-## **Prototyping** Interaction
+### **Prototyping** Interaction
 To understand the quirks of working with an extra large touch screen we used Invision prototypes on a test kiosk throughout the process.
 </div>
 <div class="content half"><a class="max" rel="group" href="kiosk-2.jpg" ><img src="kiosk-2.jpg" alt=" "/></a></div>

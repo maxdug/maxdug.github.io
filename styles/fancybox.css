@@ -85,8 +85,8 @@ z-index:1010}
   position:fixed;
   top: 20px;
   right: 20px;
-  width:50px;
-  height:50px;
+  width:30px;
+  height:30px;
   cursor:pointer;
   z-index:1004
 }
@@ -104,9 +104,9 @@ z-index:1010}
 .fancybox-next{right:0}
 .fancybox-prev span,.fancybox-next span {
   position:fixed;
-  top: calc(50% - 50px);
-  width: 50px;
-  height: 50px;
+  top: calc(50% - 30px);
+  width: 30px;
+  height: 30px;
   margin-top: 0;
   cursor:pointer;
   z-index:1003

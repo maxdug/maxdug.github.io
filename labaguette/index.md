@@ -5,13 +5,13 @@ description: Identity design for a Cafe &amp Bakery.
 section: design
 class: labaguette
 ---
+<div class="container tentwentyfour">
 
 <div class="content two-thirds"><a class="max" rel="group" href="labaguette_01.jpg" ><img src="labaguette_01.jpg" alt=" "/></a></div>
 
 <div class="content third" markdown="1">
 # **LA BAGUETTE**<br>CAFE & BAKERY
-### **Date** | 2013
-### **Type** | Branding
+#### **Project Type** | Concept Work
 La Baguette is a family owned cafe & bakery. In this branding, I used color distinguish the cafe (green) and bakery (blue) sides of the business. The logotype was created using hand lettering and made a set of food symbols based on the staple foods.
 
 </div>
@@ -28,3 +28,5 @@ La Baguette is a family owned cafe & bakery. In this branding, I used color dist
 
 <div class="content half"><a class="max" rel="group" href="labaguette_09.jpg" ><img src="labaguette_09.jpg" alt=" "/></a></div>
 <div class="content half"><a class="max" rel="group" href="labaguette_010.jpg" ><img src="labaguette_010.jpg" alt=" "/></a></div>
+
+</div><!-- End TenTwentyFour -->

@@ -1040,7 +1040,7 @@ nav {
 .article-width-video {
   width: 90%;
   max-width: 720px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 .work-projects {
   display: flex;

@@ -8,7 +8,7 @@ section: about
 <div id="about_max">
 
 <div id="blurb-one">
-	<b>Hello, I'm Max</b>, a Senior Product Designer who has been creating digital experiences for over 10 years. I'm an avid backpacker, living in NYC with my fiancée and our dog <a href="https://www.instagram.com/explore/tags/themightysobo/" target="_blank">Sobo</a>.
+	<b>Hello, I'm Max</b>, a Senior Product Designer who's been creating digital experiences for over 10 years. I'm an avid backpacker, living in NYC with my fiancée and our <a href="https://www.instagram.com/explore/tags/themightysobo/" target="_blank">dog</a>.
 </div>
 
 </div>

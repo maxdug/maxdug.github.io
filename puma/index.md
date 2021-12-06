@@ -12,7 +12,7 @@ class: puma
 # **PUMA**<br>Global E-Commerce  
 #### **Agency** | Fluid
 #### **Role** | Lead • Senior Visual and UX
-I was fortunate to take lead on the Puma retainer and innovate on a global set of e-commerce sites. Over the course of the project, I helped orchestrate product launches and content production and strategy.
+Fluid and Puma had a long-term partnership, for everything from product launches to content production and strategy. I started as a visual designer on the project and took over as lead, helping innovate on a global set of e-commerce sites.
 </div>
 </div>
 

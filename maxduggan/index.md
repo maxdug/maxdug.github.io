@@ -13,7 +13,7 @@ class: maxduggan
 
 <div class="content third" markdown="1">
 # **Max Duggan** Portfolio
-My personal branding uses a black & White color scheme, this was an intuitive choice, it allows the work to show it's true colors and provided differentiation from most portfolios I've seen. The logo started with concept of making my name out of a continuous folded line. This wordmark then defined the shape of the logo by pulling out the angles of the line.
+For my personal site branding, I used a black & White color scheme to make the work content pop. I made the original logo by drawing my name out of a continuous folded line, and then defining a custom shape by pulling out the angles of the line.
 </div>
 
 <div class="content half"><a class="max" rel="group" href="logo-variation.jpg" ><img src="logo-variation.jpg" alt=" "/></a></div>

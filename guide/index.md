@@ -3,7 +3,9 @@ layout: guide
 title: MAX DUGGAN | Daily Guide
 description: Checklist of daily life
 section: extra
+class: guide
 ---
+
 <div class="checklist">
   <label><input type="checkbox">Bathroom & Weight Check</label>
   <label><input type="checkbox">Dog Out</label>

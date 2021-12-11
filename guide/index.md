@@ -1,5 +1,5 @@
 ---
-layout: guide
+layout: blank
 title: MAX DUGGAN | Daily Guide
 description: Checklist of daily life
 section: extra

@@ -12,7 +12,7 @@ class: puma
 # **PUMA**<br>Global E-Commerce  
 #### **Agency** | Fluid
 #### **Role** | Lead • Senior Visual and UX
-Fluid and Puma had a long-term partnership, for everything from product launches to content production and strategy. I started as a visual designer on the project and took over as lead, helping innovate on a global set of e-commerce sites.
+Fluid worked as the agency of record for Puma's digital experiences. Projects ranged from product launches to content strategy. I started as visual designer on the project and transitioned to lead. We innovated on a global set of e-commerce sites.
 </div>
 </div>
 

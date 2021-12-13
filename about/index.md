@@ -100,6 +100,6 @@ section: about
 </div><!-- End Resume -->
 
 <div class="content article">
-	<a class="button" href="../max-duggan-resume.pdf" target="_blank">Download PDF Resume</a>
+	<a class="button" href="../max-duggan-resume.pdf" target="_blank">Download Resume</a>
 </div>
 <br><br>

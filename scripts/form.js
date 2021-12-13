@@ -28,3 +28,7 @@ function showImgContent(e) {
 };
 
 document.addEventListener('mousemove', showImgContent);
+
+var input = document.getElementById('wordgate-form');
+input.focus();
+input.select();

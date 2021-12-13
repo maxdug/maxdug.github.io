@@ -10,8 +10,8 @@ class: sani
 <div class="content third" markdown="1">
 # **Sani**<br>Virtual Product Tour
 #### **Agency** | Flightpath
-#### **Role** | Visual Design and Technology Research
-I worked on Sani Professional while at Flightpath. Sani Professional provides sanitizing wipes, and other cleaning solutions for the restaurant and food service industry. They challenged us to create a way for customers to better understand all of the uses for their products. Our solution was to create a virtual tour of a restaurant - from the kitchen, through the main area, even into the bathroom.
+#### **Role** | Lead UI/UX Designer
+Sani Professional provides cleaning solutions for the food service industry. We created a virtual tour that helped customers associate products and restaurant surfaces.
 </div>
 
 <div class="content two-thirds"><a class="max" rel="group" href="01-sani-introduction.jpg" ><img src="01-sani-introduction.jpg" alt=" "/></a></div>
@@ -20,7 +20,7 @@ I worked on Sani Professional while at Flightpath. Sani Professional provides sa
 <div class="content half"><a class="max" rel="group" href="03-sani-seating-product.jpg" ><img src="03-sani-seating-product.jpg" alt=" "/></a></div>
 
 <div class="content article">
-<p>I was able to work with the developers to utilize {tool} and not only create a panoramic experience for each space, but allow the user to navigate from each space to the next. Within each of these spaces, my goal was to modify the photography to eliminate distraction.</p>
+<p>I worked with our developers to find the right tool and create a panoramic experience for each space. Customers could navigate between rooms. Photography was highly edited to eliminate distractions in busy environments.</p>
 </div>
 
 <div class="content half"><a class="max" rel="group" href="04-sani-product-added-nav.jpg" ><img src="04-sani-product-added-nav.jpg" alt=" "/></a></div>

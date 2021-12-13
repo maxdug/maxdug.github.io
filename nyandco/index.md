@@ -13,7 +13,7 @@ class: nyandco
 #### **Agency** | Fluid
 #### **Role** | Senior Visual Design
 #### **Team** | Tember Hopkins • Pamela Tamayo
-New York & Company asked Fluid to develop an in-store kiosk that allows customers to browse and purchase from a larger online inventory while in store act as an employee tool to help customers. The kiosk integrated barcode scanner and credit card terminal and aimed to drive more in-store customers to the website.
+New York & Company is a retailer for women's accessories and apparel. I worked on the design of a kiosk that allowed in-store customers and employees to access the larger online inventory. This lead to an increased adoption rate of their website by in-store customers.
 </div>
 </div>
 

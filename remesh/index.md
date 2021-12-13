@@ -14,8 +14,8 @@ class: remesh
 </div>
 <div class="content third" markdown="1">
 # **Remesh**<br>Research through conversation
-#### **Role** | Contract Animator  
-Remesh uses artificial intelligence to analyze audience responses and draw out insights to an organization’s success. They brought me in to animate a conversation on their platform - showing both the moderator and participant experience. Working with their team, I took time to understand the key features and value of their product, before moving into the work of storyboarding the video. I worked with their design team to translate all their major elements from sketch files to After Effects.
+#### **Role** | Freelance Animator  
+Remesh is a startup that uses AI to facilitates user conversations and live analysis. I animated an example conversation from both the moderator and participant experience. I Lead there team through requirements gather through storyboarding and animation. We translated their component library from Sketch into After Effects to streamline future work.
 </div>
 </div>
 

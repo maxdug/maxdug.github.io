@@ -1,7 +1,7 @@
 ---
 layout: project
-title: LA BAGUETTE | CAFE &amp BAKERY
-description: Identity design for a Cafe &amp Bakery.
+title: LA BAGUETTE | CAFE &amp; BAKERY
+description: Identity design for a Cafe &amp; Bakery.
 section: design
 class: labaguette
 ---
@@ -10,7 +10,7 @@ class: labaguette
 <div class="content two-thirds"><a class="max" rel="group" href="labaguette_01.jpg" ><img src="labaguette_01.jpg" alt=" "/></a></div>
 
 <div class="content third" markdown="1">
-# **LA BAGUETTE**<br>CAFE & BAKERY
+# **LA BAGUETTE**<br>CAFE &amp; BAKERY
 #### **Project Type** | Concept Work
 La Baguette is a family owned cafe & bakery. In this branding, I used color distinguish the cafe (green) and bakery (blue) sides of the business. The logotype was created using hand lettering and made a set of food symbols based on the staple foods.
 

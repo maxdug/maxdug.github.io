@@ -486,6 +486,7 @@ nav a:hover, nav a.sfhover {
   text-align: center;
   margin: 10px 1%;
 	text-decoration: none;
+  font-weight: bold;
 }
 .footer-links {
     flex: 1 0 80px;

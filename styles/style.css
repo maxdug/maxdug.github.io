@@ -397,12 +397,17 @@ ol {
 88  88 888888 dP""""Yb 8888Y"  888888 88  Yb     dP        88      YbodP   YbodP    88   888888 88  Yb
 */
 header, footer {
-	width: 100%;
-	letter-spacing: 1px;
-	background: var(--ExtraLight);
-	text-transform: uppercase;
-	font-size: .75em;
-	color: var(--MediumDark);
+  width: 100%;
+  letter-spacing: 1px;
+  background: var(--ExtraLight);
+  text-transform: uppercase;
+  font-size: .75em;
+  color: var(--MediumDark);
+  display: flex;
+  padding: 6px calc(50% - 720px) 0px;
+  max-width: 1440px;
+  justify-content: space-around;
+  flex-flow: row wrap;
 }
 header {
 	position: fixed;
@@ -414,7 +419,7 @@ footer {
 }
 header .container, footer .container {
 	display: flex;
-    max-width: 1440px;
+  max-width: 1440px;
 	width: 98%;
 	height: 50px;
 	margin: 0 auto;
@@ -425,17 +430,20 @@ header .container, footer .container {
 }
 
 #name {
-	flex: 1 0 160px;
-	color: var(--Dark);
-	text-decoration: none;
-	font-size: 1.5em;
+  flex: 1 0 40px;
+  color: var(--Dark);
+  text-decoration: none;
+  font-size: 1.5em;
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: row;
   text-align: center;
-  margin-top: 10px;
+  align-content: center;
+  margin: 10px 1%;
+  flex-wrap: nowrap;
 }
 #name img {
-  flex: 0 0 50px;
+  width: 50px;
+  height: fit-content;
   margin-right: 10px;
 }
 #name:hover {
@@ -445,19 +453,13 @@ body.touch #name:hover {
 	color: var(--Secondary);
 }
 
-
-
-
-
-
-
 nav {
 	flex: 0 0 18em;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	text-transform: uppercase;
-  margin-top: 10px;
+  margin: 10px 1%;
 }
 nav a {
 	padding-bottom: 3px;
@@ -476,15 +478,20 @@ nav a:hover, nav a.sfhover {
   height: 2px;
 }
 #copyright {
-	flex: 1 0 160px;
+  flex: 1 0 80px;
+  margin: 10px 1%;
 }
 #back-top {
+  flex: 1 0 80px;
+  text-align: center;
+  margin: 10px 1%;
 	text-decoration: none;
 }
 .footer-links {
-    flex: 1 0 160px;
+    flex: 1 0 80px;
     display: flex;
     justify-content: flex-end;
+    margin: 10px 1%;
 }
 .footer-links a {
   width: 20px;
@@ -829,29 +836,6 @@ tr:nth-child(even) {
     display: block;
   }
 
-
-/* Header & Footer */
-footer .container {
-  height: 70px;
-}
-
-nav {
-  flex-grow: 1;
-  justify-content: space-around;
-}
-#copyright {
-  flex: 1 0 80px;
-  text-align: center;
-}
-#back-top {
-  flex: 1 0 160px;
-  text-align: center;
-  order: 1;
-}
-.footer-links {
-  justify-content: center;
-}
-
   /* H O M E
 ----------------------------------------------- */
   .tile {
@@ -904,25 +888,17 @@ footer .container {
 }
 #name {
   justify-content: center;
-  margin-top: 10px;
 }
 nav {
   flex-grow: 1;
   justify-content: space-around;
 }
-#copyright {
-  flex: 1 0 80px;
-  text-align: center;
-}
-#back-top {
-  flex: 1 0 160px;
-  text-align: center;
-  order: 1;
-}
 .footer-links {
-  justify-content: center;
+  justify-content: space-around;
 }
-
+#copyright {
+    text-align: center;
+}
 
 
 

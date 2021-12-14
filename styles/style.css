@@ -710,7 +710,7 @@ body.touch .tile a {
   text-decoration: none;
 }
 
-.content figcaption {
+.content .img-content {
   display: none;
   color: #777;
   background: hsla(0,100%,100%,0.8);
@@ -721,7 +721,7 @@ body.touch .tile a {
   line-height: 2em;
 }
 
-.content:hover figcaption {
+.content:hover .img-content {
   display: inline;
 }
 

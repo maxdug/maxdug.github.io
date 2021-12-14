@@ -21,9 +21,9 @@ img {
 
 body {
   display: flex;
-  height: calc(100vh - 60px);
+  height: calc(100vh - 50px);
   flex-direction: column;
-  margin: 60px 0 0;
+  margin: 50px 0 0;
   color: var(--MediumDark);
   font-family: sans-serif;
 }

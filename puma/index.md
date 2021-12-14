@@ -7,7 +7,7 @@ class: puma
 ---
 
 <div class="order-flip">
-<div class="content two-thirds"><a class="max" rel="group" href="intro.jpg" ><img src="intro.jpg" alt=" "/></a></div>
+<div class="content two-thirds"><a class="img-modal" rel="group" href="intro.jpg" ><img src="intro.jpg" alt=" "/></a></div>
 <div class="content third" markdown="1">
 # **PUMA**<br>Global E-Commerce  
 #### **Agency** | Fluid
@@ -21,16 +21,16 @@ Fluid worked as the agency of record for Puma's digital experiences. Projects ra
 ### **Kit of** Parts
 To ensure consistency and speed when developing new pages, we used a modular system. The real power of the system was documentation - which allowed us to pick and choose from our kit of parts to craft any experience.
 </div>
-<div class="content third"><a class="max" rel="group" href="puma-1.jpg" ><img src="puma-1.jpg" alt=" "/></a></div>
+<div class="content third"><a class="img-modal" rel="group" href="puma-1.jpg" ><img src="puma-1.jpg" alt=" "/></a></div>
 
-<!-- <div class="content half"><a class="max" rel="group" href="kop-guide.jpg" ><img src="kop-guide.jpg" alt=" "/></a></div> -->
-<div class="content third"><a class="max" rel="group" href="puma-2.jpg" ><img src="puma-2.jpg" alt=" "/></a></div>
-<div class="content third"><a class="max" rel="group" href="puma-3.jpg" ><img src="puma-3.jpg" alt=" "/></a></div>
-<div class="content third"><a class="max" rel="group" href="kop-2.jpg" ><img src="kop-2.jpg" alt=" "/></a></div>
-<div class="content third"><a class="max" rel="group" href="product-spotlight.jpg" ><img src="product-spotlight.jpg" alt=" "/></a></div>
+<!-- <div class="content half"><a class="img-modal" rel="group" href="kop-guide.jpg" ><img src="kop-guide.jpg" alt=" "/></a></div> -->
+<div class="content third"><a class="img-modal" rel="group" href="puma-2.jpg" ><img src="puma-2.jpg" alt=" "/></a></div>
+<div class="content third"><a class="img-modal" rel="group" href="puma-3.jpg" ><img src="puma-3.jpg" alt=" "/></a></div>
+<div class="content third"><a class="img-modal" rel="group" href="kop-2.jpg" ><img src="kop-2.jpg" alt=" "/></a></div>
+<div class="content third"><a class="img-modal" rel="group" href="product-spotlight.jpg" ><img src="product-spotlight.jpg" alt=" "/></a></div>
 
 <div class="order-flip">
-<div class="content half"><a class="max" rel="group" href="puma-4.jpg" ><img src="puma-4.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="puma-4.jpg" ><img src="puma-4.jpg" alt=" "/></a></div>
 <div class="content half" markdown="1">
 ### **Responsive** Style
 We strove not to sacrifice style across breakpoints - while we practiced mobile-first, we gave due diligence across the full spectrum of viewports.
@@ -41,7 +41,7 @@ We strove not to sacrifice style across breakpoints - while we practiced mobile-
 ### **Always** Whiteboarding
 The team developed a process of always whiteboarding and taking that process further to whiteboarding with our Puma counterparts. The benefit of a long term project is getting to really work hand-in-hand with the clients to develop the fine details of an experience.
 </div>
-<div class="content half"><a class="max" rel="group" href="puma-5.jpg" ><img src="puma-5.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="puma-5.jpg" ><img src="puma-5.jpg" alt=" "/></a></div>
 
 <div class="order-flip">
 <video class="content half" autoplay loop>

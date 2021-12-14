@@ -1,7 +1,7 @@
 ---
 layout: default
-title: MAX DUGGAN | DESIGN
-description: A condensed set of Max Duggan's design work.
+title: Max Duggan | Design Portfolio
+description: Max Duggan's design work
 section: design
 ---
 <div class="tile double">

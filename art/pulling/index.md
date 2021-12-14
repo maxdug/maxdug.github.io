@@ -6,7 +6,7 @@ section: art
 class: pulling
 ---
 
-<div class="content two-thirds"><a class="max" rel="group" href="pulling.jpg" ><img src="pulling.jpg" alt=" "/></a></div>
+<div class="content two-thirds"><a class="img-modal" rel="group" href="pulling.jpg" ><img src="pulling.jpg" alt=" "/></a></div>
 
 <div class="content third" markdown="1">
 # **PULLING** SERIGRAPHY

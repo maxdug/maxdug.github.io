@@ -6,7 +6,7 @@ section: art
 class: origin
 ---
 
-<div class="content half"><a class="max" rel="group" href="origin.jpg" ><img src="origin.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="origin.jpg" ><img src="origin.jpg" alt=" "/></a></div>
 
 <div class="content half" markdown="1">
 # **ORIGIN** BROADSIDE

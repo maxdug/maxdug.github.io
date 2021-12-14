@@ -132,6 +132,7 @@ input:focus 		{ outline:none; }
 
 /* LABEL ======================================= */
 label 				 {
+  width: 100%;
   color:#999;
   font-size:18px;
   font-weight:normal;
@@ -697,7 +698,7 @@ body.touch .tile a {
 
 .content.full {
   flex: 1 0 260px;
-  min-width: calc(50% - 20px);
+  min-width: calc(100% - 20px);
 }
 .content.two-thirds {
   flex: 1 0 260px;
@@ -721,26 +722,26 @@ body.touch .tile a {
 }
 
 .content a {
-  /* display: flex; */
+  position: relative;
   width: 100%;
-  /* justify-content: center; */
-  /* flex-flow: row wrap; */
   text-decoration: none;
 }
 
-.content .img-content {
+.content .img-caption {
+  position: absolute;
+  bottom: 0;
   display: none;
-  color: #777;
+  width: calc(100% - 8px);
+  color: #666;
   background: hsla(0,100%,100%,0.8);
-  padding: 10px 6px;
+  padding: 4px;
   font-size: .8em;
   text-align: center;
-  margin: calc(-.8em + -20px) 0;
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
-.content:hover .img-content {
-  display: inline;
+.content:hover .img-caption {
+  display: block;
 }
 
 .article-width-video {

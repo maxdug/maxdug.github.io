@@ -6,7 +6,7 @@ section: art
 class: bluecollar
 ---
 
-<div class="content half"><a class="max" rel="group" href="bluecollar.jpg" ><img src="bluecollar.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="bluecollar.jpg" ><img src="bluecollar.jpg" alt=" "/></a></div>
 
 <div class="content half" markdown="1">
 # **BLUECOLLAR** WOODCUT

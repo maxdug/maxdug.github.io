@@ -7,7 +7,7 @@ class: nyandco
 ---
 
 <div class="order-flip">
-<div class="content two-thirds"><a class="max" rel="group" href="kiosk-1.jpg" ><img src="kiosk-1.jpg" alt=" "/></a></div>
+<div class="content two-thirds"><a class="img-modal" rel="group" href="kiosk-1.jpg" ><img src="kiosk-1.jpg" alt=" "/></a></div>
 <div class="content third" markdown="1">
 # **New York & Company** In-store Kiosk
 #### **Agency** | Fluid
@@ -23,7 +23,7 @@ We took advantage of the format with large imagery to grab the user when browsin
 ### **Prototyping** Interaction
 To understand the quirks of working with an extra large touch screen we used Invision prototypes on a test kiosk throughout the process.
 </div>
-<div class="content half"><a class="max" rel="group" href="kiosk-2.jpg" ><img src="kiosk-2.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="kiosk-2.jpg" ><img src="kiosk-2.jpg" alt=" "/></a></div>
 
 <div class="content article" markdown="1">
 <q>This new kiosk will provide a virtual endless aisle, offering customers access to all sizes, colors and assortments<span class="author">John Worthington, COO, NY&CO</span></q>

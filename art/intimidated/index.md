@@ -6,7 +6,7 @@ section: art
 class: intimidated
 ---
 
-<div class="content half"><a class="max" rel="group" href="intimidated.jpg" ><img src="intimidated.jpg" alt=" "/></a></div>
+<div class="content half"><a class="img-modal" rel="group" href="intimidated.jpg" ><img src="intimidated.jpg" alt=" "/></a></div>
 
 <div class="content half" markdown="1">
 # **INTIMIDATED** SERIGRAPHY

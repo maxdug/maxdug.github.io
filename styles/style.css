@@ -463,7 +463,8 @@ nav {
   margin: 10px 1%;
 }
 nav a {
-	padding-bottom: 3px;
+	/* padding-bottom: 3px; */
+  line-height: 21px;
 	color: #444;
 	text-decoration: none;
 }
@@ -986,11 +987,10 @@ input[type="checkbox"]:disabled {
 
   /* G L O B A L
 ----------------------------------------------- */
-  body {
-    margin-top: 60px;
-    min-height: calc(100vh - 60px);
-  }
 
+h1, h1 a:link, h1 a:visited {
+  font-size: 1.8em;
+}
 
   /* Header & Footer
 ----------------------------------------------- */

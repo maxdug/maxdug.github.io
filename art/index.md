@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MAX DUGGAN | ART
+title: Max &nbsp;❭&nbsp; Art
 description: Printmaking portfolio of Max Duggan.
 section: art
 ---

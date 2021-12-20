@@ -1,6 +1,6 @@
 ---
 layout: art
-title: INTIMIDATED | SERIGRAPHY
+title: Max &nbsp;❭&nbsp; Art &nbsp;❭&nbsp; Intimidated
 description: Screen print of a photo from the Just Keep Trucking series.
 section: art
 class: intimidated

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: GENTLEMAN | MALE CARE PRODUCTS
+title: Max &nbsp;❭&nbsp; Play &nbsp;❭&nbsp; Gentleman
 description: Identity design for high end male care products.
 section: design
 class: gentleman

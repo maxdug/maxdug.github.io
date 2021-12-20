@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MAX DUGGAN | ABOUT
+title: Max &nbsp;❭&nbsp; About
 description: A small snippet about Max Duggan
 section: about
 ---
@@ -19,7 +19,7 @@ section: about
 
 <div class="item">
 		<h2>BCG</h2>
-		<h3>Sr. Product Designer + Developer</h3>
+		<h3>Sr Product Designer + Developer</h3>
 		<h4>Jul 2019 - Present</h4>
 </div>
 
@@ -38,7 +38,7 @@ section: about
 
 <div class="item">
 	<h2>Fluid</h2>
-	<h3>UI Designer &nbsp;&#8594;&nbsp; Sr. UI Designer &nbsp;&#8594;&nbsp; Sr. UX Designer</h3>
+	<h3>UI Designer &nbsp;&#8594;&nbsp; Sr UI Designer &nbsp;&#8594;&nbsp; Sr UX Designer</h3>
 	<h4>Jun 2015 - Dec 2017</h4>
 </div>
 

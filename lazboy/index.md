@@ -1,6 +1,6 @@
 ---
 layout: project
-title: La-Z-Boy | Re-design
+title: Max &nbsp;❭&nbsp; Work &nbsp;❭&nbsp; La-Z-Boy
 description: High Quality Furniture
 section: design
 class: lazboy
@@ -9,7 +9,7 @@ class: lazboy
 <div class="order-flip">
 <div class="content two-thirds"><a class="img-modal" rel="group" href="header-1.jpg" ><img src="header-1.jpg" alt=" "/></a></div>
 <div class="content third" markdown="1">
-# **La-Z-Boy** Re-Design
+# La-Z-Boy
 #### **Agency** | Fluid
 #### **Role** | Lead • Senior UX
 This project consisted of a site a refresh, with an emphasis on global navigation and fixing their product grid and product details page. We ran in-store research, talking with La-Z-Boy designers and developed a design system that would grow with the website.

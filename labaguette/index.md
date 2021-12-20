@@ -1,6 +1,6 @@
 ---
 layout: project
-title: LA BAGUETTE | CAFE &amp; BAKERY
+title: Max &nbsp;❭&nbsp; Work &nbsp;❭&nbsp; La Baguette
 description: Identity design for a Cafe &amp; Bakery.
 section: design
 class: labaguette

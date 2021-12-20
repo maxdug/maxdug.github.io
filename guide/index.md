@@ -1,6 +1,6 @@
 ---
 layout: default
-title: MAX DUGGAN | Daily Guide
+title: Max &nbsp;❭&nbsp; Daily Guide
 description: Checklist of daily life
 section: extra
 class: guide

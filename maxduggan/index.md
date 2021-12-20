@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Max Duggan | Portfolio &amp; UI/UX
+title: Max &nbsp;❭&nbsp; Work &nbsp;❭&nbsp; Portfolio &amp; UI/UX
 description: Branding and UI/UX for personal portfolio.
 section: design
 class: maxduggan

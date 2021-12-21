@@ -23,6 +23,10 @@ img {
 width: 100%;
 }
 
+.img-modal {
+  position: relative;
+}
+
 body {
   display: flex;
   height: calc(100vh - 50px);

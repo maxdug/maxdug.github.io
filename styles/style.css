@@ -1031,6 +1031,7 @@ display: inherit;
 .checklist input[type="checkbox"] {
   display: flex;
   appearance: none;
+  -webkit-appearance: none;
   background-color: white;
   margin: 0 20px 0 0;
   width: 40px;

@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Time Warner Cable | UI/UX
+title: Max &nbsp;❭&nbsp; Time Warner Cable
 description:
 section: design
 class: twc

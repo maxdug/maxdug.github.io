@@ -1,6 +1,6 @@
 ---
 layout: project
-title: PUMA | Global E-Commerce
+title: Max &nbsp;❭&nbsp; PUMA
 description: Global E-Commerce
 section: design
 class: puma

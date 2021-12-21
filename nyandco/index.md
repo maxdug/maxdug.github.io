@@ -1,6 +1,6 @@
 ---
 layout: project
-title: New York &amp; Company | In-store Kiosk
+title: Max &nbsp;❭&nbsp; New York &amp; Company
 description: E-commerce in person
 section: design
 class: nyandco

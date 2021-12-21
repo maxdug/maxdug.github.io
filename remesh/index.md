@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Remesh | Research through conversation
+title: Max &nbsp;❭&nbsp; Remesh
 description: AI based User Research
 section: design
 class: remesh

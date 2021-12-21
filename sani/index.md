@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Sani Professional | Virtual Product Tour
+title: Max &nbsp;❭&nbsp; Sani Professional
 description: Online walkthrough of product use
 section: design
 class: sani

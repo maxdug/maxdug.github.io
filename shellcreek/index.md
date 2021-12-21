@@ -1,6 +1,6 @@
 ---
 layout: project
-title: SHELL CREEK | WINE LABELS
+title: Max &nbsp;❭&nbsp; Shell Creek
 description: Label design for a full selection of wines.
 section: design
 class: shellcreek

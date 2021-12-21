@@ -331,7 +331,7 @@ h4 a:hover {
 
 a {
   color: #555;
-  text-decoration: underline;
+  text-decoration: underline dashed 1px #777;
 }
 a:hover {
   color: var(--Secondary);
@@ -450,7 +450,7 @@ header .container, footer .container {
   /* flex-direction: row; */
   /* text-align: center; */
   /* align-content: center; */
-  margin: 10px 1%;
+  margin: 10px;
   /* flex-wrap: nowrap; */
 }
 #name img {
@@ -467,7 +467,7 @@ body.touch #name:hover {
 }
 
 nav {
-	flex: 0 0 18em;
+	flex: 0 0 auto;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
@@ -479,6 +479,10 @@ nav a {
   line-height: 21px;
 	color: #444;
 	text-decoration: none;
+  margin: 0 10px;
+}
+nav a:last-child {
+  margin: 0 0 0 10px;
 }
 nav a:hover, nav a.sfhover {
 	color: var(--Secondary);

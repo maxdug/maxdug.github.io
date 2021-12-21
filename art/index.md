@@ -5,6 +5,7 @@ description: Printmaking portfolio of Max Duggan.
 section: art
 ---
 
+
 <div class="tile">
 	<a href="/art/bluecollar" class="tile_thumb" style="background-image: url(../art/bluecollar/bluecollar-thumb.jpg);">
 		<span class="title">Bluecollar</span>

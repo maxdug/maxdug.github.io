@@ -72,6 +72,8 @@ body {
 }
 
 input[type="submit"], input[type="button"], .button {
+  display: inline-block;
+  width: 100%;
   -webkit-appearance: none;
   border-radius: 6px;
   border: 2px solid var(--Active);
@@ -84,6 +86,7 @@ input[type="submit"], input[type="button"], .button {
   padding: 10px;
   min-width: 33%;
   text-align: center;
+  text-decoration: none;
 }
 input[type="submit"]:hover, input[type="button"]:hover, .button:hover {
   background-color: var(--Active);
@@ -319,7 +322,7 @@ h4 a:hover {
 }
 
 a {
-  color: var(--MediumLight);
+  color: #555;
   text-decoration: underline;
 }
 a:hover {
@@ -533,22 +536,30 @@ main {
   justify-content: center;
 }
 
+.content.article.intro {
+  line-height: 1.5em;
+  font-size: 1.4em;
+  margin: 65px 10px;
+  color: #333;
+  flex: 0 0 calc(100% - 70px);
+}
+.container.tentwentyfour, .container.article {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-grow: 1;
+}
+.content.tentwentyfour, .content.article {
+  display: inline-block;
+}
 .container.tentwentyfour, .content.tentwentyfour {
     /* Used for Most not full screen content */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    flex-grow: 1;
     max-width: 1024px;
     padding: 0 calc(48% - 512px);
 }
 
 .container.article, .content.article {
     /* Designed for best legibility of large amounts of text information */
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    flex-grow: 1;
     max-width: 720px;
     padding: 0 calc(48% - 360px);
 }
@@ -571,7 +582,7 @@ main {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
 }
 
 .tile a:hover {
@@ -613,9 +624,11 @@ main {
 }
 .title {
   color: white;
-  display: inline-block;
-  font-size: .7em;
-  letter-spacing: 0.15em;
+  /* display: inline-block; */
+  display: none;
+  font-size: .75em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
   text-transform: uppercase;
   padding: 10px 0 4px 10px;
   left: 0;
@@ -641,8 +654,8 @@ body.touch .tile .tile-logo {
   display: block;
 }
 body.touch .tile a {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
+  /* -webkit-filter: grayscale(0%); */
+  /* filter: grayscale(0%); */
   background-size: cover;
 }
 
@@ -679,6 +692,12 @@ body.touch .tile a {
   margin: 0 10px 20px;
   justify-content: center;
 }
+
+/* .content a {
+  position: relative;
+  width: 100%;
+  text-decoration: none;
+} */
 
 .hero {
   display: flex;
@@ -722,11 +741,7 @@ body.touch .tile a {
   max-width: 220px;
 }
 
-.content a {
-  position: relative;
-  width: 100%;
-  text-decoration: none;
-}
+
 
 .content .img-caption {
   position: absolute;
@@ -864,17 +879,107 @@ tr:nth-child(even) {
 
 
 
-/* Life Guide */
+/*
+8888b.     db    88 88     Yb  dP      dP""b8 88   88 88 8888b.  888888
+ 8I  Yb   dPYb   88 88      YbdP      dP   `" 88   88 88  8I  Yb 88__
+ 8I  dY  dP__Yb  88 88  .o   8P       Yb  "88 Y8   8P 88  8I  dY 88""
+8888Y"  dP""""Yb 88 88ood8  dP         YboodP `YbodP' 88 8888Y"  888888
+ */
 
-body#extra {
-  background-color: #fa9;
+body#guide {
+  background-color: #96b7b9;
 }
+
+.tab-menu {
+  position: relative;
+  width: calc(100% - 40px);
+  margin: 20px;
+}
+
+.node-column {
+  display: flex;
+  /* width: 20%; */
+  flex-flow: row wrap;
+}
+
+/* The container */
+.node {
+  flex: 1 0 160px;
+  min-width: 100%;
+  display: inline-block;
+  /*   position: relative; */
+  cursor: pointer;
+  font-size: 13px;
+  user-select: none;
+}
+
+.node label {
+position: inherit;
+font-size: inherit;
+pointer-events: inherit;
+}
+
+/* Hide the browser's default radio button */
+.node input {
+  display: none;
+}
+
+.node-title {
+  display: inline-block;
+  flex: 1 0 160px;
+  min-width: calc(100% - 14px);
+  padding: 9px 7px;
+  text-align: center;
+  background: #f9f9f9;
+  font-size: 1.5em;
+  border-bottom: 1px solid #ddd;
+}
+
+.node:nth-child(1) .node-title {
+  border-radius: 20px 20px 0 0;
+}
+.node:last-child .node-title {
+  border-radius: 0 0 20px 20px;
+}
+.node:last-child input:checked~.node-title {
+  border-radius: 0;
+}
+.node:last-child input:checked~.node-title~.node-menu {
+  border-radius: 0 0 20px 20px;
+}
+
+.node input:checked~.node-title {
+  border-right: none;
+  color: #f86;
+  background: white;
+  font-size: 2em;
+}
+
+.node-menu {
+  display: none;
+  /* position: absolute; */
+  width: 79%;
+  top: 0px;
+  left: 21%;
+}
+
+.node-menu .content input {
+display: inherit;
+}
+
+.node:checked~.node-menu {
+  display: flex;
+  flex-flow: row wrap;
+  background: #f86;
+  width: 100%;
+}
+
 
 .checklist {
   list-style: none;
   font-size: 1.5rem;
   color: white;
-  margin: 20px 10px;
+  margin: 20px;
   padding: 0;
 }
 .checklist a {
@@ -935,8 +1040,6 @@ input[type="checkbox"]:disabled {
   color: var(--form-control-disabled);
   cursor: not-allowed;
 }
-
-
 /* ---------------------------------------------------------
 				888888    db     88""Yb  88      888888  888888
 				  88     dPYb    88__dP  88      88__      88

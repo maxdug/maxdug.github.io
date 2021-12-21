@@ -1146,14 +1146,14 @@ nav {
     height: 100px;
     background-size: cover;
   }
- .tile a svg {
+ /* .tile a svg {
     width: 200px;
     height: 70px;
-  }
+  } */
   .tile a:hover svg {
-    display: block;
-    width: 200px;
-    height: 70px;
+    /* display: block; */
+    /* width: 200px;
+    height: 70px; */
   }
 
 

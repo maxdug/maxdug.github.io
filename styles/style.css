@@ -454,14 +454,23 @@ header .container, footer .container {
   margin: 10px;
   /* flex-wrap: nowrap; */
 }
-#name img {
+#name .logo {
   /* width: 50px; */
   /* height: fit-content; */
   margin-right: 10px;
   height: 20px;
+  width: 50px;
+  background: url('/images/logo.png') no-repeat center;
+  background-size: contain;
 }
+
 #name:hover {
 	color: var(--Secondary);
+}
+
+#name:hover .logo {
+  background: url('/images/logo-hover.png') no-repeat center;
+  background-size: contain;
 }
 body.touch #name:hover {
 	color: var(--Secondary);
@@ -1013,6 +1022,9 @@ display: inherit;
   font-size: 20px;
   pointer-events: auto;
   align-items: center;
+}
+.checklist label:last-child {
+    margin: 0;
 }
 input[type="checkbox"] {
   appearance: none;

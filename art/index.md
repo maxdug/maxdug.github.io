@@ -3,6 +3,7 @@ layout: default
 title: Max &nbsp;❭&nbsp; Art
 description: Printmaking portfolio of Max Duggan.
 section: art
+class: art-home
 ---
 
 <div class="content article intro">

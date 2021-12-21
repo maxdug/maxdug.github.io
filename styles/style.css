@@ -421,6 +421,7 @@ header, footer {
   max-width: 1440px;
   justify-content: space-around;
   flex-flow: row wrap;
+  align-items: center;
 }
 header {
 	position: fixed;
@@ -484,7 +485,7 @@ nav {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	text-transform: uppercase;
-  margin: 10px 1%;
+  margin: 10px 10px;
 }
 nav a {
 	/* padding-bottom: 3px; */
@@ -509,7 +510,7 @@ nav a:hover, nav a.sfhover {
 }
 #copyright {
   flex: 1 0 80px;
-  margin: 10px 1%;
+  margin: 10px 10px;
 }
 #back-top {
   flex: 1 0 80px;
@@ -517,16 +518,24 @@ nav a:hover, nav a.sfhover {
   margin: 10px 1%;
 	text-decoration: none;
   font-weight: bold;
+  color: #777;
+}
+#back-top:hover {
+  color: #333;
+}
+.home #back-top, .art-home #back-top {
+  display: none !important;
 }
 .footer-links {
     flex: 1 0 80px;
     display: flex;
     justify-content: flex-end;
     margin: 10px 1%;
+    align-items: center;
 }
 .footer-links a {
   width: 20px;
-	margin-left: 2%;
+	margin-left: 20px;
 	text-decoration: none;
 }
 footer svg {
@@ -565,7 +574,6 @@ main {
   line-height: 1.5em;
   font-size: 1.4em;
   margin: 65px 10px;
-  color: #333;
   flex: 0 0 calc(100% - 70px);
 }
 .container.tentwentyfour, .container.article {
@@ -740,6 +748,7 @@ body.touch .tile a {
 
 .new-hero-logo {
   flex: 0 1 180px;
+  max-width: calc(100% - 20px);
   margin: 10px;
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.8));
 }

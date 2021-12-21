@@ -126,7 +126,7 @@ input:-webkit-autofill:focus {
   flex-flow: row wrap;
   position:relative;
   flex: 1 0 160px;
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   padding: 0;
   min-width: calc(66% - 20px);
 }

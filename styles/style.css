@@ -491,8 +491,8 @@ nav {
   margin: 0 10px;
 }
 nav a {
-	/* padding-bottom: 3px; */
-  line-height: 21px;
+	padding: 3px 0;
+  /* line-height: 21px; */
 	color: #444;
 	text-decoration: none;
   margin: 0 15px;
@@ -512,28 +512,26 @@ nav a:hover, nav a.sfhover {
   height: 2px;
 }
 #copyright {
-  flex: 1 0 80px;
-  margin: 0 15px;
+  flex: 1 0 130px;
+  margin: 10px 15px;
 }
 #back-top {
-  flex: 1 0 80px;
+  flex: 1 0 110px;
   text-align: center;
-  margin: 10px 1%;
+  margin: 10px;
 	text-decoration: none;
-  font-weight: bold;
-  color: #777;
 }
 #back-top:hover {
-  color: #333;
+  color: DodgerBlue;
 }
 .home #back-top, .art-home #back-top {
   display: none !important;
 }
 .footer-links {
-    flex: 1 0 80px;
+    flex: 1 0 130px;
     display: flex;
     justify-content: flex-end;
-    margin: 10px 1%;
+    margin: 10px 0;
     align-items: center;
 }
 .footer-links a {
@@ -1157,7 +1155,7 @@ nav {
   /* justify-content: space-around; */
 }
 .footer-links {
-  justify-content: space-around;
+  justify-content: center;
 }
 #copyright {
     text-align: center;

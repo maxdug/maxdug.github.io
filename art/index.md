@@ -35,7 +35,7 @@ class: art-home
 </div>
 
 <div class="tile">
-	<a href="/art/intimidated" class="tile_thumb" style="background-image: url(../art/intimidated/intimidated-thumb.jpg);">
+	<a href="/art/intimidated" class="tile_thumb" style="background-image: url(../art/intimidated/intimidated-thumb.jpg); background-position-y: top;">
 		<span class="title">Intimidated</span>
 	</a>
 </div>

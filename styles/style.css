@@ -427,6 +427,7 @@ header {
 	top: 0;
 	z-index: 999;
   background: rgba(360, 360, 360, 0.93);
+  padding: 11px calc(50% - 720px);
 }
 footer {
 	justify-self: flex-end;
@@ -446,7 +447,7 @@ header .container, footer .container {
 }
 
 #name {
-  flex: 1 0 40px;
+  flex: 1 0 auto;
   color: #333;
   text-decoration: none;
   font-size: 1.5em;
@@ -454,7 +455,7 @@ header .container, footer .container {
   /* flex-direction: row; */
   /* text-align: center; */
   /* align-content: center; */
-  margin: 0 15px;
+  margin: 0 25px;
   /* flex-wrap: nowrap; */
 }
 #name .logo {
@@ -487,7 +488,7 @@ nav {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	text-transform: uppercase;
-  margin: 10px 10px;
+  margin: 0 10px;
 }
 nav a {
 	/* padding-bottom: 3px; */
@@ -1149,11 +1150,11 @@ footer .container {
   height: 70px;
 }
 #name {
-  justify-content: center;
+  /* justify-content: center; */
 }
 nav {
-  flex-grow: 1;
-  justify-content: space-around;
+  /* flex-grow: 1; */
+  /* justify-content: space-around; */
 }
 .footer-links {
   justify-content: space-around;

@@ -28,6 +28,9 @@ width: 100%;
   position: relative;
 }
 
+.img-modal:hover {
+  cursor: zoom-in;
+}
 body {
   display: flex;
   height: calc(100vh - 45px);
@@ -825,7 +828,7 @@ body.touch .tile a {
   flex-flow: row wrap;
   flex: 0 0 auto; /* used for sticky footer */
 }
-.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco, .maxduggan .maxduggan, .sani .sani, .labaguette .labaguette  {
+.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco, .maxduggan .maxduggan, .sani .sani, .labaguette .labaguette, .bluecollar .bluecollar, .halloween .halloween, .sideroad .sideroad, .origin .origin {
   display: none;
 }
 

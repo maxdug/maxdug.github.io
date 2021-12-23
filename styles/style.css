@@ -1000,7 +1000,7 @@ pointer-events: inherit;
   background: #f9f9f9;
   font-size: 1.5em;
   border-bottom: 2px solid #9bb;
-  color: #9bb;
+  color: #8aa;
 }
 
 .node-title span {
@@ -1094,23 +1094,21 @@ width: 100%;
   transition: 120ms transform ease-in-out;
   box-shadow: inset 1em 1em #f86;
   /* Windows High Contrast Mode */
-  background-color: CanvasText;
+  background-color: inherit;
 }
 
 .checklist input[type="checkbox"]:checked::before {
   transform: scale(1);
 }
 
-.checklist input[type="checkbox"]:focus {
-  outline: max(2px, 0.15em) solid currentColor;
+/* .checklist input[type="checkbox"]:focus {
+  outline: max(2px, 0.15em) solid white;
   outline-offset: max(2px, 0.15em);
-}
+} */
 
-.checklist input[type="checkbox"]:disabled {
-  --form-control-color: var(--form-control-disabled);
-  color: var(--form-control-disabled);
+/* .checklist input[type="checkbox"]:disabled {
   cursor: not-allowed;
-}
+} */
 
 /* ---------------------------------------------------------
 				888888    db     88""Yb  88      888888  888888

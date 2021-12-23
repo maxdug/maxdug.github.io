@@ -1,4 +1,4 @@
-document.getElementById('wordgate-form').addEventListener('submit', function checkPassword(e) {
+document.getElementById('access-form').addEventListener('submit', function checkPassword(e) {
 
   e.preventDefault();
 
@@ -29,6 +29,6 @@ function showImgContent(e) {
 
 document.addEventListener('mousemove', showImgContent);
 
-var input = document.getElementById('wordgate-form');
+var input = document.getElementById('access-form');
 input.focus();
 input.select();

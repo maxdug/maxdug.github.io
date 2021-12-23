@@ -74,7 +74,17 @@ body {
   background-color: var(--Light) !important;
 }
 
-#wordgate-form {
+input {
+  cursor: pointer;
+}
+
+/*
+   db     dP""b8  dP""b8 888888 .dP"Y8 .dP"Y8     888888  dP"Yb  88""Yb 8b    d8
+  dPYb   dP   `" dP   `" 88__   `Ybo." `Ybo."     88__   dP   Yb 88__dP 88b  d88
+ dP__Yb  Yb      Yb      88""   o.`Y8b o.`Y8b     88""   Yb   dP 88"Yb  88YbdP88
+dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'     88      YbodP  88  Yb 88 YY 88
+*/
+#access-form {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -83,83 +93,30 @@ body {
   align-items: center
 }
 
-input[type="submit"], input[type="button"], .button {
-  display: inline-block;
-  width: calc(100% - 20px);
-  -webkit-appearance: none;
-  border-radius: 6px;
-  border: 2px solid var(--Active);
-  font-size: 18px;
-  background-color: white;
-  color: var(--Active);
-  height: fit-content;
-  flex: 1 0 160px;
-  margin: 0;
-  padding: 10px;
-  min-width: 33%;
-  text-align: center;
-  text-decoration: none;
-}
-input[type="submit"]:hover, input[type="button"]:hover, .button:hover {
-  background-color: var(--Active);
-  color: white;
-}
-
-.home a.button {
-  width: auto;
-  border: 2px solid #333;
-  color: #333;
-  /* flex: 1 1 auto; */
-  /* width: fit-content; */
-}
-
-.home a.button:hover {
-    background-color: #333;
-    color: white;
-}
-
-input:focus,
-textarea:focus, input[type="password"]:focus {
-  border-bottom: none;
-  border-right: none;
-  outline: none;
-  /* background-color: var(--Light); */
-}
-
-input:-webkit-autofill {
-    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
-    -webkit-text-fill-color: #333;
-}
-
-input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0 50px white inset;/*your box-shadow*/
-    -webkit-text-fill-color: #333;
-}
-
-/* form starting stylings ------------------------------- */
-.group 			  {
+#access-form .form-field {
   display: flex;
   flex-flow: row wrap;
   position:relative;
   flex: 1 0 160px;
-  margin: 10px 10px 10px 0;
+  margin: 20px 10px 10px 0;
   padding: 0;
   min-width: calc(66% - 20px);
 }
-input 				{
+
+#access-form input[type="password"] {
   font-size:18px;
   padding:10px;
-  display:block;
-  width:100%;
+  /* display:block; */
+  /* width:100%; */
   border:none;
   border-bottom:1px solid #777;
-  min-width: calc(66% - 20px)
+  /* min-width: calc(66% - 20px) */
   flex: 1 0 160px;
+  cursor: text;
 }
-input:focus 		{ outline:none; }
+/* #access-form input:focus 		{ outline:none; } */
 
-/* LABEL ======================================= */
-label 				 {
+#access-form label {
   width: 100%;
   color:#999;
   font-size:18px;
@@ -173,12 +130,28 @@ label 				 {
   -webkit-transition:0.2s ease all;
 }
 
-
 /* active state */
-input:focus ~ label, input:valid ~ label 		{
+#access-form input:focus ~ label, #access-form input:valid ~ label 		{
   top:-20px;
   font-size:14px;
   color: var(--Active);
+}
+
+input:focus,
+textarea:focus, #access-form input[type="password"]:focus {
+  border-bottom: none;
+  border-right: none;
+  outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;/*your box-shadow*/
+    -webkit-text-fill-color: #333;
 }
 
 /* BOTTOM BARS ================================= */
@@ -241,6 +214,45 @@ input:focus ~ .highlight {
 	from { background: var(--Active); }
   to 	{ width:0; background:transparent; }
 }
+
+/* ----- S U B M I T   B U T T O N ----- */
+
+input[type="submit"], input[type="button"], .button {
+  display: inline-block;
+  width: calc(100% - 20px);
+  -webkit-appearance: none;
+  border-radius: 6px;
+  border: 2px solid var(--Active);
+  font-size: 18px;
+  background-color: white;
+  color: var(--Active);
+  height: fit-content;
+  flex: 1 0 160px;
+  margin: 0;
+  padding: 10px;
+  min-width: 33%;
+  text-align: center;
+  text-decoration: none;
+}
+input[type="submit"]:hover, input[type="button"]:hover, .button:hover {
+  background-color: var(--Active);
+  color: white;
+}
+
+.home a.button {
+  width: auto;
+  border: 2px solid #333;
+  color: #333;
+  /* flex: 1 1 auto; */
+  /* width: fit-content; */
+}
+
+.home a.button:hover {
+    background-color: #333;
+    color: white;
+}
+
+
 
 /*-------------------------------------------------------------------------------------------
 
@@ -1018,6 +1030,17 @@ pointer-events: inherit;
 .node-title span:last-child {
   font-size: 13px;
 }
+
+.list-item:before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin: 0 20px 0 4px;
+  background: white;
+  border-radius: 100%;
+}
+
 .checklist {
   display: none;
   width: calc(100% - 40px);
@@ -1042,9 +1065,9 @@ display: inherit;
   color: white;
   text-decoration: none;
 }
-.checklist label {
-  cursor: pointer;
+.checklist label, .checklist .list-item {
   display: flex;
+  width: 100%;
   margin: 0 0 20px;
   position: inherit;
   color: white;

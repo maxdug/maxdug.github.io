@@ -1,4 +1,57 @@
 @charset "UTF-8";
+
+
+
+
+
+
+
+
+
+/*
+
+Table of Contents
+
+888888  dP"Yb   dP""b8
+  88   dP   Yb dP   `"
+  88   Yb   dP Yb
+  88    YbodP   YboodP
+
+  ┌─ Global
+  │  └─ Page Titles
+  │
+  ├─ Typography
+  │  └─ Section Titles
+  │
+  ├─ Layout
+  │  └─ Paragraph / Body Text
+  │
+  ├─ Components
+  │  └─ Paragraph / Body Text
+  │
+  └─ 14px Body Copy / P
+     └─ Headline, Strong, and Bold Text
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* --------------------------------------------------------
  		 dP""b8  88       dP"Yb   88""Yb     db     88
 		dP   `"  88      dP   Yb  88__dP    dPYb    88
@@ -14,6 +67,7 @@
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -233,6 +287,7 @@ input[type="submit"], input[type="button"], .button {
   min-width: 33%;
   text-align: center;
   text-decoration: none;
+  transition-duration: 1000ms;
 }
 input[type="submit"]:hover, input[type="button"]:hover, .button:hover {
   background-color: var(--Active);
@@ -307,7 +362,7 @@ h1,
 h1 a:link,
 h1 a:visited {
   flex: 0 0 100%;
-  font-size: 2em;
+  font-size: clamp(1.6em,4vw,2.2em);
   margin: 30px 0 20px;
   color: #333;
   font-weight: normal;
@@ -361,6 +416,7 @@ h4 a:hover {
 a {
   color: #555;
   text-decoration: underline dashed 1px #777;
+  transition: color 200ms ease-out;
 }
 a:hover {
   color: var(--Secondary);
@@ -480,31 +536,27 @@ header .container, footer .container {
   text-decoration: none;
   font-size: 1.5em;
   display: flex;
-  /* flex-direction: row; */
-  /* text-align: center; */
-  /* align-content: center; */
   margin: 0 25px;
-  /* flex-wrap: nowrap; */
+  transition: color 200ms ease-in-out;
 }
-#name .logo {
-  /* width: 50px; */
-  /* height: fit-content; */
+#name svg.logo {
   margin-right: 10px;
   height: 20px;
   width: 50px;
-  background: url('/images/logo.svg') no-repeat center;
-  background-size: contain;
-  /* image-rendering: optimize-contrast; */
-  /* image-rendering: crisp-edges; */
+  /* background: url('/images/logo.svg') no-repeat center; */
+  /* background-size: contain; */
+  transition: fill 200ms ease-out;
+  fill: #333;
 }
 
 #name:hover {
 	color: var(--Secondary);
 }
 
-#name:hover .logo {
-  background: url('/images/logo-hover.svg') no-repeat center;
-  background-size: contain;
+#name:hover svg.logo {
+  /* background: url('/images/logo-hover.svg') no-repeat center;
+  background-size: contain; */
+  fill: var(--Active);
 }
 body.touch #name:hover {
 	color: var(--Secondary);
@@ -524,6 +576,7 @@ nav a {
 	color: #444;
 	text-decoration: none;
   margin: 0 15px;
+  transition: color 200ms ease-out;
 }
 nav a:last-child {
   /* margin: 0 0 0 10px; */
@@ -571,14 +624,13 @@ footer svg {
 	max-width: 1.7em;
 	max-height: 1.7em;
 }
+a .footerIcon {
+	fill: #444;
+  transition: fill 200ms ease-out;
+}
 footer a:hover .footerIcon{
 	fill:  var(--Secondary);
 }
-
-a .footerIcon {
-	fill: #444;
-}
-
 body.touch footer a:hover .footerIcon {
 	fill: #444;
 }
@@ -601,7 +653,7 @@ main {
 
 .content.article.intro {
   line-height: 1.5em;
-  font-size: 1.4em;
+  font-size: clamp(1.2em, 3.7vw, 1.4em);
   margin: 45px 10px 50px;
   flex: 0 0 calc(100% - 70px);
 }
@@ -663,7 +715,7 @@ main {
   max-width: calc(70% - 20px);
   max-height: calc(45% - 20px);
   margin: 10px;
-    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
 }
 .tile svg {
   width: 100%;
@@ -1185,7 +1237,7 @@ width: 100%;
 ----------------------------------------------- */
 
 h1, h1 a:link, h1 a:visited {
-  font-size: 1.8em;
+  /* font-size: 1.8em; */
 }
 
   /* Header & Footer

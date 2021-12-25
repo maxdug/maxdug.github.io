@@ -582,6 +582,7 @@ footer {
   margin: 0 25px;
   transition: color 350ms ease-in-out;
   text-transform: uppercase;
+  color: #333;
 }
 #name svg.logo {
   margin-right: 10px;

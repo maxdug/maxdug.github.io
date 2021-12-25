@@ -776,12 +776,13 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   /* filter: grayscale(100%); */
+  transition: 350ms ease-in-out;
 }
 
-/* .tile a:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-} */
+.tile:hover a {
+background-color: #555;
+background-blend-mode: overlay;
+}
 
 .tile svg, .tile img.tile-logo {
   opacity: 0;
@@ -792,7 +793,7 @@ main {
   max-width: calc(70% - 20px);
   max-height: calc(45% - 20px);
   margin: 10px;
-  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
+  /* filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6)); */
 }
 .tile svg {
   width: 100%;

@@ -539,9 +539,9 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
 */
 header, footer {
   width: 100%;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-size: .75em;
+  letter-spacing: .1em;
+  /* text-transform: uppercase; */
+  /* font-size: .75em; */
   color: #333;
   display: flex;
   padding: 0px calc(50% - 720px);
@@ -562,7 +562,7 @@ footer {
   background: linear-gradient(to bottom, rgba(240, 240, 240, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
 
 }
-header .container, footer .container {
+/* header .container, footer .container {
 	display: flex;
   max-width: 1440px;
 	width: 98%;
@@ -572,16 +572,16 @@ header .container, footer .container {
 	flex-flow: row nowrap;
 	justify-content: space-between;
 	align-items: center;
-}
+} */
 
 #name {
   flex: 1 0 auto;
-  color: #333;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.1rem;
   display: flex;
   margin: 0 25px;
-  transition: color 200ms ease-in-out;
+  transition: color 350ms ease-in-out;
+  text-transform: uppercase;
 }
 #name svg.logo {
   margin-right: 10px;
@@ -589,7 +589,7 @@ header .container, footer .container {
   width: 50px;
   /* background: url('/images/logo.svg') no-repeat center; */
   /* background-size: contain; */
-  transition: fill 200ms ease-out;
+  transition: fill 350ms ease-in-out;
   fill: #333;
 }
 
@@ -606,30 +606,64 @@ body.touch #name:hover {
 	color: var(--Secondary);
 }
 
+
+
+
+
+@keyframes nav-bar {
+  from {
+  /* border: none; */
+    transform: scaleX(0%);
+  }
+  to {
+    /* border-bottom: solid 3px var(--Secondary); */
+    transform: scaleX(100%);
+  }
+}
+
+
+
+
+
+
+
+
+
 nav {
 	flex: 0 0 auto;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
   margin: 0 10px;
 }
 nav a {
-	padding: 3px 0;
+  margin: 0 7px;
+	padding: 3px 8px;
+  font-size: .9rem;
   /* line-height: 21px; */
-	color: #444;
+	/* color: #444; */
 	text-decoration: none;
-  margin: 0 15px;
-  transition: color 200ms ease-out;
+  transition: 350ms ease-in-out;
+  position: relative;
 }
+
 nav a:last-child {
   /* margin: 0 0 0 10px; */
 }
 nav a:hover, nav a.sfhover {
 	color: var(--Secondary);
 }
-#design a.work, #blog a.blog, #art a.art, #about a.about {
-	border-bottom: solid 3px var(--Secondary);
+#design a.work::after, #art a.art::after {
+	/* border-bottom: solid 3px var(--Secondary); */
+  animation: 350ms ease-in-out nav-bar;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: var(--primary);
+  position: absolute;
+  left: 0;
+  top: 22px;
 }
 
 .footer-space {

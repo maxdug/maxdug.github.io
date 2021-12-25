@@ -12,10 +12,10 @@
 
 Table of Contents
 
-888888  dP"Yb   dP""b8
-  88   dP   Yb dP   `"
-  88   Yb   dP Yb
-  88    YbodP   YboodP
+ dP""b8  dP"Yb  88b 88 888888 888888 88b 88 888888 .dP"Y8
+dP   `" dP   Yb 88Yb88   88   88__   88Yb88   88   `Ybo."
+Yb      Yb   dP 88 Y88   88   88""   88 Y88   88   o.`Y8b
+ YboodP  YbodP  88  Y8   88   888888 88  Y8   88   8bodP'
 
   ┌─ Global
   │  └─ Page Titles
@@ -98,6 +98,7 @@ body {
   --Negative: tomato; /*  */
   --Positive: limegreen; /*  */
   --Active: DodgerBlue; /*  */
+  --primary: DodgerBlue; /*  */
   --Secondary: DodgerBlue; /* Hover states */
   --Tertiary: DeepPink; /*  */
   --ExtraLight: #eee; /* Backgrounds */
@@ -269,43 +270,7 @@ input:focus ~ .highlight {
   to 	{ width:0; background:transparent; }
 }
 
-/* ----- S U B M I T   B U T T O N ----- */
 
-input[type="submit"], input[type="button"], .button {
-  display: inline-block;
-  width: calc(100% - 20px);
-  -webkit-appearance: none;
-  border-radius: 6px;
-  border: 2px solid var(--Active);
-  font-size: 18px;
-  background-color: white;
-  color: var(--Active);
-  height: fit-content;
-  flex: 1 0 160px;
-  margin: 0;
-  padding: 10px;
-  min-width: 33%;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 1000ms;
-}
-input[type="submit"]:hover, input[type="button"]:hover, .button:hover {
-  background-color: var(--Active);
-  color: white;
-}
-
-.home a.button {
-  width: auto;
-  border: 2px solid #333;
-  color: #333;
-  /* flex: 1 1 auto; */
-  /* width: fit-content; */
-}
-
-.home a.button:hover {
-    background-color: #333;
-    color: white;
-}
 
 
 
@@ -487,6 +452,87 @@ ol {
   padding: 0 0 0 20px;
   margin: 0 0 10px 0;
 }
+
+
+/* ----- B U T T O N S ----- */
+
+button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
+  display: inline-block;
+  width: auto;
+  height: auto;
+  margin: 1em 1rem;
+  padding: .5em 1.7em;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+  -webkit-appearance: none;
+  text-decoration: none;
+  text-align: center;
+  transition-duration: 1000ms;
+  background-color: white;
+  border: none;
+}
+.btn-sm {
+  font-size: 1rem;
+}
+.btn-lg {
+  font-size: 1.4rem;
+}
+.btn-primary {
+  background-color: var(--primary)
+  color: white;
+}
+.btn-primary:hover {
+
+}
+.btn-outline-primary {
+  border: 2px solid var(--primary);
+  color: var(--primary)
+}
+.btn-outline-primary:hover {
+  background-color: var(--primary);
+  color: white;
+}
+.btn-light {
+  background-color: white;
+  color: #333;
+}
+.btn-light:hover {
+  background-color: var(--primary);
+  color: white;
+}
+.btn-outline-light {
+  background-color: none;
+  border: 2px solid white;
+  color: white;
+}
+.btn-outline-light:hover {
+  background-color: white;
+  color: var(--primary)
+}
+.btn-dark {
+  background-color: #333;
+  color: white;
+}
+.btn-dark:hover {
+  background-color: black;
+}
+.btn-outline-dark {
+  border: 2px solid #333;
+  color: #333;
+}
+.btn-outline-dark:hover {
+  background-color: #333;
+  color: white;
+}
+
+/* Spans full width of space */
+.btn-block {
+
+}
+
+
+
+
 /*
 88  88 888888    db    8888b.  888888 88""Yb        dP     888888  dP"Yb   dP"Yb  888888 888888 88""Yb
 88  88 88__     dPYb    8I  Yb 88__   88__dP       dP      88__   dP   Yb dP   Yb   88   88__   88__dP
@@ -679,6 +725,7 @@ main {
 }
 
 .tile {
+  display: block;
   flex: 1 0 calc(25% - 4px);
   margin: 2px;
 }
@@ -699,19 +746,17 @@ main {
   /* filter: grayscale(100%); */
 }
 
-.tile a:hover {
+/* .tile a:hover {
   -webkit-filter: grayscale(0%);
   filter: grayscale(0%);
-}
-.tile-logo {
-  fill: white;
-}
-.tile {
-  display: block;
-}
+} */
 
 .tile svg, .tile img.tile-logo {
-  display: none;
+  opacity: 0;
+  transform: scale(.95);
+  transition: 350ms ease-in-out;
+}
+.tile svg, .tile img.tile-logo {
   max-width: calc(70% - 20px);
   max-height: calc(45% - 20px);
   margin: 10px;
@@ -720,17 +765,16 @@ main {
 .tile svg {
   width: 100%;
 }
-.tile img.tile-logo {
+.tile-logo {
+  fill: white;
+}
+img.tile-logo {
   width: auto;
 }
-.tile-logo {
-  display: none;
-  fill: White;
-}
-
 .tile:hover svg,
-.tile:hover .tile-logo {
-  display: block;
+.tile:hover img.tile-logo {
+  opacity: 1;
+  transform: scale(1);
 }
 .lock {
   width: 14px;
@@ -762,18 +806,10 @@ main {
 body.touch .title {
   display: none;
 }
-body.touch .tile:hover {
-  -webkit-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
 body.touch .tile svg,
-body.touch .tile .tile-logo {
-  display: block;
-}
-body.touch .tile a {
-  /* -webkit-filter: grayscale(0%); */
-  /* filter: grayscale(0%); */
-  background-size: cover;
+body.touch .tile img.tile-logo {
+  opacity: 1;
+  transform: scale(1);
 }
 
 #art .title {
@@ -1242,7 +1278,8 @@ h1, h1 a:link, h1 a:visited {
 
   /* Header & Footer
 ----------------------------------------------- */
-header .container, footer .container {
+header .container,
+footer .container {
   height: 60px;
   flex-wrap: wrap;
 }
@@ -1267,29 +1304,31 @@ nav {
 
   /* H O M E
 ----------------------------------------------- */
-  main {
-    width: 100%;
-    margin-bottom: 0;
-  }
-  .tile, .tile.double {
-    flex-basis: calc(100% - 4px);
-  }
-  .tile a {
-    width: 100%;
-    height: 100px;
-    background-size: cover;
-  }
- /* .tile a svg {
-    width: 200px;
-    height: 70px;
-  } */
-  .tile a:hover svg {
-    /* display: block; */
-    /* width: 200px;
-    height: 70px; */
-  }
-  .tile svg, .tile img.tile-logo {
-    max-height: calc(70% - 20px);
+main {
+  width: 100%;
+  margin-bottom: 0;
+}
+.tile,
+.tile.double {
+  flex-basis: calc(100% - 4px);
+}
+.tile a {
+  width: 100%;
+  height: 100px;
+  background-size: cover;
+}
+/* .tile a svg {
+  width: 200px;
+  height: 70px;
+} */
+.tile a:hover svg {
+  /* display: block; */
+  /* width: 200px;
+  height: 70px; */
+}
+.tile svg,
+.tile img.tile-logo {
+  max-height: calc(70% - 20px);
 }
 
 
@@ -1300,6 +1339,12 @@ nav {
   .order-flip .content.half {
     order: 2;
   }
+
+/* .order-flip :is(.content.two-thirds, .content.half, .content.half) {
+  order: 2;
+} */
+
+
 
   /* A B O U T
 ----------------------------------------------- */

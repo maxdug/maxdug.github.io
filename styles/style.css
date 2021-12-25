@@ -467,9 +467,9 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   -webkit-appearance: none;
   text-decoration: none;
   text-align: center;
-  transition-duration: 1000ms;
   background-color: white;
   border: none;
+  transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
 }
 .btn-sm {
   font-size: 1rem;
@@ -529,8 +529,6 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
 .btn-block {
 
 }
-
-
 
 
 /*

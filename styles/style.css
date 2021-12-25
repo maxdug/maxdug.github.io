@@ -383,7 +383,7 @@ a {
   text-decoration: underline dashed 1px #777;
   transition: color 200ms ease-out;
 }
-a:hover {
+a:hover, a:focus {
   color: var(--Secondary);
   text-decoration: none;
 }
@@ -594,11 +594,11 @@ footer {
   fill: #333;
 }
 
-#name:hover {
+#name:hover, #name:focus {
 	color: var(--Secondary);
 }
 
-#name:hover svg.logo {
+#name:hover svg.logo, #name:focus svg.logo {
   /* background: url('/images/logo-hover.svg') no-repeat center;
   background-size: contain; */
   fill: var(--Active);
@@ -652,7 +652,7 @@ nav a {
 nav a:last-child {
   /* margin: 0 0 0 10px; */
 }
-nav a:hover, nav a.sfhover {
+nav a:hover, nav a.sfhover, nav a:focus {
 	color: var(--Secondary);
 }
 #design a.work::after, #art a.art::after {
@@ -780,7 +780,7 @@ main {
   transition: 350ms ease-in-out;
 }
 
-.tile:hover a {
+.tile:hover a, .tile a:focus {
 background-color: #555;
 background-blend-mode: overlay;
 }
@@ -805,8 +805,8 @@ background-blend-mode: overlay;
 img.tile-logo {
   width: auto;
 }
-.tile:hover svg,
-.tile:hover img.tile-logo {
+.tile:hover svg, .tile a:focus svg,
+.tile:hover img.tile-logo, .tile a:focus img.tile-logo {
   opacity: 1;
   transform: scale(1);
 }

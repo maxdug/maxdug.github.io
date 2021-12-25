@@ -843,6 +843,7 @@ body.touch .tile svg,
 body.touch .tile img.tile-logo {
   opacity: 1;
   transform: scale(1);
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
 }
 
 #art .title {

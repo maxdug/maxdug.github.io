@@ -180,9 +180,9 @@ dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'     88      YbodP  88  Yb 88 YY 88
   pointer-events:none;
   left:0;
   top:10px;
-  transition:0.2s ease all;
-  -moz-transition:0.2s ease all;
-  -webkit-transition:0.2s ease all;
+  transition: 350ms ease-in-out all;
+  -moz-transition: 350ms ease-in-out all;
+  -webkit-transition: 350ms ease-in-out all;
 }
 
 /* active state */
@@ -222,9 +222,9 @@ input:-webkit-autofill:focus {
   bottom:1px;
   position:absolute;
   background: var(--Active);
-  transition:0.2s ease all;
-  -moz-transition:0.2s ease all;
-  -webkit-transition:0.2s ease all;
+  transition: 350ms ease-in-out all;
+  -moz-transition: 350ms ease-in-out all;
+  -webkit-transition: 350ms ease-in-out all;
 }
 .bar:before {
   left:50%;
@@ -381,7 +381,7 @@ h4 a:hover {
 a {
   color: #555;
   text-decoration: underline dashed 1px #777;
-  transition: color 200ms ease-out;
+  transition: color 350ms ease-in-out;
 }
 a:hover, a:focus {
   color: var(--Secondary);
@@ -481,14 +481,14 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: var(--primary)
   color: white;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
 
 }
 .btn-outline-primary {
   border: 2px solid var(--primary);
   color: var(--primary)
 }
-.btn-outline-primary:hover {
+.btn-outline-primary:hover, .btn-outline-primary:focus {
   background-color: var(--primary);
   color: white;
 }
@@ -496,7 +496,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: white;
   color: #333;
 }
-.btn-light:hover {
+.btn-light:hover, .btn-light:focus {
   background-color: var(--primary);
   color: white;
 }
@@ -505,7 +505,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   border: 2px solid white;
   color: white;
 }
-.btn-outline-light:hover {
+.btn-outline-light:hover, .btn-outline-light:focus {
   background-color: white;
   color: var(--primary)
 }
@@ -513,14 +513,14 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: #333;
   color: white;
 }
-.btn-dark:hover {
+.btn-dark:hover, .btn-dark:focus {
   background-color: black;
 }
 .btn-outline-dark {
   border: 2px solid #333;
   color: #333;
 }
-.btn-outline-dark:hover {
+.btn-outline-dark:hover, .btn-outline-dark:focus {
   background-color: #333;
   color: white;
 }
@@ -674,6 +674,7 @@ nav a:hover, nav a.sfhover, nav a:focus {
 #copyright {
   flex: 1 0 130px;
   margin: 10px 15px;
+  font-size: .8rem;
 }
 #back-top {
   flex: 1 0 110px;
@@ -687,6 +688,13 @@ nav a:hover, nav a.sfhover, nav a:focus {
 .home #back-top, .art-home #back-top {
   display: none !important;
 }
+
+
+
+
+
+
+
 .footer-links {
     flex: 1 0 130px;
     display: flex;
@@ -695,17 +703,25 @@ nav a:hover, nav a.sfhover, nav a:focus {
     align-items: center;
 }
 .footer-links a {
-  width: 20px;
+  display: flex;
+  align-items: center;
 	margin: 0 15px;
 	text-decoration: none;
+  overflow: hidden;
+}
+.footer-links .contact::after {
+  content: "Contact";
+  /* transform: scaleX(0); */
+  transition: 350ms ease-in-out;
+  margin: 0 -70px 0 10px;
 }
 footer svg {
-	max-width: 1.7em;
-	max-height: 1.7em;
+	max-width: 1.2rem;
+	max-height: 1.2rem;
 }
 a .footerIcon {
 	fill: #444;
-  transition: fill 200ms ease-out;
+  transition: fill 350ms ease-in-out;
 }
 footer a:hover .footerIcon{
 	fill:  var(--Secondary);
@@ -714,6 +730,30 @@ body.touch footer a:hover .footerIcon {
 	fill: #444;
 }
 
+.footer-links .contact:hover::after {
+    /* display: inline-block; */
+    /* transform: scaleX(100%); */
+    margin: 0 0 0 10px;
+}
+
+.footer-links a span {
+  display: inline-block;
+  transform: scaleX(0);
+  transition: 350ms ease-in-out;
+}
+.footer-links a:hover span {
+  transform: scalex(100%);
+}
+/* .footer-links a:hover {
+width: auto;
+display: flex;
+font-size: .8rem;
+align-items: center;
+} */
+/* .footer-links a:hover svg {
+margin: ;
+margin-right: 10px;
+} */
 /* ---------------------------------------------
 			88  88   dP"Yb   8b    d8  888888
 			88  88  dP   Yb  88b  d88  88__
@@ -776,31 +816,28 @@ main {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: grayscale(100%); */
-  transition: 350ms ease-in-out;
+  background-color: #555;
+  transition: background-blend-mode 350ms ease-in-out;
 }
 
 .tile:hover a, .tile a:focus {
-background-color: #555;
-background-blend-mode: overlay;
+  background-blend-mode: overlay;
 }
 
 .tile svg, .tile img.tile-logo {
   opacity: 0;
   transform: scale(.95);
-  transition: 350ms ease-in-out;
-}
-.tile svg, .tile img.tile-logo {
   max-width: calc(70% - 20px);
   max-height: calc(45% - 20px);
   margin: 10px;
-  /* filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6)); */
+  transition: opacity 350ms ease-in-out, transform 350ms ease-in-out;
+  fill: white;
 }
 .tile svg {
   width: 100%;
 }
 .tile-logo {
-  fill: white;
+  /* fill: white; */
 }
 img.tile-logo {
   width: auto;
@@ -1237,7 +1274,7 @@ width: 100%;
   clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
   transform: scale(0);
   transform-origin: bottom left;
-  transition: 120ms transform ease-in-out;
+  transition: 350ms transform ease-in-out;
   box-shadow: inset 1em 1em #f86;
   /* Windows High Contrast Mode */
   background-color: inherit;

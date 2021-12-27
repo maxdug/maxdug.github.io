@@ -1369,7 +1369,8 @@ main {
 
 
 .logo {
-  transitions 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
   position: absolute;
   left: 50%;
   text-decoration: none;
@@ -1393,16 +1394,17 @@ main {
   display: inline-block;
   position: relative;
   transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
   animation-delay: 2s;
 }
-.bar-1:before,
-.bar-1:after,
-.bar-2:before,
-.bar-2:after,
-.bar-3:before,
-.bar-3:after,
-.bar-4:before,
-.bar-4:after {
+.bar-1::before,
+.bar-1::after,
+.bar-2::before,
+.bar-2::after,
+.bar-3::before,
+.bar-3::after,
+.bar-4::before,
+.bar-4::after {
   content: "";
   background: #333;
   display: inline-block;
@@ -1410,16 +1412,17 @@ main {
   height: 2px;
   border-radius: 10px;
   transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
   animation-delay: 2s;
 }
-.logo:hover .bar-1:before,
-.logo:hover .bar-1:after,
-.logo:hover .bar-2:before,
-.logo:hover .bar-2:after,
-.logo:hover .bar-3:before,
-.logo:hover .bar-3:after,
-.logo:hover .bar-4:before,
-.logo:hover .bar-4:after {
+.logo:hover .bar-1::before,
+.logo:hover .bar-1::after,
+.logo:hover .bar-2::before,
+.logo:hover .bar-2::after,
+.logo:hover .bar-3::before,
+.logo:hover .bar-3::after,
+.logo:hover .bar-4::before,
+.logo:hover .bar-4::after {
   background: var(--primary);
 }
 
@@ -1433,14 +1436,14 @@ main {
     width: 27px;
   }
   100% {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translate(0px, 0px);
     width: 30px;
   }
 }
-.bar-1:before {
-  transform: rotate(-45deg);
+.bar-1::before {
+  transform: rotate(-45deg) translate(0px, 0px);
 }
-body.home .bar-1:before {
+body.home .bar-1::before {
   animation: 4s ease-in-out bar-1a;
 }
 .logo:hover .bar-1::before {
@@ -1450,24 +1453,24 @@ body.home .bar-1:before {
 }
 @keyframes bar-1b { /*actual*/
   0% {
-    transform: translate(-62px, 0);
+    transform: translate(-62px, 0px);
   }
   66% {
-    transform: translate(-62px, 0);
+    transform: translate(-62px, 0px);
   }
   100% {
-    transform: translate(calc(-50% - 10px), 0);
+    transform: translate(calc(-50% - 10px), 0px);
   }
 }
 .bar-1 {
-  transform: translate(calc(-50% - 10px), 0);
+  transform: translate(calc(-50% - 10px), 0px);
   left: 50%;
 }
 body.home .bar-1 {
   animation: 4s ease-in-out bar-1b;
 }
 .logo:hover .bar-1 {
-  transform: translate(-62px, 0);
+  transform: translate(-62px, 0px);
 }
 @keyframes bar-1c { /*after*/
   0% {
@@ -1483,10 +1486,10 @@ body.home .bar-1 {
     width: 30px;
   }
 }
-.bar-1:after {
+.bar-1::after {
   transform: rotate(45deg) translate(-7px, 7px);
 }
-body.home .bar-1:after {
+body.home .bar-1::after {
   animation: 4s ease-in-out bar-1c;
 }
 .logo:hover .bar-1::after {
@@ -1507,10 +1510,10 @@ body.home .bar-1:after {
     width: 30px;
   }
 }
-.bar-2:before {
+.bar-2::before {
   transform: rotate(-45deg);
 }
-body.home .bar-2:before {
+body.home .bar-2::before {
   animation: 4s ease-in-out bar-2a;
 }
 .logo:hover .bar-2::before {
@@ -1519,24 +1522,24 @@ body.home .bar-2:before {
 }
 @keyframes bar-2b { /*actual*/
   0% {
-    transform: translate(-76px, 0);
+    transform: translate(-76px, 0px);
   }
   66% {
-    transform: translate(-76px, 0);
+    transform: translate(-76px, 0px);
   }
   100% {
-    transform: translate(calc(-50% - 40px), 0);
+    transform: translate(calc(-50% - 40px), 0px);
   }
 }
 .bar-2 {
-  transform: translate(calc(-50% - 40px), 0);
+  transform: translate(calc(-50% - 40px), 0px);
   left: 50%;
 }
 body.home .bar-2 {
   animation: 4s ease-in-out bar-2b;
 }
 .logo:hover .bar-2 {
-  transform: translate(-76px, 0);
+  transform: translate(-76px, 0px);
 }
 @keyframes bar-2c { /*after*/
   0% {
@@ -1572,7 +1575,7 @@ body.home .bar-2:after {
     width: 27px;
   }
   100% {
-    transform: rotate(-45deg);
+    transform: rotate(-45deg) translate(0px, 0px);
     width: 30px;
   }
 }
@@ -1693,4 +1696,9 @@ body.home .bar-4:after {
 }
 .logo:hover .bar-4::after {
   transform: rotate(45deg) translate(-20px, 20px);
+}
+
+/* attempt to stop hover animation when a user clicks on mobile */
+body.touch .logo:hover {
+  transform: none;
 }

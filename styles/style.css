@@ -95,18 +95,7 @@ body {
 }
 
 :root {
-  --Negative: tomato; /*  */
-  --Positive: limegreen; /*  */
-  --Active: DodgerBlue; /*  */
   --primary: DodgerBlue; /*  */
-  --Secondary: DodgerBlue; /* Hover states */
-  --Tertiary: DeepPink; /*  */
-  --ExtraLight: #eee; /* Backgrounds */
-  --TransExtraLight: rgb(230, 230, 230, 0.75); /* Backgrounds */
-  --Light: #ccc; /* Backgrounds */
-  --MediumLight: #999; /* Text Links, */
-  --MediumDark: #666; /* Paragraph Text,  */
-  --Dark: #333; /*  */
 }
 
 .video {
@@ -126,7 +115,7 @@ body {
 }
 .ytp-thumbnail .html5-stop-propagation {
   background-image: url(http://maxduggan.com/images/blog_bg.jpg) !important;
-  background-color: var(--Light) !important;
+  background-color: #ccc !important;
 }
 
 input {
@@ -161,15 +150,11 @@ dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'     88      YbodP  88  Yb 88 YY 88
 #access-form input[type="password"] {
   font-size:18px;
   padding:10px;
-  /* display:block; */
-  /* width:100%; */
   border:none;
   border-bottom:1px solid #777;
-  /* min-width: calc(66% - 20px) */
   flex: 1 0 160px;
   cursor: text;
 }
-/* #access-form input:focus 		{ outline:none; } */
 
 #access-form label {
   width: 100%;
@@ -181,15 +166,17 @@ dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'     88      YbodP  88  Yb 88 YY 88
   left:0;
   top:10px;
   transition: 350ms ease-in-out all;
-  -moz-transition: 350ms ease-in-out all;
-  -webkit-transition: 350ms ease-in-out all;
 }
-
-/* active state */
 #access-form input:focus ~ label, #access-form input:valid ~ label 		{
   top:-20px;
   font-size:14px;
-  color: var(--Active);
+  color: var(--primary);
+}
+body.touch #access-form label {
+  top:-20px;
+  font-size:14px;
+  color: var(--primary);
+  transition: none;
 }
 
 input:focus,
@@ -221,7 +208,7 @@ input:-webkit-autofill:focus {
   width:0;
   bottom:1px;
   position:absolute;
-  background: var(--Active);
+  background: var(--primary);
   transition: 350ms ease-in-out all;
   -moz-transition: 350ms ease-in-out all;
   -webkit-transition: 350ms ease-in-out all;
@@ -258,15 +245,15 @@ input:focus ~ .highlight {
 
 /* ANIMATIONS ================ */
 @-webkit-keyframes inputHighlighter {
-	from { background: var(--Active); }
+	from { background: var(--primary); }
   to 	{ width:0; background:transparent; }
 }
 @-moz-keyframes inputHighlighter {
-	from { background: var(--Active); }
+	from { background: var(--primary); }
   to 	{ width:0; background:transparent; }
 }
 @keyframes inputHighlighter {
-	from { background: var(--Active); }
+	from { background: var(--primary); }
   to 	{ width:0; background:transparent; }
 }
 
@@ -384,7 +371,7 @@ a {
   transition: color 350ms ease-in-out;
 }
 a:hover, a:focus {
-  color: var(--Secondary);
+  color: var(--primary);
   text-decoration: none;
 }
 a img {
@@ -401,7 +388,7 @@ p {
 }
 hr {
   height: 1px;
-  border-top: solid 1px var(--MediumLight);
+  border-top: solid 1px #999;
   border-bottom: none;
   clear: both;
 }
@@ -461,7 +448,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   display: inline-block;
   width: auto;
   height: auto;
-  margin: 1em 1rem;
+  margin: 1em .8rem;
   padding: .5em 1.7em;
   font-size: 1.2rem;
   border-radius: .5rem;
@@ -530,7 +517,9 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
 .btn-block {
 
 }
-
+body.touch button, body.touch [type="submit"], body.touch [type="button"], body.touch [type="reset"], body.touch .button, body.touch .btn {
+  transition: none;
+}
 
 /*
 88  88 888888    db    8888b.  888888 88""Yb        dP     888888  dP"Yb   dP"Yb  888888 888888 88""Yb
@@ -541,8 +530,6 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
 header, footer {
   width: 100%;
   letter-spacing: .1em;
-  /* text-transform: uppercase; */
-  /* font-size: .75em; */
   color: #333;
   display: flex;
   padding: 0px calc(50% - 720px);
@@ -561,111 +548,75 @@ header {
 footer {
 	justify-self: flex-end;
   background: linear-gradient(to bottom, rgba(240, 240, 240, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
-
 }
-/* header .container, footer .container {
-	display: flex;
-  max-width: 1440px;
-	width: 98%;
-	height: 50px;
-	margin: 0 auto;
-	padding: 0 1%;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
-} */
 
 #name {
+  display: flex;
   flex: 1 0 auto;
+  margin: 0 25px;
   text-decoration: none;
   font-size: 1.1rem;
-  display: flex;
-  margin: 0 25px;
-  transition: color 350ms ease-in-out;
   text-transform: uppercase;
   color: #333;
+  transition: color 350ms ease-in-out;
 }
 #name svg.logo {
-  margin-right: 10px;
   height: 20px;
   width: 50px;
-  /* background: url('/images/logo.svg') no-repeat center; */
-  /* background-size: contain; */
-  transition: fill 350ms ease-in-out;
+  margin-right: 10px;
   fill: #333;
+  transition: fill 350ms ease-in-out;
 }
-
 #name:hover, #name:focus {
-	color: var(--Secondary);
+	color: var(--primary);
 }
-
 #name:hover svg.logo, #name:focus svg.logo {
-  /* background: url('/images/logo-hover.svg') no-repeat center;
-  background-size: contain; */
-  fill: var(--Active);
+  fill: var(--primary);
 }
-body.touch #name:hover {
-	color: var(--Secondary);
+body.touch #name, body.touch svg.logo {
+	color: #333;
+  fill: #333;
+  transition: none;
 }
-
-
-
 
 
 @keyframes nav-bar {
   from {
-  /* border: none; */
     transform: scaleX(0%);
   }
   to {
-    /* border-bottom: solid 3px var(--Secondary); */
     transform: scaleX(100%);
   }
 }
 
 
-
-
-
-
-
-
-
 nav {
+  display: flex;
 	flex: 0 0 auto;
-	display: flex;
+  margin: 0 10px;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	/* text-transform: uppercase; */
-  margin: 0 10px;
 }
 nav a {
+  position: relative;
   margin: 0 7px;
 	padding: 3px 8px;
   font-size: .9rem;
-  /* line-height: 21px; */
-	/* color: #444; */
 	text-decoration: none;
   transition: 350ms ease-in-out;
-  position: relative;
-}
-
-nav a:last-child {
-  /* margin: 0 0 0 10px; */
 }
 nav a:hover, nav a.sfhover, nav a:focus {
-	color: var(--Secondary);
+	color: var(--primary);
 }
 #design a.work::after, #art a.art::after {
-	/* border-bottom: solid 3px var(--Secondary); */
-  animation: 350ms ease-in-out nav-bar;
+  position: absolute;
+  left: 0;
+  top: 22px;
   content: "";
   width: 100%;
   height: 3px;
   background: var(--primary);
-  position: absolute;
-  left: 0;
-  top: 22px;
+  animation: 350ms ease-in-out nav-bar;
 }
 
 .footer-space {
@@ -691,11 +642,6 @@ nav a:hover, nav a.sfhover, nav a:focus {
 }
 
 
-
-
-
-
-
 .footer-links {
     flex: 1 0 130px;
     display: flex;
@@ -719,7 +665,7 @@ a .footerIcon {
   transition: fill 350ms ease-in-out;
 }
 footer a:hover .footerIcon{
-	fill:  var(--Secondary);
+	fill:  var(--primary);
 }
 .footer-links a span {
     margin-left: 10px;
@@ -770,9 +716,10 @@ main {
 
 .content.article.intro {
   line-height: 1.5em;
-  font-size: clamp(1.2em, 3.7vw, 1.4em);
-  margin: 45px 10px 50px;
-  flex: 0 0 calc(100% - 70px);
+  font-size: clamp(1.2rem, 3.7vw, 1.4rem);
+  margin-top: 45px;
+  margin-bottom: 50px;
+  flex: 0 0 calc(100% - 3em);
 }
 .container.tentwentyfour, .container.article {
   display: flex;
@@ -1355,38 +1302,14 @@ width: 100%;
     display: none;
   }
 
-  /* G L O B A L
------------------------------------------------ */
-
-h1, h1 a:link, h1 a:visited {
-  /* font-size: 1.8em; */
-}
-
   /* Header & Footer
 ----------------------------------------------- */
-header .container,
-footer .container {
-  height: 60px;
-  flex-wrap: wrap;
-}
-footer .container {
-  height: 70px;
-}
-#name {
-  /* justify-content: center; */
-}
-nav {
-  /* flex-grow: 1; */
-  /* justify-content: space-around; */
-}
 .footer-links {
   justify-content: center;
 }
 #copyright {
     text-align: center;
 }
-
-
 
   /* H O M E
 ----------------------------------------------- */
@@ -1403,15 +1326,6 @@ main {
   height: 100px;
   background-size: cover;
 }
-/* .tile a svg {
-  width: 200px;
-  height: 70px;
-} */
-.tile a:hover svg {
-  /* display: block; */
-  /* width: 200px;
-  height: 70px; */
-}
 .tile svg,
 .tile img.tile-logo {
   max-height: calc(70% - 20px);
@@ -1425,12 +1339,6 @@ main {
   .order-flip .content.half {
     order: 2;
   }
-
-/* .order-flip :is(.content.two-thirds, .content.half, .content.half) {
-  order: 2;
-} */
-
-
 
   /* A B O U T
 ----------------------------------------------- */
@@ -1449,11 +1357,5 @@ main {
     font-size: 1.4em;
   }
 }/* End Media under 600px */
-
-@media (max-width: 330px) {
-  /* body {
-    margin-top: 90px;
-  } */
-}/* End Media under 330px */
 
 /* For ascii art, I used 4Max from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project */

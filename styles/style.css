@@ -710,9 +710,6 @@ nav a:hover, nav a.sfhover, nav a:focus {
 	text-decoration: none;
   overflow: hidden;
 }
-body.touch footer-links a span {
-  display: none;
-}
 .footer-links .contact span, .footer-links .linkedin span {
     margin-left: 10px;
     font-weight: lighter;
@@ -721,11 +718,9 @@ body.touch footer-links a span {
     transition: 350ms ease-in-out;
 }
 .footer-links .contact span {
-  content: "Contact";
   margin-right: -92px;
 }
 .footer-links .linkedin span {
-  content: "LinkedIn";
   margin-right: -95px;
 }
 footer svg {
@@ -739,20 +734,23 @@ a .footerIcon {
 footer a:hover .footerIcon{
 	fill:  var(--Secondary);
 }
-body.touch footer a:hover .footerIcon {
-	fill: #444;
-}
-
-body.touch .footer-links .conact::after, body.touch .footer-links .linkedin::after {
-  content: "";
-  transition: none;
-  margin: 0;
-}
-
-.footer-links .contact:hover span, .footer-links .linkedin:hover span {
+.footer-links a:hover span {
     margin-right: 0;
 }
 
+/* Stop color change and animation on footer icons */
+body.touch footer a .footerIcon {
+	fill: #333;
+}
+body.touch .footer-links a span {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .footer-links a span {
+    display: none;
+  }
+}
 
 /* ---------------------------------------------
 			88  88   dP"Yb   8b    d8  888888

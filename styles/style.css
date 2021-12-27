@@ -1368,12 +1368,9 @@ main {
 
 @keyframes bar-1 {
   0% {
-    transform: translate(calc(-50% - 5px), 0);
-  }
-  40% {
     transform: translate(-100px, 0);
   }
-  60% {
+  50% {
     transform: translate(-100px, 0);
   }
   100% {
@@ -1383,12 +1380,9 @@ main {
 
 @keyframes bar-2 {
   0% {
-    transform: translate(calc(-50% - 46px), 0);
-  }
-  40% {
     transform: translate(-120px, 0);
   }
-  60% {
+  50% {
     transform: translate(-120px, 0);
   }
   100% {
@@ -1398,12 +1392,9 @@ main {
 
 @keyframes bar-3 {
   0% {
-    transform: translate(calc(-50% - 115px), 0);
-  }
-  40% {
     transform: translate(-130px, 0);
   }
-  60% {
+  50% {
     transform: translate(-130px, 0);
   }
   100% {
@@ -1413,12 +1404,9 @@ main {
 
 @keyframes bar-4 {
   0% {
-    transform: translate(calc(-50% - 163px), 0);
-  }
-  40% {
     transform: translate(-140px, 0);
   }
-  60% {
+  50% {
     transform: translate(-140px, 0);
   }
   100% {
@@ -1469,7 +1457,7 @@ main {
   transform: translate(calc(-50% - 5px), 0);
   left: 50%;
   animation: 4s ease-in-out bar-1;
-  animation-delay: 1s;
+  /* animation-delay: 2s; */
 }
 .bar-1:after {
   transform: rotate(45deg) translate(-7px, 7px);
@@ -1481,7 +1469,7 @@ main {
   transform: translate(calc(-50% - 46px), 0);
   left: 50%;
   animation: 4s ease-in-out bar-2;
-  animation-delay: 1s;
+  /* animation-delay: 2s; */
 }
 .bar-2:after {
   transform: rotate(45deg) translate(-7px, 7px);
@@ -1493,7 +1481,7 @@ main {
   transform: translate(calc(-50% - 115px), 0);
   left: 50%;
   animation: 4s ease-in-out bar-3;
-  animation-delay: 1s;
+  /* animation-delay: 2s; */
 }
 .bar-3:after {
   transform: rotate(45deg) translate(-7px, 7px);
@@ -1506,7 +1494,7 @@ main {
   transform: translate(calc(-50% - 163px), 0);
   left: 50%;
   animation: 4s ease-in-out bar-4;
-  animation-delay: 1s;
+  /* animation-delay: 2s; */
 }
 .bar-4:after {
   transform: rotate(45deg) translate(-25px, 25px);

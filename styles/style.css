@@ -710,7 +710,18 @@ nav a:hover, nav a.sfhover, nav a:focus {
 	text-decoration: none;
   overflow: hidden;
 }
-.footer-links .contact span, .footer-links .linkedin span {
+.footer-links svg {
+	max-width: 1.2rem;
+	max-height: 1.2rem;
+}
+a .footerIcon {
+	fill: #444;
+  transition: fill 350ms ease-in-out;
+}
+footer a:hover .footerIcon{
+	fill:  var(--Secondary);
+}
+.footer-links a span {
     margin-left: 10px;
     font-weight: lighter;
     font-size: .8em;
@@ -722,17 +733,6 @@ nav a:hover, nav a.sfhover, nav a:focus {
 }
 .footer-links .linkedin span {
   margin-right: -95px;
-}
-footer svg {
-	max-width: 1.2rem;
-	max-height: 1.2rem;
-}
-a .footerIcon {
-	fill: #444;
-  transition: fill 350ms ease-in-out;
-}
-footer a:hover .footerIcon{
-	fill:  var(--Secondary);
 }
 .footer-links a:hover span {
     margin-right: 0;

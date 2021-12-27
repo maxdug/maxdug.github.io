@@ -537,6 +537,7 @@ header, footer {
   justify-content: space-around;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: flex-end;
 }
 header {
 	position: fixed;
@@ -559,6 +560,7 @@ footer {
   text-transform: uppercase;
   color: #333;
   transition: color 350ms ease-in-out;
+  position: absolute;
 }
 #name svg.logo {
   height: 20px;
@@ -717,7 +719,7 @@ main {
 .content.article.intro {
   line-height: 1.5em;
   font-size: clamp(1.2rem, 3.7vw, 1.4rem);
-  margin-top: 45px;
+  margin-top: 35px;
   margin-bottom: 50px;
   flex: 0 0 calc(100% - 3em);
 }
@@ -1359,3 +1361,192 @@ main {
 }/* End Media under 600px */
 
 /* For ascii art, I used 4Max from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project */
+
+
+
+
+
+@keyframes bar-1 {
+  0% {
+    transform: translate(calc(-50% - 5px), 0);
+  }
+  40% {
+    transform: translate(-100px, 0);
+  }
+  60% {
+    transform: translate(-100px, 0);
+  }
+  100% {
+    transform: translate(calc(-50% - 5px), 0);
+  }
+}
+
+@keyframes bar-2 {
+  0% {
+    transform: translate(calc(-50% - 46px), 0);
+  }
+  40% {
+    transform: translate(-120px, 0);
+  }
+  60% {
+    transform: translate(-120px, 0);
+  }
+  100% {
+    transform: translate(calc(-50% - 46px), 0);
+  }
+}
+
+@keyframes bar-3 {
+  0% {
+    transform: translate(calc(-50% - 115px), 0);
+  }
+  40% {
+    transform: translate(-130px, 0);
+  }
+  60% {
+    transform: translate(-130px, 0);
+  }
+  100% {
+    transform: translate(calc(-50% - 115px), 0);
+  }
+}
+
+@keyframes bar-4 {
+  0% {
+    transform: translate(calc(-50% - 163px), 0);
+  }
+  40% {
+    transform: translate(-140px, 0);
+  }
+  60% {
+    transform: translate(-140px, 0);
+  }
+  100% {
+    transform: translate(calc(-50% - 163px), 0);
+  }
+}
+
+
+.logo {
+  transitions 350ms ease-in-out;
+  position: absolute;
+  left: 50%;
+  text-decoration: none;
+  margin-top: 13px;
+  width: 75%;
+  height: 40px;
+  display: inline-block;
+  transform: translateX(-50%);
+}
+.bar-1,
+.bar-2,
+.bar-3,
+.bar-4 {
+  display: inline-block;
+  position: relative;
+  transition: 350ms ease-in-out;
+}
+.bar-1:before,
+.bar-1:after,
+.bar-2:before,
+.bar-2:after,
+.bar-3:before,
+.bar-3:after,
+.bar-4:before,
+.bar-4:after {
+  content: "";
+  background: #333;
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  border-radius: 10px;
+  transition: background-color 350ms ease-in-out;
+}
+.bar-1:before {
+  transform: rotate(-45deg);
+}
+.bar-1 {
+  transform: translate(calc(-50% - 5px), 0);
+  left: 50%;
+  animation: 4s ease-in-out bar-1;
+  animation-delay: 1s;
+}
+.bar-1:after {
+  transform: rotate(45deg) translate(-7px, 7px);
+}
+.bar-2:before {
+  transform: rotate(-45deg);
+}
+.bar-2 {
+  transform: translate(calc(-50% - 46px), 0);
+  left: 50%;
+  animation: 4s ease-in-out bar-2;
+  animation-delay: 1s;
+}
+.bar-2:after {
+  transform: rotate(45deg) translate(-7px, 7px);
+}
+.bar-3:before {
+  transform: rotate(-45deg);
+}
+.bar-3 {
+  transform: translate(calc(-50% - 115px), 0);
+  left: 50%;
+  animation: 4s ease-in-out bar-3;
+  animation-delay: 1s;
+}
+.bar-3:after {
+  transform: rotate(45deg) translate(-7px, 7px);
+}
+.bar-4:before {
+  transform: rotate(-45deg) translate(0px, 0px);
+  transition: 350ms ease-in-out;
+}
+.bar-4 {
+  transform: translate(calc(-50% - 163px), 0);
+  left: 50%;
+  animation: 4s ease-in-out bar-4;
+  animation-delay: 1s;
+}
+.bar-4:after {
+  transform: rotate(45deg) translate(-25px, 25px);
+  transition: 350ms ease-in-out;
+}
+
+.logo:hover .bar-1 {
+  transform: translate(-100px, 0);
+}
+.logo:hover .bar-2 {
+  transform: translate(-120px, 0);
+}
+.logo:hover .bar-3 {
+  transform: translate(-130px, 0);
+}
+.logo:hover .bar-4 {
+  transform: translate(-140px, 0);
+}
+
+.logo:hover .bar-4:before {
+/*   transform: rotate(-45deg) translate(0px, 0px); */
+}
+.logo:hover .bar-4:after {
+/*   transform: rotate(45deg) translate(-20px, 20px); */
+}
+
+.logo:hover .bar-1:before,
+.logo:hover .bar-1:after,
+.logo:hover .bar-2:before,
+.logo:hover .bar-2:after,
+.logo:hover .bar-3:before,
+.logo:hover .bar-3:after,
+.logo:hover .bar-4:before,
+.logo:hover .bar-4:after {
+  background: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .logo {
+    left: 0;
+    transform: translateX(-3%);
+  }
+}

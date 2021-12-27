@@ -710,11 +710,9 @@ nav a:hover, nav a.sfhover, nav a:focus {
 	text-decoration: none;
   overflow: hidden;
 }
-/* .footer-links .contact::after {
-  content: "Contact";
-  transition: 350ms ease-in-out;
-  margin: 0 -77px 0 10px;
-} */
+body.touch footer-links a span {
+  display: none;
+}
 .footer-links .contact span, .footer-links .linkedin span {
     margin-left: 10px;
     font-weight: lighter;
@@ -726,11 +724,6 @@ nav a:hover, nav a.sfhover, nav a:focus {
   content: "Contact";
   margin-right: -92px;
 }
-/* .footer-links .linkedin::after {
-  content: "LinkedIn";
-  transition: 350ms ease-in-out;
-  margin: 0 -77px 0 10px;
-} */
 .footer-links .linkedin span {
   content: "LinkedIn";
   margin-right: -95px;
@@ -756,9 +749,6 @@ body.touch .footer-links .conact::after, body.touch .footer-links .linkedin::aft
   margin: 0;
 }
 
-/* .footer-links .contact:hover::after, .footer-links .linkedin:hover::after {
-    margin: 0 0 0 10px;
-} */
 .footer-links .contact:hover span, .footer-links .linkedin:hover span {
     margin-right: 0;
 }

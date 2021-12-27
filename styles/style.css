@@ -815,13 +815,29 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #555;
-  transition: background-blend-mode 350ms ease-in-out;
+  /* transition: background-blend-mode 350ms ease-in-out; */
 }
 
 .tile:hover a, .tile a:focus {
-  background-blend-mode: overlay;
+  /* background-blend-mode: overlay; */
 }
 
+.tile-overlay {
+  opacity: 0;
+  background: radial-gradient(rgba(0,0,0,.5) 0%, rgba(0,0,0,.2) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: opacity 350ms ease-in-out;
+}
+body.touch .tile-overlay {
+  background: radial-gradient(rgba(0,0,0,.1) 0%, rgba(0,0,0,.0) 100%);
+  opacity: 1;
+}
+.tile a:hover .tile-overlay {
+  opacity: 1;
+  /* display: inline-block; */
+}
 .tile svg, .tile img.tile-logo {
   opacity: 0;
   transform: scale(.95);
@@ -879,7 +895,7 @@ body.touch .tile svg,
 body.touch .tile img.tile-logo {
   opacity: 1;
   transform: scale(1);
-  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));
 }
 
 #art .title {

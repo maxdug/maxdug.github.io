@@ -551,10 +551,40 @@ footer {
   background: linear-gradient(to bottom, rgba(240, 240, 240, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
 }
 
+#name {
+  display: flex;
+  flex: 1 0 auto;
+  margin: 0 25px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  color: #333;
+  transition: color 350ms ease-in-out;
+  position: absolute;
+}
+#name svg.logo {
+  height: 20px;
+  width: 50px;
+  margin-right: 10px;
+  fill: #333;
+  transition: fill 350ms ease-in-out;
+}
+#name:hover, #name:focus {
+	color: var(--primary);
+}
+#name:hover svg.logo, #name:focus svg.logo {
+  fill: var(--primary);
+}
+body.touch #name, body.touch svg.logo {
+	color: #333;
+  fill: #333;
+  transition: none;
+}
+
 
 @keyframes nav-bar {
   from {
-    transform: scaleX(0%);
+    transform: scaleX(0);
   }
   to {
     transform: scaleX(100%);
@@ -938,6 +968,105 @@ body.touch .tile img.tile-logo {
   display: none;
 }
 
+/* --------------------------------------------------
+			   db     88""Yb   dP"Yb   88   88  888888
+			  dPYb    88__dP  dP   Yb  88   88    88
+			 dP__Yb   88""Yb  Yb   dP  Y8   8P    88
+			dP""""Yb  88oodP   YbodP   `YbodP'    88
+----------------------------------------------------- */
+#about_max {
+  max-width: 1400px;
+  margin: 0 auto;
+  height: 350px;
+  background: url(/about/max-duggan.jpg) 100% 0 no-repeat;
+  line-height: 1.6em;
+  font-size: 1.2em;
+  text-align: center;
+}
+#about_max a {
+  color: #333;
+}
+#blurb-one {
+  flex-basis: 100%;
+  padding: 6% 30% 6% 4%;
+  color: #333;
+}
+#resume {
+  width: 100%;
+  padding: 20px calc(50% - 512px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#resume h1 {
+  flex-basis: 100%;
+  width: 100%;
+  margin: 30px 0 20px 0;
+  font-size: 50px;
+  text-align: center;
+  color: #777;
+  letter-spacing: 0.4em;
+  text-indent: 0.7em;
+}
+.item {
+  flex-basis: 30%;
+  padding: 0 10% 40px;
+}
+#resume h2, #resume h2 a {
+  text-align: center;
+  font-size: 1em;
+  color: #333;
+  margin: 0 0 10px;
+}
+#resume h3 {
+  text-align: center;
+  font-size: 1em;
+  color: #555;
+  text-transform: inherit;
+  margin: 0 0 10px;
+}
+#resume h4 {
+  text-align: center;
+  font-size: .8em;
+  color: #777;
+  margin: 0;
+}
+
+/* TABLES */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+/* Style table headers and table data */
+th,
+td {
+  text-align: center;
+  padding: 16px;
+}
+
+th:first-child,
+td:first-child {
+  text-align: left;
+}
+
+/* Zebra-striped table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-remove {
+  color: red;
+}
+
+
+
 
 /*
 8888b.     db    88 88     Yb  dP      dP""b8 88   88 88 8888b.  888888
@@ -1297,7 +1426,7 @@ main {
   background: var(--primary);
 }
 
-@keyframes bar-1a {
+@keyframes bar-1a { /*before*/
   0% {
     transform: rotate(-55deg) translate(0px, 0px);
     width: 27px;
@@ -1312,14 +1441,15 @@ main {
   }
 }
 .bar-1::before {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(0px, 0px);
 }
 body.home .bar-1::before {
   animation: 4s ease-in-out bar-1a;
 }
 .logo:hover .bar-1::before {
-  transform: rotate(-55deg) translate(0px, -0px);
+  transform: rotate(-55deg) translate(0px, 0px);
   width: 27px;
+  animation: 4s ease-in-out bar-1a;
 }
 @keyframes bar-1b { /*actual*/
   0% {

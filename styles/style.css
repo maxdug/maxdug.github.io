@@ -340,12 +340,12 @@ h4 a:hover {
 
 a {
   color: #555;
-  text-decoration: underline 2px #aaa;
-  transition: color 350ms ease-in-out;
+  text-decoration: underline 3px #ddd;
+  transition: 350ms ease-in-out;
 }
 a:hover, a:focus {
   color: var(--primary);
-  text-decoration: none;
+  text-decoration: underline 3px var(--primary);
 }
 a img {
   border-width: 0;

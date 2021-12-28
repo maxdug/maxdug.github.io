@@ -3,3 +3,4 @@ Disallow: /citi/
 Disallow: /uwm/
 Disallow: /bcg/
 Disallow: /remesh/
+Disallow: /about/

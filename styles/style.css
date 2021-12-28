@@ -1,54 +1,27 @@
 @charset "UTF-8";
-
-
-
-
-
-
-
-
-
-/*
-
-Table of Contents
-
- dP""b8  dP"Yb  88b 88 888888 888888 88b 88 888888 .dP"Y8
-dP   `" dP   Yb 88Yb88   88   88__   88Yb88   88   `Ybo."
-Yb      Yb   dP 88 Y88   88   88""   88 Y88   88   o.`Y8b
- YboodP  YbodP  88  Y8   88   888888 88  Y8   88   8bodP'
+ /*--------------------  T A B L E   O F  ----------------------
+     dP""b8  dP"Yb  88b 88 888888 888888 88b 88 888888 .dP"Y8
+    dP   `" dP   Yb 88Yb88   88   88__   88Yb88   88   `Ybo."
+    Yb      Yb   dP 88 Y88   88   88""   88 Y88   88   o.`Y8b
+     YboodP  YbodP  88  Y8   88   888888 88  Y8   88   8bodP'
 
   ┌─ Global
   │  └─ Page Titles
   │
   ├─ Typography
   │  └─ Section Titles
+  │  └─ Buttons
   │
   ├─ Layout
-  │  └─ Paragraph / Body Text
+  │  └─ Containers
   │
   ├─ Components
-  │  └─ Paragraph / Body Text
+  │  └─ Cards, Tiles
   │
-  └─ 14px Body Copy / P
+  └─ Header / Footer
      └─ Headline, Strong, and Bold Text
 
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--------------------------------------------------------*/
 
 
 
@@ -151,7 +124,7 @@ dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'     88      YbodP  88  Yb 88 YY 88
   font-size:18px;
   padding:10px;
   border:none;
-  border-bottom:1px solid #777;
+  border-bottom: 2px solid #777;
   flex: 1 0 160px;
   cursor: text;
 }
@@ -181,7 +154,7 @@ body.touch #access-form label {
 
 input:focus,
 textarea:focus, #access-form input[type="password"]:focus {
-  border-bottom: none;
+  border-color: #aaa ;
   border-right: none;
   outline: none;
 }
@@ -367,7 +340,7 @@ h4 a:hover {
 
 a {
   color: #555;
-  text-decoration: underline dashed 1px #777;
+  text-decoration: underline 2px #aaa;
   transition: color 350ms ease-in-out;
 }
 a:hover, a:focus {
@@ -576,11 +549,28 @@ nav a {
   font-size: .9rem;
 	text-decoration: none;
   transition: 350ms ease-in-out;
+  color: #555;
 }
-nav a:hover, nav a.sfhover, nav a:focus {
+
+#design a.work, #art a.art {
+  color: #333;
+}
+#design a.work::before, #art a.art::before {
+  outline: none;
+  position: absolute;
+  left: 0;
+  top: 22px;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #ddd;
+  animation: 350ms ease-in-out nav-bar;
+}
+#design nav a:hover, #design nav a.sfhover, #design nav a:focus {
 	color: var(--primary);
 }
-#design a.work::after, #art a.art::after {
+#design nav a:hover::after, #design nav a:focus::after {
+  outline: none;
   position: absolute;
   left: 0;
   top: 22px;
@@ -590,7 +580,10 @@ nav a:hover, nav a.sfhover, nav a:focus {
   background: var(--primary);
   animation: 350ms ease-in-out nav-bar;
 }
-
+.art:hover .work::before {
+  width: 0;
+  height: 0;
+}
 .footer-space {
 	flex: 1 0 auto;
   height: 2px;
@@ -636,7 +629,7 @@ a .footerIcon {
 	fill: #444;
   transition: fill 350ms ease-in-out;
 }
-footer a:hover .footerIcon{
+footer a:hover .footerIcon, footer a:focus .footerIcon {
 	fill:  var(--primary);
 }
 .footer-links a span {
@@ -652,7 +645,7 @@ footer a:hover .footerIcon{
 .footer-links .linkedin span {
   margin-right: -95px;
 }
-.footer-links a:hover span {
+.footer-links a:hover span, .footer-links a:focus span {
     margin-right: 0;
 }
 
@@ -734,6 +727,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #555;
+  overflow: hidden;
   /* transition: background-blend-mode 350ms ease-in-out; */
 }
 
@@ -753,7 +747,7 @@ body.touch .tile-overlay {
   background: radial-gradient(rgba(0,0,0,.1) 0%, rgba(0,0,0,.0) 100%);
   opacity: 1;
 }
-.tile a:hover .tile-overlay {
+.tile a:hover .tile-overlay, .tile a:focus .tile-overlay {
   opacity: 1;
   /* display: inline-block; */
 }
@@ -790,7 +784,7 @@ img.tile-logo {
 .title {
   color: white;
   /* display: inline-block; */
-  display: none;
+  /* display: none; */
   font-size: .75em;
   letter-spacing: 0.2em;
   font-weight: bold;
@@ -802,9 +796,11 @@ img.tile-logo {
   position: absolute;
   align-self: flex-end;
   background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  margin-bottom: -30px;
 }
 #design a:hover .title {
-  display: none;
+  /* display: none; */
+  margin-bottom: -30px;
 }
 
 body.touch .title {
@@ -818,7 +814,8 @@ body.touch .tile img.tile-logo {
 }
 
 #art .title {
-  display: block;
+  /* display: block; */
+    margin-bottom: 0;
 }
 
 /* ------------------------------------------------------------------
@@ -1266,7 +1263,7 @@ main {
   position: relative;
   transition: 600ms ease-in-out;
   -webkit-transition: 600ms ease-in-out;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .bar-1::before,
 .bar-1::after,
@@ -1284,7 +1281,7 @@ main {
   border-radius: 10px;
   transition: 600ms ease-in-out;
   -webkit-transition: 600ms ease-in-out;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 .logo:hover .bar-1::before,
 .logo:hover .bar-1::after,
@@ -1293,7 +1290,15 @@ main {
 .logo:hover .bar-3::before,
 .logo:hover .bar-3::after,
 .logo:hover .bar-4::before,
-.logo:hover .bar-4::after {
+.logo:hover .bar-4::after,
+.logo:focus .bar-1::before,
+.logo:focus .bar-1::after,
+.logo:focus .bar-2::before,
+.logo:focus .bar-2::after,
+.logo:focus .bar-3::before,
+.logo:focus .bar-3::after,
+.logo:focus .bar-4::before,
+.logo:focus .bar-4::after {
   background: var(--primary);
 }
 
@@ -1317,7 +1322,7 @@ main {
 body.home .bar-1::before {
   animation: 4s ease-in-out bar-1a;
 }
-.logo:hover .bar-1::before {
+.logo:hover .bar-1::before, .logo:focus .bar-1::before {
   transform: rotate(-55deg) translate(0px, -0px);
   width: 27px;
 }
@@ -1339,7 +1344,7 @@ body.home .bar-1::before {
 body.home .bar-1 {
   animation: 4s ease-in-out bar-1b;
 }
-.logo:hover .bar-1 {
+.logo:hover .bar-1, .logo:focus .bar-1 {
   transform: translate(-62px, 0px);
 }
 @keyframes bar-1c { /*after*/
@@ -1362,7 +1367,7 @@ body.home .bar-1 {
 body.home .bar-1::after {
   animation: 4s ease-in-out bar-1c;
 }
-.logo:hover .bar-1::after {
+.logo:hover .bar-1::after, .logo:focus .bar-1::after {
   transform: rotate(45deg) translate(-10px, 2px);
   width: 15px;
 }
@@ -1386,7 +1391,7 @@ body.home .bar-1::after {
 body.home .bar-2::before {
   animation: 4s ease-in-out bar-2a;
 }
-.logo:hover .bar-2::before {
+.logo:hover .bar-2::before, .logo:focus .bar-2::before {
   transform: rotate(-45deg) translate(4px, -4px);
   width: 15px;
 }
@@ -1408,7 +1413,7 @@ body.home .bar-2::before {
 body.home .bar-2 {
   animation: 4s ease-in-out bar-2b;
 }
-.logo:hover .bar-2 {
+.logo:hover .bar-2, .logo:focus .bar-2 {
   transform: translate(-76px, 0px);
 }
 @keyframes bar-2c { /*after*/
@@ -1431,7 +1436,7 @@ body.home .bar-2 {
 body.home .bar-2:after {
   animation: 4s ease-in-out bar-2c;
 }
-.logo:hover .bar-2::after {
+.logo:hover .bar-2::after, .logo:focus .bar-2::after {
   transform: rotate(55deg) translate(-5px, 7px);
   width: 27px;
 }
@@ -1455,16 +1460,16 @@ body.home .bar-2:after {
 body.home .bar-3:before {
   animation: 4s ease-in-out bar-3a;
 }
-.logo:hover .bar-3::before {
+.logo:hover .bar-3::before, .logo:focus .bar-3::before {
   transform: rotate(-55deg) translate(0px, 0px);
   width: 27px;
 }
 @keyframes bar-3b { /*actual*/
   0% {
-    transform: translate(-90px, 0);
+    transform: translate(-89px, 0);
   }
   66% {
-    transform: translate(-90px, 0);
+    transform: translate(-89px, 0);
   }
   100% {
     transform: translate(calc(-50% - 115px), 0);
@@ -1477,8 +1482,8 @@ body.home .bar-3:before {
 body.home .bar-3 {
   animation: 4s ease-in-out bar-3b;
 }
-.logo:hover .bar-3 {
-  transform: translate(-90px, 0);
+.logo:hover .bar-3, .logo:focus .bar-3 {
+  transform: translate(-89px, 0);
 }
 @keyframes bar-3c { /*after*/
   0% {
@@ -1500,7 +1505,7 @@ body.home .bar-3 {
 body.home .bar-3:after {
   animation: 4s ease-in-out bar-3c;
 }
-.logo:hover .bar-3::after {
+.logo:hover .bar-3::after, .logo:focus .bar-3::after {
   transform: rotate(55deg) translate(-7px, 10px);
   width: 27px;
 }
@@ -1521,7 +1526,7 @@ body.home .bar-3:after {
 body.home .bar-4:before {
   animation: 4s ease-in-out bar-4a;
 }
-.logo:hover .bar-4::before {
+.logo:hover .bar-4::before, .logo:focus .bar-4::before {
   transform: rotate(-45deg) translate(0px, -0px);
 }
 @keyframes bar-4b { /*actual*/
@@ -1542,7 +1547,7 @@ body.home .bar-4:before {
 body.home .bar-4 {
   animation: 4s ease-in-out bar-4b;
 }
-.logo:hover .bar-4 {
+.logo:hover .bar-4, .logo:focus .bar-4 {
   transform: translate(-105px, 0);
 }
 @keyframes bar-4c { /*after*/
@@ -1564,7 +1569,7 @@ body.home .bar-4:after {
   transform: rotate(45deg) translate(-28px, 28px);
   animation: 4s ease-in-out bar-4c;
 }
-.logo:hover .bar-4::after {
+.logo:hover .bar-4::after, .logo:focus .bar-4::after {
   transform: rotate(45deg) translate(-20px, 20px);
 }
 

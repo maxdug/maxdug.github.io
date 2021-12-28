@@ -563,7 +563,7 @@ nav a {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-1::before {
-  animation: 4.5s ease-in-out 0s bar-1a;
+  animation: 4s ease-in-out bar-1a;
 }
 .logo:hover .bar-1::before, .logo:focus .bar-1::before {
   transform: rotate(-55deg) translate(0px, -0px);
@@ -587,7 +587,7 @@ body.home .bar-1::before {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-1 {
-  animation: 4.5s ease-in-out 0s bar-1b;
+  animation: 4s ease-in-out bar-1b;
 }
 .logo:hover .bar-1, .logo:focus .bar-1 {
   transform: translate(-62px, 0px);
@@ -612,7 +612,7 @@ body.home .bar-1 {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-1::after {
-  animation: 4.5s ease-in-out 0s bar-1c;
+  animation: 4s ease-in-out bar-1c;
 }
 .logo:hover .bar-1::after, .logo:focus .bar-1::after {
   transform: rotate(45deg) translate(-10px, 2px);
@@ -638,7 +638,7 @@ body.home .bar-1::after {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-2::before {
-  animation: 4.5s ease-in-out 0s bar-2a;
+  animation: 4s ease-in-out bar-2a;
 }
 .logo:hover .bar-2::before, .logo:focus .bar-2::before {
   transform: rotate(-45deg) translate(4px, -4px);
@@ -662,7 +662,7 @@ body.home .bar-2::before {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-2 {
-  animation: 4.5s ease-in-out 0s bar-2b;
+  animation: 4s ease-in-out bar-2b;
 }
 .logo:hover .bar-2, .logo:focus .bar-2 {
   transform: translate(-76px, 0px);
@@ -687,7 +687,7 @@ body.home .bar-2 {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-2:after {
-  animation: 4.5s ease-in-out 0s bar-2c;
+  animation: 4s ease-in-out bar-2c;
 }
 .logo:hover .bar-2::after, .logo:focus .bar-2::after {
   transform: rotate(55deg) translate(-5px, 7px);
@@ -713,7 +713,7 @@ body.home .bar-2:after {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-3:before {
-  animation: 4.5s ease-in-out 0s bar-3a;
+  animation: 4s ease-in-out bar-3a;
 }
 .logo:hover .bar-3::before, .logo:focus .bar-3::before {
   transform: rotate(-55deg) translate(0px, 0px);
@@ -737,7 +737,7 @@ body.home .bar-3:before {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-3 {
-  animation: 4.5s ease-in-out 0s bar-3b;
+  animation: 4s ease-in-out bar-3b;
 }
 .logo:hover .bar-3, .logo:focus .bar-3 {
   transform: translate(-89px, 0);
@@ -762,7 +762,7 @@ body.home .bar-3 {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-3:after {
-  animation: 4.5s ease-in-out 0s bar-3c;
+  animation: 4s ease-in-out bar-3c;
 }
 .logo:hover .bar-3::after, .logo:focus .bar-3::after {
   transform: rotate(55deg) translate(-7px, 10px);
@@ -785,7 +785,7 @@ body.home .bar-3:after {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-4:before {
-  animation: 4.5s ease-in-out 0s bar-4a;
+  animation: 4s ease-in-out bar-4a;
 }
 .logo:hover .bar-4::before, .logo:focus .bar-4::before {
   transform: rotate(-45deg) translate(0px, -0px);
@@ -808,7 +808,7 @@ body.home .bar-4:before {
   -webkit-transition: 450ms ease-in-out;
 }
 body.home .bar-4 {
-  animation: 4.5s ease-in-out 0s bar-4b;
+  animation: 4s ease-in-out bar-4b;
 }
 .logo:hover .bar-4, .logo:focus .bar-4 {
   transform: translate(-105px, 0);
@@ -832,7 +832,7 @@ body.home .bar-4 {
 }
 body.home .bar-4:after {
   transform: rotate(45deg) translate(-28px, 28px);
-  animation: 4.5s ease-in-out 0s bar-4c;
+  animation: 4s ease-in-out bar-4c;
 }
 .logo:hover .bar-4::after, .logo:focus .bar-4::after {
   transform: rotate(45deg) translate(-20px, 20px);

@@ -1318,7 +1318,8 @@ main {
 }
 .bar-1::before {
   transform: rotate(-45deg);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-1::before {
   animation: 4s ease-in-out 1s bar-1a;
@@ -1341,7 +1342,8 @@ body.home .bar-1::before {
 .bar-1 {
   transform: translate(calc(-50% - 10px), 0px);
   left: 50%;
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-1 {
   animation: 4s ease-in-out 1s bar-1b;
@@ -1365,7 +1367,8 @@ body.home .bar-1 {
 }
 .bar-1::after {
   transform: rotate(45deg) translate(-7px, 7px);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-1::after {
   animation: 4s ease-in-out 1s bar-1c;
@@ -1390,7 +1393,8 @@ body.home .bar-1::after {
 }
 .bar-2::before {
   transform: rotate(-45deg);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-2::before {
   animation: 4s ease-in-out 1s bar-2a;
@@ -1413,7 +1417,8 @@ body.home .bar-2::before {
 .bar-2 {
   transform: translate(calc(-50% - 40px), 0px);
   left: 50%;
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-2 {
   animation: 4s ease-in-out 1s bar-2b;
@@ -1437,7 +1442,8 @@ body.home .bar-2 {
 }
 .bar-2:after {
   transform: rotate(45deg) translate(-7px, 7px);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-2:after {
   animation: 4s ease-in-out 1s bar-2c;
@@ -1462,7 +1468,8 @@ body.home .bar-2:after {
 }
 .bar-3:before {
   transform: rotate(-45deg);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-3:before {
   animation: 4s ease-in-out 1s bar-3a;
@@ -1485,7 +1492,8 @@ body.home .bar-3:before {
 .bar-3 {
   transform: translate(calc(-50% - 115px), 0);
   left: 50%;
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-3 {
   animation: 4s ease-in-out 1s bar-3b;
@@ -1509,7 +1517,8 @@ body.home .bar-3 {
 }
 .bar-3:after {
   transform: rotate(45deg) translate(-7px, 7px);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-3:after {
   animation: 4s ease-in-out 1s bar-3c;
@@ -1531,7 +1540,8 @@ body.home .bar-3:after {
 }
 .bar-4:before {
   transform: rotate(-45deg) translate(0px, 0px);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-4:before {
   animation: 4s ease-in-out 1s bar-4a;
@@ -1553,7 +1563,8 @@ body.home .bar-4:before {
 .bar-4 {
   transform: translate(calc(-50% - 160px), 0);
   left: 50%;
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-4 {
   animation: 4s ease-in-out 1s bar-4b;
@@ -1575,7 +1586,8 @@ body.home .bar-4 {
 }
 .bar-4:after {
   transform: rotate(45deg) translate(-28px, 28px);
-  animation: 350ms ease-in-out;
+  transition: 600ms ease-in-out;
+  -webkit-transition: 600ms ease-in-out;
 }
 body.home .bar-4:after {
   transform: rotate(45deg) translate(-28px, 28px);

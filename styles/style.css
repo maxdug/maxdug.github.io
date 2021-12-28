@@ -486,21 +486,20 @@ nav a {
   display: none !important;
 }
 .logo {
+  display: inline-block;
+  position: absolute;
+  height: 27px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
   transition: 450ms ease-in-out;
   -webkit-transition: 450ms ease-in-out;
-  position: absolute;
-  left: 50%;
-  text-decoration: none;
-  margin-top: 13px;
-  width: 75%;
-  height: 40px;
-  display: inline-block;
-  transform: translateX(-50%);
 }
+
 @media (max-width: 600px) {
   .logo {
-    left: 0;
-    transform: translateX(-3%);
+    left: 31%;
   }
 }
 

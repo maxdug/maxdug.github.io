@@ -1262,7 +1262,7 @@ main {
   display: inline-block;
   position: relative;
   /* transition: 600ms ease-in-out;  cant be here because of safari bug*/
-  -webkit-transition: 600ms ease-in-out;
+  /* -webkit-transition: 600ms ease-in-out; */
   /* animation-delay: 1s; */
 }
 .bar-1::before,
@@ -1280,7 +1280,7 @@ main {
   height: 2px;
   border-radius: 10px;
   /* transition: 600ms ease-in-out; */
-  -webkit-transition: 600ms ease-in-out;
+  /* -webkit-transition: 600ms ease-in-out; */
   /* animation-delay: 1s; */
 }
 .logo:hover .bar-1::before,

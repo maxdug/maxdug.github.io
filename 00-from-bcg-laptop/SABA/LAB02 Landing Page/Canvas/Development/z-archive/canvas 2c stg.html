@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAB Homepage</title>
+
+<style>
+html,body {
+  margin: 0;
+  padding: 0;
+  background: #F3F3F3;
+  font-family: Trebuchet MS, verdana, sans-serif;
+  letter-spacing: .05rem;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 23px 0;
+  position: relative;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  background-image: url(https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/dd471a1d-1db7-4d5a-81b5-844e6f30e9b9?tfile=hero.png_dd471a1d-1db7-4d5a-81b5-844e6f30e9b9_1568684263697.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+/* P A G E   T I T L E */
+.page-title {
+  margin: 0 0 20px 3%;
+  flex-grow: 1;
+  color: white;
+  font-weight: normal;
+  font-size: 38px;
+}
+
+/* P E R S O N A L I Z E   M Y   L A B */
+.personalizemylab {
+  width: 177px;
+  height: 28px;
+  margin: 0 3% 0 0;
+  padding: 12px 0 0 60px;
+  flex-grow: 0;
+  background: url("https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/03a0dccb-d6b1-4325-98cc-367058435d07?tfile=personalize.png_03a0dccb-d6b1-4325-98cc-367058435d07_1564426109156.png") no-repeat 0 0;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  display: none;
+}
+.personalizemylab:hover {
+  width: 177px;
+  height: 28px;
+  margin: 0 3% 0 0;
+  padding: 12px 0 0 60px;
+  background: #3a8 url("https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/44140e36-1042-4edb-99ea-1bb64eae9124?tfile=personalize-hover.png_44140e36-1042-4edb-99ea-1bb64eae9124_1564424130458.png") no-repeat 0 0;
+}
+
+/* N A V I G A T I O N */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 94%;
+  height: 40px;
+  margin: 0 auto;
+  border-bottom: 2px solid #3a8;
+  background: white;
+}
+
+
+/* Navigation Links */
+.nav-link {
+  padding: 10px 7px 11px;
+  margin: 0 10px;
+  color: #3a8;
+  font-size: 16px;
+}
+.nav-link:hover {
+  padding: 10px 7px 8px;
+  border-bottom: 3px #3a8 solid;
+  color: #186;
+}
+
+/* Knowledge Navigator Link */
+.kn {
+  margin-left: auto;
+}
+.kn:hover {
+}
+.link-icon {
+  margin: 0 10px -5px 0;
+}
+
+/* E X T R A   W I D E   D I S P L A Y */
+@media (min-width: 1440px) {
+.container {
+  background-size: 100%;
+}
+}/* E N D   E X T R A   W I D E   D I S P L A Y */
+
+/* M O B I L E */
+@media (max-width: 800px) {
+.container {
+  display: none;
+}
+}/* E N D   M O B I L E */
+
+</style>
+</head>
+
+<body>
+<div class="container">
+  <div class="page-title">Welcome to LAB</div>
+  <a class="personalizemylab">Personalize My LAB</a>
+  <div class="nav-container">
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/shared;spf-url=common%2Flearningcatalog%2F">Browse Online Courses</a>
+    <a class="nav-link" href="https://learning.bcg.com/BrowseLiveCourses">Browse Live Courses</a>
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0195/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003440">Browse LAB Talks</a>
+          <a class="nav-link kn" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/shared;spf-url=pages%2Fpagelistview%2Fpgcnt000000000003342"><img class="link-icon" src="https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/1278c99c-4db2-40a3-a236-4a6f837fde43?tfile=Personalize Icon.png_1278c99c-4db2-40a3-a236-4a6f837fde43_1569861254758.png" alt=""/>Personalize My LAB</span></a>
+  </div><!-- END NAV CONTAINER -->
+</div><!-- END CONTAINER -->
+</body>
+
+</html>

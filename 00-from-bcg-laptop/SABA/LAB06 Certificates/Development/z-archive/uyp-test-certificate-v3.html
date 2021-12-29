@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Certificate</title>
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap" rel="stylesheet">
+  <style type="text/css">
+  body {
+    background-color: #fff;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  #apDiv1 {
+    position:absolute;
+    width:900px;
+    height:699px;
+    z-index:1;
+    left: 0;
+    top: 0;
+    border-width:0;
+  }
+  #apDiv2 {
+    position: absolute;
+    width: 682px;
+    height: 574px;
+    z-index: 2;
+    /* left: 340px; for landscape*/
+    left: 210px; /* for portrait experiment */
+    /* top: 75px; for landscape */
+    top: 50px; /* for portrait experiment */
+  }
+  .date	{
+    font-family: verdana, sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: normal;
+    color:#555;
+  }
+  .name	{
+    font-family: verdana, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: bold;
+    color:#333;
+  }
+  </style>
+</head>
+  <body>
+    <!-- Ideal image size for landscape, passed testing in staging -->
+    <!-- <div id="apDiv1"><img src="https://lab.bcg.com/production/NA9P1PRD002/CertificateTemplates/crttp000000000002500/local000000000000001/images/DDP-certificate-template-savedFromPowerpoint-modified.jpg?v=56339" alt="" width="1366" height="768" /></div> -->
+
+    <!-- Modified width to look ok when exported in portrait -->
+    <div id="apDiv1"><img src="https://lab.bcg.com/production/NA9P1PRD002/CertificateTemplates/crttp000000000002500/local000000000000001/images/DDP-certificate-template-savedFromPowerpoint-modified.jpg?v=56339" alt="" width="1100" height="618" /></div>
+
+
+    <div id="apDiv2">
+      <table border="0" width="690" cellspacing="20" cellpadding="0">
+        <tbody>
+          <tr>
+            <td class="date" align="center" valign="middle" width="650">@@offering.date_marked_complete@@</td>
+          </tr>
+          <tr>
+            <td class="name" align="center" valign="middle">@@person.first_name@@ @@person.last_name@@</td>
+          </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

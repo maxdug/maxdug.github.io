@@ -1,0 +1,264 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>InfoEx Launch</title>
+</head>
+<body>
+<table
+ style="text-align: left; background-color: rgb(242, 242, 242); width: 100%;"
+ border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="width: 100%; text-align: center;"><br>
+      <table
+ style="width: 600px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="10" cellspacing="0">
+        <tbody>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ valign="top" width="550">
+                  <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><img
+ style="width: 550px; height: 117px;" id="Picture_x0020_2"
+ src="https://lmstst.bcg.com/Saba/assets/common/img/cloud/SFMC_INFOex_Header_with_Eyebrow_v4_01.jpg"
+ alt="BCG
+The Boston Consulting Group" border="0"></span><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><o:p></o:p></span></p>
+                  </td>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50"></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"
+ valign="top">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><img
+ style="border: 0px solid ; width: 50px; height: 66px;"
+ id="Picture_x0020_3"
+ src="https://lmstst.bcg.com/Saba/assets/common/img/cloud/SFMC_Information_Excellence_Header_with_Eyebrow_v4_02.jpg"
+ alt="green"></span><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><o:p></o:p></span></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);">&nbsp;<o:p></o:p>
+                        </span></p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                  <td style="padding: 0in;" valign="top">
+                  <table class="MsoNormalTable"
+ style="background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 15pt 18.75pt;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 0in;">
+                              <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding: 0in;">
+                                    <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding: 0in;">
+                                          <p class="MsoNormal"><b><span
+ style="font-size: 13.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(23, 123, 87); text-transform: uppercase;">INFORMATION
+EXCELLENCE &nbsp;</span></b></p>
+&nbsp; &nbsp;
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+          </tr>
+          <tr align="left">
+            <td colspan="1" rowspan="1"
+ style="vertical-align: bottom; width: 600px; background-color: rgb(255, 255, 255);"><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Hi
+@HeldCertification_Learner@,<br>
+            <br>
+Below you will find a link to the online
+module Information Excellence (INFOex). This mandatory module will
+familiarize you with changes to the policy, processes and tools to make
+safeguarding your client&rsquo;s information easier and more
+intuitive.<br>
+            <p><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;"><a
+ style="font-weight: bold; color: rgb(23, 123, 87);"
+ href="http://ow.ly/yGpI30nkciD">Click
+here</a>
+            </span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: black;">to
+access the training assigned to you on LAB.</span><br>
+            <span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;"><br>
+What you need to know:</span></p>
+            <span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">
+            </span>
+            <ul style="list-style-type: disc;">
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">The
+                <span style="text-decoration: underline;">deadline
+to complete</span> the module is <span
+ style="color: rgb(255, 0, 0); font-weight: bold;">@HeldCertification_Target_Date@</span></span></li>
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">The
+course will take approximately 20 minutes to complete</span></li>
+              <li class="MsoNormal" style="line-height: 105%;"><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Submit
+the electronic acknowledgement at the end of the course to ensure a
+successful completion</span></li>
+              <li class="MsoNormal" style="line-height: 105%;"><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">The
+features of this course have been optimized for your laptop and may not
+work on your mobile device<br>
+                </span></li>
+            </ul>
+            <b><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: red;">Please
+note: Completion of this training and signed acknowledgement are
+mandatory. If you fail to complete the training in the time required,
+your e-mail will be suspended until the training and acknowledgement
+are completed.<br>
+            <br>
+            </span></b><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: red;"><span
+ style="color: rgb(0, 0, 0);">Questions and support:</span></span><b><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: red;"></span></b>
+            <ul style="list-style-type: disc;">
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">If
+you do not have LAB access, please contact your local HR
+representative for further action</span></li>
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">For
+technical issues accessing the module, please contact&nbsp;</span><span
+ style="font-size: 11pt; font-family: Trebuchet MS;"><span
+ style="font-family: Trebuchet MS;">the
+                </span><a
+ href="http://its.bcg.com:8082/#?%0Asid=194"><span
+ style="color: rgb(23, 123, 87);">Service
+Center</span></a><span style="">
+for support</span></span></li>
+              <li><span
+ style="font-size: 11pt; font-family: Trebuchet MS;"><span
+ style="">For all other questions about the module, please
+contact <a href="mailto:compliancetraining@bcg.com"><span
+ style="color: rgb(23, 123, 87);">compliancetraining@bcg.com</span></a>
+                </span></span></li>
+            </ul>
+            <span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;"></span><span
+ style="font-size: 11pt; font-family: Trebuchet MS;"><span
+ style="font-family: Trebuchet MS;">Kind
+regards,</span><br style="font-family: Trebuchet MS;">
+            <span style="font-family: Trebuchet MS;">BCG's&nbsp;Compliance
+Team<br>
+            <br>
+            </span></span>
+            <hr style="width: 100%; height: 2px;"><span
+ style="font-size: 11pt; font-family: Trebuchet MS;"><span
+ style="font-family: Trebuchet MS;"><br>
+            </span></span><small><small><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Best
+practices for accessing the training
+easily and without interruption are as follows:<br>
+            </span></small></small>
+            <ul>
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Complete
+the training online in LAB using <span
+ style="text-decoration: underline;">Internet Explorer or
+Google Chrome</span> as your browser</span></li>
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Ensure
+you have a strong internet connection and are connected to the BCG
+network,
+either directly in the office (preferred) or through the VPN</span></li>
+              <li><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">Close
+down other programs that are running to free up network bandwidth</span></li>
+            </ul>
+            <small><small><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;"></span></small></small><span
+ style="font-size: 11pt; font-family: Trebuchet MS;"><small><small><span
+ style="font-family: Trebuchet MS;"></span></small></small><span
+ style="font-family: Trebuchet MS;"></span></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span></span></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>

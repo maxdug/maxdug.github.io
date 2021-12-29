@@ -1,0 +1,66 @@
+<!--
+
+.dP"Y8 888888    db    88""Yb 888888     88""Yb  dP"Yb  8888b.  Yb  dP
+`Ybo."   88     dPYb   88__dP   88       88__dP dP   Yb  8I  Yb  YbdP
+o.`Y8b   88    dP__Yb  88"Yb    88       88""Yb Yb   dP  8I  dY   8P
+8bodP'   88   dP""""Yb 88  Yb   88       88oodP  YbodP  8888Y"   dP
+
+-->
+
+<!-- FULL -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr><th class="full">
+
+<h3>First Year Launch Kit</h3>
+
+<h1>Volume 1 of 6: Managing Your Module</h1>
+
+</th></tr></table> <!-- End of FULL -->
+
+<!-- C O N T A I N E R -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr>
+<th class="one-third">
+  <img src="http://image.lab.bcg-email.com/lib/fe6515707c6c057c7116/m/4/f5b40ef9-1a95-48d9-bb58-07dcc1314fdd.gif" alt="Cartoon"  />
+
+</th><!-- End One Third -->
+
+<th class="two-third text">
+
+<h2>Welcome to BCG!</h2>
+
+<p>The first days at BCG are unique, full of emotion, excitement, questions and doubts... What's my job?  What's expected of me?  Any common pitfalls I should be aware of?</p>
+
+<p>The First Year Launch Kit is here to help!  Over your first six weeks we'll guide you to the online learning to help you to grasp quickly the BCG essentials. </p>
+
+<p>Get started now with… </p>
+
+</th><!-- End Two Third -->
+</tr></table><!-- End Container -->
+<!-- C O N T A I N E R -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr>
+<th class="one-third">
+
+  <!-- B U T T O N-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><th><table border="0" cellspacing="0" cellpadding="0"><tr><th align="center" bgcolor="#33aa88">
+  <a href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000003542" target="_blank" class="button">
+    Learn Now
+  </a>
+</th></tr></table></th></tr></table><!-- End of Button -->
+</th><!-- End One Third -->
+
+<th class="two-third text">
+
+<h2>Managing Your Module:</h2>
+
+<p>A good start at BCG requires that you have a deep understanding of what your role is and how to take full ownership of your module. In this series, you can learn much more about BCG's expectations, how to "own" a module, develop a work plan and work more effectively with your PL.</p>
+
+</th><!-- End Two Third -->
+</tr></table><!-- End Container -->
+
+<!--
+
+888888 88b 88 8888b.      88""Yb  dP"Yb  8888b.  Yb  dP
+88__   88Yb88  8I  Yb     88__dP dP   Yb  8I  Yb  YbdP
+88""   88 Y88  8I  dY     88""Yb Yb   dP  8I  dY   8P
+888888 88  Y8 8888Y"      88oodP  YbodP  8888Y"   dP
+
+-->

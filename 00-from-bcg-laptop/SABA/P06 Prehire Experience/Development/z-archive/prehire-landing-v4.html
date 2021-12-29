@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    html, body {
+  margin: 0;
+  padding: 0;
+  background: #F3F3F3;
+  font-family: verdana, Trebuchet MS, sans-serif;
+  letter-spacing: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+ /* H E A D E R S  &  L A B E L S */
+
+.h3-sub-title {
+  width: 100%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000000;
+}
+.h4-section-label {
+  width: 100%;
+  margin: 20px 0;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+.text-lockup {
+  display: flex;
+  flex: 1 0 calc(100% - 122px);
+  margin: 10px 20px;
+  flex-flow: row wrap;
+  align-self: center;
+}
+.h5-header, .h5-header:visited {
+  width: 100%;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000;
+  margin-bottom: 10px;
+}
+ .h6-header {
+  width: 100%;
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 12px;
+  color: #ababab;
+}
+
+
+/* I C O N S */
+em.caret, em.circleCaret {
+  display:inline-block;
+  width: 1em;
+  height: 1em;
+  position:relative;
+  vertical-align:middle;
+  margin: 0 0 .1em;
+}
+ em.circleCaret {
+  border: .05em solid #3d4d49;
+  border-radius: 100%;
+}
+
+
+
+em.circleCaret:before, em.caret:before {
+  border-top: .1em solid #3d4d49;
+  border-right: .1em solid #3d4d49;
+  content: " ";
+  width: .4em;
+  height: .4em;
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  position: relative;
+}
+
+em.right:before {
+  top: .26em;
+  left: -.06em;
+  transform: rotate(45deg);
+}
+
+em.white, em.white:before {
+  border-color: white;
+}
+
+/* H E R O  C O N T A I N E R */
+.hero {
+  min-height: 300px;
+  display: flex;
+  max-width: 100%;
+  margin: 0 0 20px;
+  padding: 0 20px;
+  position: relative;
+  flex-wrap: wrap;
+  background: #f3f3f3;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-content-centering {
+    display: flex;
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+/* C O N T E N T  C O N T A I N E R */
+.content-container, .column-wide, .column-narrow {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+}
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.column-wide {
+  flex: 1 0 160px;
+  min-width: 50%;
+  padding: 0 110px 0 10px;
+}
+.column-narrow {
+  flex: 1 0 160px;
+  min-width: 33%;
+  padding: 0 10px;
+}
+
+ /* P A G E   T I T L E */
+.page-title {
+  flex: 0 1 440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.logo-lockup {
+  justify-content: center;
+}
+
+ /* W E L C O M E  R O W */
+.welcome-row {
+  width: calc(100% - 20px);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px 10px 0;
+}
+.border-bottom {
+  border-bottom: 2px solid #E8E8E8;
+}
+
+/* V I D E O  C A R D */
+a.video-card, a.thin-card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+a.video-card {
+  height: 218px;
+  flex: 1 0 260px;
+  max-width: 386px;
+  margin: 41px auto 41px auto;
+  background: #00b386;
+  background-size: cover;
+  background-position: center;
+  background-color: #e1e5e4;
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  align-items: flex-end;
+}
+
+a.video-card:hover, a.tile-card:hover {
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+background-size: cover;
+}
+
+a.video-card span {
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.video-bar {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 9px 0;
+  background: rgba(0, 20, 51, 0.8);
+  border-radius: 0px 0px 4px 4px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video-bar img {
+  flex: 1 0 16px;
+  height: 12px;
+}
+
+.video-title {
+  flex: 1 0 153px;
+}
+
+.video-bar .caret {
+  flex: 1 0 20px;
+  justify-self: flex-end;
+}
+
+/* T I L E  C A R D */
+a.tile-card {
+  display: flex;
+  flex: 1 0 160px;
+  min-width: calc(100% - 20px);
+  margin: 0 0 20px;
+  min-height: 85px;
+  background-color: #fff;
+  border-image: linear-gradient(to right,#00b386, #73e5c9);
+  border-radius: 2px;
+}
+
+.tile-thumbnail {
+  flex: 1 0 82px;
+  min-height: 100%;
+  border-radius: 2px 0px 0px 2px;
+  background-size: cover;
+  background-position: center;
+  background-color: #e1e5e4;
+}
+
+a.tile-card span {
+  text-align: left;
+}
+
+/* M O B I L E */
+@media (max-width: 980px) {
+.column-wide {
+  min-width: calc(100% - 20px);
+  padding: 0 10px 0 10px;
+}
+}/* E N D   M O B I L E */
+  </style>
+</head>
+
+<body>
+<!-- Hero Banner -->
+<div class="hero" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/3f4e9513-9f83-44ed-8413-f6ce4137dcc3?tfile=hero-edited.png_3f4e9513-9f83-44ed-8413-f6ce4137dcc3_1606833850995.png'); background-position-y: 10%;">
+  <div class="hero-content-centering">
+    <div class="page-title">
+    <div class="logo-lockup">
+      <img style="width: 100%;" src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/c67a7473-ed0b-4d81-8e9a-3c8d26821efe?tfile=learning-journey%282x%29.png_c67a7473-ed0b-4d81-8e9a-3c8d26821efe_1606833909015.png" alt="Learning Journey" />
+      <img style="width: 100%;" src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/31844d20-fa7c-404a-afab-594eaf1b8dd1?tfile=launch-consulting-journey%282x%29.png_31844d20-fa7c-404a-afab-594eaf1b8dd1_1606833924253.png" alt="Consulting Journey | LAUNCH" />
+    </div><!-- End Logo Lockup -->
+  </div><!-- End Page Title -->
+  <!-- Video Card-->
+  <a class="video-card" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/13bfff71-4813-4a97-bd59-25606b979ed9?tfile=ceo-video-thumbnail.png_13bfff71-4813-4a97-bd59-25606b979ed9_1606833977957.png'); background-position-y: 10%;" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000003351">
+    <span class="video-bar">
+      <img style="flex: 0 0 16px;margin-left: 40px;" src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/71c74b2d-7886-4bf7-8235-cab2b724f239?tfile=icon-video.png_71c74b2d-7886-4bf7-8235-cab2b724f239_1606834057802.png" />
+      <span class="video-title">Hear from the CEO</span>
+      <em class="caret right white">&nbsp;</em>
+    </span>
+    </a><!-- End Video Card -->
+  </div><!-- End Content Centering Lockup -->
+</div><!-- End Hero Banner -->
+
+<!-- H3 Sub Title Row -->
+<div class="welcome-row">
+  <span class="h3-sub-title">Welcome to Consulting Preparation</span>
+  <div class="border-bottom">&nbsp;</div>
+</div>
+
+<div class="content-container"><!-- Column 1 (Wide) -->
+<div class="column-wide"><!-- H4 Section Label -->
+<div class="h4-section-label">Top Picks for You</div>
+
+<!-- Thin Card -->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004343">
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/dd1a5396-c192-41f0-aa9c-52c577141121?tfile=bcg-history-and-values-sm.png_dd1a5396-c192-41f0-aa9c-52c577141121_1606834146804.png'); background-position-y: 10%;">
+    &nbsp;
+  </span>
+  <span class="text-lockup">
+    <span class="h5-header">
+      BCG History and Values
+    </span>
+    <span class="h6-header">
+      42 Minutes
+    </span>
+  </span><!-- End Text Lockup -->
+</a><!-- End Thin Card -->
+
+<!-- Thin Card -->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004345">
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/221a004d-24d1-4c9c-9d4e-5eab0bd9e163?tfile=being-an-effective-team-member-sm.png_221a004d-24d1-4c9c-9d4e-5eab0bd9e163_1606836952706.png'); background-position-y: 10%;">&nbsp;</span>
+  <span class="text-lockup">
+    <span class="h5-header">
+      Being an Effective Team Member
+    </span>
+    <span class="h6-header">
+      56 Minutes
+    </span>
+  </span>
+</a><!-- End Thin Card -->
+
+<!-- Thin Card-->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004347">
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/2267b6f3-b7c4-4c11-bf12-57df7a81ac78?tfile=communication-foundations-sm.png_2267b6f3-b7c4-4c11-bf12-57df7a81ac78_1606836975066.png'); background-position-y: 10%;">
+    &nbsp;
+  </span>
+  <span class="text-lockup"> <span class="h5-header"> Communication Foundations </span> <span class="h6-header">1 Hour 19 Minutes </span> </span>
+</a><!-- End Thin Card -->
+
+<!-- Thin Card -->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004323">
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/f4678bfa-60cc-421d-89da-cdadf46f640b?tfile=excel-excellence-sm.png_f4678bfa-60cc-421d-89da-cdadf46f640b_1606836998551.png'); background-position-y: 10%;">&nbsp;</span>
+  <span class="text-lockup">
+    <span class="h5-header">
+      Excel Excellence
+    </span>
+    <span class="h6-header">
+      1 Hour 43 Minutes
+    </span>
+  </span><!-- End Text Lockup -->
+</a><!-- End Thin Card -->
+
+</div><!-- End Column Wide -->
+
+<!-- Column 2 (Narrow) -->
+<div class="column-narrow">
+
+<!-- H4 Section Labels -->
+<div class="h4-section-label">
+  Business Essentials
+</div>
+
+<!-- Thin Card -->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004344">
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/77947618-c66f-40a7-a339-f25f3103dffb?tfile=key-economic-terms-sm.png_77947618-c66f-40a7-a339-f25f3103dffb_1606834178279.png'); background-position-y: 10%;">
+    &nbsp;
+  </span>
+  <span class="text-lockup">
+    <span class="h5-header">
+      Key Economic Terms
+    </span>
+    <span class="h6-header">
+      1 Hour
+    </span>
+  </span>
+  <!-- End Text Lockup -->
+</a>
+<!-- End Thin Card -->
+
+<!-- Thin Card -->
+<a class="tile-card" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/common/learningeventdetail/curra000000000004346">
+  <!-- Image Thumbnail -->
+  <span class="tile-thumbnail" style="background-image: url('https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/1aac4f92-211e-4949-9b0a-0f11785079c6?tfile=financial-acounting-basics-sm.png_1aac4f92-211e-4949-9b0a-0f11785079c6_1606837032107.png'); background-position-y: 10%;">&nbsp;</span>
+  <!-- Text Lockup -->
+  <span class="text-lockup">
+    <!-- Title -->
+    <span class="h5-header">
+      Financial Accounting Basics
+    </span>
+    <!-- Subtext -->
+    <span class="h6-header">
+      1 Hour 42 Minutes
+    </span>
+  </span><!-- End Text Lockup -->
+</a><!-- End Thin Card -->
+
+</div><!-- End Column Narrow -->
+
+<hr style="width: 100%; border: none;" />
+</div><!-- End Content Container -->
+</body></html>

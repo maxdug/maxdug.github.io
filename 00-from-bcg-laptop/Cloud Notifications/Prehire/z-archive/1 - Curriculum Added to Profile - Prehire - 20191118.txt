@@ -1,0 +1,142 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title>VTRegConfirmation w_Mobile Links</title>
+</head>
+<body>
+<table
+ style="text-align: left; background-color: rgb(242, 242, 242); width: 100%;"
+ border="0" cellpadding="0" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="width: 100%; text-align: center;"><br>
+      <table
+ style="width: 600px; text-align: left; margin-left: auto; margin-right: auto;"
+ border="0" cellpadding="10" cellspacing="0">
+        <tbody>
+          <tr>
+            <td colspan="2" rowspan="1"><img
+ style="width: 599px; height: 261px;" alt="Build Connect Grow"
+ src="https://adcelapptv01l.bcg.com/Saba/assets/common/img/cloud/BuildConnectGrowbanner.png"></td>
+          </tr>
+          <tr>
+            <td colspan="2" rowspan="1"></td>
+          </tr>
+          <tr align="left">
+            <td colspan="2" rowspan="1"
+ style="vertical-align: bottom; background-color: rgb(255, 255, 255); width: 600px;">
+            <div style="text-align: left;"></div>
+            <div style="text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Dear
+@HeldCurriculum_Learner@,
+            </span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span></div>
+            <div style="text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">
+            </span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><br>
+            <span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span></div>
+            <div style="text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Congratulations
+once again on your decision to join BCG. &nbsp;We are looking
+forward to having you as part of our team.<br>
+            <br>
+In joining BCG, you join a team of people who are creating positive
+lasting impact for our clients and communities around the world.
+&nbsp;To be leaders and change-makers in the world, we all need to
+be lifelong learners, building our skills and knowledge to meet the
+challenges that each new project, client, and circumstance brings.<br>
+            <br>
+To support your learning journey, we are providing you with the
+opportunity to access a selection of resources on our learning portal,
+LAB, or Learning at BCG. &nbsp;LAB is your personal one-stop shop
+for learning developed by BCG, for BCG. &nbsp;These modules, which
+can also be reviewed once you arrive, have been designed to help
+familiarize you with BCG and the skills that will contribute to your
+success.<br>
+            <br>
+To access LAB the first time, please follow these steps:<br>
+            <br>
+            </span>
+            <div style="margin-left: 40px;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">1.
+&nbsp;Go to LAB: &nbsp;<a style="color: rgb(23, 123, 87);"
+ href="https://labexternal.bcg.com">https://labexternal.bcg.com</a><br>
+            <br>
+2. &nbsp;Login to LAB<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Enter
+your email address<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Enter
+your temporary password: &nbsp;Bruc3H3nders0n<br>
+            <br>
+3. &nbsp;Create a new password</span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">
+            </span><br>
+            <span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span></div>
+            <span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"><br>
+            <span style="color: rgb(255, 0, 0);">This site
+requires that you enable pop-ups in your browser.</span><br>
+            <br>
+If you experience any technical issues please email our&nbsp;<a
+ href="mailto:service.center@bcg.com?Subject=Help%20with%20accessing%20LAB%20before%20I%20join%20BCG"><span
+ style="color: rgb(23, 123, 87);">Service Center</span></a>.</span></div>
+            <p
+ style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><br>
+            </p>
+            <p
+ style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Look
+for more information from your local Learning and Development Team
+regarding your specific learning requirements.</span></p>
+            <span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"><span
+ style="font-family: Trebuchet MS;"></span><span
+ style="font-family: Trebuchet MS;"></span></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span></td>
+          </tr>
+          <tr>
+            <td
+ style="background-color: rgb(255, 255, 255); height: 40px;"
+ colspan="2" rowspan="1"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Warm
+Regards,</span>
+            <p
+ style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"></span><br>
+            </p>
+            <p
+ style="margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; text-align: left;"><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Learning
+&amp; Development at BCG&nbsp;</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+</body>
+</html>

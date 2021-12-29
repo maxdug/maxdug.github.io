@@ -1,0 +1,378 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+  <title>LAB Notification</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<style type="text/css">
+
+body {
+  background-color: #edf2f1;
+	font-family: trebuchet MS, trebuchet, verdana;
+	padding: 30px 0;
+  margin: 0;
+}
+table, thead, tbody, tfoot, tr, td, th {
+		display: block; /*no outlook 2007 support*/
+		height: auto;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-spacing: 0; /*no outlook 2007 support*/
+		text-align: left;
+		-webkit-border-horizontal-spacing: 0;
+		-webkit-border-vertical-spacing: 0;
+    font-weight: normal;
+}
+#email-container {
+	width: 600px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+
+/* LAYOUT */
+.text-block {
+  display: block;
+  width: 100%;
+}
+.text-block th {
+  display: table-cell;
+}
+.text-block th.full, .text-block th.two-third, .text-block th.half, .text-block th.one-third, .text-block th.fourth {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 3.5%;
+}
+.text-block th.full {
+	width: 93%;
+}
+.text-block th.two-third {
+  width: 58.7%;
+}
+.text-block th.half {
+	width: 42%;
+}
+.text-block th.one-third {
+	width: 25.3%;
+}
+.text-block th.fourth {
+	width: 17%;
+}
+.text-block th.full img, .text-block th.two-third img, .text-block th.half img, .text-block th.one-third img, .text-block th.fourth img {
+  width: 100%;
+}
+
+
+/* For Hero and quick image sliced emails */
+.image-block {
+  display: block;
+  width: 100%;
+}
+.image-block th.full,  .image-block th.two-third, .image-block th.half, .image-block th.one-third, .image-block th.fourth {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.image-block th.full {
+	width: 100%;
+}
+.image-block th.two-third {
+  width: 66.7%;
+}
+.image-block th.half {
+	width: 50%;
+}
+.image-block th.one-third {
+	width: 33.3%;
+}
+.image-block th.fourth {
+	width: 25%;
+}
+
+
+/* P A G E   S P A C I N G */
+.space {
+	display: block;
+	height: 20px;
+	background-color:  #fff;
+}
+.half-space {
+	display: block;
+	height: 10px;
+	background-color:  #fff;
+}
+
+/* B U T T O N S */
+.button {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 1px solid #00b386;
+  font-size: 14px;
+  letter-spacing: .1em;
+  color: #fff;
+  text-decoration: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button:hover {
+  background-color: #008c64;
+  text-decoration: none;
+}
+
+
+/* T E X T */
+p {
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
+  /* New Tech, not needed */
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #5c6663;
+}
+b {
+  color: #3d4d49;
+}
+a {
+  text-decoration: none;
+  color: #00b386;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-link th {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.text-link th a {
+	color: #00b386;
+	text-decoration: none;
+}
+h1 {
+  display: block;
+  margin: 0 0 20px 0;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #00b386;
+  font-size: 26px;
+  font-weight: bold;
+  color: #5c6663;
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
+}
+h2 {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-size: 18px;
+  color: #5c6663;
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
+}
+h3 {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-size: 16px;
+  color: #5c6663;
+  /* margin-block-start: 0;
+  margin-block-end: 0; */
+}
+ul, ol {
+  padding-inline-start: 17px;
+  /* I think this is experimental code, test with padding-left: 17px; */
+}
+li {
+  color: #5c6663;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* D E S K T O P   O N L Y */
+  .mobile-only, .mobile-only table, table.mobile-only, .mobile-only th, .mobile-only img {
+    display: none;
+    mso-hide: all;
+  }
+  .desktop-only, .desktop-only table, table.desktop-only, .desktop-only th, .desktop-only img {
+  	display: inline-block;
+    mso-hide: none;
+  }
+
+  .desktop-only img.header {
+    display: block;
+    mso-hide: none;
+    margin: 0 auto;
+    width: 600px;
+  }
+
+  /* H I D E   O N   M O B I L E */
+  .mobile-only, .mobileonlyo table, .mobile-only th, .mobile-only img {
+    display: none;
+    mso-hide: all;
+  }
+  .desktop-only {
+  	display: inline-block;
+  }
+  .mobile-hero, .mobile-hero table, .mobile-hero th, .mobile-hero img {
+  	display: none;
+    mso-hide: all;
+  }
+
+/* M O B I L E */
+@media (max-width: 600px) {
+  /* M O B I L E   O N L Y */
+  .mobile-only, .mobile-only table, table.mobile-only, .mobile-only th, .mobile-only img {
+    display: inline-block;
+    mso-hide: none;
+  }
+  .mobile-only img.header {
+    display: block;
+    mso-hide: none;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+	body {
+		padding: 0;
+	}
+	#email-container {
+		width: 100%;
+	}
+
+  .hero {
+    display: none;
+  }
+  .mobile-hero, .mobile-hero table, .mobile-hero th, .mobile-hero img {
+    display: block;
+    mso-hide: none;
+  }
+  .mobile-hero img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .mobile-only, .mobile-only table, .mobile-only th, .mobile-only img {
+    display: inline-block;
+    mso-hide: none;
+  }
+  .desktop-only {
+   display: none;
+}
+
+  .text-block th.full, .text-block th.two-third, .text-block th.half, .text-block th.one-third, .text-block th.fourth {
+    display: block;
+    width: 93%;
+  }
+  .text-block th.full img, .text-block th.two-third img, .text-block th.half img, .text-block th.one-third img, .text-block th.fourth img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+
+  .desktop-only, .desktop-only table, table.desktop-only, .desktop-only th, .desktop-only img {
+   display: none;
+   mso-hide: all;
+  }
+
+}/* End of Mobile */
+
+</style>
+
+
+
+
+
+<!-- E M A I L   C O N T A I N E R -->
+<table id="email-container" style="display: block;height: auto;margin: 0 auto;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;width: 600px;background-color: #ffffff;" cellspacing="0" border="0" bgcolor=" #fff" align="center"><tbody><tr style="display: block;height: auto;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;"><th style="display: block;height: auto;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;">
+
+<!-- Desktop Hero -->
+<table class="image-block hero" style="display: block;height: auto;margin: 0 0 10px 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;width: 100%;" cellspacing="0" border="0" align="center"><tbody><tr style="display: block;height: auto;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;">
+  <th class="full" style="display: inline-block;height: auto;margin: 0 auto;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;width: 100%;">
+    <!-- Staging -->
+    <!-- <img class="header" src="https://na3t1.sabacloud.com/production/NA3T1SNB0196/CertificateTemplates/crttp000000000002520/local000000000000001/images/notification-dsktp-hero.jpg?v=900712" alt="Hero Image" style="width: 600px;"> -->
+    <!-- Production -->
+    <img class="header" src="https://na3t1.sabacloud.com/production/NA3T1SNB0196/CertificateTemplates/crttp000000000002520/local000000000000001/images/notification-dsktp-hero.jpg?v=613261" alt="Hero Image" style="width: 600px;">
+  </th>
+</tr></tbody></table> <!-- End Desktop Hero -->
+
+
+<!--
+
+.dP"Y8 888888    db    88""Yb 888888     88""Yb  dP"Yb  8888b.  Yb  dP
+`Ybo."   88     dPYb   88__dP   88       88__dP dP   Yb  8I  Yb  YbdP
+o.`Y8b   88    dP__Yb  88"Yb    88       88""Yb Yb   dP  8I  dY   8P
+8bodP'   88   dP""""Yb 88  Yb   88       88oodP  YbodP  8888Y"   dP
+
+-->
+
+<!-- FULL -->
+<table class="text-block" style="display: block;height: auto;margin: 1%;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;width: 98%;" cellspacing="0" border="0" align="center"><tbody><tr style="display: block;height: auto;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0; font-weight: normal;">
+  <th class="full" style="display: inline-block; margin: 0 3.5%;padding: 0;height: auto;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;width: 93%; font-family: trebuchet MS, trebuchet, verdana;">
+
+<h1 style="display: block;margin: 0 0 20px 0;padding-bottom: 6px;border-bottom: 2px solid #00b386;font-size: 26px;font-weight: bold;color: #5c6663;">This Live LABtalk has been rescheduled</h1>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">The live LABtalk @Offering_Title@, has been rescheduled to @Offering_ClassStartDate@ at @Offering_Session_Start_Time_#@</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">Please accept this new invitation to add it to your calendar.</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">To join the session, click the Attend Now button up to 30 minutes before the session starts.  Or, go to LAB and access your
+  <!-- <a style="color: #33aa88;" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/me/plans">My Plan</a> -->
+  <a style="color: #33aa88;" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/me/plans">My Plan</a>
+   page from the hamburger menu in the top left of the homepage.</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">**Note - Your best audio option is VOIP.  Please be prepared with a headset in order to utilize the audio from your computer.</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">
+  <a href="@Offering_ClassDetailURL@" target="_blank" style="text-decoration: none;color: #33aa88;font-weight: bold; display: inline-block; padding: 12px 18px; font-size: 20px;letter-spacing: .1em;">
+    To Join From Laptop
+  </a><br>
+  <span style="margin: 0 0 0 20px">
+    1. <a style="color: #33aa88;" href="@Offering_ClassDetailURL@">CLICK HERE</a> to go the course details page</span><br>
+  <span style="margin: 0 0 0 20px">
+    2. Click blue "Attend" button
+  </span>
+</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">
+  <a href="@VirtualClassroom_Attend_Playback@" target="_blank" style="text-decoration: none;color: #33aa88;font-weight: bold; display: inline-block; padding: 12px 18px; font-size: 20px;letter-spacing: .1em;">
+    To Join From Mobile
+  </a><br>
+  <span style="margin: 0 0 0 20px">
+    1. <a style="color: #33aa88;" href="@VirtualClassroom_Attend_Playback@">CLICK HERE</a> to go the course details page</span><br>
+  <span style="margin: 0 0 0 20px">
+    2. Select the class and then click the blue "Attend" button<br></span>
+</p>
+
+<!-- S P A C E-->
+<table class="space" cellspacing="0" border="0" align="center"><tbody><tr><th>&nbsp;</th></tr></tbody></table> <!-- End of Space -->
+
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;font-weight: normal;">If you will not be online and require the audio bridge or if you have any other questions, please email the <a style="color: #33aa88;" href="mailto:LABTalk@bcg.com">LABtalk Team</a>.</p>
+
+<p style="margin: 0 0 10px 0;padding: 0;font-size: 15px;line-height: 1.5;color: #5c6663;">Regards,<br>
+  The LABtalk Team</p>
+
+</th></tr></tbody></table> <!-- End of FULL -->
+
+<!--
+
+888888 88b 88 8888b.      88""Yb  dP"Yb  8888b.  Yb  dP
+88__   88Yb88  8I  Yb     88__dP dP   Yb  8I  Yb  YbdP
+88""   88 Y88  8I  dY     88""Yb Yb   dP  8I  dY   8P
+888888 88  Y8 8888Y"      88oodP  YbodP  8888Y"   dP
+
+-->
+
+<!-- S P A C E-->
+<table class="space" style="display: table-cell;height: 20px;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;background-color: #ffffff;" cellspacing="0" border="0" align="center"><tbody><tr style="display: table-cell;height: 20px;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;"><th style="display: table-cell;height: 20px;margin: 0;padding: 0;border: 0;border-spacing: 0;text-align: left;-webkit-border-horizontal-spacing: 0;-webkit-border-vertical-spacing: 0;font-weight: normal;">&nbsp;</th></tr></tbody></table> <!-- End of Space -->
+
+</th></tr></tbody></table><!-- End of Email Container -->
+
+</body>
+</html>

@@ -1,0 +1,1809 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    @charset "UTF-8";
+
+    /*-------------------------------------------------------------------------------------------
+
+   dP""b8  88       dP"Yb   88""Yb     db     88
+  dP   `"  88      dP   Yb  88__dP    dPYb    88
+  Yb  "88  88  .o  Yb   dP  88""Yb   dP__Yb   88  .o
+   YboodP  88ood8   YbodP   88oodP  dP""""Yb  88ood8
+
+-------------------------------------------------------------------------------------------*/
+    * {
+      padding: 0;
+      margin: 0 auto;
+    }
+
+    /* Used as a reset for everything ever */
+    html {
+      -webkit-text-size-adjust: 100%;
+      /* Prevent font scaling in landscape while allowing user zoom */
+    }
+
+    body {
+      min-height: 100vh;
+      /* Avoid the IE 10-11 `min-height` */
+      color: var(--medium-dark);
+      /* See Color Section */
+      font-size: var(--s-font);
+      /* See Typeography */
+      font-family: var(--sans);
+      /* See Typeography */
+      word-break: break-word;
+      /* fixes long links without spaces not breaking */
+    }
+
+    /* Layout / Grid
+----------------------------------------------- */
+    :root {
+      --space-xxl: 2em;
+      /* 32px */
+      --space-xl: 1.5em;
+      /* 24px */
+      --space-l: 1em;
+      --space: .5em;
+      /* Used to define tile / section margin, multiplied by 2 for padding */
+      --space-m: .75em;
+      /* 12px */
+      --space-s: .1em;
+      --space-xs: .25em;
+      /* 4px */
+      --space-xxs: .12em;
+      /* 2px */
+      --total-space: calc(var(--space) * 6);
+      /* Used to subtract margin and padding from width / flex basis */
+      --total-space-s: calc(var(--space-s) * 6);
+      --total-space-l: calc(var(--space-l) * 6);
+      --margin-btm: .5em;
+      /* On all block elements */
+    }
+
+    body,
+    .body-container,
+    .content-container,
+    .article-container,
+    .flex-container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      flex-grow: 1;
+    }
+
+    .body-container {
+      /*  */
+      width: 100%;
+    }
+
+    .content-container {
+      /* Used for Most not full screen content */
+      max-width: 1440px;
+      padding: 0 calc(50% - 720px);
+    }
+
+    .article-container {
+      /* Designed for best legibility of large amounts of text information */
+      max-width: 720px;
+      padding: 0 calc(50% - 360px);
+    }
+
+    /* Basic grid works in Full Screen body, content , and text containers */
+    .sixth,
+    .fifth,
+    .fourth,
+    .third,
+    .half,
+    .two-third,
+    .three-fourth,
+    .four-fifth,
+    .five-sixth,
+    .full {
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+
+    .sixth {
+      flex-basis: 16.66%;
+    }
+
+    .fifth {
+      flex-basis: 20%;
+    }
+
+    .fourth {
+      flex-basis: 25%;
+    }
+
+    .third {
+      flex-basis: 33.33%;
+    }
+
+    .half {
+      flex-basis: 50%;
+    }
+
+    .two-third {
+      flex-basis: 66.66%;
+    }
+
+    .three-fourth {
+      flex-basis: 75%;
+    }
+
+    .four-fifth {
+      flex-basis: 80%;
+    }
+
+    .five-sixth {
+      flex-basis: 83.33%;
+    }
+
+    .full {
+      flex-basis: 100%;
+    }
+
+    .space .sixth,
+    .space .fifth,
+    .space .fourth,
+    .space .third,
+    .space .half,
+    .space .two-third,
+    .space .three-fourth,
+    .space .four-fifth,
+    .space .five-sixth,
+    .space .full {
+      margin: 0 var(--space) calc(var(--space) * 2);
+      padding: 0 calc(var(--space) * 2) var(--space);
+    }
+
+    .space .sixth {
+      min-width: calc(16.66% - var(--total-space));
+      flex-basis: calc(120px - var(--total-space));
+    }
+
+    .space .fifth {
+      min-width: calc(20% - var(--total-space));
+      flex-basis: calc(135px - var(--total-space));
+    }
+
+    .space .fourth {
+      min-width: calc(25% - var(--total-space));
+      flex-basis: calc(150px - var(--total-space));
+    }
+
+    .space .third {
+      min-width: calc(33.33% - var(--total-space));
+      flex-basis: calc(165px - var(--total-space));
+    }
+
+    .space .half {
+      min-width: calc(50% - var(--total-space));
+      flex-basis: calc(180px - var(--total-space));
+    }
+
+    .space .two-third {
+      min-width: calc(66.66% - var(--total-space));
+      flex-basis: calc(195px - var(--total-space));
+    }
+
+    .space .three-fourth {
+      min-width: calc(75% - var(--total-space));
+      flex-basis: calc(210px - var(--total-space));
+    }
+
+    .space .four-fifth {
+      min-width: calc(80% - var(--total-space));
+      flex-basis: calc(225px - var(--total-space));
+    }
+
+    .space .five-sixth {
+      min-width: calc(83.33% - var(--total-space));
+      flex-basis: calc(240px - var(--total-space));
+    }
+
+    .space .full {
+      min-width: calc(100% - var(--total-space));
+      flex-basis: calc(255px - var(--total-space));
+    }
+
+    .space-s .sixth,
+    .space-s .fifth,
+    .space-s .fourth,
+    .space-s .third,
+    .space-s .half,
+    .space-s .two-third,
+    .space-s .three-fourth,
+    .space-s .four-fifth,
+    .space-s .five-sixth,
+    .space-s .full {
+      margin: 0 var(--space-s) calc(var(--space-s) * 2);
+      padding: 0 calc(var(--space-s) * 2) var(--space-s);
+    }
+
+    .space-s .sixth {
+      min-width: calc(16.66% - var(--total-space-s));
+      flex-basis: calc(120px - var(--total-space-s));
+    }
+
+    .space-s .fifth {
+      min-width: calc(20% - var(--total-space-s));
+      flex-basis: calc(135px - var(--total-space-s));
+    }
+
+    .space-s .fourth {
+      min-width: calc(25% - var(--total-space-s));
+      flex-basis: calc(150px - var(--total-space-s));
+    }
+
+    .space-s .third {
+      min-width: calc(33.33% - var(--total-space-s));
+      flex-basis: calc(165px - var(--total-space-s));
+    }
+
+    .space-s .half {
+      min-width: calc(50% - var(--total-space-s));
+      flex-basis: calc(180px - var(--total-space-s));
+    }
+
+    .space-s .two-third {
+      min-width: calc(66.66% - var(--total-space-s));
+      flex-basis: calc(195px - var(--total-space-s));
+    }
+
+    .space-s .three-fourth {
+      min-width: calc(75% - var(--total-space-s));
+      flex-basis: calc(210px - var(--total-space-s));
+    }
+
+    .space-s .four-fifth {
+      min-width: calc(80% - var(--total-space-s));
+      flex-basis: calc(225px - var(--total-space-s));
+    }
+
+    .space-s .five-sixth {
+      min-width: calc(83.33% - var(--total-space-s));
+      flex-basis: calc(240px - var(--total-space-s));
+    }
+
+    .space-s .full {
+      min-width: calc(100% - var(--total-space-s));
+      flex-basis: calc(255px - var(--total-space-s));
+    }
+
+    .space-l .sixth,
+    .space-l .fifth,
+    .space-l .fourth,
+    .space-l .third,
+    .space-l .half,
+    .space-l .two-third,
+    .space-l .three-fourth,
+    .space-l .four-fifth,
+    .space-l .five-sixth,
+    .space-l .full {
+      margin: 0 var(--space-l) calc(var(--space-l) * 2);
+      padding: 0 calc(var(--space-l) * 2) var(--space-l);
+    }
+
+    .space-l .sixth {
+      min-width: calc(16.66% - var(--total-space-l));
+      flex-basis: calc(160px - var(--total-space-l));
+    }
+
+    .space-l .fifth {
+      min-width: calc(20% - var(--total-space-l));
+      flex-basis: calc(180px - var(--total-space-l));
+    }
+
+    .space-l .fourth {
+      min-width: calc(25% - var(--total-space-l));
+      flex-basis: calc(200px - var(--total-space-l));
+    }
+
+    .space-l .third {
+      min-width: calc(33.33% - var(--total-space-l));
+      flex-basis: calc(220px - var(--total-space-l));
+    }
+
+    .space-l .half {
+      min-width: calc(50% - var(--total-space-l));
+      flex-basis: calc(240px - var(--total-space-l));
+    }
+
+    .space-l .two-third {
+      min-width: calc(66.66% - var(--total-space-l));
+      flex-basis: calc(260px - var(--total-space-l));
+    }
+
+    .space-l .three-fourth {
+      min-width: calc(75% - var(--total-space-l));
+      flex-basis: calc(280px - var(--total-space-l));
+    }
+
+    .space-l .four-fifth {
+      min-width: calc(80% - var(--total-space-l));
+      flex-basis: calc(300px - var(--total-space-l));
+    }
+
+    .space-l .five-sixth {
+      min-width: calc(83.33% - var(--total-space-l));
+      flex-basis: calc(310px - var(--total-space-l));
+    }
+
+    .space-l .full {
+      min-width: calc(100% - var(--total-space-l));
+      flex-basis: calc(320px - var(--total-space-l));
+    }
+
+    /*-------------------------------------------------------------------------------------------
+
+  888888 Yb  dP 88""Yb 888888  dP"Yb   dP""b8 88""Yb    db    88""Yb 88  88 Yb  dP
+    88    YbdP  88__dP 88__   dP   Yb dP   `" 88__dP   dPYb   88__dP 88  88  YbdP
+    88     8P   88"""  88""   Yb   dP Yb  "88 88"Yb   dP__Yb  88"""  888888   8P
+    88    dP    88     888888  YbodP   YboodP 88  Yb dP""""Yb 88     88  88  dP
+
+------------------------------------------------------------------------------------------- */
+    /*
+  • Choose a primary style of sans or sans-serif
+  • Decide if the brand has a secondary contrast of the opposite
+  • Scale should be based on visual differentiation between steps
+  • I tend to use verdana for base work since it's simple and legible for body Copy
+  • Alternate bold and normal and you go up the scale to provide differentiation
+
+  ┌─ 44px Page Title / H1
+  │  └─ Page Titles
+  │
+  ├─ 30px Section Title / H2
+  │  └─ Section Titles
+  │
+  ├─ 26px Sub Title / H3
+  │  └─ Paragraph / Body Text
+  │
+  ├─ 18px Label / H4
+  │  └─ Paragraph / Body Text
+  │
+  └─ 14px Body Copy / P
+     └─ Headline, Strong, and Bold Text
+                                                                                                */
+    :root {
+      --sans: verdana, sans-serif;
+      --serif: georgia, serif;
+      --mono: courier, monospace;
+      --xxl-font: 2.75em;
+      /* 44px */
+      --xl-font: 1.8em;
+      /* ~30px */
+      --l-font: 1.6em;
+      /* ~26px */
+      --m-font: 1.1em;
+      /* ~18px */
+      --s-font: 1em;
+      /* 16px */
+      --xs-font: .83em;
+      /* ~13px */
+      --xxs-font: .6em;
+      /* ~10px */
+    }
+
+    .txt-center {
+      text-align: center;
+    }
+
+    .txt-rt {
+      text-align: right;
+    }
+
+    .txt-lt {
+      text-align: left;
+    }
+
+    a[target="external"],
+    a[target="_blank"] {
+      position: relative;
+    }
+
+    a[target="external"]:before,
+    a[target="_blank"]:before,
+    a[target="external"]:after,
+    a[target="_blank"]:after {
+      display: inline-block;
+      border: var(--icon-stroke) solid var(--primary);
+      content: " ";
+      width: calc(var(--icon-size) * .8);
+      height: calc(var(--icon-size) * .8);
+      vertical-align: middle;
+      margin: 0 auto;
+      position: absolute;
+    }
+
+    a[target="external"]:before,
+    a[target="_blank"]:before {
+      right: -.8em;
+      top: .5em;
+    }
+
+    a[target="external"]:after,
+    a[target="_blank"]:after {
+      right: -1em;
+      top: .3em;
+    }
+
+    a[target="external"]:hover:before,
+    a[target="_blank"]:hover:before {
+      border: var(--icon-stroke) solid var(--primary);
+    }
+
+    a[target="external"]:hover:after,
+    a[target="_blank"]:hover:after {
+      border: var(--icon-stroke) solid var(--secondary);
+    }
+
+    p {
+      flex: 0 0 100%;
+      width: 100%;
+      font-size: var(--s-font);
+      margin: 0 0 var(--margin-btm) 0;
+      letter-spacing: 1px;
+      color: var(--medium-dark);
+    }
+
+    /* Headings
+----------------------------------------------- */
+    h6,
+    h6 a:link,
+    h6 a:visited {
+      flex: 0 0 100%;
+      font-size: var(--xxs-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: bold;
+    }
+
+    h5,
+    h5 a:link,
+    h5 a:visited {
+      flex: 0 0 100%;
+      font-size: var(--s-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: normal;
+    }
+
+    h4,
+    h4 a:link,
+    h4 a:visited {
+      flex: 0 0 100%;
+      font-size: var(--m-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: bold;
+    }
+
+    h3,
+    h3 a:link,
+    h3 a:visited {
+      width: 100%;
+      font-size: var(--l-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: normal;
+    }
+
+    h2,
+    h2 a:link,
+    h2 a:visited {
+      width: 100%;
+      font-size: var(--xl-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: bold;
+      border-bottom: 1px solid var(--light);
+      padding-bottom: .5em;
+    }
+
+    h1,
+    h1 a:link,
+    h1 a:visited {
+      flex: 0 0 100%;
+      font-size: var(--xxl-font);
+      margin: 0 0 var(--margin-btm) 0;
+      color: var(--dark);
+      font-weight: normal;
+    }
+
+    .page-title a:hover,
+    h1 a:hover {
+      color: black;
+    }
+
+    /* Type Formatting
+----------------------------------------------- */
+    .fnt-xxs {
+      font-size: var(--xxs-font);
+    }
+
+    .text p {
+      font-size: 16px;
+    }
+
+    mark {
+      background: var(--highlight);
+      color: var(--dark);
+      padding: 0 8px;
+    }
+
+    b,
+    strong {
+      font-weight: 700;
+    }
+
+    q,
+    blockquote {
+      padding: 5% 7% 7% 7%;
+      display: block;
+      clear: both;
+      font-size: 22px;
+    }
+
+    pre {
+      width: 100%;
+    }
+
+    .code {
+      display: inline-block;
+      margin: 0 .6em;
+      padding: 10px;
+      background: #f5f5f5;
+      white-space: pre-wrap;
+      color: var(--medium-dark);
+    }
+
+    /* Links
+----------------------------------------------- */
+    a:link {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: var(--tone);
+    }
+
+    a:hover {
+      color: var(--secondary);
+    }
+
+    /* Lists
+----------------------------------------------- */
+    ul {
+      width: 100%;
+      list-style: disc;
+      padding: 0 0 0 20px;
+      lgin: 0 0 10px 0;
+      margin: 0 0 var(--margin-btm);
+    }
+
+    ul ul {
+      list-style-type: circle;
+      margin-top: 10px;
+    }
+
+    li {
+      margin: 0 0 var(--margin-btm);
+    }
+
+    ol {
+      list-style: decimal;
+      padding: 0 0 0 20px;
+      margin: 0 0 var(--margin-btm);
+    }
+
+    hr {
+      height: 1px;
+      border-top: solid 1px var(--light);
+      border-bottom: none;
+      clear: both;
+    }
+
+    /*-------------------------------------------------------------------------------------------
+
+   dP""b8  dP"Yb  88      dP"Yb  88""Yb
+  dP   `" dP   Yb 88     dP   Yb 88__dP
+  Yb      Yb   dP 88  .o Yb   dP 88"Yb
+   YboodP  YbodP  88ood8  YbodP  88  Yb
+
+-------------------------------------------------------------------------------------------
+    • Strive to be accesible
+    • A scale based off HSL and HSLA
+     - I use HSLA because I find it more intuative than rgb
+     - Hue ( a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue )
+     - Saturation ( a percentage value; 0% means a shade of gray and 100% is the full color )
+     - Value / Lightness ( a percentage; 0% is black, 100% is white )
+     - Alpha / Oppacity ( a number between 0.0 fully transparent and 1.0 fully opaque )
+    • Choices based on:
+     - Heuristics ( Web Standards and Experience )
+     - legability
+     - Interest & Design
+    • For base / primary wireframe color, I use dodgerblue or a hue of 210
+    • I belive that the 15 colors below should meet any standard use case
+                                                                                        */
+    :root {
+      /*  COLOR NAME      HUE                      SATURATION   VALUE    OPACITY  */
+      --hue: 163;
+      --extra-light: hsl(var(--hue), 40%, 95%);
+      /* Body Background */
+      --light: hsl(var(--hue), 50%, 90%);
+      /* Box and Footer background */
+      --tint: hsla(var(--hue), 60%, 90%, 0.75);
+      /* Makes dark text stand out */
+      --highlight: hsl(var(--hue), 100%, 70%);
+      /* Used for the mark tag */
+      --primary: hsl(var(--hue), 70%, 50%);
+      /* Brand Color, Links */
+      --tone: hsla(var(--hue), 100%, 40%, 0.5);
+      /* Overlays Primary Color on image */
+      --secondary: hsl(var(--hue), 80%, 30%);
+      /* Hovers */
+      --medium-dark: hsl(var(--hue), 10%, 30%);
+      /* Paragraph / Body Text */
+      --dark: hsl(var(--hue), 20%, 20%);
+      /* Headline, Strong, and Bold Text */
+      --shade: hsla(var(--hue), 20%, 20%, 0.75);
+      /* Make light text stand out */
+      --contrast: hsl(calc(var(--hue) - 180), 90%, 50%);
+      /* Complement of primary */
+      --negative: hsl(6, 90%, 50%);
+      /* Errors & Corrections */
+      --positive: hsl(150, 90%, 50%);
+      /* Confirmation & Success */
+      --gradient: linear-gradient(var(--medium-dark), var(--dark));
+      /* Confirmation & Success */
+    }
+
+    /*Keep color background classes last so that they can overwrite all other classes */
+    .bg-extra-light {
+      background-color: var(--extra-light);
+    }
+
+    .font-extra-light {
+      color: var(--extra-light);
+    }
+
+    .bdr-extra-light {
+      border-color: var(--extra-light);
+    }
+
+    .bg-light {
+      background-color: var(--light);
+    }
+
+    .font-light {
+      color: var(--light);
+    }
+
+    .bdr-light {
+      border-color: var(--light);
+    }
+
+    .bg-tint {
+      background: linear-gradient(var(--tint), var(--tint)), url(https://images.pexels.com/photos/461832/pexels-photo-461832.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-highlight {
+      background-color: var(--highlight);
+    }
+
+    .font-highlight {
+      color: var(--highlight);
+    }
+
+    .bdr-highlight {
+      border-color: var(--highlight);
+    }
+
+    .bg-primary {
+      background-color: var(--primary);
+    }
+
+    .font-primary {
+      color: var(--primary);
+    }
+
+    .bdr-primary {
+      border-color: var(--primary);
+    }
+
+    .bg-negative {
+      background-color: var(--negative);
+    }
+
+    .font-negative {
+      color: var(--negative);
+    }
+
+    .bdr-negative {
+      border-color: var(--negative);
+    }
+
+    .bg-positive {
+      background-color: var(--positive);
+    }
+
+    .font-positive {
+      color: var(--positive);
+    }
+
+    .bdr-positive {
+      border-color: var(--positive);
+    }
+
+    .bg-tone {
+      background: linear-gradient(var(--tone), var(--tone)), url("https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-contrast {
+      background-color: var(--contrast);
+    }
+
+    .font-contrast {
+      color: var(--contrast);
+    }
+
+    .bdr-contrast {
+      border-color: var(--contrast);
+    }
+
+    .bg-secondary {
+      background-color: var(--secondary);
+    }
+
+    .font-secondary {
+      color: var(--secondary);
+    }
+
+    .bdr-secondary {
+      border-color: var(--secondary);
+    }
+
+    .bg-medium-dark {
+      background-color: var(--medium-dark);
+    }
+
+    .font-medium-dark {
+      color: var(--medium-dark);
+    }
+
+    .bdr-medium-dark {
+      border-color: var(--medium-dark);
+    }
+
+    .bg-dark {
+      background-color: var(--dark);
+    }
+
+    .font-dark {
+      color: var(--dark);
+    }
+
+    .bdr-dark {
+      border-color: var(--dark);
+    }
+
+    .bg-shade {
+      background: linear-gradient(var(--shade), var(--shade)), url(https://images.pexels.com/photos/109919/pexels-photo-109919.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-gradient {
+      background-color: var(--gradient);
+    }
+
+    .bg-tone,
+    .bg-secondary,
+    .bg-medium-dark,
+    .bg-dark,
+    .bg-shade,
+    .primary-bg,
+    .bg-tone h4,
+    .bg-secondary h4,
+    .bg-medium-dark h4,
+    .bg-dark h4,
+    .bg-shade h4,
+    .bg-gradient h4,
+    .bg-primary h4,
+    .bg-tone p,
+    .bg-secondary p,
+    .bg-medium-dark p,
+    .bg-dark p,
+    .bg-shade p,
+    .bg-gradient p,
+    .bg-primary p {
+      color: white;
+    }
+
+    /* Images
+----------------------------------------------- */
+    .image {
+      background-position: center;
+      background-size: cover;
+    }
+
+    img,
+    a img {
+      width: 100%;
+      align-self: center;
+      border-width: 0;
+    }
+
+    /* Video
+----------------------------------------------- */
+    .video {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      height: auto;
+    }
+
+    .video iframe,
+    .video object,
+    .video embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .ytp-thumbnail .html5-stop-propagation {
+      background-image: url(http://maxduggan.com/images/blog_bg.jpg) !important;
+      background-color: var(--Light) !important;
+    }
+
+    /* Forms
+----------------------------------------------- */
+    input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid var(--Light);
+      border-radius: 0;
+      box-sizing: border-box;
+      margin: 10px 0;
+    }
+
+    input[type="submit"] {
+      background-color: var(--Dark);
+      color: white;
+    }
+
+    input[type="submit"]:hover {
+      background-color: Black;
+      color: white;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-bottom: none;
+      border-right: none;
+      outline: none;
+      background: var(--Light);
+    }
+
+    /* Tables
+----------------------------------------------- */
+    .table {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: center;
+    }
+
+    .col {
+      max-width: 100%;
+      flex: 1 0 auto;
+      margin-bottom: 10px;
+    }
+
+    .th,
+    .td {
+      padding: 10px;
+      border: 1px solid var(--medium-dark);
+    }
+
+    .th {
+      background: var(--dark);
+      color: white;
+    }
+
+    .td {
+      color: #555;
+    }
+
+    /*------------------------------------------------------------------------
+
+  88b 88    db    Yb    dP 88  dP""b8    db    888888 88  dP"Yb  88b 88
+  88Yb88   dPYb    Yb  dP  88 dP   `"   dPYb     88   88 dP   Yb 88Yb88
+  88 Y88  dP__Yb    YbdP   88 Yb  "88  dP__Yb    88   88 Yb   dP 88 Y88
+  88  Y8 dP""""Yb    YP    88  YboodP dP""""Yb   88   88  YbodP  88  Y8
+
+------------------------------------------------------------------------*/
+    header {
+      display: block;
+    }
+
+    .logo {
+      display: none;
+    }
+
+    .burger {
+      background: var(--light);
+      z-index: 999;
+      padding: 10px 10px 0;
+      margin: 0 0 5px 10px;
+      display: inline-block;
+      border: 0;
+      background: none;
+      outline: 0;
+      padding: 0;
+      cursor: pointer;
+      border-bottom: none;
+      width: 14px;
+      transition: border-bottom 1s ease-in-out;
+      -webkit-transition: border-bottom 1s ease-in-out;
+    }
+    .accordion-title {
+    z-index: 999;
+    padding: 10px 10px 0;
+    display: inline-block;
+    }
+
+    .burger::-moz-focus-inner {
+      border: 0;
+      padding: 0;
+    }
+
+    .burger:before {
+      content: "";
+      display: block;
+      border-bottom: 4px solid currentColor;
+      width: 100%;
+      margin-top: 7px;
+      transform: rotate(45deg) translateY(7px) translateX(2px);
+      -webkit-transform: rotate(45deg) translateY(7px) translateX(2px);
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .burger:after {
+      content: "";
+      display: block;
+      border-bottom: 4px solid currentColor;
+      width: 100%;
+      transform: rotate(-45deg) translateY(5px) translateX(1px);
+      -webkit-transform: rotate(-45deg) translateY(5px) translateX(1px);
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .burger-check {
+      display: none;
+    }
+
+    .burger-check:checked~.burger:before {
+      margin-top: 7px;
+      transform: rotate(-45deg) translateY(2px) translateX(-5px);
+      -webkit-transform: rotate(-45deg) translateY(2px) translateX(-5px);
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .burger-check:checked~.burger:after {
+      transform: rotate(45deg) translateY(-3px) translateX(4px);
+      -webkit-transform: rotate(45deg) translateY(-3px) translateX(4px);
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .nav {
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.5s ease-in-out;
+      background: none;
+      padding: 0;
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .burger-check:checked~.nav {
+      padding: 10px 0 10px 40px;
+      max-height: 500px;
+      transition: max-height 0.5s ease-in-out;
+      transition: -webkit-transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out;
+      transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
+      -webkit-transition: -webkit-transform 0.5s ease-in-out;
+    }
+
+    .nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav li {
+      list-style: none;
+    }
+
+    ul.second-level-menu {
+      padding: 0 0 0 10px;
+    }
+
+    .pointer {
+      cursor: pointer;
+    }
+
+    .menu-check {
+      display: none;
+    }
+
+    .second-level-menu {
+      overflow: hidden;
+      max-height: 0;
+    }
+
+    .menu-check:checked~.second-level-menu {
+      max-height: 500px;
+    }
+
+    .page-nav,
+    .menu {
+      background: var(--light);
+      position: fixed;
+      z-index: 999;
+      top: 10px;
+      right: 10px;
+      padding: 10px 10px 0;
+    }
+
+    .menu {
+      padding-bottom: 10px;
+    }
+
+    .page-nav {
+      display: none;
+    }
+
+    .menu:hover+.page-nav {
+      display: block;
+    }
+
+    .page-nav:hover {
+      display: block;
+    }
+
+    .page-nav a {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .left-hand-menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    /*------------------------------------------------------------------------
+
+  88  dP""b8  dP"Yb  88b 88 .dP"Y8
+  88 dP   `" dP   Yb 88Yb88 `Ybo."
+  88 Yb      Yb   dP 88 Y88 o.`Y8b
+  88  YboodP  YbodP  88  Y8 8bodP'
+
+------------------------------------------------------------------------*/
+    :root {
+      --icon-size: 0.5em;
+      --icon-stroke: calc(var(--icon-size) * 0.1);
+    }
+
+em.caret,
+em.circleCaret {
+  display: inline-block;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  position: relative;
+  vertical-align: middle;
+  margin: 0 0 0.1em;
+}
+
+em.circleCaret {
+  border: var(--icon-stroke) solid black;
+  border-radius: 100%;
+}
+
+em.circleCaret:before,
+em.caret:before {
+  border-top: var(--icon-stroke) solid black;
+  border-right: var(--icon-stroke) solid black;
+  content: " ";
+  width: calc(var(--icon-size) * 0.4);
+  height: calc(var(--icon-size) * 0.4);
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  position: relative;
+}
+
+em.searchIcon {
+  display: inline-block;
+  height: calc(var(--icon-size) * 0.4);
+  position: relative;
+  border: var(--icon-stroke) solid black;
+  border-radius: 100%;
+  top: calc(var(--icon-size) * -0.45);
+}
+
+em.searchIcon:before {
+  border-bottom: var(--icon-stroke) solid black;
+  content: " ";
+  width: calc(var(--icon-size) * 0.4);
+  height: calc(var(--icon-size) * 0.4);
+  display: block;
+  position: relative;
+  transform: rotate(-45deg);
+  top: calc(var(--icon-size) * 0.15);
+  left: calc(var(--icon-size) * -0.45);
+}
+
+em.up:before {
+  top: calc(var(--icon-size) * 0.35);
+  left: calc(var(--icon-size) - 0);
+  transform: rotate(-45deg);
+}
+
+em.right:before {
+  top: calc(var(--icon-size) * 0.25);
+  left: calc(var(--icon-size) * -0.05);
+  transform: rotate(45deg);
+}
+
+em.down:before {
+  top: calc(var(--icon-size) * 0.15);
+  left: calc(var(--icon-size) - 0);
+  transform: rotate(135deg);
+}
+
+em.left:before {
+  top: calc(var(--icon-size) * 0.25);
+  left: calc(var(--icon-size) * 0.1);
+  transform: rotate(-135deg);
+}
+
+    .tablet-only {
+      display: none;
+    }
+
+    .mobile-only {
+      display: none;
+    }
+
+    /*-------------------------------------------------------------------------------
+
+888888888888    db         88888888ba   88           88888888888  888888888888
+     88        d88b        88      "8b  88           88                88
+     88       d8'`8b       88      ,8P  88           88                88
+     88      d8'  `8b      88aaaaaa8P'  88           88aaaaa           88
+     88     d8YaaaaY8b     88""""""8b,  88           88"""""           88
+     88    d8""""""""8b    88      `8b  88           88                88
+     88   d8'        `8b   88      a8P  88           88                88
+     88  d8'          `8b  88888888P"   88888888888  88888888888       88
+
+---------------------------------------------------------------------------------*/
+    @media (max-width: 980px) and (min-width: 601px) {
+      .tablet-only {
+        display: block;
+      }
+    }
+
+    /* End Tablet Media Query */
+    /*-------------------------------------------------------------------------------
+
+  88b           d88    ,ad8888ba,    88888888ba   88  88           88888888888
+  888b         d888   d8"'    `"8b   88      "8b  88  88           88
+  88`8b       d8'88  d8'        `8b  88      ,8P  88  88           88
+  88 `8b     d8' 88  88          88  88aaaaaa8P'  88  88           88aaaaa
+  88  `8b   d8'  88  88          88  88""""""8b,  88  88           88"""""
+  88   `8b d8'   88  Y8,        ,8P  88      `8b  88  88           88
+  88    `888'    88   Y8a.    .a8P   88      a8P  88  88           88
+  88     `8'     88    `"Y8888Y"'    88888888P"   88  88888888888  88888888888
+
+---------------------------------------------------------------------------------*/
+    @media (max-width: 600px) {
+      .mobile-only {
+        display: block;
+      }
+
+      .col {
+        width: 100%;
+      }
+
+      .sixth,
+      .fifth,
+      .fourth,
+      .third,
+      .half,
+      .two-third,
+      .three-fourth,
+      .four-fifth,
+      .five-sixth,
+      .full {
+        flex-basis: calc(100% - var(--total-space));
+      }
+    }
+
+    /* End Mobile Media Query */
+
+
+
+    .section-title {
+      display: flex;
+       flex: 1 0 300px;
+        min-width: 96%;
+         margin: 30px 2% 20px;
+          padding: 0;
+           align-items: baseline;
+            flex-flow: row wrap;
+             color: #333;
+              font-weight: normal;
+               font-size: 30px;
+    }
+    .column {
+      flex: 1 0 200px; min-width: 29%; margin: 0 2% 15px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center;
+    }
+    .category-title {
+      flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #374845;
+    }
+    .column a {
+      flex: 1 0 100%; margin: 0 0 10px; color: #3a8; text-decoration: none;
+    }
+  </style>
+
+  <!--  Meta  -->
+  <meta name="viewport" content="initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Catalog of All LAB Content">
+  <title>Online Learning Catalog</title>
+
+</head>
+
+<body>
+
+<div class="body-container space">
+  <div class="fourth">
+      <div class="left-hand-menu">
+    <input class="burger-check" id="burger-check" type="checkbox" checked><label for="burger-check" class="burger"></label>
+    <div class="accordion-title">Quick Guide</div>
+    <div class="nav">
+      <ul>
+        <li>
+          <input class="menu-check" id="menu-check" type="checkbox">
+          <label for="menu-check" class="pointer">Consulting Skills</label>
+          <ul class="second-level-menu">
+            <li>Achieve Impact</li>
+            <li>Communicate</li>
+            <li>Gain Insight &amp; Solve Problems</li>
+            <li>Client Development</li>
+            <li>Leadership</li>
+          </ul>
+        </li>
+        <li>
+          <input class="menu-check" id="menu-check" type="checkbox">
+          <label for="menu-check" class="pointer">Business Service Skills</label>
+          <ul class="second-level-menu">
+            <li><a href="#top">Communicate and Collaborate</a></li>
+            <li><a href="#breakpoints">Enhance Personal Effectiveness</a></li>
+            <li><a href="#colors">Know Business Basics</a></li>
+            <li><a href="#colors">Lead, Coach & Develop</a></li>
+            <li><a href="#colors">Manage Projects & Change</a></li>
+            <li><a href="#colors">Perform Analysis & Solve Problems</a></li>
+          </ul>
+        </li>
+        <li>
+          <input class="menu-check" id="menu-check" type="checkbox">
+          <label for="menu-check" class="pointer">Key Software</label>
+          <ul class="second-level-menu">
+            <li><a href="#top">BCG Tools</a></li>
+            <li><a href="#breakpoints">Data and Analytics</a></li>
+            <li><a href="#colors">Digital Teaming</a></li>
+            <li><a href="#type">Guru Tips</a></li>
+            <li><a href="#type">Microsoft Office</a></li>
+          </ul>
+        </li>
+        <li>
+          <input class="menu-check" id="menu-check" type="checkbox">
+          <label for="menu-check" class="pointer">Fundamentals</label>
+          <ul class="second-level-menu">
+            <li><a href="#top">BCG LABcasts</a></li>
+            <li><a href="#breakpoints">Comply with BCG Policies</a></li>
+            <li><a href="#colors">Learn About BCG</a></li>
+            <li><a href="#colors">Basic Toolkit</a></li>
+          </ul>
+        </li>
+        <li>
+          <input class="menu-check" id="menu-check" type="checkbox">
+          <label for="menu-check" class="pointer">Practice Areas</label>
+          <ul class="second-level-menu">
+            <li><a href="#top">BCG LABcasts</a></li>
+            <li><a href="#breakpoints">Comply with BCG Policies</a></li>
+            <li><a href="#colors">Learn About BCG</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+
+
+  </div><!-- End Left Hand Menu -->
+
+  </div><!-- End fourth -->
+
+  <div class="three-fourth">
+    <h1 id="top">Online Learning Catalog</h1>
+    <!--
+     dP""b8  dP"Yb  88b 88 .dP"Y8 88   88 88     888888 88 88b 88  dP""b8     .dP"Y8 88  dP 88 88     88     .dP"Y8
+    dP   `" dP   Yb 88Yb88 `Ybo." 88   88 88       88   88 88Yb88 dP   `"     `Ybo." 88odP  88 88     88     `Ybo."
+    Yb      Yb   dP 88 Y88 o.`Y8b Y8   8P 88  .o   88   88 88 Y88 Yb  "88     o.`Y8b 88"Yb  88 88  .o 88  .o o.`Y8b
+     YboodP  YbodP  88  Y8 8bodP' `YbodP' 88ood8   88   88 88  Y8  YboodP     8bodP' 88  Yb 88 88ood8 88ood8 8bodP' -->
+    <!-- Section Title -->
+    <div id="individual-contributor" class="section-title" >
+      Consulting Skills &amp; Tools
+    </div><!-- End Section Title -->
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        About BCG
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003069">
+        BCG LABcasts
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003108">
+        Comply with BCG Policies
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003109">
+        Learn About BCG
+      </a>
+
+      <!-- Category Title -->
+      <div class="category-title">
+        Basic Toolkit
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003102">
+        Build Language &amp; Cultural Skills
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003104">
+        Conduct Research
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003103">
+        Learn Business Fundamentals
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003101">
+        Perform Analysis
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003135">
+        Training Series
+      </a>
+    </div><!-- End Column -->
+
+    <!-- Column 1 -->
+    <div class="column">
+
+      <!-- Category Title -->
+      <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #374845;align-self: start;">
+        Client Development Skills
+      </div><!-- End Category Title -->
+
+      <a style="flex: 1 0 100%; margin: 0 0 10px; color: #3a8;align-self: start; text-decoration: none;" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003096">
+        Develop Client Relationship
+      </a>
+
+      <a style="flex: 1 0 100%; margin: 0 0 10px; color: #3a8;align-self: start; text-decoration: none;" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003097">
+        Drive The Commercial Process
+      </a>
+
+      <!-- Category Title -->
+      <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #374845;align-self: start;">
+        Consulting Skills
+      </div><!-- End Category Title -->
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003094">
+        Achieve Impact
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003093">
+        Communicate
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003095">
+        Gain Insight & Solve Problems
+      </a>
+
+    </div><!-- End Column -->
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #374845;align-self: start;">
+        Key Software
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003105">
+        BCG Tools
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003084">
+        Data and Analytics
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003106">
+        Digital Teaming
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003107">
+        Guru Tips
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003092">
+        Microsoft Office
+      </a>
+
+      <!-- Category Title -->
+      <div class="category-title">
+        Leadership Skills
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003098">
+        Develop Yourself
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003100">
+        Lead Individuals & Apprenticeship
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003099">
+        Manage Work & Lead Teams
+      </a>
+
+    </div><!-- End Column -->
+
+</div><!-- End Content Container -->
+
+<!-- Grey Boxing -->
+<div style="width: 100%; background-color: #f5f5f5; background-image: linear-gradient(#eee, white, #eee);">
+
+
+<!-- Content Container -->
+<div class="content-container" style=" max-width: 1440px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: baseline;">
+
+    <!--
+    88""Yb 88   88 .dP"Y8 88 88b 88 888888 .dP"Y8 .dP"Y8     .dP"Y8 888888 88""Yb Yb    dP 88  dP""b8 888888 .dP"Y8
+    88__dP 88   88 `Ybo." 88 88Yb88 88__   `Ybo." `Ybo."     `Ybo." 88__   88__dP  Yb  dP  88 dP   `" 88__   `Ybo."
+    88""Yb Y8   8P o.`Y8b 88 88 Y88 88""   o.`Y8b o.`Y8b     o.`Y8b 88""   88"Yb    YbdP   88 Yb      88""   o.`Y8b
+    88oodP `YbodP' 8bodP' 88 88  Y8 888888 8bodP' 8bodP'     8bodP' 888888 88  Yb    YP    88  YboodP 888888 8bodP' -->
+    <!-- Section Title -->
+    <div id="business" class="section-title" >
+      <!-- Title -->
+      <div style=" flex: 1 0 200px; display: flex; margin: 0 10px 0 0; padding: 0; justify-content: left; align-items: baseline;  text-align:left; color: #333; font-weight: normal; font-size: 30px;" >
+        Business Services Skills &amp; Tools
+      </div><!-- End Title -->
+
+      <!-- Page Navigation -->
+      <!-- <a style="display: inline-flex; margin: 10px 10px 0 0; text-decoration: none; color: #3a8;" href="#top" target="_self">
+          Back To Top <img style="display: inline; margin: 5px 0 0 9px; height: 12px; transform: rotate(180deg);" src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/f3cc6bdc-e0be-4769-9638-50c0c2c5c881?tfile=down-caret.png_f3cc6bdc-e0be-4769-9638-50c0c2c5c881_1591823697600.png" alt="down caret">
+      </a> --><!-- End Page Navigation -->
+    </div><!-- End Section Title -->
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Fundamentals &amp; Tools
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003083">
+        Access BCG Knowledge Resources
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003069">
+        BCG LABcasts
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003086">
+        Comply with BCG Policies
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003082">
+        Learn about BCG
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003085">
+        Learn about the BCG Brand
+      </a>
+
+    </div><!-- End Column -->
+
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Key Software
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003087">
+        BCG Tools
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003091">
+        Data and Analytics
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003088">
+        Digital Teaming
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003089">
+        Guru Tips
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003090">
+        Microsoft Office
+      </a>
+
+    </div><!-- End Column -->
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Skills
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003081">
+        Communicate and Collaborate
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003076">
+        Enhance Personal Effectiveness
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003077">
+        Know Business Basics
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003078">
+        Lead, Coach &amp; Develop
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003079">
+        Manage Projects &amp; Change
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003080">
+        Perform Analysis &amp; Solve Problems
+      </a>
+
+    </div><!-- End Column -->
+
+  </div><!-- End Content Container -->
+</div><!-- End Grey Box -->
+
+
+  <!-- Content Container -->
+  <div class="content-container" style=" max-width: 1440px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; align-items: baseline;">
+
+    <!--
+    88""Yb 88""Yb    db     dP""b8 888888 88  dP""b8 888888        db    88""Yb 888888    db
+    88__dP 88__dP   dPYb   dP   `"   88   88 dP   `" 88__         dPYb   88__dP 88__     dPYb
+    88"""  88"Yb   dP__Yb  Yb        88   88 Yb      88""        dP__Yb  88"Yb  88""    dP__Yb
+    88     88  Yb dP""""Yb  YboodP   88   88  YboodP 888888     dP""""Yb 88  Yb 888888 dP""""Yb -->
+    <!-- Section Title -->
+    <div id="practice"  class="section-title" >
+      <!-- Title -->
+      <div style=" flex: 1 0 200px; display: flex; margin: 0 10px 0 0; padding: 0; justify-content: left; align-items: baseline;  text-align:left; color: #333; font-weight: normal; font-size: 30px;" >
+        Practice Area Knowledge
+      </div><!-- End Title -->
+
+      <!-- Page Navigation -->
+      <!-- <a style="display: inline-flex; margin: 10px 10px 0 0; text-decoration: none; color: #3a8;" href="#top" target="_self">
+          Back To Top <img style="display: inline; margin: 5px 0 0 9px; height: 12px; transform: rotate(180deg);" src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/f3cc6bdc-e0be-4769-9638-50c0c2c5c881?tfile=down-caret.png_f3cc6bdc-e0be-4769-9638-50c0c2c5c881_1591823697600.png" alt="down caret">
+      </a> --><!-- End Page Navigation -->
+    </div><!-- End Section Title -->
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Digital &amp; Analytics
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003074">
+        BCG Omnia
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003072">
+        BCG Platinion
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003131">
+        DigitalBCG
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003073">
+        Digital Ventures
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003071">
+        Gamma
+      </a>
+
+      <!-- Category Title -->
+      <div class="category-title">
+        Global Initiatives
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003129">
+        BCG Henderson Institute
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003130">
+        Innovations@BCG
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003128">
+        Smart Simplicity
+      </a>
+    </div><!-- End Column -->
+
+    <!-- Column -->
+    <div class="column">
+
+      <!-- Category Title -->
+      <div class="category-title">
+        Knowledge & Analytics
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003110">
+        Knowledge@BCG
+      </a>
+
+      <!-- Category Title -->
+      <div class="category-title">
+        Functional Practice Areas
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003070">
+        Corporate Finance & Strategy
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003111">
+        Global Advantage
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000004200">
+        Marketing, Sales & Pricing
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003113">
+        Operations
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003114">
+        People & Organization
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003121">
+        Social Impact
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003115">
+        Technology Advantage
+      </a>
+    </div><!-- End Column -->
+
+
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Industry Practice Areas
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003125">
+        Consumer
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003124">
+        Energy
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003123">
+        Financial Institutions
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003122">
+        Health Care
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003120">
+        Industrial Goods
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003119">
+        Insurance
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003118">
+        Principal Investors & Private Equity
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003117">
+        Public Sector
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003116">
+        Technology, Media & Telecom
+      </a>
+    </div><!-- End Column -->
+
+
+    <!-- Column -->
+    <div class="column">
+      <!-- Category Title -->
+      <div class="category-title">
+        Large Scale Change
+      </div>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003127">
+        Transaction & Integration Excellence
+      </a>
+
+      <a  href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003126">
+        Transformation & BCG TURN
+      </a>
+
+    </div><!-- End Column -->
+
+    </div><!-- End Content Container -->
+  </div>
+
+</div><!-- End Body Container -->
+
+</body>
+
+</html>

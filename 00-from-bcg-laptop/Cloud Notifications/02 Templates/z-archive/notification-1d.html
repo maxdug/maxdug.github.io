@@ -1,0 +1,395 @@
+<custom name="opencounter" type="tracking"/>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Notification Email</title>
+
+<style type="text/css">
+
+body {
+  background: #eee;
+	font-family: trebuchet MS, trebuchet, verdana;
+	padding: 30px 0;
+}
+table, thead, tbody, tfoot, tr, th, td {
+		display: block; /*no outlook 2007 support*/
+		height: auto;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-spacing: 0; /*no outlook 2007 support*/
+		text-align: left;
+		-webkit-border-horizontal-spacing: 0;
+		-webkit-border-vertical-spacing: 0;
+}
+#email-container {
+	width: 600px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+/* LAYOUT */
+
+.text-block {
+  display: block;
+  width: 100%;
+}
+.text-block td {
+  display: table-cell;
+}
+.text-block td.full, .text-block td.two-third, .text-block td.half, .text-block td.one-third, .text-block td.fourth {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 3.5%;
+}
+.text-block td.full {
+	width: 93%;
+}
+.text-block td.two-third {
+  width: 58.7%;
+}
+.text-block td.half {
+	width: 42%;
+}
+.text-block td.one-third {
+	width: 25.3%;
+}
+.text-block td.fourth {
+	width: 17%;
+}
+.text-block td.full img, .text-block td.two-third img, .text-block td.half img, .text-block td.one-third img, .text-block td.fourth img {
+  width: 100%;
+}
+
+
+/* For Hero and quick image sliced emails */
+.image-block {
+  display: block;
+  width: 100%;
+}
+.image-block td.full,  .image-block td.two-third, .image-block td.half, .image-block td.one-third, .image-block td.fourth {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.image-block td.full {
+	width: 100%;
+}
+.image-block td.two-third {
+  width: 66.7%;
+}
+.image-block td.half {
+	width: 50%;
+}
+.image-block td.one-third {
+	width: 33.3%;
+}
+.image-block td.fourth {
+	width: 25%;
+}
+
+
+/* P A G E   S P A C I N G */
+.space {
+	display: block;
+	height:20px;
+	background:  #fff;
+}
+.half-space {
+	display: block;
+	height:10px;
+	background:  #fff;
+}
+
+/* B U T T O N S */
+.button {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  text-decoration: none;
+  padding: 12px 18px;
+  border: 1px solid #3a8;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.button:hover {
+  background: #008c64;
+  text-decoration: none;
+}
+
+
+/* T E X T */
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: #777;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #3a8;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+}
+.text-link td {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+.text-link td a {
+	color: #3a8;
+	text-decoration: none;
+}
+
+
+
+h1 {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 6px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #555;
+  border-bottom: 2px solid #3a8;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 18px;
+  color: #555;
+  margin: 0 0 8px 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+li {
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+/* H I D E   O N   M O B I L E */
+.mobile-only {
+	display: none;
+}
+.mobile-hero, .mobile-hero table, .mobile-hero td, .mobile-hero img {
+	display: none;
+  mso-hide: all;
+}
+
+.footer {
+  display: block;
+  margin: 30px 0 0 0;
+  width: 100%;
+  background-color: #ccc;
+  line-height: 1.5;
+}
+.footer td {
+  width: 42.6%;
+  display: inline-block;
+  padding: 3.5%;
+  color: #555;
+  font-size: 13px;
+}
+.footer a {
+  color: #333;
+  text-decoration: underline;
+}
+
+b {
+  color: #333;
+}
+/* M O B I L E */
+@media (max-width: 600px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	#email-container {
+		width: 100%;
+	}
+	.hero {
+		display: none;
+	}
+  .mobile-hero, .mobile-hero table, .mobile-hero td, .mobile-hero img {
+  	display: block;
+    mso-hide: none;
+  }
+	.mobile-hero img {
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	.mobile-only {
+		display: inline-block;
+	}
+
+ul, ol {
+  padding-inline-start: 17px;
+}
+
+li {
+  line-height: 1.5;
+}
+
+.text-block td.full, .text-block td.two-third, .text-block td.half, .text-block td.one-third, .text-block td.fourth {
+  display: block;
+  width: 93%;
+}
+.text-block td.full img, .text-block td.two-third img, .text-block td.half img, .text-block td.one-third img, .text-block td.fourth img {
+  width: 50%;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  flex-flow: wrap;
+}
+.footer td {
+  float: left;
+  flex: 1 0 320px;
+  width: 93%;
+}
+
+}/* End of Mobile */
+
+
+</style>
+
+</head>
+
+<body>
+
+<!-- E M A I L   C O N T A I N E R -->
+<table id="email-container" bgcolor=" #fff" align="center" border="0" cellspacing="0"><tr><td>
+
+<!-- FULL -->
+<table class="image-block hero" align="center" border="0" cellspacing="0"><tr>
+  <td class="full">
+    <img src="http://image.lab.bcg-email.com/lib/fe6515707c6c057c7116/m/3/c4a1d608-61c7-4cbe-9b39-5f06481e33ce.png" alt="Hero Image"  />
+  </td>
+</tr></table> <!-- End of FULL -->
+
+<!-- M O B I L E   H E R O -->
+<div class="mobile-hero">
+<table class="image-block"  align="center" border="0" cellspacing="0"><tr>
+  <td class="full">
+    <img src="http://image.lab.bcg-email.com/lib/fe6515707c6c057c7116/m/3/e532a22f-b56b-4c61-a7cd-49e2ff27f0bb.png" alt="Hero Image"  />
+  </td>
+</tr></table> <!-- End Mobile Hero -->
+</div>
+
+
+
+
+<!-- S P A C E-->
+<table class="space" align="center" border="0" cellspacing="0"><tr><td>&nbsp;</td></tr></table> <!-- End of Space -->
+
+<!-- FULL -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr><td class="full">
+
+  <h1>Notification Title Goes Here</h1>
+
+  <h2>Section Header Goes Here</h2>
+
+  <p>
+    Lorem ipsum dolor sit amet, <b>bold item consectetur adipisicing elit</b>, sed do eiusmod <i>Italics tempor incididunt ut</i>  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <a href="http://maxduggan.com">Duis aute irure</a> dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+
+  <ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+  </ul>
+
+  <ol>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</li>
+  </ol>
+
+
+
+<!-- B U T T O N-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><table border="0" cellspacing="0" cellpadding="0"><tr><td align="center" bgcolor="#33aa88">
+  <a href="https://maxduggan.com" target="_blank" class="button">
+    Click Here
+  </a>
+</td></tr></table></td></tr></table><!-- End of Button -->
+
+
+</td></tr></table> <!-- End of FULL -->
+
+<!-- S P A C E-->
+<table class="space" align="center" border="0" cellspacing="0"><tr><td>&nbsp;</td></tr></table> <!-- End of Space -->
+
+<!-- half  C O N T A I N E R -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr>
+  <td class="one-third">
+    <img src="http://image.lab.bcg-email.com/lib/fe6515707c6c057c7116/m/3/2604ea84-b7f6-439b-879c-d29755b00029.png" alt="Test Icon"  />
+  </td><!-- End One Third -->
+  <td class="two-third text">
+    <h2>Section Header Goes Here</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
+  </td><!-- End Two Third -->
+</tr></table><!-- End of half Container -->
+
+<!-- S P A C E-->
+<table class="space" align="center" border="0" cellspacing="0"><tr><td>&nbsp;</td></tr></table> <!-- End of Space -->
+
+<!-- half  C O N T A I N E R -->
+<table class="text-block" align="center" border="0" cellspacing="0"><tr>
+  <td class="half text">
+    <h2>
+      Section Header Goes Here
+    </h2>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. a deserunt mollit anim id est laborum.
+    </p>
+  </td><!-- End HALF -->
+
+  <td class="half">
+    <img src="http://image.lab.bcg-email.com/lib/fe6515707c6c057c7116/m/3/2a2627f8-0114-4d2a-819e-75482dc43a4b.jpg" alt=" "  />
+  </td><!-- End HALF -->
+</tr></table><!-- End of half Container -->
+
+
+<!-- F O O T E R -->
+<table class="footer" align="center" border="0" cellspacing="0"><tr>
+  <td>
+    <b>Boston Consulting Group</b><br>
+    200 Pier 4 Blvd<br>
+    Boston, Massachusetts 02210<br>
+  </td>
+  <td>
+    <a href="">Manage Communications</a><br>
+    <a href="">Privacy Policy</a><br>
+    This email is for internal use only.<br>
+  </td>
+</tr></table> <!-- End FOOTER -->
+
+
+
+</td></tr></table><!-- End of Email Container -->
+
+</body>
+</html>

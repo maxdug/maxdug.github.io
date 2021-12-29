@@ -1,0 +1,257 @@
+<p style="display:none;margin-top:0;margin-bottom:.5em;margin-right:auto;margin-left:auto;" ></p>
+
+<!-- Faux body container used to give the document global font style -->
+<div class="body-container" style=" font-size: 16px; font-family: Trebuchet MS, verdana, sans-serif; color: #5c6663; word-break: break-word;">
+
+<div class="content-container" style=" max-width: 1440px; margin: 0 auto; display: flex; flex-flow: row wrap; justify-content: center; ">
+
+<!-- Page Title -->
+<div style="flex: 1 0 96%; margin: 0 1% 20px; padding: 20px 1%;  color: #3a8; font-size: 26px; text-transform: uppercase; text-align: center; letter-spacing: 0.05em; border-style: solid; border-width: 1px; box-sizing: border-box; border-color: #555; ">
+  NAMR Curriculum
+  <div style="font-size: 16px; color: #555; margin: 10px 0 0 0;">Traditional Consulting Track</div>
+</div>
+
+
+<!-- Page Navigation -->
+<div style="flex: 1 0 98%; display: flex; margin: 0 1% 20px; padding: 0; justify-content: space-around;">
+  <div><a style="color: #3a8;" href="">Individual Contributor</a></div>
+  <div><a style="color: #3a8;" href="">Leader</a></div>
+  <div><a style="color: #3a8;" href="">Senior Leader</a></div>
+  <div><a style="color: #3a8;" href="">Firm Leader</a></div>
+</div>
+
+
+<!-- Individual Contributor -->
+<!-- Title -->
+<div style="flex:1 0 98%; display: flex; margin: 0 1% 0; padding: 0 0 4px; justify-content: left; align-items: center;  text-align:left; " ><a name=""></a>
+  <div style="margin: 0 10px 0 0;color: #3a8; font-weight: normal; font-size: 26px;">Individual Contributor</div>
+  <div style="color: #777; font-weight: normal; font-size: 12px;">(Associate consultant equivelant)</div>
+</div>
+
+
+<!-- Big Blue Box -->
+<div style="flex: 1 0 94%; display: flex; margin: 0 1% 20px; padding: 2%; width: 98%; flex-flow: row wrap; border-style: solid; border-color: #3a8; border-width: 1px;">
+
+
+<!-- Series Box -->
+<div style="flex:1 0 320px; margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 100%; margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">LAUNCH Series</div>
+    <div style="font-size: 12px; color: #777;">Launch into your new career step</div>
+  </div>
+
+
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Business Essentials
+</a>
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; text-decoration: none; font-size:14px;" >
+    New Hire Orientation
+</a>
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Consulting Toolkit
+</a>
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Consulting Foundations
+</a>
+<!-- Sub Link Section -->
+<div style="display: flex; flex-flow: row wrap;  justify-content: left; flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; font-size:14px;" >
+    <div style="flex: 0 0 100%; margin: 0 0 10px;">Consulting Booster I</div>
+    <div style="flex: 0 0 100%;">
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        NE
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        GLC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        WC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        South
+    </a>
+    </div>
+</div><!-- End Sub Link Section -->
+<!-- Sub Link Section -->
+<div style="display: flex; flex-flow: row wrap;  justify-content: left; flex:1 0 100%; margin: 0 0 10px 10px; padding: 0; color:#3a8; font-size:14px;" >
+    <div style="flex: 0 0 100%; margin: 0 0 10px;">Consulting Booster II</div>
+    <div style="flex: 0 0 100%;">
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        NE
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        GLC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        WC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        South
+    </a>
+    </div>
+</div><!-- End Sub Link Section -->
+</div><!-- End Series Box -->
+
+<!-- Series Box -->
+<div style="flex:1 0 320px; margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 100%; margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">ASCEND Series</div>
+    <div style="font-size: 12px; color: #777;">Ascend as you grow into your role</div>
+  </div>
+
+
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Advanced Consulting Program
+</a>
+<!-- Sub Link Section -->
+<div style="display: flex; flex-flow: row wrap;  justify-content: left; flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; font-size:14px;" >
+    <div style="flex: 0 0 100%; margin: 0 0 10px;">Project Leader Readiness</div>
+    <div style="flex: 0 0 100%;">
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        NE
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        GLC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        WC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        South
+    </a>
+    </div>
+</div><!-- End Sub Link Section -->
+</div><!-- End Series Box -->
+
+
+<!-- Series Box -->
+<div style="flex:1 0 calc(100% - 20px); margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 calc(100% - 40px); margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">DISCOVER Series</div>
+    <div style="font-size: 12px; color: #777;">Discover your individual potential</div>
+  </div>
+
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    LAB portal with on-demand digital training modules and talks
+  </a>
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    1:1 coaching (lookup your local L&D members here)
+  </a>
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Optional local live trainings & workshops
+  </a>
+</div><!-- End Series Box -->
+
+</div><!-- End Individual Contributor Box -->
+
+
+<!-- Leader -->
+<!-- Title -->
+<div style="flex:1 0 98%; display: flex; margin: 0 1% 0; padding: 0 0 4px; justify-content: left; align-items: center;  text-align:left; " ><a name=""></a>
+  <div style="margin: 0 10px 0 0;color: #3a8; font-weight: normal; font-size: 26px;">Leader</div>
+  <div style="color: #777; font-weight: normal; font-size: 12px;">(Consultant equivelant)</div>
+</div>
+
+
+<!-- Big Blue Box -->
+<div style="flex: 1 0 94%; display: flex; margin: 0 1% 20px; padding: 2%; width: 98%; flex-flow: row wrap; border-style: solid; border-color: #3a8; border-width: 1px;">
+
+
+<!-- Series Box -->
+<div style="flex:1 0 320px; margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 100%; margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">LAUNCH Series</div>
+    <div style="font-size: 12px; color: #777;">Launch into your new career step</div>
+  </div>
+
+
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Senior Hire Essentials
+</a>
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Project Leadership Foundations
+</a>
+<!-- Sub Link Section -->
+<div style="display: flex; flex-flow: row wrap;  justify-content: left; flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; font-size:14px;" >
+    <div style="flex: 0 0 100%;">Project Leadership Booster</div>
+    <div style="flex: 0 0 100%;">
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        NE
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        GLC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        WC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        South
+    </a>
+    </div>
+</div><!-- End Sub Link Section -->
+</div><!-- End Series Box -->
+
+<!-- Series Box -->
+<div style="flex:1 0 320px; margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 100%; margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">ASCEND Series</div>
+    <div style="font-size: 12px; color: #777;">Ascend as you grow into your role</div>
+  </div>
+
+
+<a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Advanced Consulting Program
+</a>
+<!-- Sub Link Section -->
+<div style="display: flex; flex-flow: row wrap;  justify-content: left; flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; font-size:14px;" >
+    <div style="flex: 0 0 100%;">Project Leader Readiness</div>
+    <div style="flex: 0 0 100%;">
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        NE
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        GLC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        WC
+    </a>
+    <a  href="" style="flex:1 0 100%; margin: 0 10px 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+        South
+    </a>
+    </div>
+</div><!-- End Sub Link Section -->
+</div><!-- End Series Box -->
+
+
+<!-- Series Box -->
+<div style="flex:1 0 calc(100% - 20px); margin: 0 10px 20px; padding: 0; display:flex;flex-flow:row wrap; align-content: flex-start;" >
+
+  <div style="display: flex; flex:1 0 calc(100% - 40px); margin: 0 0 10px; padding: 0; align-items: center; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: #555;" >
+    <div style="margin: 0 10px 0 0; font-size: 18px; color: #000; font-weight: bold;">DISCOVER Series</div>
+    <div style="font-size: 12px; color: #777;">Discover your individual potential</div>
+  </div>
+
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    LAB portal with on-demand digital training modules and talks
+  </a>
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    1:1 coaching (lookup your local L&D members here)
+  </a>
+  <a  href="" style="flex:1 0 100%; margin: 0 0 10px; padding: 0; color:#3a8; text-decoration: Underline; font-size:14px;" >
+    Optional local live trainings & workshops
+  </a>
+</div><!-- End Series Box -->
+
+</div><!-- End Individual Contributor Box -->
+
+
+
+
+</div><!-- End Content Container -->
+
+</div><!-- End Body Container -->
+<p style="display: none;"></p>

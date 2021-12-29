@@ -1,0 +1,30 @@
+{
+    "normalDevice": {
+      "loginLogo": "loginLogoAndroid.png",
+      "loginBackground": "loginBackgroundAndroidNormal.png"
+    },
+  },
+  "ios": {
+    "iPhone": {
+      "loginLogo": "loginLogo.png",
+      "loginBackground_iPhone6": "loginBackgroundiPhone6.png",
+      "loginBackground_iPhoneX": "loginBackgroundiPhoneX.png",
+      "loginBackground_iPhoneXR": "loginBackgroundiPhoneXR.png",
+    },
+    "iPad": {
+      "loginLogo": "loginLogo.png",
+      "loginBackground": "loginBackgroundiPad.png",
+      "loginBackground_10_5": "loginBackgroundiPad10.5.png",
+      "loginBackground_12_9": "loginBackgroundiPad12.9.png"
+    }
+  },
+  "loginBox": {
+    "tablets": {
+      "horizontal": "center",
+      "vertical": "center"
+    },
+    "phones": {
+      "vertical": "center"
+    }
+  }
+}

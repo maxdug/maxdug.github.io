@@ -1,0 +1,281 @@
+<!DOCTYPE html><html  lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+.desktop-only {
+  display: inline-block;
+}
+body {
+  font-family: Trebuchet MS, verdana, sans-serif;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+	cursor: pointer;
+}
+.scroll-control {
+	display: block;
+	height: 100%;
+	margin-bottom: -5px;
+}
+
+/* A N N O U N C E M E N T S */
+.announcement-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.announcement {
+  flex: 1 0 200px;
+  display: flex;
+  margin: 20px 1.5%;
+  flex-flow: row wrap;
+  border-radius: .2em;
+  background-image: radial-gradient(white, #edf2f1);
+  background-position: center 60px;
+  border-bottom: .3em solid #00b386;
+}
+.announcement:hover {
+  background-image: radial-gradient(white, #f5f5f5);
+  border-bottom: .3em solid #73e5c9;
+}
+.aImage {
+  flex: 1 0 100%;
+  height: 120px;
+  background-size: cover;
+  background-position: center;
+  border-radius: .2em .2em 0 0;
+}
+.aTitle {
+  flex: 1 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #5c6663;
+  padding: 1em;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 1.5em;
+}
+.aTitle:hover {
+  color: #3d4d49;
+}
+
+.learning-journey {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: calc(97% - 20px);
+  margin: 0 auto;
+  padding: 10px;
+  background: #00b386;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-image: linear-gradient(#00ad82, #00b88a);
+  border-radius: .3em;
+  align-items: center;
+}
+.half {
+  flex: 1 0 200px;
+  display: flex;
+  margin: 0 1.5% 10px;
+}
+.learning-journey:hover {
+  background-image: linear-gradient(#00b88a, #00ad82);
+}
+.learning-journey span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  align-items: center;
+}
+.learning-journey img {
+  height: 20px;
+  margin-left: 15px;
+}
+
+/* I C O N S */
+em.caret, em.circleCaret {
+  display:inline-block;
+  width: 1em; /* subrtacting margin */
+  height: 1em;
+  position:relative;
+  vertical-align:middle;
+}
+ em.circleCaret {
+  border: .05em solid #3d4d49;
+  border-radius: 100%;
+  margin-left: .5em;
+}
+ em.circleCaret.white {
+  border: .05em solid white;
+}
+em.circleCaret:before, em.caret:before {
+  border-top: .1em solid #3d4d49;
+  border-right: .1em solid #3d4d49;
+  content: " ";
+  width: .4em;
+  height: .4em;
+  display: block;
+  vertical-align: middle;
+  margin: 0 auto;
+  position: relative;
+}
+em.circleCaret.white:before, em.caret.white:before {
+  border-top: .1em solid white;
+  border-right: .1em solid white;
+}
+em.up:before {
+  top: .35em;
+  left: 1em;
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+}
+em.right:before {
+  top: .26em;
+  left: -.06em;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+}
+em.down:before {
+  top: .15em;
+  left: 1em;
+  -ms-transform: rotate(135deg);
+      transform: rotate(135deg);
+}
+em.left:before {
+  top: .26em;
+  left: .1em;
+  -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg);
+}
+
+.mobile-only {
+	display: none;
+}
+
+/* M O B I L E */
+@media (max-width: 730px) { /*equivalent of 800 for non portlet*/
+.mobile-only {
+  display: block;
+}
+.desktop-only {
+  display: none;
+}
+
+/* N A V I G A T I O N */
+.nav-container {
+	margin: 0 0 10px 0;
+}
+
+/* P A G E   T I T L E */
+.page-title {
+	margin: 0;
+	padding: 20px;
+  background-image: url("https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/792d8165-5bd0-4512-aaa4-2a36a4487ab0?tfile=01 homepage.jpg_792d8165-5bd0-4512-aaa4-2a36a4487ab0_1578663157437.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+	font-size: 30px;
+	text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.nav-link {
+	display: block;
+  padding: 13px 17px;
+  border-bottom: #3a8 solid 2px;
+	background: white;
+	color: #3a8;
+	font-size: 16px;
+}
+.nav-link:hover {
+  border-bottom: #186 solid 2px;
+	background-color: #3a8;
+  color: white;
+}
+}/* End Mobile */
+</style>
+</head>
+
+<body>
+<div class="scroll-control">
+
+<!--M O B I L E   N A V I G A T I O N -->
+  <div class="nav-container mobile-only">
+    <div class="page-title">What do you want to learn today?</div>
+
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/shared;spf-url=common%2Flearningcatalog%2F">Online Courses</a>
+
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0195/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003440">LABtalks</a>
+
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0195/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003440">LinkedIn Learning</a>
+
+    <a class="nav-link" href="https://podcast-web.ustudio.com/BCG" target="_blank">LABcasts</a>
+
+    <a class="nav-link" href="https://www.getabstract.com/portal/bcg" target="_blank">getAbstract</a>
+
+    <a class="nav-link" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/shared;spf-url=pages%2Fpagelistview%2Fpgcnt000000000003342">Personalize LAB</a>
+  </div><!-- End Mobile Navigation -->
+
+<!-- A N N O U N C E M E N T S -->
+<div class="announcement-container">
+
+<!-- Announcement 1-->
+<a class="announcement" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/intranet">
+  <span class="aImage" style="background-image: url('https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/68116e12-8b9a-4522-8815-0958a008d194?tfile=bst-gsb-1.jpg_68116e12-8b9a-4522-8815-0958a008d194_1578664730457.jpg');">&nbsp;</span>
+  <span class="aTitle">
+    Learn the New Features of LAB
+  </span>
+</a><!-- End Announcement -->
+
+<!-- Announcement 2-->
+<a class="announcement desktop-only" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/app/shared;spf-url=common%2Fcategorydetail%2Fcateg000000000003252">
+  <span class="aImage" style="background-image: url('https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/6fc704d0-242e-4053-bd0e-11a91426f368?tfile=bst-gsb-2.jpg_6fc704d0-242e-4053-bd0e-11a91426f368_1578664927111.jpg');">&nbsp;</span>
+  <span class="aTitle">
+    Become an Expert at Problem Solving
+  </span>
+</a><!-- End Announcement -->
+
+<!-- Announcement 3-->
+  <a class="announcement desktop-only" href="https://bcgtest.sabacloud.com/Saba/Web_spf/NA3T1SNB0196/common/profile/plans?activetab=roleanalysis">
+  <span class="aImage" style="background-image: url('https://bcgtest.sabacloud.com/Saba/Web/NA3T1SNB0196/Image/050ce89e-590b-4751-af85-904187869a8f?tfile=bst-gsb-3.jfif_050ce89e-590b-4751-af85-904187869a8f_1578665053770.jfif');">&nbsp;</span>
+  <span class="aTitle">
+    Popular for Your Peers
+  </span>
+</a><!-- End Announcement -->
+
+<hr style="width: 100%; border: none;">
+
+<!-- Learning Journey 1 -->
+<a class="learning-journey half" href="https://portals-eur.bcg.com/sites/PD_Online_Help/Documents/EE_Development_playbook.pdf" target="_blank"><span class="">
+  Business Services Development Playbook <em class="circleCaret white right">&nbsp;</em>
+</span></a><!-- End Learning Joureny -->
+
+<!-- Learning Journey 2 -->
+<a class="learning-journey half desktop-only" href="https://gsbpeople.bcg.com/learning-knowledge-academy/" target="_blank"><span class="">
+  Global Speciality Learning <em class="circleCaret white right">&nbsp;</em>
+</span></a><!-- End Learning Joureny -->
+
+</div><!-- End Announcements Container -->
+
+</div><!-- End Scroll Controll -->
+
+<p style="height: 1px; line-height: 1px; font-size: 2px;">&nbsp;
+<!--
+• Blank tags like divs and spans filled with non binding spaces
+• divs moved out of a tags
+-->
+</p>
+</body></html>

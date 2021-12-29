@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	color: white;
+	font-family: verdana, sans-serif;
+	min-height: 100vh; /* Avoid the IE 10-11 `min-height` */
+	display: flex; /* used for sticky footer */
+	flex-direction: row; /* used for sticky footer */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--Light);
+    border-radius: 0;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background-color: White;
+    color: #0a6;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.announcement {
+  flex-basis: 26%;
+  min-height: 200px;
+  max-height: 280px;
+  padding: 1% 2%;
+  /*flex-grow: 0;*/
+  /*flex-shrink: 1;*/
+  /*align-self: stretch; */
+  background-size: cover;
+}
+#first {
+  background-image: url(https://images.pexels.com/photos/1426718/pexels-photo-1426718.jpeg) ;
+}
+#second {
+  background-image: url(https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg) ;
+ }
+#third {
+  background-image: url(https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg) ;
+ }
+#headline {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+#subhead {
+  color: white;
+  font-size: 14px;
+}
+#mobile-container {
+	display: none;
+}
+@media (max-width: 730px) { /*equivalent of 800 for non portlet*/
+  body {
+	  flex-direction: column; /* used for sticky footer */
+		margin: 0;
+		padding: 0;
+  }
+#mobile-container {
+	display: block;
+	background: #f3f3f3 url("https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/15d51d98-8019-4a68-9274-83297299563b?tfile=Hero.png_15d51d98-8019-4a68-9274-83297299563b_1564412807581.png") no-repeat fixed center top;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+
+}
+h1 {
+	color: white;
+	font-weight: normal;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	font-size: 30px;
+	flex-grow: 1;
+	text-align: center;
+}
+#nav {
+}
+.navigator {
+	display: block;
+	background: white;
+	border-bottom: #3a8 solid 2px;
+	color: #3a8;
+	font-size: 14px;
+	padding: 11px 17px;
+	background: #fff url(https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/03a0dccb-d6b1-4325-…ile=personalize.png_03a0dccb-d6b1-4325-98cc-367058435d07_1564426109156.png) no-repeat 0 0;
+}
+.navigator:hover {
+	background: #fff url(https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/03a0dccb-d6b1-4325-…ile=personalize.png_03a0dccb-d6b1-4325-98cc-367058435d07_1564426109156.png) no-repeat 0 0;
+}
+.nav-link {
+	display: block;
+	background: white;
+	border-bottom: #3a8 solid 2px;
+	color: #3a8;
+	font-size: 14px;
+	padding: 11px 17px;
+}
+.nav-link:hover {
+  color: #186;
+}
+
+
+  }
+</style>
+</head>
+<body>
+<div id="mobile-container">
+<h1>Welcome to LAB</h1>
+<div id="nav">
+	<a class="navigator">Search on Navigator</a>
+  <a class="nav-link">My Learning</a>
+  <a class="nav-link" href="https://learning.bcg.com/BrowseLABTalks">LAB Talks</a>
+  <a class="nav-link" href="https://learning.bcg.com/BrowseLiveCourses">Live Courses</a>
+  <a class="nav-link">Self-paced Learning</a></div>
+</div>
+  <div class='announcement' id='first'>
+    <div id='headline'>Welcome to the all new LAB</div>
+    <input type=" " value="Check out the New Features" />
+  </div>
+  <div class='announcement' id='second'>
+    <div id='headline'>Where are you on your digital Journey?</div>
+    <div id='subhead'>Take a short quiz on DigitalBCG Basics and recieve your digital score along with specific LAB recommendations based on your results.</div>
+    <input type=" " value="Take your digital pulse" />
+  </div>
+  <div class='announcement' id='third'>
+    <div id='headline'>Fuel your insights with Alteryx and Tableau</div>
+    <div id='subhead'>Discover our most popular courses revamped with bite-sized lesons, engaging videos, and enhanced functionality.</div>
+    <input type=" " value="Alteryx" />
+    <input type=" " value="Tableau" />
+</div>
+</body>
+</html>

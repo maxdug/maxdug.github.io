@@ -1,0 +1,368 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<div class="WordSection1">
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 0in; width: 100%;" width="100%">
+      <p class="MsoNormal" style="text-align: center;"
+ align="center"><span
+ style="font-size: 10.5pt; font-family: 'Verdana',sans-serif; color: rgb(51, 51, 51);"><a
+ href="%25%25view_email_url%25%25"><span
+ style="font-size: 7.5pt; color: rgb(51, 51, 51); text-decoration: none;">View
+e-mail as web page</span> </a><br>
+&nbsp; </span></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center">
+      <table class="MsoNormalTable" style="width: 6.25in;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+        <tbody>
+          <tr>
+            <td style="padding: 0in 0in 11.25pt;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in;">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0in;">&nbsp;</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ valign="top" width="550">
+                  <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);"><img
+ id="Picture_x0020_2"
+ style="border: 0px solid ; width: 550px; height: 117px;"
+ src="https://lms.bcg.com/Saba/assets/common/img/cloud/header_top_New.png"
+ alt="BCG"></span></p>
+                  </td>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50">&nbsp;</td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"
+ valign="top">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);"><img
+ id="Picture_x0020_3"
+ src="https://lmstst.bcg.com/Saba/assets/common/img/cloud/header_small_bottom.png"
+ alt="green" border="0" height="66" width="50"></span></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);">&nbsp;
+                        </span></p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                  <td style="padding: 0in;" valign="top">
+                  <table class="MsoNormalTable"
+ style="background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 15pt 18.75pt;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 0in;">
+                              <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding: 0in;">
+                                    <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding: 0in;">
+                                          <p class="MsoNormal"><img
+ src="https://lmstst.bcg.com/Saba/assets/common/img/cloud/LAB_Logo_green_subline_grey_61x40.png"
+ alt="LAB Logo green subline grey" align="right"><strong><span
+ style="font-size: 13.5pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(23, 123, 87); text-transform: uppercase;">LIVE
+LAB TALKS<br>
+&nbsp;&nbsp; <br>
+                                          </span> </strong><span
+ style="font-size: 18pt; font-family: 'Georgia',serif; color: rgb(51, 51, 51);">We're
+sorry, this Live LAB Talk has been cancelled</span><span
+ style="font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255); font-size: 18pt; font-family: Georgia,serif; color: rgb(51, 51, 51);">&nbsp;</span>
+                                          <span
+ style="font-size: 18pt; font-family: 'Georgia',serif; color: rgb(51, 51, 51);"><br>
+                                          </span></p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center">
+      <table class="MsoNormalTable" style="width: 6.25in;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+        <tbody>
+          <tr style="height: 15pt;">
+            <td style="padding: 0in; height: 15pt;">
+            <p class="MsoNormal" style="line-height: 0%;"><span
+ style="font-size: 15pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);">&nbsp;</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td
+ style="padding: 18.75pt 0in 0in; background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in;">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+ style="padding: 0in 0in 18.75pt 18.75pt;">
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS',sans-serif;">Unfortunately
+the Live LAB Talk on @Offering_OfferingName@</span><span
+ style="font-family: 'Trebuchet MS',sans-serif;">, scheduled
+for @Offering_ClassStartDate@ has been cancelled. <span
+ style="font-weight: bold;">Please delete the meeting request
+from your calendar.</span></span></p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);">&nbsp;</p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS',sans-serif;">We will send
+a new invitation when the session is rescheduled.</span></p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);">&nbsp;</p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS',sans-serif;">If you have
+any questions, please feel free to send us an&nbsp;<a
+ style="color: rgb(149, 79, 114); text-decoration: underline;"
+ href="mailto:LABTalks@bcg.com">email</a>.&nbsp;</span></p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS','sans- serif';">&nbsp;</span></p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS',sans-serif;">Regards,</span></p>
+                              <p class="MsoNormal"
+ style="margin: 0in 0in 0.0001pt; font-size: 11pt; font-family: Calibri,sans-serif; color: rgb(0, 0, 0); font-style: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; background-color: rgb(255, 255, 255);"><span
+ style="font-family: 'Trebuchet MS',sans-serif;">The LAB
+Talks Team</span></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center">
+      <table class="MsoNormalTable" style="width: 6.25in;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+        <tbody>
+          <tr>
+            <td
+ style="padding: 18.75pt; background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">
+            <table class="MsoNormalTable"
+ style="width: 210pt;" align="left" border="0"
+ cellpadding="0" cellspacing="0" width="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 18.75pt 0in 0in;"
+ valign="top">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 0in;">
+                              <p class="MsoNormal"><strong><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);">Boston
+Consulting Group</span> </strong><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);"><br>
+200 Pier 4 Blvd <br>
+Boston, Massachusetts 02210</span><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);">&nbsp;</span></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="MsoNormalTable"
+ style="width: 103.5pt;" align="right" border="0"
+ cellpadding="0" cellspacing="0" width="0">
+              <tbody>
+                <tr>
+                  <td style="padding: 18.75pt 0in 0in;"
+ valign="top">
+                  <p class="MsoNormal"><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);"><a
+ href="%25%25subscription_center_url%25%25"><span
+ style="color: rgb(51, 51, 51);">Manage Communications</span>
+                  </a></span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 0in;" valign="top">
+                  <p class="MsoNormal"><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);"><a
+ href="http://www.bcg.com/popups/privacy.aspx"><span
+ style="color: rgb(51, 51, 51);">Privacy Policy</span> </a></span></p>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 0in;" valign="top">
+                  <p class="MsoNormal"><span
+ style="font-size: 9pt; font-family: 'Trebuchet MS',sans-serif; color: rgb(51, 51, 51);">This
+email is for internal use only.</span></p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

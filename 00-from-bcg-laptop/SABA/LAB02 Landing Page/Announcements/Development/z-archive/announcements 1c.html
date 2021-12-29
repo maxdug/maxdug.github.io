@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	color: white;
+	font-family: verdana, sans-serif;
+	min-height: 100vh; /* Avoid the IE 10-11 `min-height` */
+	display: flex; /* used for sticky footer */
+	flex-direction: row; /* used for sticky footer */
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--Light);
+    border-radius: 0;
+    box-sizing: border-box;
+    margin: 10px 0;
+    background-color: White;
+    color: #0a6;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.announcement {
+  flex-basis: 26%;
+  min-height: 200px;
+  max-height: 280px;
+  padding: 1% 2%;
+  /*flex-grow: 0;*/
+  /*flex-shrink: 1;*/
+  /*align-self: stretch; */
+  background-size: cover;
+}
+#first {
+  background-image: url(https://images.pexels.com/photos/1426718/pexels-photo-1426718.jpeg) ;
+}
+#second {
+  background-image: url(https://images.pexels.com/photos/123335/pexels-photo-123335.jpeg) ;
+ }
+#third {
+  background-image: url(https://images.pexels.com/photos/417192/pexels-photo-417192.jpeg) ;
+ }
+#headline {
+  color: white;
+  font-size: 26px;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+#subhead {
+  color: white;
+  font-size: 14px;
+}
+  @media (max-width: 600px) {
+    body {
+	flex-direction: column; /* used for sticky footer */
+}
+  }
+</style>
+</head>
+<body>
+  <div class='announcement' id='first'>
+    <div id='headline'>Welcome to the all new LAB</div>
+    <input type=" " value="Check out the New Features" />
+  </div>
+  <div class='announcement' id='second'>
+    <div id='headline'>Where are you on your digital Journey?</div>
+    <div id='subhead'>Take a short quiz on DigitalBCG Basics and recieve your digital score along with specific LAB recommendations based on your results.</div>
+    <input type=" " value="Take your digital pulse" />
+  </div>
+  <div class='announcement' id='third'>
+    <div id='headline'>Fuel your insights with Alteryx and Tableau</div>
+    <div id='subhead'>Discover our most popular courses revamped with bite-sized lesons, engaging videos, and enhanced functionality.</div>
+    <input type=" " value="Alteryx" />
+    <input type=" " value="Tableau" />
+</div>
+</body>
+</html>

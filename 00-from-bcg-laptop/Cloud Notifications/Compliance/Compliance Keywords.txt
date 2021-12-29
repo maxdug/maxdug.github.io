@@ -1,0 +1,13 @@
+@HeldCertification_Target_Date@
+
+@HeldCertification_Name@
+
+@HeldCertification_AssignedOn@
+
+@HeldCertification_Learner_FirstName@
+
+@HeldCertification_CertificationDetailPageURL@
+
+@HeldCertification_Overdue_By_Days@
+
+@HeldCertification_Due_In_Days@

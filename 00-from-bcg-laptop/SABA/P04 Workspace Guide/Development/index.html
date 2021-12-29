@@ -1,0 +1,1095 @@
+<body style="margin:0;">
+  <!-- body not used by saba, just for testing in browser localy -->
+  <p style="display:none;margin-top:0;margin-bottom:.5em;margin-right:auto;margin-left:auto;"></p>
+
+  <!-- Faux Body Container - used to give the document global font style -->
+  <div style="width: 101.2%; margin-top: -33px; margin-left: -0.6%; font-family: trebuchet ms, verdana, sans-serif; font-size: 16px; color: #555; letter-spacing: 0.05em;">
+
+    <!--
+
+- The first p tag stops Saba adding blank p tag. System code notes at bottom of file.
+- Welcome to the code for workspaces. Here you should be able to copy & paste the code for the modules. If something goes wrong, please reach out to duggan.max@bcg
+
+S E T U P
+- Edit your code outside of the Saba editor - I reccomend the free editor Atom from GitHub. Saba strips whitespace and makes it hard to review & edit the code.
+- Keeping your code seperate also helps with version control. Please use the following file name format: workspace-name-v1.html
+
+-->
+
+
+
+    <!-- G L O B A L   H E A D E R -->
+    <!-- To be used on top of workspaces or in the announcements section of workspaces -->
+    <div style="width: 100%; margin: 0 0 20px; padding: 10px 0 0 0; background-size: cover; background-position: center; background-color: #e1e5e4; background-image: url('hero.jpg');">
+      <!-- C O N T A I N E R -->
+      <div style="display: flex; max-width: 98%; height: auto; margin: 0 auto; padding: 0;  flex-flow: row wrap; justify-content: center; align-items: center; font-family: verdana; color: #5c6663">
+        <!-- B U T T O N-->
+        <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: center; height: 40px; margin: 0 0 10px 0; padding: 0 1%; background: #fff; border-image: linear-gradient(to right,#00b386, #00ba82); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; text-decoration: none; font-size: 14px; color: #00ac8e;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+            Link
+          </span></a>
+
+        <!-- B U T T O N-->
+        <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; height: 40px; margin: 0 0 10px 0; padding: 0 1%; background: #fff; border-image: linear-gradient(to right,#00b386, #00ba82); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; text-decoration: none; font-size: 14px; color: #00ac8e;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+            Link
+          </span></a>
+
+        <!-- B U T T O N-->
+        <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; height: 40px; margin: 0 0 10px 0; padding: 0 1%; background: #fff; border-image: linear-gradient(to right,#00b386, #00ba82); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; text-decoration: none; font-size: 14px; color: #00ac8e;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+            Link
+          </span></a>
+
+        <!-- B U T T O N-->
+        <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; height: 40px; margin: 0 0 10px 0; padding: 0 1%; background: #fff; border-image: linear-gradient(to right,#00b386, #00ba82); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; text-decoration: none; font-size: 14px; color: #00ac8e;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+            Link
+          </span></a>
+      </div><!-- E N D  Container -->
+    </div><!-- E N D  Global Header -->
+
+
+    <div class="content-container" style="display: flex; flex-flow: row wrap; justify-content: center;  max-width: 1440px; padding: 0 auto;">
+
+
+
+      <div class="page-title" style="margin: 0 1% 20px; padding: 20px 0 0; flex-grow: 1; flex-shrink: 0;  flex-basis: calc(320px - 2%); min-width: calc(100% - 2%);  padding: 40px 0; color: #5c6663; font-size: 26px; text-transform: uppercase; text-align: center; letter-spacing: 0.05em; border-image: linear-gradient(to right, #00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; box-sizing: border-box;">
+        Welcome to the Workspace Guide!
+      </div>
+
+
+      <div class="full" style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; text-align: center;">
+        <p>This is your one stop shop for building workspaces.</p>
+        <p>Listed below is the process to use when going about building a workspace, and are Modules to choose from.</p>
+        <p><b>This is a work in progress</b></p>
+      </div><!-- End Description -->
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Process
+      </div>
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold; color: #3d4d49;"><a name=""></a>
+        Proposed Process for content owners
+      </div>
+
+      <!-- F U L L  T E X T   B L O C K-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; font-size: 14px; text-align: left;color: #5c6663;">
+        <b>1.</b> Contact HUB team to build workspace and schedule a kickoff. Current contact is <b><a style="text-decoration: none;color: #00ac8e;" href="mailto:duggan.max@bcg.com?subject=Workspace Modules">duggan.max@bcg.com</a></b><br>
+        <br>
+        <b>2.</b> Fill out a content matrix using this <a style="color: #00ac8e; text-decoration: none;" target="_blank" href="https://bcg01.egnyte.com/navigate/file/c4d3573d-f436-4c20-93de-f7ed01b914fc"><b> example file</b></a>, referenceing module
+        options below.<br>
+        <br>
+      </div>
+      <!-- E N D   F U L L  T E X T   B L O C K -->
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold; color: #3d4d49;"><a name=""></a>
+        New Module Requests
+      </div>
+
+      <!-- F U L L  T E X T   B L O C K-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; font-size: 14px; text-align: left;color: #5c6663;">
+        If you have a content need that is not met by one of the existing modules, Please contact the HUB team to build a new one. Current contact is <b><a style="text-decoration: none;color: #00ac8e;" href="mailto:duggan.max@bcg.com?subject=Workspace Modules">duggan.max@bcg.com</a></b><br>
+        <br>
+        Please provide all requirements and any reference modules you have seen elsewhere. Note that we are generaly limited to static content in the workspaces because of techinal reasons.<br>
+        <br>
+      </div>
+      <!-- E N D   F U L L  T E X T   B L O C K -->
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Tiles
+      </div>
+
+      <!-- F U L L  T E X T   B L O C K-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; font-size: 14px; text-align: left;color: #5c6663;">
+        Tiles are designed to fufill their layout name at 1440px browser width and all are full width on mobile.<br><br>
+        <b>Tiles Sizes:</b> Full | Half | Fourth<br><br>
+        <b>Box Styles:</b> Background Image | Grey | Outline | White-Space<br><br>
+        <b>Element Options:</b> Inline Image | Video | Headline | Paragrah Text | Button(s)<br><br>
+        <b>Button Styles:</b> White | Green | Outline<br><br>
+        <b>Layout Options:</b> Video/Image Left | Video/Image Right (This doesn't apply to Fourth Tiles)
+      </div>
+      <!-- E N D   F U L L  T E X T   B L O C K -->
+
+      <!--
+
+888888    88   88    88        88                888888     88     88         888888     .dP"Y8
+88__      88   88    88        88                  88       88     88         88__       `Ybo."
+88""      Y8   8P    88  .o    88  .o              88       88     88  .o     88""       o.`Y8b
+88        `YbodP'    88ood8    88ood8              88       88     88ood8     888888     8bodP'
+
+-->
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold; color: #3d4d49;"><a name="fullTiles"></a>
+        Full Tiles
+      </div>
+
+      <!-- F U L L   T I L E image -->
+      <div style="flex: 1 0 300px; min-width: 98%; margin: 0 10px 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; background: #fff; border: solid 3px #00ac8e; background-size: cover;background-position: center; background-color: #e1e5e4; background-image: url('hero.jpg'); border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #fff;">
+        <!-- V I D E O -->
+        <div><iframe style="display: block; width: 280px; height: 195px; margin: 0 20px 20px;" scrolling="no" id="KAL::2508071::1_kewwdoqb" src="Event 19-28-18.mp4;KAL::2508071::1_kewwdoqb;9142272;entertainment" name="sabauploadvideos_name_rte" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 270px; margin: 0 3% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 30px; color: #fff; text-transform: uppercase;">
+            Headline Goes Here - 40 Characters
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            250 Characters - 38 Words - 200 Letters - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut aliquip.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #fff; font-weight: bold; letter-spacing: .1em; color: #00ac8e;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here Button - 48 Characters
+            </span></a>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #fff; font-weight: bold; letter-spacing: .1em; color: #00ac8e;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Optional Button(s)
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F U L L   T I L E -->
+
+
+      <!-- F U L L   T I L E grey-->
+      <div style="flex: 1 0 300px; min-width: 98%; margin: 0 10px 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #e1e5e4; border: solid 3px #00ac8e; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #fff;">
+        <!-- I M A G E -->
+        <img style="width: 280px; margin: 0 20px 20px;" src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 270px; margin: 0 3% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 30px; color: #3d4d49; text-transform: uppercase;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F U L L   T I L E -->
+
+
+      <!-- F U L L   T I L E outline-->
+      <div style="flex: 1 0 300px; min-width: 96%; margin: 0 10px 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff; border: solid 3px #00ac8e; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 270px; margin: 0 3% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 30px; color: #3d4d49; text-transform: uppercase;">
+            Headline - Layout Right
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+
+        <!-- I M A G E -->
+        <img style="width: 280px; margin: 0 20px 20px;" src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      </div>
+      <!-- E N D   F U L L   T I L E -->
+
+
+      <!-- F U L L   T I L E white-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff;">
+        <!-- I M A G E -->
+        <img style="width: 280px; margin: 0 20px 20px;" src="https://images.pexels.com/photos/2889494/pexels-photo-2889494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 270px; margin: 0 3% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 30px; color: #3d4d49; text-transform: uppercase;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; font-weight: bold; letter-spacing: .1em; color: #00ac8e; text-decoration: none;text-transform: uppercase;font-size: 14px; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F U L L   T I L E -->
+
+      <!--
+
+88  88        db        88         888888             888888     88     88         888888     .dP"Y8
+88  88       dPYb       88         88__                 88       88     88         88__       `Ybo."
+888888      dP__Yb      88  .o     88""                 88       88     88  .o     88""       o.`Y8b
+88  88     dP""""Yb     88ood8     88                   88       88     88ood8     888888     8bodP'
+
+
+
+.##.....##.......###.......##..........########..........########....####....##..........########.....######.
+.##.....##......##.##......##..........##...................##........##.....##..........##..........##....##
+.##.....##.....##...##.....##..........##...................##........##.....##..........##..........##......
+.#########....##.....##....##..........######...............##........##.....##..........######.......######.
+.##.....##....#########....##..........##...................##........##.....##..........##................##
+.##.....##....##.....##....##..........##...................##........##.....##..........##..........##....##
+.##.....##....##.....##....########....##...................##.......####....########....########.....######.
+
+
+-->
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold;"><a name="halfTiles"></a>
+        Half Tiles
+      </div>
+
+      <!-- L I N E   B R E A K -->
+      <div style="flex-basis: 100%; height: 0;"></div>
+
+
+      <!-- H A L F   T I L E image-->
+      <div style="flex: 1 0 300px; min-width: 48%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff; border: solid 3px #00ac8e; background-size: cover;background-position: center; background-color: #e1e5e4; background-image: url(https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/1e6356c9-82cd-49cb-a99d-ab5ed26ba2ea?tfile=Background.png_1e6356c9-82cd-49cb-a99d-ab5ed26ba2ea_1564935226252.png); border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #fff;">
+        <!-- V I D E O -->
+        <div><iframe style="display: block; width: 210px; height: 155px; margin: 0 15px 15px;" scrolling="no" id="KAL::2508071::1_kewwdoqb" src="Event 19-28-18.mp4;KAL::2508071::1_kewwdoqb;9142272;entertainment" name="sabauploadvideos_name_rte" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 24px; color: #fff; text-transform: uppercase;">
+            Headline Goes Here - 34 Characters
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            160 Characters - 30 Words - 120 Letters - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #fff; font-weight: bold; letter-spacing: .1em; color: #00ac8e;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #fff; font-weight: bold; letter-spacing: .1em; color: #00ac8e;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Optional Button(s)
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   H A L F   T I L E -->
+
+      <!-- H A L F   T I L E grey-->
+      <div style="flex: 1 0 300px; min-width: 48%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #e1e5e4; border: solid 3px #00ac8e; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #fff;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 24px; color: #3d4d49; text-transform: uppercase;">
+            Headline - Right Layout
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+
+        <!-- I M A G E -->
+        <img style="width: 210px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+      </div>
+      <!-- E N D   H A L F   T I L E -->
+
+      <!-- H A L F   T I L E outline-->
+      <div style="flex: 1 0 300px; min-width: 47%; margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff; border: solid 3px #00ac8e; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;">
+        <!-- I M A G E -->
+        <img style="width: 210px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 24px; color: #3d4d49; text-transform: uppercase;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   H A L F   T I L E -->
+
+      <!-- H A L F   T I L E white-->
+      <div style="flex: 1 0 300px; min-width: 48%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff;">
+        <!-- I M A G E -->
+        <img style="width: 210px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/2889494/pexels-photo-2889494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 24px; color: #3d4d49; text-transform: uppercase;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; font-weight: bold; letter-spacing: .1em; color: #00ac8e; text-decoration: none;text-transform: uppercase;font-size: 14px; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   H A L F   T I L E -->
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold;"><a name="fourthTiles"></a>
+        Fourth Tiles
+      </div>
+
+      <!--
+888888  dP"Yb  88   88 88""Yb 888888 88  88     888888 88 88     888888 .dP"Y8
+88__   dP   Yb 88   88 88__dP   88   88  88       88   88 88     88__   `Ybo."
+88""   Yb   dP Y8   8P 88"Yb    88   888888       88   88 88  .o 88""   o.`Y8b
+88      YbodP  `YbodP' 88  Yb   88   88  88       88   88 88ood8 888888 8bodP'
+-->
+
+      <!-- F O U R T H   T I L E image-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff; border: solid 3px #00ac8e; background-size: cover;background-position: center; background-color: #e1e5e4; background-image: url(https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/1e6356c9-82cd-49cb-a99d-ab5ed26ba2ea?tfile=Background.png_1e6356c9-82cd-49cb-a99d-ab5ed26ba2ea_1564935226252.png); border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #fff;">
+        <!-- V I D E O -->
+        <div><iframe style="display: block; width: 180px; height: 155px; margin: 0 15px 15px;" scrolling="no" id="KAL::2508071::1_kewwdoqb" src="Event 19-28-18.mp4;KAL::2508071::1_kewwdoqb;9142272;entertainment" name="sabauploadvideos_name_rte" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #fff; font-weight: bold; letter-spacing: .1em; color: #00ac8e;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F O U R T H   T I L E -->
+
+      <!-- F O U R T H   T I L E grey-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #e1e5e4; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- I M A G E -->
+        <img style="width: 180px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F O U R T H   T I L E -->
+
+      <!-- F O U R T H  T I L E outline-->
+      <div style="flex: 1 0 201px; min-width: 22%; margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;">
+        <!-- I M A G E -->
+        <img style="width: 180px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/2049422/pexels-photo-2049422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; background: #00ac8e; font-weight: bold; letter-spacing: .1em; color: #fff;text-decoration: none;text-transform: uppercase;font-size: 14px; " href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F O U R T H   T I L E -->
+
+      <!-- F O U R T H   T I L E  white-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff;">
+        <!-- I M A G E -->
+        <img style="width: 180px; margin: 0 15px 15px;" src="https://images.pexels.com/photos/2889494/pexels-photo-2889494.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+            Headline Goes Here
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          </div>
+
+          <!-- B U T T O N-->
+          <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; font-weight: bold; letter-spacing: .1em; color: #00ac8e; text-decoration: none;text-transform: uppercase;font-size: 14px; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+              Click Here
+            </span></a>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   F O U R T H   T I L E -->
+
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Full Click Tiles
+      </div>
+
+
+
+
+      <!-- CATEGORY TILE-->
+      <a class="category-tile" href=" " style="flex:1 0 190px; display:flex; min-width: calc(33% - 68px); margin: 0 1% 20px 1%; padding: 20px 12px 0; flex-flow: row wrap; justify-content: center; align-items: center; border: #eee solid 2px; border-radius: 10px; text-align: center; text-decoration: none;">
+
+        <!-- ▼ SANDBOX ▼ -->
+        <img style="height: 75px; margin: 0 0 10px;" src="https://images.pexels.com/photos/220213/pexels-photo-220213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" style="height: 75px; margin: 0 15px 15px;">
+
+        <span class="headline" style="flex:1 0 100%; margin: 0 0 10px; font-size: 22px; color: #0b9;">
+          Title Goes Here
+        </span><!-- End Headline -->
+
+        <span class="subtext" style="flex:1 0 100%; align-self:start; margin: 0 0 20px; font-size: 14px; color: #4b625e;">
+          Lorem ipsum loquitor descriptium
+        </span><!-- End Subtext -->
+      </a><!-- End Category Tile -->
+
+      <!-- CATEGORY TILE-->
+      <a class="category-tile" href=" " style="flex:1 0 190px; display:flex; min-width: calc(33% - 68px); margin: 0 1% 20px 1%; padding: 20px 12px 0; flex-flow: row wrap; justify-content: center; align-items: center; border: #eee solid 2px; border-radius: 10px; text-align: center; text-decoration: none;">
+
+        <!-- ▼ SANDBOX ▼ -->
+        <img style="height: 75px; margin: 0 0 10px;" src="https://images.pexels.com/photos/220213/pexels-photo-220213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" style="height: 75px; margin: 0 15px 15px;">
+
+        <span class="headline" style="flex:1 0 100%; margin: 0 0 10px; font-size: 22px; color: #0b9;">
+          Title Goes Here
+        </span><!-- End Headline -->
+
+        <span class="subtext" style="flex:1 0 100%; align-self:start; margin: 0 0 20px; font-size: 14px; color: #4b625e;">
+          Lorem ipsum loquitor descriptium
+        </span><!-- End Subtext -->
+      </a><!-- End Category Tile -->
+
+      <!-- CATEGORY TILE-->
+      <a class="category-tile" href=" " style="flex:1 0 190px; display:flex; min-width: calc(33% - 68px); margin: 0 1% 20px 1%; padding: 20px 12px 0; flex-flow: row wrap; justify-content: center; align-items: center; border: #eee solid 2px; border-radius: 10px; text-align: center; text-decoration: none;">
+
+        <!-- ▼ SANDBOX ▼ -->
+        <img style="height: 75px; margin: 0 0 10px;" src="https://images.pexels.com/photos/220213/pexels-photo-220213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" style="height: 75px; margin: 0 15px 15px;">
+
+        <span class="headline" style="flex:1 0 100%; margin: 0 0 10px; font-size: 22px; color: #0b9;">
+          Title Goes Here
+        </span><!-- End Headline -->
+
+        <span class="subtext" style="flex:1 0 100%; align-self:start; margin: 0 0 20px; font-size: 14px; color: #4b625e;">
+          Lorem ipsum loquitor descriptium
+        </span><!-- End Subtext -->
+      </a><!-- End Category Tile -->
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Third Paragraph Blocks
+      </div>
+
+      <!-- THIRD TILE -->
+      <div style="flex: 1 0 280px; min-width:calc(31.33%); margin:0 1% 15px; padding: 12px 0 0 0; border-top-width:1px;border-top-style:solid;border-top-color:#999;">
+        <h4 style="-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;margin-top:0;margin-bottom:.5em;margin-right:0;margin-left:0;font-size:18px;color:#5c6663;font-weight:bold;">
+          Headline Goes here
+        </h4>
+        <p style="margin-top:0;margin-bottom:.5em;margin-right:auto;margin-left:auto;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+        </p>
+        <a href=" " style="text-decoration:none;color:#00ac8e;">
+          Main Link Goes Here
+          <img style="width: .8em; height: .8em; margin: 0px 0 -.1em 0;" src="right-caret.png" alt="Link">
+        </a>
+      </div><!-- End Third Tile -->
+
+      <!-- THIRD TILE -->
+      <div style="flex: 1 0 280px; min-width:calc(31.33%); margin:0 1% 15px; padding: 12px 0 0 0; border-top-width:1px;border-top-style:solid;border-top-color:#999;">
+        <h4 style="-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;margin-top:0;margin-bottom:.5em;margin-right:0;margin-left:0;font-size:18px;color:#5c6663;font-weight:bold;">
+          Headline Goes here
+        </h4>
+        <p style="margin-top:0;margin-bottom:.5em;margin-right:auto;margin-left:auto;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+        </p>
+        <a href=" " style="text-decoration:none;color:#00ac8e;">
+          Main Link Goes Here
+          <img style="width: .8em; height: .8em; margin: 0px 0 -.1em 0;" src="right-caret.png" alt="Link">
+        </a>
+      </div><!-- End Third Tile -->
+
+      <!-- THIRD TILE -->
+      <div style="flex: 1 0 280px; min-width:calc(31.33%); margin:0 1% 15px; padding: 12px 0 0 0; border-top-width:1px;border-top-style:solid;border-top-color:#999;">
+        <h4 style="-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;margin-top:0;margin-bottom:.5em;margin-right:0;margin-left:0;font-size:18px;color:#5c6663;font-weight:bold;">
+          Headline Goes here
+        </h4>
+        <p style="margin-top:0;margin-bottom:.5em;margin-right:auto;margin-left:auto;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+        </p>
+        <a href=" " style="text-decoration:none;color:#00ac8e;">
+          Main Link Goes Here
+          <img style="width: .8em; height: .8em; margin: 0px 0 -.1em 0;" src="right-caret.png" alt="Link">
+        </a>
+      </div><!-- End Third Tile -->
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Headings
+      </div>
+
+      <!--
+88  88    888888       db       8888b.     888888    88""Yb    .dP"Y8
+88  88    88__        dPYb       8I  Yb    88__      88__dP    `Ybo."
+888888    88""       dP__Yb      8I  dY    88""      88"Yb     o.`Y8b
+88  88    888888    dP""""Yb    8888Y"     888888    88  Yb    8bodP'
+-->
+
+      <!-- P A G E   T I T L E -->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 40px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Page Title
+      </div>
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Section Title
+      </div>
+
+      <!-- S U B   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 10px; padding: 0 0 4px; font-size: 18px; text-align: left; font-weight: bold; color: #3d4d49;"><a name=""></a>
+        Sub Title
+      </div>
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Half &amp; Half Layout
+      </div>
+
+      <!-- H A L F   I M A G E-->
+      <div style="flex: 1 0 300px; min-width: 48%;  margin: 0 1% 20px; display: block;"><img style="width: 100%; margin: 0;" src="https://images.pexels.com/photos/709552/pexels-photo-709552.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" /></div>
+
+      <!-- H A L F   T E X T   B L O C K-->
+      <div style="flex: 1 0 300px; min-width: 48%;  margin: 0 1% 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background: #fff;">
+        <!-- H E A D L I N E-->
+        <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+          Headline Goes Here
+        </div>
+
+        <!-- S U B T E X T-->
+        <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+        </div>
+
+        <!-- B U T T O N-->
+        <a style="flex: 1 0 170px; -ms-flex: 1 0 170px; display: inline-flex; align-self: end; margin: 5px; height: 40px; padding: 0 5px; font-weight: bold; letter-spacing: .1em; color: #00ac8e; text-decoration: none;text-transform: uppercase;font-size: 14px; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1;" href=""><span style="display: inline-flex; vertical-align: middle;margin: auto;-ms-flex-align: center;">
+            Click Here
+          </span></a>
+      </div>
+      <!-- E N D   H A L F   T E X T   B L O C K -->
+
+
+
+      <!--
+ dP""b8     dP"Yb     88         dP"Yb     88""Yb    .dP"Y8
+dP   `"    dP   Yb    88        dP   Yb    88__dP    `Ybo."
+Yb         Yb   dP    88  .o    Yb   dP    88"Yb     o.`Y8b
+ YboodP     YbodP     88ood8     YbodP     88  Yb    8bodP'
+-->
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Color
+      </div>
+
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #fff; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #00ac8e;">
+            #fff
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            All Text on Dark Backgrounds
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+
+
+
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #edf2f1; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #00ac8e;">
+            hsl(165,2%,95%) #edf2f1
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Extra Light, Body Background
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #e1e5e4; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #00ac8e;">
+            hsl(165,2%,90%) #e1e5e4
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Light, Box and Footer background
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #73e5c9; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            hsl(165,50%,90%) #73e5c9
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #5c6663;">
+            Medium Light, Bottom end of gradient
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #00b386; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            hsl(165,100%,70%) #00b386
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            Primary Active, Base Color, Top of Gradient, Button Background, Link Text
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #1a8066; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            hsl(165,80%,50%) #1a8066
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            Secondary, Hover Button Background, Hover Link Text
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #5c6663; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            hsl(165,10%,40%) #5c6663
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            Medium Dark, Body Text
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+      <!-- Body background-->
+      <div style="flex: 1 0 201px; min-width: 22%;  margin: 0 1% 20px; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; background-color: #3d4d49; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px;">
+        <!-- T E X T   L O C K U P -->
+        <div style="flex: 1 0 180px; margin: 0 1.5% 20px; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- H E A D L I N E-->
+          <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #fff;">
+            hsl(165,20%,30%) #3d4d49
+          </div>
+
+          <!-- S U B T E X T-->
+          <div style="flex: 1 0 100%; align-self: start; margin: 0 0 10px; font-size: 14px; color: #fff;">
+            Dark, Headline, Strong, and Bold Text
+          </div>
+        </div>
+        <!-- E N D   T E X T   L O C K U P -->
+      </div>
+      <!-- E N D   Body background -->
+
+
+      <!--
+
+88        88    88b 88    88  dP        88        88    .dP"Y8    888888
+88        88    88Yb88    88odP         88        88    `Ybo."      88
+88  .o    88    88 Y88    88"Yb         88  .o    88    o.`Y8b      88
+88ood8    88    88  Y8    88  Yb        88ood8    88    8bodP'      88
+
+--------------------------------------------------->
+
+
+
+      <!-- S E C T I O N   T I T L E-->
+      <div style="flex: 1 0 300px; min-width: 98%;  margin: 0 10px 20px; padding: 0 0 4px; font-size: 26px; text-align: left; font-weight: bold; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 3px; border-image-slice: 1; border-top: 0px; border-left: 0px; border-right: 0px; color: #3d4d49;">
+        <a name=""></a>
+        Link Lists
+      </div>
+
+
+
+      <!-- L I N K   L I S T -->
+      <div style="flex: 1 0 201px; min-width: 22%; margin: 0 1% 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; ">
+        <!-- H E A D L I N E-->
+        <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+          Link List Name
+        </div>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+      </div>
+      <!-- End Link List -->
+
+      <!-- L I N K   L I S T -->
+      <div style="flex: 1 0 201px; min-width: 22%; margin: 0 1% 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; ">
+        <!-- H E A D L I N E-->
+        <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+          Link List Name
+        </div>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+      </div>
+      <!-- End Link List -->
+
+      <!-- L I N K   L I S T -->
+      <div style="flex: 1 0 201px; min-width: 22%; margin: 0 1% 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; ">
+        <!-- H E A D L I N E-->
+        <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+          Link List Name
+        </div>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+      </div>
+      <!-- End Link List -->
+
+      <!-- L I N K   L I S T -->
+      <div style="flex: 1 0 201px; min-width: 22%; margin: 0 1% 20px; display: flex; flex-flow: row wrap; justify-content: center; align-items: center; ">
+        <!-- H E A D L I N E-->
+        <div style="flex: 1 0 100%; margin: 0 0 10px; font-size: 22px; color: #3d4d49;">
+          Link List Name
+        </div>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+
+        <a style="flex: 1 0 100%; margin: 0 0 10px; color: #00b386; text-decoration: none;" href="https://bcgsb.sabacloud.com">
+          Link Item Name
+        </a>
+      </div>
+      <!-- End Link List -->
+
+
+
+
+
+
+
+
+
+
+    </div><!-- End Content Container -->
+
+
+
+
+
+
+    <!--
+    ◼◼◼◼◼   ◼◼◼  ◼◼◼  ◼◼◼◼◼◼ ◼◼◼◼◼◼  ◼◼◼◼◼
+   ◼        ◼   ◼ ◼   ◼    ◼◼    ◼          ◼   ◼
+  ◼◼◼     ◼   ◼ ◼   ◼    ◼◼    ◼◼◼◼     ◼◼◼◼
+ ◼        ◼   ◼ ◼   ◼    ◼◼    ◼          ◼    ◼
+◼         ◼◼◼  ◼◼◼     ◼◼    ◼◼◼◼◼◼  ◼     ◼
+-->
+
+    <!-- F O O T E R -->
+    <div style="width: 100%; padding: 20px 0 0; background-color: #e1e5e4; border: solid 3px #00ac8e; border-image: linear-gradient(to right,#00b386, #73e5c9); border-style: solid; border-width: 4px; border-image-slice: 1; border-bottom: 0px; border-left: 0px; border-right: 0px;">
+      <!-- S T A R T   C O N T A I N E R -->
+      <div style="max-width: 1440px; margin: 0 auto; padding: 20px 0 0; display: flex; flex-flow: row wrap; justify-content: center; align-items: start; font-family: verdana; color: #5c6663;">
+
+        <!-- TOP LINKS -->
+        <div style="width: 100%; display: flex; flex-flow: row wrap; justify-content: center; text-align: center;">
+          <!-- I M A G E -->
+          <div style="flex: 0 0 40px; margin: 0 2% 20px; font-size: 15px; font-weight: bold; text-decoration: none; color: #5c6663;"><img style="width: 40px; margin: 0;" src="https://bcgsb.sabacloud.com/Saba/Web/NA3T1SNB0195/Image/9ea71916-2791-43ee-b878-1f0b6916fafd?tfile=Lab Logo.png_9ea71916-2791-43ee-b878-1f0b6916fafd_1568835986843.png" alt=""></div>
+          <a style="flex: 1 0 170px; margin: 0 1% 20px; font-size: 15px; font-weight: bold; text-decoration: none; color: #5c6663; text-align: left;" href="">
+            Browse Online Courses</a>
+          <a style="flex: 1 0 170px; margin: 0 1% 20px; font-size: 15px; font-weight: bold; text-decoration: none; color: #5c6663; text-align: left;" href="">
+            Browse Live Courses</a>
+          <a style="flex: 1 0 170px; margin: 0 1% 20px; font-size: 15px; font-weight: bold; text-decoration: none; color: #5c6663; text-align: left;" href="">
+            Browse LAB Talks</a>
+          <a style="flex: 1 0 170px; margin: 0 1% 20px; font-size: 15px; font-weight: bold; text-decoration: none; color: #5c6663; text-align: left;" href="">
+            Search Navigator</a>
+        </div>
+        <!-- E N D   TOP LINKS -->
+
+        <hr style="width: 100%; margin: 0 2% 20px; border-top: solid 1px #bbb;">
+
+        <!-- L I N K   L I S T -->
+        <div style="flex: 1 0 200px; margin: 0 2% 20px;">
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            Learning Catalog</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Business Services, Knowledge & Analytics Skills & Tools</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Consulting Skills and Tools</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Practice Area Knowledge</a>
+        </div>
+        <!-- E N D   L I N K   L I S T -->
+
+        <!-- L I N K   L I S T -->
+        <div style="flex: 1 0 200px; margin: 0 2% 20px;">
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            Discover More</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Linkedin Learning</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            GetAbstract</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Advanced Analytics Journey</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Starter Kits</a>
+        </div>
+        <!-- E N D   L I N K   L I S T -->
+
+        <!-- L I N K   L I S T -->
+        <div style="flex: 1 0 200px; margin: 0 2% 20px;">
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            Personalize My LAB</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Tag's I Follow</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            My Learning Activity</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            My Plan</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            My Recomendations</a>
+        </div>
+        <!-- E N D   L I N K   L I S T -->
+
+        <!-- L I N K   L I S T -->
+        <div style="flex: 1 0 200px; margin: 0 2% 20px;">
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            L &amp; D</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            L&D Microsite</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            BST Learning Microsite</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            Give Feedback</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 15px; text-decoration: none; font-weight: bold; color: #5c6663;" href="">
+            Get Help</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Aero</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            LAB Support</a>
+          <a style="display: block; margin: 0 0 5px; font-size: 13px; text-decoration: none; color: #5c6663;" href="">
+            Service Center</a>
+        </div>
+        <!-- E N D   L I N K   L I S T -->
+
+      </div>
+      <!-- E N D   C O N T A I N E R -->
+    </div>
+    <!-- E N D   F O O T E R -->
+
+  </div><!-- End Faux Body -->
+
+</body>
+
+</html>
+
+
+<p style="display: none;">
+  <!--
+
+For ascii art, I used 4Max with extra space between letters from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project
+
+
+CODE NOTES FOR SABA WORKSPACES
+• System removes html, head, & body tags
+• Empty tags are filled with non binding spaces
+• System deletes span tags unless they have a class
+• System places p tags around span tags if they are not surrounded by another block type tag
+• If you use a title tag for testing, System will include it in p tags in rendered code
+• Not using Grid because it is not supported by IE 11
+
+-->
+</p>

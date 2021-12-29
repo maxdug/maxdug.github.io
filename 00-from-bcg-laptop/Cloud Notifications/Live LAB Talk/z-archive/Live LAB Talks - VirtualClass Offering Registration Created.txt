@@ -1,0 +1,354 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=us-ascii">
+  <meta name="Generator"
+ content="Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]-->
+  <style><!--
+/* Font Definitions */
+@font-face
+{font-family:"Cambria Math";
+panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+{font-family:Calibri;
+panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+{font-family:Verdana;
+panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+{font-family:Georgia;
+panose-1:2 4 5 2 5 4 5 2 3 3;}
+@font-face
+{font-family:"Trebuchet MS";
+panose-1:2 11 6 3 2 2 2 2 2 4;}
+@font-face
+{font-family:"Henderson BCG Sans";
+panose-1:2 11 5 2 3 4 2 2 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+{margin:0in;
+margin-bottom:.0001pt;
+font-size:11.0pt;
+font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+{mso-style-priority:99;
+color:#0563C1;
+text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+{mso-style-priority:99;
+color:#954F72;
+text-decoration:underline;}
+p
+{mso-style-priority:99;
+margin:0in;
+margin-bottom:.0001pt;
+font-size:12.0pt;
+font-family:"Times New Roman",serif;}
+span.EmailStyle17
+{mso-style-type:personal-compose;
+font-family:"Verdana",sans-serif;
+color:windowtext;}
+span.EmailStyle19
+{mso-style-type:personal;
+font-family:"Calibri",sans-serif;
+color:windowtext;}
+.MsoChpDefault
+{mso-style-type:export-only;}
+@page WordSection1
+{size:8.5in 11.0in;
+margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1029" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563c1" vlink="#954f72">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center">
+      <table class="MsoNormalTable" style="width: 6.25in;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+        <tbody>
+          <tr>
+            <td style="padding: 0in 0in 11.25pt;"><br>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ valign="top" width="550">
+                  <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><img
+ style="border: 0px solid ; width: 550px; height: 117px;"
+ id="Picture_x0020_2"
+ src="https://lms.bcg.com/Saba/assets/common/img/cloud/header_top_New.png"
+ alt="BCG"></span><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><o:p></o:p></span></p>
+                  </td>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50"></td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0in;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in; width: 37.5pt;"
+ valign="top" width="50">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td
+ style="padding: 0in; background: rgb(33, 64, 46) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;"
+ valign="top">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><img
+ id="Picture_x0020_3"
+ src="https://lmstst.bcg.com/Saba/assets/common/img/cloud/header_small_bottom.png"
+ alt="green" border="0" height="66" width="50"></span><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);"><o:p></o:p></span></p>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <p class="MsoNormal"><span
+ style="font-size: 10.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(51, 51, 51);">&nbsp;</span></p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                  <td style="padding: 0in;" valign="top">
+                  <table class="MsoNormalTable"
+ style="background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 412.5pt;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 15pt 18.75pt;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td style="padding: 0in;">
+                              <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                <tbody>
+                                  <tr>
+                                    <td style="padding: 0in;">
+                                    <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                                      <tbody>
+                                        <tr>
+                                          <td style="padding: 0in;">
+                                          <p class="MsoNormal"><b><span
+ style="font-size: 13.5pt; font-family: &quot;Trebuchet MS&quot;,sans-serif; color: rgb(23, 123, 87); text-transform: uppercase;">LIVE
+LAB TALK<br>
+&nbsp;&nbsp; <br>
+                                          </span>
+                                          </b><span
+ style="font-size: 18pt; font-family: &quot;Georgia&quot;,serif; color: rgb(51, 51, 51);">You
+are registered to attend an upcoming session</span></p>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center">
+      <table class="MsoNormalTable" style="width: 6.25in;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="0">
+        <tbody>
+          <tr>
+            <td
+ style="padding: 18.75pt 0in 0in; background: white none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial;">
+            <table class="MsoNormalTable" style="width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+              <tbody>
+                <tr>
+                  <td style="padding: 0in;">
+                  <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                    <tbody>
+                      <tr>
+                        <td style="padding: 0in;">
+                        <table class="MsoNormalTable"
+ style="width: 100%;" border="0" cellpadding="0"
+ cellspacing="0" width="100%">
+                          <tbody>
+                            <tr>
+                              <td
+ style="padding: 0in 0in 18.75pt 18.75pt;">
+                              <p class="MsoNormal"><span
+ style="font-size: 11pt; color: black; font-family: Trebuchet MS;">@Reg_StudentName@,<br>
+                              <br>
+You are registered to attend the live LAB Talk on&nbsp;</span><span
+ style="font-size: 11pt; color: black; font-weight: bold; font-family: Trebuchet MS;">@Reg_OfferingName@</span><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;"><span
+ style="font-family: Trebuchet MS;">,
+on @Reg_ClassStartDate@ at @Reg_Session_Start_Time_#@.</span><br
+ style="font-family: Trebuchet MS;">
+                              <br style="font-family: Trebuchet MS;">
+                              <span
+ style="font-family: Trebuchet MS;">Please
+click </span><span
+ style="font-style: italic; font-family: Trebuchet MS;">Accept</span><span
+ style="font-family: Trebuchet MS;"> to add this session to
+your Outlook calendar.</span><br
+ style="font-family: Trebuchet MS;">
+                              <br style="font-family: Trebuchet MS;">
+                              <span
+ style="font-family: Trebuchet MS;">To
+join the session, click the Attend Now button up to 30 minutes before
+the session starts. &nbsp;Or, go to LAB and click on the reminder
+link on the home page to attend. </span><br
+ style="font-family: Trebuchet MS;">
+                              <br style="font-family: Trebuchet MS;">
+                              <span
+ style="font-family: Trebuchet MS;">**Note
+- Your best audio option is VOIP. &nbsp;Please be prepared with a
+headset in order to utilize the audio from your computer.</span><br>
+                              <br>
+                              <a
+ href="@VirtualClassroom_Learner_VLE_CustomDeeplink@"><img
+ style="border: 0px solid ; width: 218px; height: 49px;"
+ alt="Click to Attend Now"
+ src="https://lms.bcg.com/Saba/assets/common/img/cloud/AttendNow.png"></a><br>
+                              <br>
+LAB Talks are BCG's premiere learning channel for connecting YOU with
+BCG topic experts worldwide on:<br>
+                              </span>
+                              </p>
+                              <ul>
+                                <li><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Basic
+consulting skills and technology/tool tips</span></li>
+                                <li><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Key
+Go-To-Market concepts and products globally</span></li>
+                                <li><span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">Hot
+topics in business and society where BCG has a "perspective"</span></li>
+                              </ul>
+                              <span
+ style="font-size: 11pt; font-family: &quot;Trebuchet MS&quot;; color: black;">If
+you will not be online and require the audio bridge or if you have any
+other questions, please email the <a
+ style="color: rgb(23, 123, 87);"
+ href="mailto:LABTalkTeam@bcg.com">LAB Talk Team</a>.<br>
+                              <br>
+Regards,<br>
+                              <br>
+The LAB Talk Team</span>
+                              <p class="MsoNormal"><span
+ style="font-family: &quot;Trebuchet MS&quot;,sans-serif;"><o:p></o:p></span></p>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p class="MsoNormal"><o:p></o:p></p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<table class="MsoNormalTable"
+ style="background: rgb(242, 242, 242) none repeat scroll 0% 50%; -moz-background-clip: initial; -moz-background-origin: initial; -moz-background-inline-policy: initial; width: 100%;"
+ border="0" cellpadding="0" cellspacing="0"
+ width="100%">
+  <tbody>
+    <tr>
+      <td style="padding: 0in;">
+      <div align="center"><br>
+      </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <style>
+      body {
+        margin: 0;
+        font-family: trebuchet ms, verdana, sans-serif;
+        font-size: 16px;
+        color: #555;
+        letter-spacing: 0.05em;
+      }
+      header {
+        width: 94%;
+        margin: 0 0 12px;
+        padding: 3%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-image: url(https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/c1adcde6-f385-4635-852f-4db744465a4e?tfile=hero.jpg_c1adcde6-f385-4635-852f-4db744465a4e_1605036672626.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+      nav {
+        display: flex;
+        flex: 1 0 300px;
+        width: 100%;
+        margin: 0 0 20px;
+        flex-flow: row wrap;
+      }
+      nav a {
+        flex-grow: 1;
+        margin: 0 0 15px;
+        padding: 0 20px 10px;
+        color: #3a8;
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        line-height: 18px;
+        text-align: center;
+        border-bottom: 3px solid #3a8;
+      }
+      nav a.current {
+        padding: 0 20px 7px;
+        color: #000;
+        border-bottom: 3px solid #000;
+      }
+      footer {
+      }
+
+      h1 {
+        /* Page Title */
+        margin: 0;
+        font-size: 40px;
+      }
+      h2 {
+        /* Section Titles */
+        display: flex;
+        flex: 1 0 300px;
+        min-width: calc(100% - 20px);
+        margin: 0 10px 15px;
+        padding: 0 0 10px;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: baseline;
+        align-items: center;
+        align-self: center;
+        font-size: 20px;
+        color: #000;
+        border-bottom: 1px solid #3a8;
+      }
+      h2 a {
+        display: inline-block;
+        margin: 4px 0 0 0;
+        font-size: 16px;
+        color: #3a8;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+      h3 {
+        /* Element Titles - cards, tiles, etc... */
+        flex: 1 0 100%;
+        margin: 0 0 12px;
+        font-size: 18px;
+        color: #000000;
+        align-self: flex-start;
+      }
+      header h3 {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        color: white;
+        font-weight: normal;
+      }
+      p {
+        flex: 1 0 300px;
+        min-width: calc(100% - 20px);
+        margin: 0 10px 30px;
+        padding: 0;
+        font-size: 14px;
+        color: #666666;
+      }
+
+      main {
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: left;
+        /* align-items: flex-start; Might need to remove to make everything same height */
+      }
+      .tile {
+        display: flex;
+        flex: 1 0 160px;
+        margin: 0 1% 20px;
+        padding: 0;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        text-align: center;
+      }
+      .third {
+        min-width: 23%;
+      }
+      .tile .image {
+        width: 36%;
+        height: 70px;
+        margin: 0 32% 15px !important;
+        padding: 0;
+        align-self: flex-start;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+      }
+
+      .tile p {
+        flex: 1 0 100%;
+        margin: 0 0 15px;
+        font-size: 14px;
+        color: #666;
+        align-self: flex-end;
+      }
+      .big-description {
+        flex: 1 0 300px; 
+        min-width: calc(100% - 20px); 
+        margin: 0 10px 30px; 
+        padding: 0; 
+        font-size: 26px; 
+        color: #000; 
+        text-align: center;
+      }
+      .category-tile {
+        flex:1 0 190px; 
+        display:flex; 
+        min-width: calc(25% - 68px); 
+        margin: 0 1% 20px 1%; 
+        padding: 20px 12px 0; 
+        flex-flow: row wrap; 
+        justify-content: center; 
+        align-items: center; 
+        border: #eee solid 2px; 
+        border-radius: 10px; 
+        text-align: center; 
+        text-decoration: none;
+      }
+      .category-tile img {
+        height: 75px; 
+        margin: 0 15px 15px;
+      }
+      .blank-category-tile {
+        flex:1 0 190px; 
+        display:flex; 
+        min-width: calc(25% - 68px); 
+        margin: 0 1% 20px 1%; 
+        padding: 20px 12px 0;
+      }
+  </style>
+  <title></title>
+</head>
+<body>
+
+  <header>
+    <!-- Workspace Title -->
+    <h3>BST &amp; GSB Development Guide</h3>
+    <!-- Page Title -->
+    <h1>Competency Development Actions</h1>
+  </header>
+
+  <nav>
+    <a class="current" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031942">
+      Home
+    </a>
+    <a href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031945">
+      Competency Development Actions
+    </a>
+    <a href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031946">
+      Individual Development Plans
+    </a>
+    <a href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031947">
+      Maximize Your Learning
+    </a>
+  </nav>
+
+<main>
+
+<!-- Big Description -->
+<div class="big-description">
+  Explore actions to gain on the job experience, exposure,<br>
+  growth, and education in the following areas
+</div>
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031948">
+  <span style="background-image: url(https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/ddb0b41c-5cd4-4f88-ad64-bd090cc98636?tfile=skills.png_ddb0b41c-5cd4-4f88-ad64-bd090cc98636_1605071598752.png)">&nbsp;</span>
+  <h3>Technical Skills and Expertise</h3>
+  <p>Identify your strengths and any key gaps in your area</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031949">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/e297b6d5-95d0-4aba-8401-75662037ad54?tfile=communicate.png_e297b6d5-95d0-4aba-8401-75662037ad54_1605071628089.png" alt="Icon">
+  <h3>Communication, Presence and Influence</h3>
+  <p>Define your key message and the goal of the communication</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031950">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/0071a0bc-22d1-4f35-a147-75aa1dfb4314?tfile=team.png_0071a0bc-22d1-4f35-a147-75aa1dfb4314_1605071648920.png" alt="Icon">
+  <h3>Teaming and Relationship Management</h3>
+  <p>Be a trusted colleague to peers, team members, and stakeholders</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031951">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/0c3accb6-7638-41fb-b621-8532672f3298?tfile=management.png_0c3accb6-7638-41fb-b621-8532672f3298_1605071675833.png" alt="Icon">
+  <h3>Work Management</h3>
+  <p>Build a work plan at the beginning of your tasks</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031952">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/d44ca604-5762-4a93-969d-40ca4985e211?tfile=puzzle.png_d44ca604-5762-4a93-969d-40ca4985e211_1605071704318.png" alt="Icon">
+  <h3>Problem Solving and Insight</h3>
+  <p>Make complex tasks as simple as possible</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031953">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/d43fca58-816c-4a00-8aa1-4a4a3bb70e6b?tfile=leadership.png_d43fca58-816c-4a00-8aa1-4a4a3bb70e6b_1605071741789.png" alt="Icon">
+  <h3>People Development and Leadership</h3>
+  <p>Build, bond, and deploy</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031954">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/f26a4277-7856-45a7-bb97-62886ad5fd44?tfile=value.png_f26a4277-7856-45a7-bb97-62886ad5fd44_1605071764438.png" alt="Icon">
+  <h3>Value Creation and Impact</h3>
+  <p>Translate the output of analyses into recommendations</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031955">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/a79e53a1-d8a2-4e30-8c24-42dfdc32d04d?tfile=role-model.png_a79e53a1-d8a2-4e30-8c24-42dfdc32d04d_1605071796424.png" alt="Icon">
+  <h3>Role Model</h3>
+  <p>Be committed and act as a role model within BCG</p>
+</a><!-- End Category Tile -->
+
+<!-- Section Title -->
+<h2>
+  Enabler Topics
+</h2>
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031956">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/004d389c-8719-47bc-9ff2-2d9288502bbd?tfile=heart.png_004d389c-8719-47bc-9ff2-2d9288502bbd_1605072556902.png" alt="Icon">
+  <h3>Self Management and Wellbeing</h3>
+  <p>Act independently and take on challenges</p>
+</a><!-- End Category Tile -->
+
+<!-- Category Tile-->
+<a class="category-tile" href="https://lab.bcg.com/Saba/Web_spf/NA9P1PRD002/pages/pagelistview/pgcnt000000000031957">
+  <img src="https://lab.bcg.com/Saba/Web/NA9P1PRD002/Image/75293ee4-c0bc-4f48-b5d5-a2003d1c2913?tfile=path.png_75293ee4-c0bc-4f48-b5d5-a2003d1c2913_1605072539238.png" alt="Icon">
+  <h3>Career Ownership</h3>
+  <p>Awareness of career goals and how they impact your work</p>
+</a><!-- End Category Tile -->
+
+<span class="blank-category-tile">&nbsp;</span>
+<span class="blank-category-tile">&nbsp;</span>
+<span class="blank-category-tile">&nbsp;</span>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Merriweather&display=swap" rel="stylesheet">
+<title>Certificate of Achievement</title>
+  <style type="text/css">
+  body {
+    height: calc(100% - 40px);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0.05rem;
+  }
+  .container {
+    flex: 1 1;
+    display: flex;
+    height: calc(100% - 126px);
+    margin: 40px 40px 0 40px;
+    padding: 40px 20px 40px 20px;
+    flex-flow: row wrap;
+    border: solid 3px #00ac8e;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  </style>
+</head>
+<body>
+<div class="container">
+
+
+  <!-- CERTIFICATE TITLE -->
+  <div style="width: 100%; margin-bottom: 60px; font-size: 44px; text-align: center; font-weight: normal; color: #3d4d49; font-family: 'Merriweather', serif;" ><a name=""></a>
+      Certificate of Completion
+  </div>
+
+  <!-- PRESENTED TO-->
+  <!-- <div style="width: 100%; margin-bottom: 5px; font-size: 26px; text-align: center; font-weight: bold;" ><a name=""></a>
+      Presented To
+  </div> -->
+
+  <!-- FIRST NAME -->
+  <div style="width: 100%; margin-bottom: 5px; font-size: 22px; text-align: center; color: #5c6663;">
+      @@person.first_name@@
+  </div>
+
+  <!-- LAST NAME -->
+  <div style="width: 100%; margin-bottom: 50px; font-size: 22px; text-align: center; color: #5c6663;">
+      @@person.last_name@@
+  </div>
+
+  <!-- FOR THE SUCCESSFUL COMPLETION OF-->
+  <div style="width: 100%; margin-bottom: 5px; font-size: 26px; text-align: center; font-weight: bold;" ><a name=""></a>
+      For the successful completion of
+  </div>
+
+  <!-- CERTIFICATION TITLE -->
+  <div style="width: 100%; margin-bottom: 5px; font-size: 18px; text-align: center; color: #5c6663;">
+    <b>Re-aquisition window starts from</b>  <br>@@offering.recertwindowstartson@@
+  </div>
+
+  <!-- CERTIFICATION AQUIRED ON DATE -->
+  <div style="width: 100%; margin-bottom: 50px; font-size: 18px; text-align: center; color: #5c6663;">
+    <b>course expires on</b> <br>@@offering.expiredon@@
+  </div>
+
+  <!-- KEEP UP THE GOOD WORK -->
+  <div style="width: 100%; margin-bottom: 30px; font-size: 26px; text-align: center; color: #5c6663;">
+      <img style="width: 400px;" src="https://na9p1.sabacloud.com/production/NA9P1PRD002/CertificateTemplates/crttp000000000002480/local000000000000001/images/certificate-logo.png?v=245387" alt="Learning @ BCG">
+  </div>
+
+
+<!-- END Content --></div>
+</body>
+</html>

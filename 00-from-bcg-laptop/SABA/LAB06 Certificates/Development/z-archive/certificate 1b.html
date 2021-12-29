@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Certificate of Achievement</title>
+  <style type="text/css">
+  body {
+    height: calc(100% - 40px);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    font-family: trebuchet ms, verdana, sans-serif;
+    letter-spacing: 0.05rem;
+  }
+  .container {
+    flex: 1 1;
+    display: flex;
+    height: calc(100% - 126px);
+    margin: 0 40px 40px 40px;
+    padding: 40px;
+    flex-flow: row wrap;
+    border: solid 3px #00ac8e;
+    justify-content: center;
+    align-items: center;
+  }
+  </style>
+</head>
+<body>
+
+<!-- CONTENT-->
+<div class="container">
+
+
+  <!-- CERTIFICATE TITLE -->
+  <div style="width: 100%; font-size: 40px; text-align: center; font-weight: bold; color: #3d4d49;" ><a name=""></a>
+      Certificate of Achievement
+  </div>
+
+  <!-- PRESENTED TO-->
+  <div style="width: 100%; font-size: 30px; text-align: center; font-weight: bold;" ><a name=""></a>
+      Presented To
+  </div>
+
+  <!-- FIRST NAME -->
+  <div style="width: 100%; font-size: 20px; text-align: center; color: #5c6663;">
+      @@person.first_name@@
+  </div>
+
+  <!-- LAST NAME -->
+  <div style="width: 100%; font-size: 20px; text-align: center; color: #5c6663;">
+      @@person.last_name@@
+  </div>
+
+  <!-- FOR THE SUCCESSFUL COMPLETION OF-->
+  <div style="width: 100%; font-size: 30px; text-align: center; font-weight: bold;" ><a name=""></a>
+      for the successful completion of
+  </div>
+
+  <!-- CERTIFICATION TITLE -->
+  <div style="width: 100%; font-size: 20px; text-align: center; color: #5c6663;">
+      @@certification.title@@
+  </div>
+
+  <!-- CERTIFICATION AQUIRED ON DATE -->
+  <div style="width: 100%; font-size: 20px; text-align: center; color: #5c6663;">
+    @@certification.acquiredOnDate@@
+  </div>
+
+  <!-- KEEP UP THE GOOD WORK -->
+  <div style="width: 100%; font-size: 30px; text-align: center; color: #5c6663;">
+      Keep up the great work!
+  </div>
+
+
+</div><!-- END Content -->
+</body>
+</html>

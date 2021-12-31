@@ -219,7 +219,12 @@ a {
 a:hover, a:focus {
   color: var(--primary);
   text-decoration-color: var(--primary);
-  text-decoration-thickness: 3px; /*need for safari */
+  /* text-decoration-thickness: 3px; /*need for safari */
+}
+body.touch a:hover, body.touch a:focus {
+  color: currentColor;
+  text-decoration-color: currentColor;
+  /* text-decoration-thickness: 3px; /*need for safari */
 }
 a img {
   border-width: 0;
@@ -842,8 +847,9 @@ body.home .bar-4:after {
   transform: rotate(45deg) translate(-20px, 20px);
 }
 /* attempt to stop hover animation when a user clicks on mobile */
-body.touch .logo:hover {
+body.touch .logo:hover, body.touch .logo:focus, body.touch .logo:hover span {
   transform: none;
+  color: currentColor;
 }
 
 

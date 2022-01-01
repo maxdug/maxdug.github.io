@@ -70,6 +70,7 @@ body {
   margin: 45px 0 0;
   color: #555;
   font-family: sans-serif;
+  font-weight: 200;
 }
 
 :root {
@@ -161,7 +162,7 @@ h1 a:visited {
   font-size: clamp(1.6rem,5.6vw,2.2rem);
   margin: .9em 0 .6em;
   color: #333;
-  font-weight: normal;
+  font-weight: 200;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -189,7 +190,7 @@ h3, h3 a {
   font-size: clamp(1.1rem,3.2vw,1.3rem);
   margin: 30px 0 10px;
   color: #333;
-  font-weight: normal;
+  font-weight: 200;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -201,7 +202,7 @@ h4 {
   font-size: .9em;
   margin: 10px 0 6px;
   color: #333;
-  font-weight: normal;
+  font-weight: 200;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -246,7 +247,7 @@ hr {
 }
 b,
 strong {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 q,
@@ -914,7 +915,7 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
 }
 .footer-links a span {
     margin-left: 10px;
-    font-weight: lighter;
+    font-weight: 200;
     font-size: .8em;
     color: var(--primary);
     transition: 350ms ease-in-out;
@@ -1276,7 +1277,7 @@ body.touch .tile img.tile-logo {
   width: 100%;
   color:#999;
   font-size:18px;
-  font-weight:normal;
+  font-weight: 200;
   position:absolute;
   pointer-events:none;
   left:0;
@@ -1320,9 +1321,9 @@ input:-webkit-autofill:focus {
 }
 .bar:before, .bar:after 	{
   content:'';
-  height:2px;
-  width:0;
-  bottom:1px;
+  height:3px;
+  width: 0;
+  bottom: 0;
   position:absolute;
   background: var(--primary);
   transition: 350ms ease-in-out all;
@@ -1483,9 +1484,9 @@ body#guide {
 }
 
 .node label {
-position: inherit;
+/* position: inherit;
 font-size: inherit;
-pointer-events: inherit;
+pointer-events: inherit; */
 }
 
 /* Hide the browser's default radio button */

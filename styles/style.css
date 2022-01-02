@@ -1250,7 +1250,7 @@ img.tile-logo {
   /* Only use this background if you make the title visable */
   /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent); */
 }
-#art .title {
+#art .title, body.touch #art .title {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent);
   margin-bottom: 0;
 }

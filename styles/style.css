@@ -1023,12 +1023,14 @@ main {
 
 /* 1024 - Used for Most not full screen content */
 .container.tentwentyfour, .content.tentwentyfour {
+    width: 100%;
     max-width: 1024px;
     padding: 0 calc(48% - 512px);
 }
 
 /* 720 - Designed for best legibility of large amounts of text information */
 .container.article, .content.article {
+    width: 100%;
     max-width: 720px;
     padding: 0 calc(48% - 360px);
 }

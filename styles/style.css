@@ -179,7 +179,7 @@ h2 a:visited {
   font-size: clamp(1.4rem,4vw,1.6rem);
   margin: 1.7em 0 .6em;
   color: #333;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -233,7 +233,7 @@ p a {
   text-decoration: none;
   position: relative;
 }
-p a::before {
+p a::before, p a:visited::before {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -243,17 +243,9 @@ p a::before {
   background: #ccc;
 }
 p a::after {
-  /* position: absolute;
-  content: '';
-  background: var(--primary);
-  height: 3px;
-  width: 100%;
-  left: 0;
-  bottom: 0; */
-  transition: 450ms ease-in-out;
-  /* transform: scaleX(0); */
+  /* transition: 450ms ease-in-out; */
 }
-p a:hover::after {
+p a:hover::after, p a:focus::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -263,9 +255,6 @@ p a:hover::after {
   background: var(--primary);
   animation: 350ms ease-in-out nav-bar;
 }
-
-
-
 
 a img {
   border-width: 0;
@@ -288,7 +277,7 @@ hr {
 b,
 strong {
   color: #333;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 q,
@@ -352,7 +341,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: white;
   border: none;
   transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: .03em;
 }
 button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::after, .button::after, .btn::after {
@@ -397,18 +386,18 @@ button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::a
   color: var(--primary)
 }
 .btn-dark {
-  background-color: #333;
+  background-color: #555;
   color: white;
 }
 .btn-dark:hover, .btn-dark:focus {
-  background-color: black;
+  background-color: #333;
 }
 .btn-outline-dark {
-  border: 2px solid #333;
-  color: #333;
+  border: 2px solid #555;
+  color: #555;
 }
 .btn-outline-dark:hover, .btn-outline-dark:focus {
-  background-color: #333;
+  background-color: #555;
   color: white;
 }
 
@@ -505,7 +494,7 @@ nav a {
 
 #design a.work, #art a.art {
   color: #333;
-  font-weight: 500;
+  font-weight: 400;
 }
 #design a.work::before, #art a.art::before {
   outline: none;
@@ -1264,7 +1253,7 @@ img.tile-logo {
   position: absolute;
   align-items: flex-end;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 0.1em;
   font-size: .7rem;
   color: white;

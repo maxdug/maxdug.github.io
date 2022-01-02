@@ -410,9 +410,28 @@ button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::a
   color: white;
 }
 
+.btn-outline-disabled {
+  border: 2px solid #bbb;
+  color: #999;
+  cursor: default;
+}
+.btn-outline-disabled:hover, .btn-outline-disabled:focus {
+  /* background-color: #999;
+  color: white; */
+}
+
 /* Spans full width of space */
 .btn-block {
 
+}
+.form-field:focus-within+.btn-outline-disabled {
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  cursor: pointer;
+}
+.form-field:focus-within+.btn-outline-disabled:hover {
+  background-color: var(--primary);
+  color: white;
 }
 body.touch button, body.touch [type="submit"], body.touch [type="button"], body.touch [type="reset"], body.touch .button, body.touch .btn {
   transition: none;
@@ -1301,21 +1320,18 @@ body.touch .tile img.tile-logo {
 }
 
 #access-form .form-field {
-  /* display: flex; */
-  /* flex-flow: row wrap; */
   position:relative;
   flex: 1 0 160px;
   margin: 20px 10px 10px 0;
-  /* padding: 0; */
-  /* min-width: calc(66% - 20px); */
   letter-spacing: .03em;
 }
 
 #access-form input[type="password"] {
-  font-size:18px;
+  flex: 1 0 160px;
+  width: 100%;
   padding:10px;
   border:none;
-  flex: 1 0 160px;
+  font-size:18px;
   cursor: text;
 }
 .form-field::before {
@@ -1327,7 +1343,8 @@ body.touch .tile img.tile-logo {
   left: 0;
   bottom: 0;
 }
-.form-field::after {
+
+.form-field:focus-within::after {
   position: absolute;
   content: '';
   background: var(--primary);
@@ -1335,11 +1352,7 @@ body.touch .tile img.tile-logo {
   width: 100%;
   left: 0;
   bottom: 0;
-  transition: 450ms ease-in-out;
-  transform: scaleX(0%);
-}
-.form-field:focus-within::after {
-  transform: scaleX(100%);
+  animation: 450ms ease-in-out nav-bar;
 }
 
 #access-form label {
@@ -1354,13 +1367,13 @@ body.touch .tile img.tile-logo {
   transition: 350ms ease-in-out all;
 }
 #access-form input:focus ~ label, #access-form input:valid ~ label 		{
-  top:-20px;
-  font-size:14px;
+  top: -1.1em;
+  font-size: 1rem;
   color: var(--primary);
 }
 body.touch #access-form label {
-  top:-20px;
-  font-size:14px;
+  top: -1.1em;
+  font-size: 1rem;
   color: var(--primary);
   transition: none;
 }

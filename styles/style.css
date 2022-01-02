@@ -1371,12 +1371,12 @@ body.touch .tile img.tile-logo {
   font-size: 1rem;
   color: var(--primary);
 }
-body.touch #access-form label {
+/* body.touch #access-form label {
   top: -1.1em;
   font-size: 1rem;
   color: var(--primary);
   transition: none;
-}
+} */
 
 input:focus,
 textarea:focus, #access-form input[type="password"]:focus {
@@ -1384,15 +1384,15 @@ textarea:focus, #access-form input[type="password"]:focus {
   outline: none;
 }
 
-input:-webkit-autofill {
-    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+/* input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset;
     -webkit-text-fill-color: #333;
 }
 
 input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0 50px white inset;/*your box-shadow*/
+    -webkit-box-shadow: 0 0 0 50px white inset;
     -webkit-text-fill-color: #333;
-}
+} */
 
 
 

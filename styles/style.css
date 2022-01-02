@@ -152,7 +152,7 @@ input {
 /* H E A D E R S
 ----------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: .06em;
+  letter-spacing: .03em;
   width: 100%;
 }
 h1,
@@ -199,7 +199,7 @@ h3 a:hover {
 }
 h4 {
   width: 100%;
-  font-size: .9em;
+  font-size: .9rem;
   margin: 10px 0 6px;
   color: #333;
   font-weight: 200;
@@ -213,27 +213,65 @@ h4 a:hover {
 a {
   color: #555;
   text-decoration: underline;
-  text-decoration-color: #ddd;
+  text-decoration-color: #ccc;
   text-decoration-thickness: 3px; /*need for safari */
   transition: 350ms ease-in-out;
 }
+
 a:hover, a:focus {
   color: var(--primary);
   text-decoration-color: var(--primary);
-  /* text-decoration-thickness: 3px; /*need for safari */
 }
 body.touch a:hover, body.touch a:focus {
   color: currentColor;
   text-decoration-color: currentColor;
-  /* text-decoration-thickness: 3px; /*need for safari */
 }
+
+p a {
+  text-decoration: none;
+  position: relative;
+}
+p a::before {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: #ccc;
+}
+p a::after {
+  /* position: absolute;
+  content: '';
+  background: var(--primary);
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0; */
+  transition: 450ms ease-in-out;
+  /* transform: scaleX(0); */
+}
+p a:hover::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  height: 3px;
+  background: var(--primary);
+  animation: 350ms ease-in-out nav-bar;
+}
+
+
+
+
 a img {
   border-width: 0;
 }
 
 p {
   width: 100%;
-  font-size: 1em;
+  font-size: 1rem;
   margin: 0 0 10px 0;
   letter-spacing: .03em;
   line-height: 1.5em;
@@ -247,7 +285,8 @@ hr {
 }
 b,
 strong {
-  font-weight: bold;
+  color: #333;
+  font-weight: 400;
 }
 
 q,
@@ -302,7 +341,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   width: auto;
   height: auto;
   margin: 1em .8rem;
-  padding: .5em 1.7em;
+  padding: .8em 1.7em .7em;
   font-size: 1.2rem;
   border-radius: .5rem;
   -webkit-appearance: none;
@@ -311,6 +350,11 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: white;
   border: none;
   transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
+  font-weight: 200;
+  letter-spacing: .03em;
+}
+button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::after, .button::after, .btn::after {
+  display: none;
 }
 .btn-sm {
   font-size: 1rem;
@@ -440,16 +484,17 @@ nav a {
 
 #design a.work, #art a.art {
   color: #333;
+  font-weight: 500;
 }
 #design a.work::before, #art a.art::before {
   outline: none;
   position: absolute;
   left: 0;
-  top: 22px;
+  top: 1.4em;
   content: "";
   width: 100%;
   height: 3px;
-  background: #ddd;
+  background: #ccc;
   animation: 350ms ease-in-out nav-bar;
 }
 #design nav a:hover, #design nav a.sfhover, #design nav a:focus {
@@ -459,7 +504,7 @@ nav a {
   outline: none;
   position: absolute;
   left: 0;
-  top: 22px;
+  top: 20px;
   content: "";
   width: 100%;
   height: 3px;
@@ -916,7 +961,7 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
 .footer-links a span {
     margin-left: 10px;
     font-weight: 200;
-    font-size: .8em;
+    font-size: .8rem;
     color: var(--primary);
     transition: 350ms ease-in-out;
 }
@@ -1036,7 +1081,7 @@ main {
   color: #666;
   background: hsla(0,100%,100%,0.8);
   padding: 4px;
-  font-size: .8em;
+  font-size: .8rem;
   text-align: center;
   line-height: 1.5em;
 }
@@ -1052,13 +1097,13 @@ main {
 }
 
 .content.article.intro {
-  line-height: 1.5em;
-  font-size: clamp(1.2rem, 3.7vw, 1.4rem);
   margin-top: 35px;
   margin-bottom: 50px;
   flex: 0 0 calc(100% - 3em);
 }
-
+.content.article.intro p {
+  font-size: clamp(1.2rem, 3.7vw, 1.4rem);
+}
 .order-flip {
   display: flex;
   width: 100%;
@@ -1186,25 +1231,28 @@ img.tile-logo {
   position: absolute;
 }
 .title {
-  color: white;
-  /* display: inline-block; */
-  /* display: none; */
-  font-size: .75em;
-  letter-spacing: 0.2em;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding: 10px 0 4px 10px;
+  display: flex;
+  width: calc(100% - 20px);
+  height: calc(100% - 10px);
+  margin-bottom: -30px;
+  padding: 5px 10px;
+  position: absolute;
   left: 0;
   bottom: 0;
-  right: 0;
   position: absolute;
-  align-self: flex-end;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
-  margin-bottom: -30px;
+  align-items: flex-end;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  font-size: .7rem;
+  color: white;
+  text-transform: uppercase;
+  /* Only use this background if you make the title visable */
+  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent); */
 }
-#design a:hover .title {
-  /* display: none; */
-  margin-bottom: -30px;
+#art .title {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent);
+  margin-bottom: 0;
 }
 
 body.touch .title {
@@ -1217,10 +1265,7 @@ body.touch .tile img.tile-logo {
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));
 }
 
-#art .title {
-  /* display: block; */
-    margin-bottom: 0;
-}
+
 
 /* More Content */
 .work-projects {
@@ -1255,22 +1300,45 @@ body.touch .tile img.tile-logo {
 }
 
 #access-form .form-field {
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex; */
+  /* flex-flow: row wrap; */
   position:relative;
   flex: 1 0 160px;
   margin: 20px 10px 10px 0;
-  padding: 0;
-  min-width: calc(66% - 20px);
+  /* padding: 0; */
+  /* min-width: calc(66% - 20px); */
+  letter-spacing: .03em;
 }
 
 #access-form input[type="password"] {
   font-size:18px;
   padding:10px;
   border:none;
-  border-bottom: 2px solid #777;
   flex: 1 0 160px;
   cursor: text;
+}
+.form-field::before {
+  position: absolute;
+  content: '';
+  background: #ccc;
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.form-field::after {
+  position: absolute;
+  content: '';
+  background: var(--primary);
+  height: 3px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transition: 450ms ease-in-out;
+  transform: scaleX(0%);
+}
+.form-field:focus-within::after {
+  transform: scaleX(100%);
 }
 
 #access-form label {
@@ -1298,8 +1366,7 @@ body.touch #access-form label {
 
 input:focus,
 textarea:focus, #access-form input[type="password"]:focus {
-  border-color: #aaa ;
-  border-right: none;
+  border: none;
   outline: none;
 }
 
@@ -1312,72 +1379,6 @@ input:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0 50px white inset;/*your box-shadow*/
     -webkit-text-fill-color: #333;
 }
-
-/* BOTTOM BARS ================================= */
-.bar 	{
-  position:relative;
-  display:block;
-  width: 100%;
-}
-.bar:before, .bar:after 	{
-  content:'';
-  height:3px;
-  width: 0;
-  bottom: 0;
-  position:absolute;
-  background: var(--primary);
-  transition: 350ms ease-in-out all;
-  -moz-transition: 350ms ease-in-out all;
-  -webkit-transition: 350ms ease-in-out all;
-}
-.bar:before {
-  left:50%;
-}
-.bar:after {
-  right:50%;
-}
-
-/* active state */
-input:focus ~ .bar:before, input:focus ~ .bar:after {
-  width:50%;
-}
-
-/* HIGHLIGHTER ================================== */
-.highlight {
-  position:absolute;
-  height:60%;
-  width:100px;
-  top:25%;
-  left:0;
-  pointer-events:none;
-  opacity:0.5;
-}
-
-/* active state */
-input:focus ~ .highlight {
-  -webkit-animation:inputHighlighter 0.3s ease;
-  -moz-animation:inputHighlighter 0.3s ease;
-  animation:inputHighlighter 0.3s ease;
-}
-
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {
-	from { background: var(--primary); }
-  to 	{ width:0; background:transparent; }
-}
-@-moz-keyframes inputHighlighter {
-	from { background: var(--primary); }
-  to 	{ width:0; background:transparent; }
-}
-@keyframes inputHighlighter {
-	from { background: var(--primary); }
-  to 	{ width:0; background:transparent; }
-}
-
-
-
-
-
 
 
 
@@ -1517,7 +1518,7 @@ pointer-events: inherit; */
   justify-content: space-between;
   align-items: center;
   background: #f9f9f9;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   border-bottom: 2px solid #9bb;
   color: #8aa;
 }
@@ -1578,7 +1579,7 @@ display: inherit;
   margin: 0 0 20px;
   position: inherit;
   color: white;
-  font-size: .7em;
+  font-size: .7rem;
   pointer-events: auto;
   align-items: center;
 }

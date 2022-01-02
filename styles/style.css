@@ -1099,8 +1099,7 @@ main {
 }
 
 .content.article.intro {
-  margin-top: 35px;
-  margin-bottom: 50px;
+  margin: 35px;
   flex: 0 0 calc(100% - 3em);
 }
 .content.article.intro p {

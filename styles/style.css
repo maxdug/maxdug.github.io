@@ -70,7 +70,7 @@ body {
   margin: 45px 0 0;
   color: #555;
   font-family: sans-serif;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 :root {
@@ -162,7 +162,7 @@ h1 a:visited {
   font-size: clamp(1.6rem,5.6vw,2.2rem);
   margin: .9em 0 .6em;
   color: #333;
-  font-weight: 200;
+  font-weight: 300;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -177,7 +177,7 @@ h2 a:visited {
   font-size: clamp(1.4rem,4vw,1.6rem);
   margin: 1.7em 0 .6em;
   color: #333;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -190,7 +190,7 @@ h3, h3 a {
   font-size: clamp(1.1rem,3.2vw,1.3rem);
   margin: 30px 0 10px;
   color: #333;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -202,7 +202,7 @@ h4 {
   font-size: .9rem;
   margin: 10px 0 6px;
   color: #333;
-  font-weight: 200;
+  font-weight: 300;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -286,7 +286,7 @@ hr {
 b,
 strong {
   color: #333;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 q,
@@ -350,7 +350,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   background-color: white;
   border: none;
   transition: color 350ms ease-in-out, background-color 350ms ease-in-out;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: .03em;
 }
 button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::after, .button::after, .btn::after {
@@ -503,7 +503,7 @@ nav a {
 
 #design a.work, #art a.art {
   color: #333;
-  font-weight: 500;
+  font-weight: 600;
 }
 #design a.work::before, #art a.art::before {
   outline: none;
@@ -979,7 +979,7 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
 }
 .footer-links a span {
     margin-left: 10px;
-    font-weight: 200;
+    font-weight: 300;
     font-size: .8rem;
     color: var(--primary);
     transition: 350ms ease-in-out;
@@ -1262,7 +1262,7 @@ img.tile-logo {
   position: absolute;
   align-items: flex-end;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.1em;
   font-size: .7rem;
   color: white;
@@ -1355,11 +1355,17 @@ body.touch .tile img.tile-logo {
   animation: 450ms ease-in-out nav-bar;
 }
 
+input:focus,
+textarea:focus, #access-form input[type="password"]:focus {
+  border: none;
+  outline: none;
+}
+
 #access-form label {
   width: 100%;
   color:#999;
   font-size:18px;
-  font-weight: 200;
+  font-weight: 300;
   position:absolute;
   pointer-events:none;
   left:0;
@@ -1371,30 +1377,6 @@ body.touch .tile img.tile-logo {
   font-size: 1rem;
   color: var(--primary);
 }
-/* body.touch #access-form label {
-  top: -1.1em;
-  font-size: 1rem;
-  color: var(--primary);
-  transition: none;
-} */
-
-input:focus,
-textarea:focus, #access-form input[type="password"]:focus {
-  border: none;
-  outline: none;
-}
-
-/* input:-webkit-autofill {
-    -webkit-box-shadow:0 0 0 50px white inset;
-    -webkit-text-fill-color: #333;
-}
-
-input:-webkit-autofill:focus {
-    -webkit-box-shadow: 0 0 0 50px white inset;
-    -webkit-text-fill-color: #333;
-} */
-
-
 
 /* ---------------------------------------------------------
 				888888    db     88""Yb  88      888888  888888

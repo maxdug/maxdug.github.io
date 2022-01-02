@@ -161,7 +161,7 @@ h1,
 h1 a:link,
 h1 a:visited {
   flex: 0 0 100%;
-  font-size: clamp(1.6rem,5.6vw,2.2rem);
+  font-size: clamp(1.7rem,5.6vw,2.3rem);
   margin: .9em 0 .6em;
   color: #333;
   font-weight: 300;
@@ -176,7 +176,7 @@ h2,
 h2 a:link,
 h2 a:visited {
   width: 100%;
-  font-size: clamp(1.4rem,4vw,1.6rem);
+  font-size: clamp(1.3rem,4vw,1.5rem);
   margin: 1.7em 0 .6em;
   color: #333;
   font-weight: 400;
@@ -216,7 +216,7 @@ a {
   color: #555;
   text-decoration: underline;
   text-decoration-color: #ccc;
-  text-decoration-thickness: 3px; /*need for safari */
+  text-decoration-thickness: 2px; /*need for safari */
   transition: 350ms ease-in-out;
 }
 
@@ -239,7 +239,7 @@ p a::before, p a:visited::before {
   bottom: 0;
   content: '';
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: #ccc;
 }
 p a::after {
@@ -251,7 +251,7 @@ p a:hover::after, p a:focus::after {
   bottom: 0;
   content: '';
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: var(--primary);
   animation: 350ms ease-in-out nav-bar;
 }
@@ -1151,7 +1151,7 @@ main {
   position: relative;
 }
 .hero-overlay {
-  background: radial-gradient(rgba(0,0,0,.4) 0%, rgba(0,0,0,.1) 100%);
+  background: radial-gradient(rgba(0,0,0,.2) 0%, rgba(0,0,0,.0) 100%);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -1247,15 +1247,13 @@ img.tile-logo {
   height: calc(100% - 10px);
   margin-bottom: -30px;
   padding: 5px 10px;
-  position: absolute;
   left: 0;
   bottom: 0;
   position: absolute;
   align-items: flex-end;
-  text-align: center;
   font-weight: 400;
   letter-spacing: 0.1em;
-  font-size: .7rem;
+  font-size: .8rem;
   color: white;
   text-transform: uppercase;
   /* Only use this background if you make the title visable */

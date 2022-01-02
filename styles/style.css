@@ -1256,7 +1256,7 @@ img.tile-logo {
 }
 
 body.touch .title {
-  display: none;
+  /* display: none; */
 }
 body.touch .tile svg,
 body.touch .tile img.tile-logo {

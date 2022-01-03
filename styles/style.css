@@ -332,7 +332,7 @@ button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   width: auto;
   height: auto;
   margin: 1em .8rem;
-  padding: .8em 1.7em .7em;
+  padding: .6em 1.7em .55em;
   font-size: 1.2rem;
   border-radius: .5rem;
   -webkit-appearance: none;
@@ -1146,6 +1146,7 @@ main {
   margin: 0 0 20px 0;
   justify-content: center;
   align-items: center;
+  background-color: #333;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1186,7 +1187,7 @@ main {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #555;
+  background-color: #333;
   overflow: hidden;
   /* transition: background-blend-mode 350ms ease-in-out; */
 }

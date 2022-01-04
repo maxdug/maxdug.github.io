@@ -1541,7 +1541,6 @@ pointer-events: inherit; */
   margin: 0;
   padding: 20px;
   list-style: none;
-  font-size: 1.5rem;
   color: white;
   background: #f86;
 }
@@ -1565,7 +1564,7 @@ display: inherit;
   margin: 0 0 20px;
   position: inherit;
   color: white;
-  font-size: .7rem;
+  font-size: 1.2rem;
   pointer-events: auto;
   align-items: center;
 }

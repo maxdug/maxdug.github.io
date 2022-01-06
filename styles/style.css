@@ -1,12 +1,20 @@
 @charset "UTF-8";
- /*--------------------  T A B L E   O F  -------------------------
+ /*-----------------------------------------------------------------------------
 
-     dP""b8  dP"Yb  88b 88 888888 888888 88b 88 888888 .dP"Y8
-    dP   `" dP   Yb 88Yb88   88   88__   88Yb88   88   `Ybo."
-    Yb      Yb   dP 88 Y88   88   88""   88 Y88   88   o.`Y8b
-     YboodP  YbodP  88  Y8   88   888888 88  Y8   88   8bodP'
+          ████████  █████  ██████  ██      ███████      ██████  ███████
+             ██    ██   ██ ██   ██ ██      ██          ██    ██ ██
+             ██    ███████ ██████  ██      █████       ██    ██ █████
+             ██    ██   ██ ██   ██ ██      ██          ██    ██ ██
+             ██    ██   ██ ██████  ███████ ███████      ██████  ██
 
--------------------------------------------------------------------
+       ██████  ██████  ███    ██ ████████ ███████ ███    ██ ████████ ███████
+      ██      ██    ██ ████   ██    ██    ██      ████   ██    ██    ██
+      ██      ██    ██ ██ ██  ██    ██    █████   ██ ██  ██    ██    ███████
+      ██      ██    ██ ██  ██ ██    ██    ██      ██  ██ ██    ██         ██
+       ██████  ██████  ██   ████    ██    ███████ ██   ████    ██    ███████
+
+--------------------------------------------------------------------------------
+
   ┌─ Global
   │  └─ Page Titles
   │
@@ -23,19 +31,20 @@
   └─ Header / Footer
      └─ Headline, Strong, and Bold Text
 
-For ascii art, I used 4Max from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project
+For ascii art, I used ANSI Regular and 4Max from http://patorjk.com/software/taag/#p=display&v=0&f=4Max&t=Project
 
 ------------------------------------------------------------------*/
 
 
-/* --------------------------------------------------------
+/* --------------------------------------------------------------
 
-     	dP""b8  88       dP"Yb   88""Yb     db     88
-     dP   `"  88      dP   Yb  88__dP    dPYb    88
-     Yb  "88  88  .o  Yb   dP  88""Yb   dP__Yb   88  .o
-     	YboodP  88ood8   YbodP   88oodP  dP""""Yb  88ood8
+       ██████  ██       ██████  ██████   █████  ██
+      ██       ██      ██    ██ ██   ██ ██   ██ ██
+      ██   ███ ██      ██    ██ ██████  ███████ ██
+      ██    ██ ██      ██    ██ ██   ██ ██   ██ ██
+       ██████  ███████  ██████  ██████  ██   ██ ███████
 
------------------------------------------------------------ */
+-------------------------------------------------------------- */
 
 
 
@@ -50,12 +59,9 @@ html {
   scroll-behavior: smooth;
 }
 
-img {
-  /* width: 100%; */
-}
-
-.content img {
-width: 100%;
+/* needs to stay at begining, so it can be overwritten. */
+video, img {
+  width: 100%;
 }
 
 .img-modal {
@@ -108,15 +114,16 @@ input {
 
 
 
-/*-------------------------------------------------------------------------------------------
+/*------------------------------------------------
 
-  888888 Yb  dP 88""Yb 888888  dP"Yb   dP""b8 88""Yb    db    88""Yb 88  88 Yb  dP
-    88    YbdP  88__dP 88__   dP   Yb dP   `" 88__dP   dPYb   88__dP 88  88  YbdP
-    88     8P   88"""  88""   Yb   dP Yb  "88 88"Yb   dP__Yb  88"""  888888   8P
-    88    dP    88     888888  YbodP   YboodP 88  Yb dP""""Yb 88     88  88  dP
+      ████████ ██    ██ ██████  ███████
+         ██     ██  ██  ██   ██ ██
+         ██      ████   ██████  █████
+         ██       ██    ██      ██
+         ██       ██    ██      ███████
 
-------------------------------------------------------------------------------------------- */
-/*
+-------------------------------------------------
+
   • Choose a primary style of sans or sans-serif
   • Decide if the brand has a secondary contrast of the opposite
   • Scale should be based on visual differentiation between steps
@@ -137,7 +144,8 @@ input {
   │
   └─ 14px Body Copy / P
      └─ Headline, Strong, and Bold Text
-                                                                                                */
+
+*/
 
 .txt-center {
   text-align: center;
@@ -151,6 +159,11 @@ input {
   text-align: left;
 }
 
+.txt-lg {
+  margin: 1.5em .3em;
+  font-size: clamp(1.2rem, 3.7vw, 1.4rem);
+}
+
 /* H E A D E R S
 ----------------------------------------------- */
 h1, h2, h3, h4, h5, h6 {
@@ -162,7 +175,7 @@ h1 a:link,
 h1 a:visited {
   flex: 0 0 100%;
   font-size: clamp(1.7rem,5.6vw,2.3rem);
-  margin: .9em 0 .6em;
+  margin: 1em 0 .3em;
   color: #333;
   font-weight: 300;
   text-transform: uppercase;
@@ -177,7 +190,7 @@ h2 a:link,
 h2 a:visited {
   width: 100%;
   font-size: clamp(1.3rem,4vw,1.5rem);
-  margin: 1.7em 0 .6em;
+  margin: 1.3em 0 .3em;
   color: #333;
   font-weight: 400;
   text-decoration: none;
@@ -190,7 +203,7 @@ h2 a:hover {
 h3, h3 a {
   width: 100%;
   font-size: clamp(1.1rem,3.2vw,1.3rem);
-  margin: 30px 0 10px;
+  margin: 1.4em 0 .3em;
   color: #333;
   font-weight: 300;
   text-decoration: none;
@@ -202,7 +215,7 @@ h3 a:hover {
 h4 {
   width: 100%;
   font-size: .9rem;
-  margin: 10px 0 6px;
+  margin: .7em 0 .6em;
   color: #333;
   font-weight: 300;
   text-decoration: none;
@@ -212,21 +225,13 @@ h4 a:hover {
   color: Black;
 }
 
-a {
+p {
+  width: 100%;
+  font-size: 1rem;
+  margin: .5em 0;
+  letter-spacing: .03em;
+  line-height: 1.5em;
   color: #555;
-  text-decoration: underline;
-  text-decoration-color: #ccc;
-  text-decoration-thickness: 2px; /*need for safari */
-  transition: 350ms ease-in-out;
-}
-
-a:hover, a:focus {
-  color: var(--primary);
-  text-decoration-color: var(--primary);
-}
-body.touch a:hover, body.touch a:focus {
-  color: currentColor;
-  text-decoration-color: currentColor;
 }
 
 p a {
@@ -260,13 +265,22 @@ a img {
   border-width: 0;
 }
 
-p {
-  width: 100%;
-  font-size: 1rem;
-  margin: 0 0 10px 0;
-  letter-spacing: .03em;
-  line-height: 1.5em;
+
+a {
   color: #555;
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+  text-decoration-thickness: 2px; /*need for safari */
+  transition: 350ms ease-in-out;
+}
+
+a:hover, a:focus {
+  color: var(--primary);
+  text-decoration-color: var(--primary);
+}
+body.touch a:hover, body.touch a:focus {
+  color: currentColor;
+  text-decoration-color: currentColor;
 }
 hr {
   height: 1px;
@@ -324,14 +338,21 @@ ol {
 }
 
 
-/* ----- B U T T O N S ----- */
+
+/*
+      88""Yb 88   88 888888 888888  dP"Yb  88b 88 .dP"Y8
+      88__dP 88   88   88     88   dP   Yb 88Yb88 `Ybo."
+      88""Yb Y8   8P   88     88   Yb   dP 88 Y88 o.`Y8b
+      88oodP `YbodP'   88     88    YbodP  88  Y8 8bodP'
+*/
+
 /* could these be refactored with currentColor? */
 
 button, [type="submit"], [type="button"], [type="reset"], .button, .btn {
   display: inline-block;
   width: auto;
   height: auto;
-  margin: 1em .8rem;
+  margin: .9em .8rem;
   padding: .6em 1.7em .55em;
   font-size: 1.2rem;
   border-radius: .5rem;
@@ -428,18 +449,168 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
   transition: none;
 }
 
-.align-center {
-  text-align: center;
+/*------------------------------------------------------------------------------
+
+                ██       █████  ██    ██  ██████  ██    ██ ████████
+                ██      ██   ██  ██  ██  ██    ██ ██    ██    ██
+                ██      ███████   ████   ██    ██ ██    ██    ██
+                ██      ██   ██    ██    ██    ██ ██    ██    ██
+                ███████ ██   ██    ██     ██████   ██████     ██
+
+--------------------------------------------------------------------------------
+
+1. Set container or content class depending on need for sub division and left/right margins
+2. Set size
+3. Use standard html elements: h1, p, image, etc...
+
+  ┌─ Header
+  ├─ Main
+  │  ├─ Containers
+  │  │   ├─ Multi Column Content
+  │  │   │  └─ html elements
+  │  │   └─ Components
+  │  └─ Single Column Content
+  │      └─ html elements
+  └─ Footer
+
+*/
+
+:root {
+  --x-margin-l: 1rem;
+  --x-doublemargin-l: calc(var(--x-margin-l) * 2);
+  --y-margin-l: .6rem;
+  --y-doublemargin-l: calc(var(--y-margin-l) * 2);
+  --x-margin-m: .8rem;
+  --x-doublemargin-m: calc(var(--x-margin-m) * 2);
+  --y-margin-m: .4rem;
+  --y-doublemargin-m: calc(var(--y-margin-m) * 2);
+  --x-margin-s: .6rem;
+  --x-doublemargin-s: calc(var(--x-margin-s) * 2);
+  --y-margin-s: .2rem;
+  --y-doublemargin-s: calc(var(--y-margin-s) * 2);
 }
 
-/*------------------------------------------------------------------------------------------------------------
+/* Default is large margin */
+.fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+  margin: var(--y-margin-l) var(--x-margin-l);
+}
+.margin-m {
+  margin: var(--y-margin-m) var(--x-margin-m);
+}
+.margin-s {
+  margin: var(--y-margin-s) var(--x-margin-s);
+}
+/* no margin */
+.container {
+  margin: 0;
+}
 
-    88  88 888888    db    8888b.  888888 88""Yb     II     888888  dP"Yb   dP"Yb  888888 888888 88""Yb
-    88  88 88__     dPYb    8I  Yb 88__   88__dP     II     88__   dP   Yb dP   Yb   88   88__   88__dP
-    888888 88""    dP__Yb   8I  dY 88""   88"Yb      II     88""   Yb   dP Yb   dP   88   88""   88"Yb
-    88  88 888888 dP""""Yb 8888Y"  888888 88  Yb     II     88      YbodP   YbodP    88   888888 88  Yb
+main, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  flex-grow: 1; /* Default value is 0 */
+  align-content: center;
+}
 
-------------------------------------------------------------------------------------------------------------*/
+/* Parent container on all pages, except custom apps. This is the container for containers. */
+main {
+  width: 100%;
+  flex: 0 0 auto; /* used for sticky footer (body direction is column) */
+}
+
+/* 1440 - Outside of paralax and heros, largest scanable width. Users shouldn't have to turn their head. */
+.fourteenforty {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 calc(50% - 720px - var(--x-doublemargin-l));
+}
+.fourteenforty.no-margin, .container.fourteenforty {
+  padding: 0 calc(50% - 720px);
+}
+/* 1024 - Used for Most not full screen content */
+.tentwentyfour {
+  width: 100%;
+  max-width: 1024px;
+  padding: 0 calc(50% - 512px - var(--x-doublemargin-l));
+}
+.tentwentyfour.no-margin, .container.tentwentyfour {
+  padding: 0 calc(50% - 512px);
+}
+/* 720 - Designed for best legibility of large amounts of text information */
+.article {
+  width: 100%;
+  max-width: 720px;
+  padding: 0 calc(50% - 360px - var(--x-doublemargin-l));
+}
+.article.no-margin, .container.article {
+  padding: 0 calc(50% - 360px);
+}
+.full {
+  flex: 1 0 260px;
+  min-width: calc(100% - var(--x-doublemargin-l));
+}
+.two-thirds {
+  flex: 1 0 260px;
+  min-width: calc(66% - var(--x-doublemargin-l));
+  max-width: 720px;
+}
+.half {
+  flex: 1 0 260px;
+  min-width: calc(50% - var(--x-doublemargin-l));
+  max-width: 720px;
+}
+.third {
+  flex: 1 0 260px;
+  min-width: calc(33% - var(--x-doublemargin-l));
+  max-width: 720px;
+}
+.fourth {
+  flex: 1 0 200px;
+  min-width: calc(25% - var(--x-doublemargin-l));
+  max-width: 320px;
+}
+
+
+/* video, .fourteenforty img, .tentwentyfour img, .article img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
+width: 100%;
+} */
+
+.img-caption {
+  position: absolute;
+  bottom: 0;
+  display: none;
+  width: calc(100% - 8px);
+  color: #666;
+  background-color: hsla(0,100%,100%,0.8);
+  padding: 4px;
+  font-size: .8rem;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+div:hover .img-caption {
+  display: block;
+}
+
+
+
+/* ----- Mobile ----- */
+@media (max-width: 600px) {
+  .order-flip div:nth-child(1) {
+    order: 2;
+  }
+}/* End Media under 600px */
+
+/*--------------------------------------
+
+      ███    ██  █████  ██    ██
+      ████   ██ ██   ██ ██    ██
+      ██ ██  ██ ███████ ██    ██
+      ██  ██ ██ ██   ██  ██  ██
+      ██   ████ ██   ██   ████
+
+--------------------------------------*/
 header, footer {
   width: 100%;
   letter-spacing: .1em;
@@ -452,6 +623,16 @@ header, footer {
   align-items: center;
   justify-content: flex-end;
 }
+
+
+/*
+      88  88 888888    db    8888b.  888888 88""Yb
+      88  88 88__     dPYb    8I  Yb 88__   88__dP
+      888888 88""    dP__Yb   8I  dY 88""   88"Yb
+      88  88 888888 dP""""Yb 8888Y"  888888 88  Yb
+*/
+
+
 header {
 	position: fixed;
 	top: 0;
@@ -459,10 +640,7 @@ header {
   background: rgba(360, 360, 360, 0.93);
   padding: 11px calc(50% - 720px);
 }
-footer {
-	justify-self: flex-end;
-  background: linear-gradient(to bottom, rgba(240, 240, 240, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
-}
+
 
 
 @keyframes nav-bar {
@@ -528,27 +706,7 @@ nav a {
 body.touch nav a:hover::after, body.touch nav a:focus::after {
   display: none;
 }
-.footer-space {
-	flex: 1 0 auto;
-  height: 2px;
-}
-#copyright {
-  flex: 1 0 130px;
-  margin: 10px 15px;
-  font-size: .8rem;
-}
-#back-top {
-  flex: 1 0 110px;
-  text-align: center;
-  margin: 10px;
-	text-decoration: none;
-}
-#back-top:hover {
-  color: DodgerBlue;
-}
-.home #back-top, .art-home #back-top {
-  display: none !important;
-}
+
 
 /* ------ L O G O   A N I M A T I O N -----*/
 .logo {
@@ -940,9 +1098,37 @@ body.touch .logo:hover span::before, body.touch .logo:hover span::after {
   background: currentColor;
 }
 
-
-
-/* ----- F O O T E R -----*/
+/*
+      888888  dP"Yb   dP"Yb  888888 888888 88""Yb
+      88__   dP   Yb dP   Yb   88   88__   88__dP
+      88""   Yb   dP Yb   dP   88   88""   88"Yb
+      88      YbodP   YbodP    88   888888 88  Yb
+*/
+footer {
+	justify-self: flex-end;
+  background: linear-gradient(to bottom, rgba(240, 240, 240, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
+}
+.footer-space {
+	flex: 1 0 auto;
+  height: 2px;
+}
+#copyright {
+  flex: 1 0 130px;
+  margin: 10px 15px;
+  font-size: .8rem;
+}
+#back-top {
+  flex: 1 0 110px;
+  text-align: center;
+  margin: 10px;
+	text-decoration: none;
+}
+#back-top:hover {
+  color: DodgerBlue;
+}
+.home #back-top, .art-home #back-top {
+  display: none !important;
+}
 .footer-links {
     flex: 1 0 130px;
     display: flex;
@@ -976,7 +1162,7 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
     transition: 350ms ease-in-out;
 }
 .footer-links .contact span {
-  margin-right: -92px;
+  margin-right: -91px;
 }
 .footer-links .linkedin span {
   margin-right: -95px;
@@ -994,156 +1180,43 @@ body.touch .footer-links a span {
 }
 
 @media (max-width: 600px) {
+  #copyright {
+      text-align: center;
+  }
+  .footer-links {
+    justify-content: center;
+  }
   .footer-links a span {
     display: none;
   }
-}
-
-/*------------------------------------------------------
-
-    88        db    Yb  dP  dP"Yb  88   88 888888
-    88       dPYb    YbdP  dP   Yb 88   88   88
-    88  .o  dP__Yb    8P   Yb   dP Y8   8P   88
-    88ood8 dP""""Yb  dP     YbodP  `YbodP'   88
-
-------------------------------------------------------*/
-
-/* Parent container on all pages, except custom apps. This is the container for containers. */
-main {
-  display: flex;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
-  flex-flow: row wrap;
-  flex: 0 0 auto; /* used for sticky footer */
-  justify-content: center;
-}
-
-/* ----- CONTAINERS ----- */
-
-.container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  flex-grow: 1;
-}
-
-/* 1440 - Outside of paralax and heros, largest scanable width. Users shouldn't have to turn their head. */
+}/* End Media under 600px */
 
 
-/* 1024 - Used for Most not full screen content */
-.container.tentwentyfour, .content.tentwentyfour {
-    width: 100%;
-    max-width: 1024px;
-    padding: 0 calc(48% - 512px);
-}
+/*----------------------------------------------------------------------------------------
 
-/* 720 - Designed for best legibility of large amounts of text information */
-.container.article, .content.article {
-    width: 100%;
-    max-width: 720px;
-    padding: 0 calc(48% - 360px);
-}
+ ██████  ██████  ███    ███ ██████   ██████  ███    ██ ███████ ███    ██ ████████ ███████
+██      ██    ██ ████  ████ ██   ██ ██    ██ ████   ██ ██      ████   ██    ██    ██
+██      ██    ██ ██ ████ ██ ██████  ██    ██ ██ ██  ██ █████   ██ ██  ██    ██    ███████
+██      ██    ██ ██  ██  ██ ██      ██    ██ ██  ██ ██ ██      ██  ██ ██    ██         ██
+ ██████  ██████  ██      ██ ██       ██████  ██   ████ ███████ ██   ████    ██    ███████
 
-
-/* ----- C O N T E N T   B L O C K S ----- */
-
-.content {
-  display: flex;
-  margin: 0 .8rem 20px;
-  flex-flow: row wrap;
-  align-content: center;
-  justify-content: center;
-}
-.content.tentwentyfour, .content.article {
-  display: inline-block;
-}
-.content.full {
-  flex: 1 0 260px;
-  min-width: calc(100% - 1.6rem);
-}
-.content.two-thirds {
-  flex: 1 0 260px;
-  min-width: calc(66% - 1.6rem);
-  max-width: 720px;
-}
-.content.half {
-  flex: 1 0 260px;
-  min-width: calc(50% - 1.6rem);
-  max-width: 720px;
-}
-.content.third {
-  flex: 1 0 260px;
-  min-width: calc(33% - 1.6rem);
-  max-width: 720px;
-}
-.content.fourth {
-  flex: 1 0 160px;
-  min-width: calc(25% - 1.6rem);
-  max-width: 220px;
-}
+----------------------------------------------------------------------------------------*/
 
 
 
-.content .img-caption {
-  position: absolute;
-  bottom: 0;
-  display: none;
-  width: calc(100% - 8px);
-  color: #666;
-  background: hsla(0,100%,100%,0.8);
-  padding: 4px;
-  font-size: .8rem;
-  text-align: center;
-  line-height: 1.5em;
-}
-
-.content:hover .img-caption {
-  display: block;
-}
-
-.article-width-video {
-  width: 90%;
-  max-width: 720px;
-  margin: 0 auto 30px;
-}
-
-.content.article.intro {
-  margin: 35px;
-  flex: 0 0 calc(100% - 3em);
-}
-.content.article.intro p {
-  font-size: clamp(1.2rem, 3.7vw, 1.4rem);
-}
-.order-flip {
-  display: flex;
-  width: 100%;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-
-/*-----------------------------------------------------------------------------------
-
-     dP""b8  dP"Yb  8b    d8 88""Yb  dP"Yb  88b 88 888888 88b 88 888888 .dP"Y8
-    dP   `" dP   Yb 88b  d88 88__dP dP   Yb 88Yb88 88__   88Yb88   88   `Ybo."
-    Yb      Yb   dP 88YbdP88 88"""  Yb   dP 88 Y88 88""   88 Y88   88   o.`Y8b
-     YboodP  YbodP  88 YY 88 88      YbodP  88  Y8 888888 88  Y8   88   8bodP'
-
------------------------------------------------------------------------------------*/
-
-
-
-/*----- H E R O -----*/
+/*
+      88  88 888888 88""Yb  dP"Yb
+      88  88 88__   88__dP dP   Yb
+      888888 88""   88"Yb  Yb   dP
+      88  88 888888 88  Yb  YbodP
+*/
 
 .hero {
   display: flex;
   flex: 0 0 100%;
-  height: 200px;
-  margin: 0 0 20px 0;
+  max-width: 1440px;
+  height: clamp(150px,15vw,220px);
+  margin: 0 0 .8rem 0;
   justify-content: center;
   align-items: center;
   background-color: #333;
@@ -1152,21 +1225,33 @@ main {
   position: relative;
 }
 .hero-overlay {
-  background: radial-gradient(rgba(0,0,0,.2) 0%, rgba(0,0,0,.0) 100%);
+  background: radial-gradient(rgba(0,0,0,.15) 0%, rgba(0,0,0,.0) 100%);
   position: absolute;
   width: 100%;
   height: 100%;
   transition: opacity 350ms ease-in-out;
 }
-.new-hero-logo {
-  flex: 0 1 180px;
-  max-width: 200px;
+.hero img, .hero svg {
+  flex: 1 0 180px;
+  max-width: 250px;
+  max-height: 45%;
   margin: 10px;
-  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+  fill: white;
 }
 
 
-/*----- L A N D I N G   T I L E S -----*/
+/*
+      88        db    88b 88 8888b.  88 88b 88  dP""b8
+      88       dPYb   88Yb88  8I  Yb 88 88Yb88 dP   `"
+      88  .o  dP__Yb  88 Y88  8I  dY 88 88 Y88 Yb  "88
+      88ood8 dP""""Yb 88  Y8 8888Y"  88 88  Y8  YboodP
+
+      888888 88 88     888888 .dP"Y8
+        88   88 88     88__   `Ybo."
+        88   88 88  .o 88""   o.`Y8b
+        88   88 88ood8 888888 8bodP'
+*/
 
 .tile {
   display: block;
@@ -1296,9 +1381,35 @@ body.touch .tile img.tile-logo {
     flex-basis: calc(33.33% - 4px);
   }
 }
+/* Mobile */
+@media (max-width: 600px) {
+  .tile,
+  .tile.double {
+    flex-basis: calc(100% - 4px);
+  }
+  .tile a {
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+  }
+  .tile svg,
+  .tile img.tile-logo {
+    max-height: calc(70% - 20px);
+  }
+}/* End Media under 600px */
 
 
-/*-----ACCESS FORM -----*/
+/*
+         db     dP""b8  dP""b8 888888 .dP"Y8 .dP"Y8
+        dPYb   dP   `" dP   `" 88__   `Ybo." `Ybo."
+       dP__Yb  Yb      Yb      88""   o.`Y8b o.`Y8b
+      dP""""Yb  YboodP  YboodP 888888 8bodP' 8bodP'
+
+      888888  dP"Yb  88""Yb 8b    d8
+      88__   dP   Yb 88__dP 88b  d88
+      88""   Yb   dP 88"Yb  88YbdP88
+      88      YbodP  88  Yb 88 YY 88
+*/
 
 #access-form {
   display: flex;
@@ -1367,76 +1478,6 @@ textarea:focus, #access-form input[type="password"]:focus {
   font-size: 1rem;
   color: var(--primary);
 }
-
-/* ---------------------------------------------------------
-				888888    db     88""Yb  88      888888  888888
-				  88     dPYb    88__dP  88      88__      88
-				  88    dP__Yb   88""Yb  88  .o  88""      88
-				  88   dP""""Yb  88oodP  88ood8  888888    88
------------------------------------------------------------- */
-.tablet_only {
-  display: none;
-}
-
-@media (max-width: 980px) and (min-width: 601px) {
-  .tablet_only {
-    display: block;
-  }
-}/* End Tablet */
-
-/* ------------------------------------------------------------
-				8b    d8   dP"Yb   88""Yb  88  88      888888
-				88b  d88  dP   Yb  88__dP  88  88      88__
-				88YbdP88  Yb   dP  88""Yb  88  88  .o  88""
-				88 YY 88   YbodP   88oodP  88  88ood8  888888
---------------------------------------------------------------- */
-@media (max-width: 600px) {
-  .tablet_only {
-    display: none;
-  }
-
-  /* Header & Footer
------------------------------------------------ */
-.footer-links {
-  justify-content: center;
-}
-#copyright {
-    text-align: center;
-}
-
-  /* H O M E
------------------------------------------------ */
-main {
-  width: 100%;
-  margin-bottom: 0;
-}
-.tile,
-.tile.double {
-  flex-basis: calc(100% - 4px);
-}
-.tile a {
-  width: 100%;
-  height: 100px;
-  background-size: cover;
-}
-.tile svg,
-.tile img.tile-logo {
-  max-height: calc(70% - 20px);
-}
-
-
-  /* P R O J E C T
------------------------------------------------ */
-  .order-flip .content.two-thirds,
-  .order-flip .content.half,
-  .order-flip .content.half {
-    order: 2;
-  }
-
-}/* End Media under 600px */
-
-
-
 
 
 /*
@@ -1544,7 +1585,7 @@ pointer-events: inherit; */
   color: white;
   background: #f86;
 }
-.checklist .content input {
+.checklist input {
 display: inherit;
 }
 

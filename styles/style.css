@@ -688,10 +688,10 @@ nav a {
   background: #ccc;
   animation: 350ms ease-in-out nav-bar;
 }
-#design nav a:hover, #design nav a.sfhover, #design nav a:focus {
+nav a:hover, nav a.sfhover, nav a:focus {
 	color: var(--primary);
 }
-#design nav a:hover::after, #design nav a:focus::after {
+nav a:hover::after, nav a:focus::after {
   outline: none;
   position: absolute;
   left: 0;

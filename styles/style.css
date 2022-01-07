@@ -491,7 +491,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 }
 
 /* Default is large margin */
-.fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+.fourteenforty, .tentwentyfour, .playicle, .full, .two-thirds, .half, .third, .fourth  {
   margin: var(--y-margin-l) var(--x-margin-l);
 }
 .margin-m {
@@ -505,7 +505,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
   margin: 0;
 }
 
-main, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+main, .fourteenforty, .tentwentyfour, .playicle, .full, .two-thirds, .half, .third, .fourth  {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -538,41 +538,40 @@ main {
   padding: 0 calc(50% - 512px);
 }
 /* 720 - Designed for best legibility of large amounts of text information */
-.article {
+.playicle {
   width: 100%;
   max-width: 720px;
   padding: 0 calc(50% - 360px - var(--x-doublemargin-l));
 }
-.article.no-margin, .container.article {
+.playicle.no-margin, .container.playicle {
   padding: 0 calc(50% - 360px);
 }
 .full {
-  flex: 1 0 260px;
-  min-width: calc(100% - var(--x-doublemargin-l));
+  flex: 0 0 calc(100% - var(--x-doublemargin-l));
 }
 .two-thirds {
-  flex: 1 0 260px;
+  flex: 1 0 300px;
   min-width: calc(66% - var(--x-doublemargin-l));
   max-width: 720px;
 }
 .half {
-  flex: 1 0 260px;
+  flex: 1 0 300px;
   min-width: calc(50% - var(--x-doublemargin-l));
   max-width: 720px;
 }
 .third {
-  flex: 1 0 260px;
+  flex: 1 0 300px;
   min-width: calc(33% - var(--x-doublemargin-l));
-  max-width: 720px;
+  max-width: 580px;
 }
 .fourth {
   flex: 1 0 200px;
   min-width: calc(25% - var(--x-doublemargin-l));
-  max-width: 320px;
+  max-width: 430px;
 }
 
 
-/* video, .fourteenforty img, .tentwentyfour img, .article img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
+/* video, .fourteenforty img, .tentwentyfour img, .playicle img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
 width: 100%;
 } */
 
@@ -670,11 +669,11 @@ nav a {
   color: #555;
 }
 
-#design a.work, #art a.art {
+#design a.work, #play a.play {
   color: #333;
   font-weight: 400;
 }
-#design a.work::before, #art a.art::before {
+#design a.work::before, #play a.play::before {
   outline: none;
   position: absolute;
   left: 0;
@@ -699,7 +698,7 @@ nav a {
   background: var(--primary);
   animation: 350ms ease-in-out nav-bar;
 }
-.art:hover .work::before {
+.play:hover .work::before {
   width: 0;
   height: 0;
 }
@@ -1126,7 +1125,7 @@ footer {
 #back-top:hover {
   color: DodgerBlue;
 }
-.home #back-top, .art-home #back-top {
+.home #back-top, .play-home #back-top {
   display: none !important;
 }
 .footer-links {
@@ -1345,7 +1344,7 @@ img.tile-logo {
   /* Only use this background if you make the title visable */
   /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent); */
 }
-#art .title, body.touch #art .title {
+#play .title, body.touch #play .title {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent);
   margin-bottom: 0;
 }

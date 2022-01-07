@@ -1293,7 +1293,7 @@ body.touch .footer-links a span {
   transition: opacity 350ms ease-in-out;
 }
 body.touch .tile-overlay {
-  background: radial-gradient(rgba(0,0,0,.1) 0%, rgba(0,0,0,.0) 100%);
+  background: radial-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 100%);
   opacity: 1;
 }
 .tile a:hover .tile-overlay, .tile a:focus .tile-overlay {
@@ -1348,11 +1348,9 @@ img.tile-logo {
   justify-content: center;
   align-items: center;
   transition: transform 350ms ease-in-out;
-  /* Only use this background if you make the title visable */
-  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent); */
+  /* filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2)); */
 }
-#play .tile:hover .title, body.touch #play .tile:hover .title {
-  /* background: linear-gradient(to top, rgba(0, 0, 0, 0.5), transparent, transparent); */
+#play .tile:hover .title, body#play.touch .title {
   transform: translatey(0);
 }
 
@@ -1497,6 +1495,9 @@ body#guide {
   background-color: #9bb
 }
 
+body#guide header, body#guide footer {
+  background: #61a4a4;
+}
 .guide-container {
   position: relative;
   padding: 0 calc(50% - 360px);

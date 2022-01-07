@@ -491,7 +491,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 }
 
 /* Default is large margin */
-.fourteenforty, .tentwentyfour, .playicle, .full, .two-thirds, .half, .third, .fourth  {
+.fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
   margin: var(--y-margin-l) var(--x-margin-l);
 }
 .margin-m {
@@ -505,7 +505,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
   margin: 0;
 }
 
-main, .fourteenforty, .tentwentyfour, .playicle, .full, .two-thirds, .half, .third, .fourth  {
+main, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -538,12 +538,12 @@ main {
   padding: 0 calc(50% - 512px);
 }
 /* 720 - Designed for best legibility of large amounts of text information */
-.playicle {
+.article {
   width: 100%;
   max-width: 720px;
   padding: 0 calc(50% - 360px - var(--x-doublemargin-l));
 }
-.playicle.no-margin, .container.playicle {
+.article.no-margin, .container.article {
   padding: 0 calc(50% - 360px);
 }
 .full {
@@ -571,7 +571,7 @@ main {
 }
 
 
-/* video, .fourteenforty img, .tentwentyfour img, .playicle img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
+/* video, .fourteenforty img, .tentwentyfour img, .article img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
 width: 100%;
 } */
 

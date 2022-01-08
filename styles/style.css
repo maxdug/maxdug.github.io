@@ -509,7 +509,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
   margin: 0;
 }
 
-main, .paralax .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+main, .paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -518,9 +518,6 @@ main, .paralax .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .ha
 }
 .paralax {
   width: 100%;
-}
-.paralax.green {
-  background: #c7ecde;
 }
 .dark h1, .dark h2, .dark h3, .dark h4, .dark p {
   color: white;

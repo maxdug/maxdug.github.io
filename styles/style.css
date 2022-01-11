@@ -86,7 +86,8 @@ body {
   background-size: cover;
 } */
 :root {
-  --primary: DodgerBlue; /*  */
+  --primary: hsl(210, 100%, 56%); /* DodgerBlue */
+  --primary-gradient: radial-gradient(hsl(230, 100%, 70%), hsl(190, 100%, 50%));
 }
 
 .video {
@@ -379,7 +380,7 @@ button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::a
   font-size: 1.4rem;
 }
 .btn-primary {
-  background-color: var(--primary);
+  background: var(--primary);
   color: white;
 }
 .btn-primary:hover, .btn-primary:focus {
@@ -441,9 +442,9 @@ button::after, [type="submit"]::after, [type="button"]::after, [type="reset"]::a
 
 }
 .form-field:focus-within+.btn-outline-disabled {
-  border: 2px solid var(--primary);
   color: var(--primary);
   cursor: pointer;
+  border-color: var(--primary);
 }
 .form-field:focus-within+.btn-outline-disabled:hover {
   background-color: var(--primary);
@@ -1462,21 +1463,20 @@ textarea:focus, #access-form input[type="password"]:focus {
  */
 
 body#guide {
-  background-color: #9bb
+  background-color: #6eaeae;
 }
 
 body#guide header, body#guide footer {
-  background: #61a4a4;
-}
-.guide-container {
-  position: relative;
-  padding: 0 calc(50% - 360px);
-  margin: 20px;
-  display: flex;
-  flex-flow: row wrap;
+  background: none;
 }
 
+/* #guide .logo:hover .bar-1::before, #guide .logo:hover .bar-1::after, #guide .logo:hover .bar-2::before, #guide .logo:hover .bar-2::after, #guide .logo:hover .bar-3::before, #guide .logo:hover .bar-3::after, #guide .logo:hover .bar-4::before, #guide .logo:hover .bar-4::after, #guide .logo:focus .bar-1::before, #guide .logo:focus .bar-1::after, #guide .logo:focus .bar-2::before, #guide .logo:focus .bar-2::after, #guide .logo:focus .bar-3::before, #guide .logo:focus #guide .bar-3::after, #guide .logo:focus .bar-4::before, #guide .logo:focus .bar-4::after {
+    background: white;
+} */
 
+#guide .logo:hover ::before, #guide .logo:hover ::after, #guide .logo:focus ::before, #guide .logo:focus ::after {
+  background: white;
+}
 /* The container */
 .node {
   flex: 1 0 160px;
@@ -1521,10 +1521,10 @@ pointer-events: inherit; */
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
-  background: #f9f9f9;
+  background: #00000094;
   font-size: 1.5rem;
   border-bottom: 2px solid #9bb;
-  color: #8aa;
+  color: #6eaeae;
 }
 
 .node-title span {
@@ -1536,7 +1536,7 @@ pointer-events: inherit; */
 }
 
 .node input:checked~.node-title span:first-child {
-  color: #f86;
+  color: #6eaeae;
 }
 
 .node-title span:last-child {
@@ -1554,23 +1554,29 @@ pointer-events: inherit; */
 }
 
 .checklist {
-  display: none;
+  /* display: none; */
+  display: flex;
   width: calc(100% - 40px);
   margin: 0;
-  padding: 20px;
+  padding: 0;
   list-style: none;
   color: white;
-  background: #f86;
-}
-.checklist input {
-display: inherit;
+  background: #00000024;
+  flex-flow: row wrap;
+  transition: height 350ms ease-in-out;
+  height: 0;
+  overflow: hidden;
 }
 
 .node:checked~.checklist {
-  display: flex;
-  flex-flow: row wrap;
+  /* display: flex; */
+  height: calc(100% - 88px);
+  padding: 20px;
+  transition: height 350ms ease-in-out;
 }
-
+.checklist input {
+  display: inherit;
+}
 .checklist a {
   list-style: none;
   color: white;
@@ -1633,4 +1639,34 @@ width: 100%;
 
 .checklist input[type="checkbox"]:checked::before {
   transform: scale(1);
+}
+
+#guide ol {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    margin-bottom: 1em;
+}
+
+#guide ol ol {
+    margin: 0 0 2em; /* Add some left margin for inner lists */
+}
+
+#guide ol li{
+    position: relative;
+    margin: 1.5em 0 1.5em 3em;
+}
+
+#guide ol li:before {
+    content: counter(li);
+    counter-increment: li;
+    position: absolute;
+    left: -2.5em;
+    top: -.3em;
+    background: white;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 50%;
+    color: #0a8;
 }

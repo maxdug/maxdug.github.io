@@ -1831,3 +1831,31 @@ tr:nth-child(even) {
 .fa-remove {
   color: red;
 }
+
+@media (max-width: 980px) and (min-width: 601px) {
+  #about_max {
+    background-position: 87% 0;
+  }
+  #blurb-one {
+    padding: 7% 30% 7% 4%;
+  }
+  #resume h1 {
+    font-size: 45px;
+  }
+}/* End Tablet */
+@media (max-width: 600px) {
+  #about_max {
+    background-position: 86% 0;
+    text-align: left;
+  }
+  #blurb-one {
+    padding: 4% 29% 10% 15px;
+  }
+  .item {
+    flex-basis: 100%;
+    padding: 0 10px 30px;
+  }
+  #resume h1 {
+    font-size: 1.4em;
+  }
+}/* End Media under 600px */

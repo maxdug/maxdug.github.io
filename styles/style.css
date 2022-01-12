@@ -798,9 +798,7 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 .logo:focus .bar-4::before,
 .logo:focus .bar-4::after {
   background: var(--primary);
-  background: linear-gradient(55deg, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.17));
   background: linear-gradient(55deg, hsl(209.8, 100%, 37.8%), hsl(210.2, 100%, 72.7%));
-  height: 2.5px;
 }
 @keyframes bar-1a {
   0% {

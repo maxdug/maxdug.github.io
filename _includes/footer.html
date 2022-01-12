@@ -130,6 +130,26 @@
 </script>
 <!--  F A N C Y B O X  C O D E  E N D S  H E R E  -->
 
+<!--  header on scroll  -->
+<script>
+
+myID = document.getElementById("myID");
+
+var myScrollFunc = function() {
+  var y = window.scrollY;
+  if (y >= 1) {
+    myID.className = "header-overlay show"
+  } else {
+    myID.className = "header-overlay hide"
+  }
+};
+
+window.addEventListener("scroll", myScrollFunc);
+</script>
+<!--  header on scroll  -->
+
+
+
 <!-- H I D D E N  P A G E S -->
 <!-- <script
   src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"

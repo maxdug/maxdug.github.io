@@ -86,7 +86,7 @@ body {
   background-size: cover;
 } */
 :root {
-  --primary: hsl(210, 100%, 56%); /* DodgerBlue */
+  --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */
   --primary-gradient: radial-gradient(hsl(230, 100%, 70%), hsl(190, 100%, 50%));
 }
 
@@ -251,6 +251,7 @@ p a::before, p a:visited::before {
   width: 100%;
   height: 2px;
   background: #ccc;
+  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.11));
 }
 p a::after {
   /* transition: 450ms ease-in-out; */
@@ -263,6 +264,7 @@ p a:hover::after, p a:focus::after {
   width: 100%;
   height: 2px;
   background: var(--primary);
+  background: linear-gradient(55deg, hsl(210, 100%, 56.1%), hsl(210, 100%, 80.4%));
   animation: 350ms ease-in-out nav-bar;
 }
 
@@ -295,7 +297,7 @@ hr {
 }
 b,
 strong {
-  color: #333;
+  /* color: #333; */
   font-weight: 400;
 }
 
@@ -647,7 +649,7 @@ header {
 	position: fixed;
 	top: 0;
 	z-index: 999;
-  background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%);
+  /* background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%); */
   padding: 11px calc(50% - 720px);
 }
 
@@ -691,8 +693,9 @@ nav a {
   top: 1.4em;
   content: "";
   width: 100%;
-  height: 3px;
-  background: #ccc;
+  height: 2px;
+  background: hsla(0, 0%, 0%, 0.2);
+  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.11));
   animation: 350ms ease-in-out nav-bar;
 }
 nav a:hover, nav a.sfhover, nav a:focus {
@@ -705,8 +708,10 @@ nav a:hover::after, nav a:focus::after {
   top: 20px;
   content: "";
   width: 100%;
-  height: 3px;
+  height: 2px;
   background: var(--primary);
+  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.41), hsla(0, 0%, 0%, 0.04), hsla(0, 0%, 0%, 0.43));
+  background: linear-gradient(55deg, hsl(210, 100%, 56.1%), hsl(210, 100%, 80.4%));
   animation: 350ms ease-in-out nav-bar;
 }
 .play:hover .work::before {
@@ -717,6 +722,23 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
   display: none;
 }
 
+.header-overlay {
+  /* opacity: 0; */
+  background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* transition: opacity 350ms ease-in-out; */
+}
+.hide {
+  opacity: 0;
+  left: -100%;
+  transition: opacity 350ms ease-in-out;
+}
+.show {
+  opacity: 1;
+  left: 0;
+}
 
 /* ------ L O G O   A N I M A T I O N -----*/
 .logo {
@@ -776,6 +798,9 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 .logo:focus .bar-4::before,
 .logo:focus .bar-4::after {
   background: var(--primary);
+  background: linear-gradient(55deg, hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.17));
+  background: linear-gradient(55deg, hsl(209.8, 100%, 37.8%), hsl(210.2, 100%, 72.7%));
+  height: 2.5px;
 }
 @keyframes bar-1a {
   0% {
@@ -1226,6 +1251,7 @@ body.touch .footer-links a span {
   flex: 0 0 100%;
   max-width: 1440px;
   height: clamp(150px,15vw,220px);
+  height: clamp(25vh,32vw,50vh);
   margin: 0 0 .8rem 0;
   justify-content: center;
   align-items: center;
@@ -1243,14 +1269,44 @@ body.touch .footer-links a span {
 }
 .hero img, .hero svg {
   flex: 1 0 180px;
+  max-width: clamp(250px,38vw, 380px);
+  max-height: 25%;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
+  fill: white;
+}
+
+.hero-b {
+  display: flex;
+  width: 100%;
+  /* height: clamp(150px,15vw,220px); */
+  height: 50vh;
+  padding: 45px calc(50% - 512px - var(--x-doublemargin-l));
+  margin: -45px 0 .8rem 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a9;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.hero-b img, .hero-b svg {
+  flex: 1 0 180px;
   max-width: 250px;
   max-height: 45%;
   margin: 10px;
   filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
   fill: white;
 }
-
-
+.hero-b h1, .hero-b h2, .hero-b h3, .hero-b h4, .hero-b b, .hero-b p {
+  color: white;
+  text-align: center;
+}
 /*
       88        db    88b 88 8888b.  88 88b 88  dP""b8
       88       dPYb   88Yb88  8I  Yb 88 88Yb88 dP   `"
@@ -1424,7 +1480,7 @@ body.touch .tile img.tile-logo {
   position: absolute;
   content: '';
   background: var(--primary);
-  height: 3px;
+  background: linear-gradient(to right, hsl(210, 100%, 56.1%), hsl(209.7, 83.7%, 73.5%));  height: 3px;
   width: 100%;
   left: 0;
   bottom: 0;

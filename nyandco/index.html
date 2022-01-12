@@ -6,35 +6,55 @@ section: design
 class: nyandco
 ---
 
-<div class="fourteenforty container order-flip">
-  <div class="half"><a class="img-modal" rel="group" href="kiosk-1.jpg" ><img src="kiosk-1.jpg" alt=" "/></a></div>
+<div class="hero" style="background-image: url(nyco-hero.jpg);">
+  <span class="hero-overlay"></span>
+    <svg viewBox="0 0 391 101" xmlns="http://www.w3.org/2000/svg">
+		<path class="tile-logo" d="M0 1.20005H7.1L24.8 29.7H24.9V1.20005H31.3V39.9001H24.2L6.6 11.4H6.4V39.8H0V1.20005Z"/>
+		<path class="tile-logo" d="M49.1 1.20005H76.9V7.00005H55.9V17.1H75.4V22.6H55.9V34H77.3V39.8H49.1V1.20005Z"/>
+		<path class="tile-logo" d="M89.3 1.20005H96.2L103.2 30.8H103.3L111.1 1.20005H118L125.6 30.8H125.7L132.9 1.20005H139.8L129.1 39.9001H122.2L114.5 10.3H114.4L106.5 39.9001H99.5L89.3 1.20005Z"/>
+		<path class="tile-logo" d="M180.6 24.7L166.1 1.20005H174L184.2 18.5L194.3 1.20005H201.9L187.4 24.7V39.9001H180.6V24.7Z"/>
+		<path class="tile-logo" d="M225.9 5.80005C234.2 5.80005 237.7 13.1 237.7 20.5C237.7 27.9 234.2 35.2001 225.9 35.2001C217.6 35.2001 214.1 27.9 214.1 20.5C214.1 13.1 217.6 5.80005 225.9 5.80005ZM225.9 0.300049C214.3 0.300049 207.4 9.50005 207.4 20.6C207.4 31.6 214.3 40.9001 225.9 40.9001C237.5 40.9001 244.4 31.7001 244.4 20.6C244.4 9.50005 237.5 0.300049 225.9 0.300049Z"/>
+		<path class="tile-logo" d="M264.1 6.70005H275.1C278.6 6.70005 281.8 7.70005 281.8 12.6C281.8 16.7 279.5 18.8 275.2 18.8H264.1V6.70005ZM257.3 39.9001H264.1V23.9H274.1C280.3 23.9 281.8 27.0001 281.8 34.1001C281.8 36.0001 281.8 38.1001 282.8 39.8001H290.1C288.6 38.2001 288 34.1 288 29.6C288 23.5 284.6 21.7 282.3 21.4V21.3C283.5 20.9 288.7 19 288.7 11.6C288.7 5.00005 284.4 1.10005 275.9 1.10005H257.4V39.9001H257.3Z"/>
+		<path class="tile-logo" d="M303.8 1.20005H310.6V18.8L327.8 1.20005H336.1L320.7 16.6L337.2 39.8H328.8L316.1 21.3L310.6 26.8V39.8H303.8V1.20005Z"/>
+		<path class="tile-logo" d="M380.4 34.9001C378.1 38.5001 373.7 40.4001 369.5 40.4001C359.1 40.4001 357.5 33 357.5 29.9C357.5 23.9 361.6 20.8 366.5 18.2C364.3 15.1 362.2 13.1 362.2 9.10005C362.2 4.90005 365.3 1.20005 370.9 1.20005C375.7 1.20005 380.2 3.80005 380.2 9.10005C380.2 13.7 376.7 17 373 19.1L380 27.6C380.7 25.7 381.1 23.7 381.2 21.6H385.6C385.2 26.1 384.6 27.7 383 31.1L390.5 39.8H384.5L380.4 34.9001ZM369 21.1C365.4 23.2 362.3 25.2 362.3 29.8C362.3 33.7 365.9 36.3 369.6 36.3C373.1 36.3 375.9 34.5 377.8 31.7L369 21.1ZM375.7 9.30005C375.7 7.10005 374 5.20005 371.3 5.20005C369.1 5.20005 366.9 6.50005 366.9 9.30005C366.9 11.6 369 13.9 370.6 16C372.8 14.6 375.7 12.6 375.7 9.30005Z"/>
+		<path class="tile-logo" d="M29.1 72.6C28 67.1 23.6 64.4 18.3 64.4C9.10002 64.4 5.20001 72 5.20001 80C5.20001 88.8 9.10002 96.1 18.3 96.1C25.1 96.1 28.9 91.3 29.4 85H34.5C33.5 94.6 27.5 100.4 17.8 100.4C5.80002 100.4 0 91.5 0 80.3C0 69.1 6.40002 60 18.3 60C26.3 60 33 64.3 34.2 72.5H29.1V72.6Z"/>
+		<path class="tile-logo" d="M67.1 60.1C79.4 60.1 85.6 69.8 85.6 80.3C85.6 90.8 79.4 100.5 67.1 100.5C54.8 100.5 48.6 90.8 48.6 80.3C48.6 69.8 54.8 60.1 67.1 60.1ZM67.1 96.1C76.5 96.1 80.4 88 80.4 80.2C80.4 72.4 76.5 64.3 67.1 64.3C57.7 64.3 53.8 72.4 53.8 80.2C53.7 88 57.7 96.1 67.1 96.1Z"/>
+		<path class="tile-logo" d="M108.8 61L121 93.4L133.1 61H140.1V99.6H135.2V67.5H135.1L123.1 99.6H118.7L106.7 67.5H106.6V99.6H101.7V61H108.8Z"/>
+		<path class="tile-logo" d="M158.5 61H175.4C183.1 61 187.2 65.3 187.2 72.4C187.2 79.5 183 83.8 175.4 83.8H163.6V99.6H158.5V61ZM163.6 79.5H173.6C179.4 79.6 182 77 182 72.4C182 67.8 179.4 65.3 173.6 65.3H163.6V79.5Z"/>
+		<path class="tile-logo" d="M209.8 61H215.5L230.6 99.6H224.9L220.7 88H204.4L200.1 99.6H194.8L209.8 61ZM206 83.6H219.1L212.7 65.6H212.6L206 83.6Z"/>
+		<path class="tile-logo" d="M244.1 61H249.6L269.9 92.3H270V61H274.9V99.6H269.3L249.1 68.6H249V99.5H244.1V61Z"/>
+		<path class="tile-logo" d="M308.9 83.8V99.6H303.8V83.8L288.9 61H295L306.6 79.4L317.9 61H323.7L308.9 83.8Z"/>
+		</svg>
+</div><!-- End hero -->
 
-  <div class="half">
-    <h1><b>New York & Company</b> <br>In-store Kiosk</h1>
 
-    <h4><b>Agency</b> | Fluid</h4>
+<div class="article">
+  <h1><b>New York & Company</b> <br>In-store Kiosk</h1>
 
-    <h4><b>Role</b> | Senior Visual Design</h4>
+  <h4><b>Agency</b> | Fluid</h4>
 
-    <h4><b>Team</b> | Tember Hopkins • Pamela Tamayo</h4>
+  <h4><b>Role</b> | Senior Visual Design</h4>
 
-    <p>New York & Company is a retailer for women's accessories and apparel. I worked on the design of a kiosk that allowed in-store customers and employees to access the larger online inventory. This lead to an increased adoption rate of their website by in-store customers.</p>
-  </div>
+  <h4><b>Team</b> | Tember Hopkins • Pamela Tamayo</h4>
+
+  <p>New York & Company is a retailer for women's accessories and apparel. I worked on the design of a kiosk that allowed in-store customers and employees to access the larger online inventory. This lead to an increased adoption rate of their website by in-store customers.</p>
 </div>
 
-<div class="fourteenforty container">
-  <div class="half">
-    <h3><b>Unique</b> Viewport</h3>
+<div class="article">
+  <h3><b>Unique</b> Viewport</h3>
 
-    <p>We took advantage of the format with large imagery to grab the user when browsing, and designed modals to make sensitive checkout information more inconspicuous.</p>
-
-    <h3><b>Prototyping</b> Interaction</h3>
-
-    <p>To understand the quirks of working with an extra large touch screen we used Invision prototypes on a test kiosk throughout the process.</p>
-  </div>
-
-  <div class="half"><a class="img-modal" rel="group" href="kiosk-2.jpg" ><img src="kiosk-2.jpg" alt=" "/></a></div>
+  <p>We took advantage of the format with large imagery to grab the user when browsing, and designed modals to make sensitive checkout information more inconspicuous.</p>
 </div>
+
+<div class="tentwentyfour"><a class="img-modal" rel="group" href="kiosk-1.jpg" ><img src="kiosk-1.jpg" alt=" "/></a></div>
+
+<div class="article">
+  <h3><b>Prototyping</b> Interaction</h3>
+
+  <p>To understand the quirks of working with an extra large touch screen we used Invision prototypes on a test kiosk throughout the process.</p>
+</div>
+
+<div class="tentwentyfour"><a class="img-modal" rel="group" href="kiosk-2.jpg" ><img src="kiosk-2.jpg" alt=" "/></a></div>
 
 <div class="article">
   <q>This new kiosk will provide a virtual endless aisle, offering customers access to all sizes, colors and assortments<span class="author">John Worthington, COO, NY&CO</span></q>

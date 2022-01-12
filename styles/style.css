@@ -695,7 +695,7 @@ nav a {
   width: 100%;
   height: 2px;
   background: hsla(0, 0%, 0%, 0.2);
-  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.11));
+  background: linear-gradient(55deg, hsla(0, 0%, 47.5%, 0.75), hsla(0, 0%, 80.8%, 0.9));
   animation: 350ms ease-in-out nav-bar;
 }
 nav a:hover, nav a.sfhover, nav a:focus {
@@ -1256,7 +1256,7 @@ body.touch .footer-links a span {
   padding: 0 calc(50% - 512px);
   justify-content: center;
   align-items: center;
-  background-color: #333;
+  background-color: hsl(0,0%,90%);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -1360,7 +1360,7 @@ body.touch .footer-links a span {
 
 .tile-overlay {
   opacity: 0;
-  background: radial-gradient(rgba(0, 0, 0, 0.45) 0%,rgba(0, 0, 0, 0.28) 33%, rgba(0, 0, 0, 0) 100%);
+  background: radial-gradient(rgba(0, 0, 0, 0.4) 0%,rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
   width: 100%;
   height: 100%;

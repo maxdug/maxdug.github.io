@@ -251,7 +251,7 @@ p a::before, p a:visited::before {
   width: 100%;
   height: 2px;
   background: #ccc;
-  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.24), hsla(0, 0%, 0%, 0.11));
+  background: radial-gradient(hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.38) 100%);
 }
 p a::after {
   /* transition: 450ms ease-in-out; */
@@ -264,7 +264,7 @@ p a:hover::after, p a:focus::after {
   width: 100%;
   height: 2px;
   background: var(--primary);
-  background: linear-gradient(55deg, hsl(210, 100%, 56.1%), hsl(210, 100%, 80.4%));
+  background: radial-gradient(hsl(0, 0%, 100%) 0%, hsl(210.1, 91.7%, 47.3%) 110%);
   animation: 350ms ease-in-out nav-bar;
 }
 
@@ -694,8 +694,7 @@ nav a {
   content: "";
   width: 100%;
   height: 2px;
-  background: hsla(0, 0%, 0%, 0.2);
-  background: radial-gradient(hsla(0, 0%, 47.5%, 0.75) 0%, hsla(0, 0%, 80.8%, 0.9) 100%);
+  background: radial-gradient(hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.38) 100%);
   animation: 350ms ease-in-out nav-bar;
 }
 nav a:hover, nav a.sfhover, nav a:focus {
@@ -709,9 +708,7 @@ nav a:hover::after, nav a:focus::after {
   content: "";
   width: 100%;
   height: 2px;
-  background: var(--primary);
-  background: linear-gradient(55deg, hsla(0, 0%, 0%, 0.41), hsla(0, 0%, 0%, 0.04), hsla(0, 0%, 0%, 0.43));
-  background: linear-gradient(55deg, hsl(210, 100%, 56.1%), hsl(210, 100%, 80.4%));
+  background: radial-gradient(hsl(0, 0%, 100%) 0%, hsl(210.1, 91.7%, 47.3%) 110%);
   animation: 350ms ease-in-out nav-bar;
 }
 .play:hover .work::before {
@@ -1260,20 +1257,33 @@ body.touch .footer-links a span {
   position: relative;
 }
 .hero-overlay {
-  background: radial-gradient(rgba(0,0,0,.15) 0%, rgba(0,0,0,.0) 100%);
-  background: linear-gradient(to bottom, hsla(0,0%,100%,.85), hsla(0,0%,100%,0), hsla(0,0%,100%,0));
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: opacity 350ms ease-in-out;
+    background: radial-gradient(rgba(0,0,0,.15) 0%, rgba(0,0,0,.0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: opacity 350ms ease-in-out;
 }
 .hero-overlay::before {
   content: '';
-  background: radial-gradient(rgba(0,0,0,.15) 0%, rgba(0,0,0,.0) 100%);
+  background: radial-gradient(rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
+  position: absolute;
+  width: 300%;
+  height: 150%;
+  transition: opacity 350ms ease-in-out;
+  mix-blend-mode: hard-light;
+  top: -75%;
+  left: -100%;
+}
+.hero-overlay::after {
+  content: '';
+  background: linear-gradient(to bottom, hsla(0,0%,100%,.45), hsla(0,0%,100%,0), hsla(0,0%,100%,0));
+  background: radial-gradient(rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%);
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 70%;
   transition: opacity 350ms ease-in-out;
+  top: -40%;
+  right: -42%;
 }
 .hero img, .hero svg {
   flex: 1 0 180px;

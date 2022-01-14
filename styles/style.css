@@ -251,7 +251,7 @@ p a::before, p a:visited::before {
   width: 100%;
   height: 2px;
   background: #ccc;
-  background: radial-gradient(hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.38) 100%);
+  background: hsla(0, 0%, 0%, 0.25);
 }
 p a::after {
   /* transition: 450ms ease-in-out; */
@@ -681,12 +681,11 @@ nav a {
   transition: 350ms ease-in-out;
   color: #555;
 }
-
-#design a.work, #play a.play {
+#design .work, #play .play {
   color: #333;
   font-weight: 400;
 }
-#design a.work::before, #play a.play::before {
+#design .work::before, #play .play::before {
   outline: none;
   position: absolute;
   left: 0;
@@ -694,10 +693,10 @@ nav a {
   content: "";
   width: 100%;
   height: 2px;
-  background: radial-gradient(hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.38) 100%);
   animation: 350ms ease-in-out nav-bar;
+  background: hsla(0, 0%, 0%, 0.35);
 }
-nav a:hover, nav a.sfhover, nav a:focus {
+nav a:hover, nav a:focus, #design nav a.work:hover, #play nav a.play:hover, #design nav a.work:focus, #play nav a.play:focus {
 	color: var(--primary);
 }
 nav a:hover::after, nav a:focus::after {
@@ -711,6 +710,7 @@ nav a:hover::after, nav a:focus::after {
   background: radial-gradient(hsl(0, 0%, 100%) 0%, hsl(210.1, 91.7%, 47.3%) 110%);
   animation: 350ms ease-in-out nav-bar;
 }
+/* Doesn't work, but leaving as idea for future */
 .play:hover .work::before {
   width: 0;
   height: 0;

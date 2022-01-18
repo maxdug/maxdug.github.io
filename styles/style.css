@@ -183,7 +183,7 @@ h1 a:visited {
   margin: 1em 0 .3em;
   color: #333;
   font-weight: 300;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-decoration: none;
 }
 h1 a:hover {
@@ -199,7 +199,7 @@ h2 a:visited {
   color: #333;
   font-weight: 400;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 h2 a:hover {
   color: Black;
@@ -212,7 +212,7 @@ h3, h3 a {
   color: #333;
   font-weight: 300;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 h3 a:hover {
   color: Black;
@@ -224,7 +224,7 @@ h4 {
   color: #333;
   font-weight: 300;
   text-decoration: none;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 h4 a:hover {
   color: Black;
@@ -497,7 +497,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 }
 
 /* Default is large margin */
-.fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+.fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth, .fifth  {
   margin: var(--y-margin-l) var(--x-margin-l);
 }
 .margin-m {
@@ -511,7 +511,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
   margin: 0;
 }
 
-main, .paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth  {
+main, section, .paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth, .fifth  {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -525,6 +525,32 @@ main, .paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .h
   color: white;
 }
 
+section {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 0;
+  min-height: calc(100vh - 4rem);
+  position: relative;
+}
+main section:nth-child(1) {
+  margin-top: -45px;
+}
+
+.next-section {
+  position: absolute;
+  bottom: 0;
+  height: 10vh;
+  width: 100%;
+  cursor: s-resize;
+}
+.previous-section {
+  position: absolute;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+  cursor: n-resize;
+}
 /* Parent container on all pages, except custom apps. This is the container for containers. */
 main {
   width: 100%;
@@ -581,7 +607,11 @@ main {
   min-width: calc(25% - var(--x-doublemargin-l));
   max-width: 430px;
 }
-
+.fifth {
+  flex: 1 0 128px;
+  min-width: calc(20% - var(--x-doublemargin-l));
+  max-width: 180px;
+}
 
 /* video, .fourteenforty img, .tentwentyfour img, .article img, .full img, .two-thirds img, .half img, .third img, .fourth img  {
 width: 100%;
@@ -1339,7 +1369,7 @@ body.touch .footer-links a span {
 
 .tile {
   display: block;
-  flex: 1 0 280px;
+  flex: 1 0 250px;
   min-width: calc(25% - 4px);
   margin: 2px;
 }
@@ -1425,7 +1455,7 @@ img.tile-logo {
   letter-spacing: 0.1em;
   font-size: 1.1rem;
   color: white;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   justify-content: center;
   align-items: center;
   transition: transform 350ms ease-in-out;

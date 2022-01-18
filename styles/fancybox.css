@@ -96,7 +96,7 @@ z-index:1010}
   width:40%;
   height:100%;
   cursor:pointer;
-  background:transparent url('../images/blank.gif');
+  background: transparent url('/images/blank.gif');
   z-index:1003
 }
 .fancybox-prev{left:0}
@@ -149,6 +149,12 @@ background:#000}
   margin: 0px auto;
   font-size: 16px;
   padding: 10px 0;
+  font-size: 14px;
+  background: var(--sunflower);
+  width: 100%;
+  color: var(--sapphire);
+  font-weight: 700;
+  letter-spacing: .1em;
 }
 .fancybox-opened .fancybox-title{visibility:visible}
 .fancybox-title-float-wrap{position:absolute;

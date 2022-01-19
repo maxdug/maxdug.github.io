@@ -758,21 +758,20 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 }
 
 .header-overlay {
-  /* opacity: 0; */
   background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%);
   position: absolute;
   width: 100%;
   height: 100%;
-  /* transition: opacity 350ms ease-in-out; */
+  left: 0;
+  transition: 350ms ease-in;
 }
 .hide {
   opacity: 0;
-  left: -100%;
-  transition: opacity 350ms ease-in-out;
+  /* transform: translateY(-50px); */
 }
 .show {
   opacity: 1;
-  left: 0;
+  /* transform: translateY(0); */
 }
 
 /* ------ L O G O   A N I M A T I O N -----*/
@@ -1299,7 +1298,7 @@ body.touch .footer-links a span {
     position: absolute;
     width: 100%;
     height: 100%;
-    transition: opacity 350ms ease-in-out;
+    /* transition: 500ms ease-in; */
     overflow: hidden;
 }
 .hero-overlay::before {
@@ -1312,6 +1311,9 @@ body.touch .footer-links a span {
   mix-blend-mode: hard-light;
   top: -75%;
   left: -100%;
+  backdrop-filter: blur(1px);
+  -webkit-mask-image: radial-gradient(black, transparent);
+  mask-image: radial-gradient(black, transparent);
 }
 .hero-overlay::after {
   content: '';
@@ -1323,6 +1325,9 @@ body.touch .footer-links a span {
   transition: opacity 350ms ease-in-out;
   top: -40%;
   right: -42%;
+  backdrop-filter: blur(1px);
+  -webkit-mask-image: radial-gradient(black, transparent);
+  mask-image: radial-gradient(black, transparent);
 }
 .hero img, .hero svg {
   flex: 1 0 180px;

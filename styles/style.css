@@ -778,11 +778,12 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 .logo {
   display: inline-block;
   position: absolute;
-  height: 27px;
+  height: 1.68em;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
   text-decoration: none;
+  font-size: 16px;
 }
 @media (max-width: 600px) {
   .logo {
@@ -809,9 +810,9 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
   content: "";
   background: #333;
   display: inline-block;
-  width: 30px;
-  height: 2px;
-  border-radius: 10px;
+  width: 1.87em;
+  height: .12em;
+  border-radius: .62em;
   transition: 450ms ease-in-out;
   -webkit-transition: 450ms ease-in-out;
 }
@@ -837,15 +838,15 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 @keyframes bar-1a {
   0% {
     transform: rotate(-55deg);
-    width: 27px;
+    width: 1.68em;
   }
   66% {
     transform: rotate(-55deg);
-    width: 27px;
+    width: 1.68em;
   }
   100% {
     transform: rotate(-45deg);
-    width: 30px;
+    width: 1.87em;
   }
 }
 .bar-1::before {
@@ -856,78 +857,78 @@ body.home .bar-1::before {
 }
 .logo:hover .bar-1::before, .logo:focus .bar-1::before {
   transform: rotate(-55deg);
-  width: 27px;
+  width: 1.68em;
 }
 body.touch .logo:hover .bar-1::before, body.touch .logo:focus .bar-1::before {
   transform: rotate(-45deg);
-  width: 30px;
+  width: 1.87em;
 }
 
 @keyframes bar-1b { /*actual*/
   0% {
-    transform: translate(38px, 0px);
+    transform: translate(2.11em, 0);
   }
   66% {
-    transform: translate(38px, 0px);
+    transform: translate(2.11em, 0);
   }
   100% {
-    transform: translate(80px, 0px);
+    transform: translate(5em, 0);
   }
 }
 .bar-1 {
-  transform: translate(80px, 0px);
+  transform: translate(5em, 0);
 }
 body.home .bar-1 {
   animation: 4s ease-in-out bar-1b;
 }
 .logo:hover .bar-1, .logo:focus .bar-1 {
-  transform: translate(38px, 0px);
+  transform: translate(2.11em, 0);
 }
 body.touch .logo:hover .bar-1, body.touch .logo:focus .bar-1 {
-  transform: translate(80px, 0px);
+  transform: translate(5em, 0);
 }
 
 @keyframes bar-1c { /*after*/
   0% {
-    transform: rotate(45deg) translate(-10px, 2px);
-    width: 15px;
+    transform: rotate(45deg) translate(-.65em, .15em);
+    width: .93em;
   }
   66% {
-    transform: rotate(45deg) translate(-10px, 2px);
-    width: 15px;
+    transform: rotate(45deg) translate(-.65em, .15em);
+    width: .93em;
   }
   100% {
-    transform: rotate(45deg) translate(-7px, 7px);
-    width: 30px;
+    transform: rotate(45deg) translate(-.43em, .43em);
+    width: 1.87em;
   }
 }
 .bar-1::after {
-  transform: rotate(45deg) translate(-7px, 7px);
+  transform: rotate(45deg) translate(-.43em, .43em);
 }
 body.home .bar-1::after {
   animation: 4s ease-in-out bar-1c;
 }
 .logo:hover .bar-1::after, .logo:focus .bar-1::after {
-  transform: rotate(45deg) translate(-10px, 2px);
-  width: 15px;
+  transform: rotate(45deg) translate(-.65em, .15em);
+  width: .93em;
 }
 body.touch .logo:hover .bar-1::after, body.touch .logo:focus .bar-1::after {
-  transform: rotate(45deg) translate(-7px, 7px);
-  width: 30px;
+  transform: rotate(45deg) translate(-.43em, .43em);
+  width: 1.87em;
 }
 
 @keyframes bar-2a { /*before*/
   0% {
-    transform: rotate(-45deg) translate(4px, -4px);
-    width: 15px;
+    transform: rotate(-45deg) translate(.25em, -.25em);
+    width: .93em;
   }
   66% {
-    transform: rotate(-45deg) translate(4px, -4px);
-    width: 15px;
+    transform: rotate(-45deg) translate(.25em, -.25em);
+    width: .93em;
   }
   100% {
     transform: rotate(-45deg);
-    width: 30px;
+    width: 1.87em;
   }
 }
 .bar-2::before {
@@ -937,79 +938,79 @@ body.home .bar-2::before {
   animation: 4s ease-in-out bar-2a;
 }
 .logo:hover .bar-2::before, .logo:focus .bar-2::before {
-  transform: rotate(-45deg) translate(4px, -4px);
-  width: 15px;
+  transform: rotate(-45deg) translate(.25em, -.25em);
+  width: .93em;
 }
 body.touch .logo:hover .bar-2::before, body.touch .logo:focus .bar-2::before {
   transform: rotate(-45deg);
-  width: 30px;
+  width: 1.87em;
 }
 
 @keyframes bar-2b { /*actual*/
   0% {
-    transform: translate(24px, 0px);
+    transform: translate(1.2em, 0);
   }
   66% {
-    transform: translate(24px, 0px);
+    transform: translate(1.2em, 0);
   }
   100% {
-    transform: translate(50px, 0px);
+    transform: translate(3.12em, 0px);
   }
 }
 .bar-2 {
-  transform: translate(50px, 0px);
+  transform: translate(3.12em, 0px);
 }
 body.home .bar-2 {
   animation: 4s ease-in-out bar-2b;
 }
 .logo:hover .bar-2, .logo:focus .bar-2 {
-  transform: translate(24px, 0px);
+  transform: translate(1.2em, 0);
 }
 body.touch .logo:hover .bar-2, body.touch .logo:focus .bar-2 {
-  transform: translate(50px, 0px);
+  transform: translate(3.12em, 0px);
 }
 
 @keyframes bar-2c { /*after*/
   0% {
-    transform: rotate(55deg) translate(-5px, 7px);
-    width: 27px;
+    transform: rotate(55deg) translate(-.33em, .45em);
+    width: 1.68em;
   }
   66% {
-    transform: rotate(55deg) translate(-5px, 7px);
-    width: 27px;
+    transform: rotate(55deg) translate(-.33em, .45em);
+    width: 1.68em;
   }
   100% {
-    transform: rotate(45deg) translate(-7px, 7px);
-    width: 30px;
+    transform: rotate(45deg) translate(-.43em, .43em);
+    width: 1.87em;
   }
 }
 .bar-2:after {
-  transform: rotate(45deg) translate(-7px, 7px);
+  transform: rotate(45deg) translate(-.43em, .43em);
 }
 body.home .bar-2:after {
   animation: 4s ease-in-out bar-2c;
 }
 .logo:hover .bar-2::after, .logo:focus .bar-2::after {
-  transform: rotate(55deg) translate(-5px, 7px);
-  width: 27px;
+  transform: rotate(55deg) translate(-.33em, .45em);
+  width: 1.68em;
 }
 body.touch .logo:hover .bar-2::after, body.touch .logo:focus .bar-2::after {
-  transform: rotate(45deg) translate(-7px, 7px);
-  width: 30px;
+  transform: rotate(45deg) translate(-.43em, .43em);
+  width: 1.87em;
 }
 
 @keyframes bar-3a { /*before*/
   0% {
-    transform: rotate(-55deg) translate(0px, 0px);
-    width: 27px;
+    transform: rotate(-55deg) translate(0, 0);
+    width: 1.68em;
   }
   66% {
-    transform: rotate(-55deg) translate(0px, 0px);
-    width: 27px;
+    transform: rotate(-55deg) translate(0, 0);
+    width: 1.68em;
   }
   100% {
-    transform: rotate(-45deg) translate(0px, 0px);
-    width: 30px;
+    transform: rotate(-45deg) translate(0, 0);
+    width: 1.87em;
   }
 }
 .bar-3:before {
@@ -1019,86 +1020,89 @@ body.home .bar-3:before {
   animation: 4s ease-in-out bar-3a;
 }
 .logo:hover .bar-3::before, .logo:focus .bar-3::before {
-  transform: rotate(-55deg) translate(0px, 0px);
-  width: 27px;
+  transform: rotate(-55deg) translate(0, 0);
+  width: 1.68em;
 }
 body.touch .logo:hover .bar-3::before, body.touch .logo:focus .bar-3::before {
-  transform: rotate(-45deg) translate(0px, 0px);
-  width: 30px;
+  transform: rotate(-45deg) translate(0, 0);
+  width: 1.87em;
 }
 
 @keyframes bar-3b { /*actual*/
   0% {
-    transform: translate(11px, 0);
+    transform: translate(.4em, 0);
   }
   66% {
-    transform: translate(11px, 0);
+    transform: translate(.4em, 0);
   }
   100% {
-    transform: translate(-25px, 0);
+    transform: translate(-1.56em, 0);
   }
 }
 .bar-3 {
-  transform: translate(-25px, 0);
+  transform: translate(-1.56em, 0);
 }
 body.home .bar-3 {
   animation: 4s ease-in-out bar-3b;
 }
 .logo:hover .bar-3, .logo:focus .bar-3 {
-  transform: translate(11px, 0);
+  transform: translate(.4em, 0);
 }
 body.touch .logo:hover .bar-3, body.touch .logo:focus .bar-3 {
-  transform: translate(-25px, 0);
+  transform: translate(-1.56em, 0);
 }
 
 @keyframes bar-3c { /*after*/
   0% {
-    transform: rotate(55deg) translate(-7px, 10px);
-    width: 27px;
+    transform: rotate(55deg) translate(-.45em, .64em);
+    width: 1.68em;
   }
   66% {
-    transform: rotate(55deg) translate(-7px, 10px);
-    width: 27px;
+    transform: rotate(55deg) translate(-.45em, .64em);
+    width: 1.68em;
   }
   100% {
-    transform: rotate(45deg) translate(-7px, 7px);
-    width: 30px;
+    transform: rotate(45deg) translate(-.43em, .43em);
+    width: 1.87em;
   }
 }
 .bar-3:after {
-  transform: rotate(45deg) translate(-7px, 7px);
+  transform: rotate(45deg) translate(-.43em, .43em);
 }
 body.home .bar-3:after {
   animation: 4s ease-in-out bar-3c;
 }
 .logo:hover .bar-3::after, .logo:focus .bar-3::after {
-  transform: rotate(55deg) translate(-7px, 10px);
-  width: 27px;
+  transform: rotate(55deg) translate(-.45em, .64em);
+  width: 1.68em;
 }
 body.touch .logo:hover .bar-3::after, body.touch .logo:focus .bar-3::after {
-  transform: rotate(45deg) translate(-7px, 7px);
-  width: 30px;
+  transform: rotate(45deg) translate(-.43em, .43em);
+  width: 1.87em;
 }
 
 @keyframes bar-4a { /*before*/
   0% {
-    transform: rotate(-45deg) translate(0px, -0px);
+    transform: rotate(-50deg) translate(.0em, 0);
+    width: 1.77em;
   }
   66% {
-    transform: rotate(-45deg) translate(0px, -0px);
+    transform: rotate(-50deg) translate(.0em, 0);
+    width: 1.77em;
   }
   100% {
-    transform: rotate(-45deg) translate(0px, 0px);
+    transform: rotate(-45deg) translate(0, 0);
   }
 }
 .bar-4:before {
-  transform: rotate(-45deg) translate(0px, 0px);
+  transform: rotate(-45deg) translate(0, 0);
 }
 body.home .bar-4:before {
   animation: 4s ease-in-out bar-4a;
 }
 .logo:hover .bar-4::before, .logo:focus .bar-4::before {
-  transform: rotate(-45deg) translate(0px, -0px);
+  transform: rotate(-50deg) translate(.0em, 0);
+  width: 1.77em;
 }
 body.touch .logo:hover .bar-4::before, body.touch .logo:focus .bar-4::before {
   transform: rotate(-45deg) translate(0px, -0px);
@@ -1106,55 +1110,55 @@ body.touch .logo:hover .bar-4::before, body.touch .logo:focus .bar-4::before {
 
 @keyframes bar-4b { /*actual*/
   0% {
-    transform: translate(-5px, 0);
+    transform: translate(-.6em, 0);
   }
   66% {
-    transform: translate(-5px, 0);
+    transform: translate(-.6em, 0);
   }
   100% {
-    transform: translate(-70px, 0);
+    transform: translate(-4.37em, 0);
   }
 }
 .bar-4 {
-  transform: translate(-70px, 0);
+  transform: translate(-4.37em, 0);
 }
 body.home .bar-4 {
   animation: 4s ease-in-out bar-4b;
 }
 .logo:hover .bar-4, .logo:focus .bar-4 {
-  transform: translate(-5px, 0);
+  transform: translate(-.6em, 0);
 }
 body.touch .logo:hover .bar-4, body.touch .logo:focus .bar-4 {
-  transform: translate(-70px, 0);
+  transform: translate(-4.37em, 0);
 }
 
 @keyframes bar-4c { /*after*/
   0% {
-    transform: rotate(45deg) translate(-20px, 20px);
+    transform: rotate(50deg) translate(-1.13em, 1.3em);
+    width: 1.77em;
   }
   66% {
-    transform: rotate(45deg) translate(-20px, 20px);
+    transform: rotate(50deg) translate(-1.13em, 1.3em);
+    width: 1.77em;
   }
   100% {
-    transform: rotate(45deg) translate(-28px, 28px);
-    width: 30px;
+    transform: rotate(45deg) translate(-1.75em, 1.75em);
+    width: 1.87em;
   }
 }
 .bar-4:after {
-  transform: rotate(45deg) translate(-28px, 28px);
+  transform: rotate(45deg) translate(-1.74em, 1.74em);
 }
 body.home .bar-4:after {
-  transform: rotate(45deg) translate(-28px, 28px);
+  transform: rotate(45deg) translate(-1.75em, 1.75em);
   animation: 4s ease-in-out bar-4c;
 }
 .logo:hover .bar-4::after, .logo:focus .bar-4::after {
-  transform: rotate(45deg) translate(-20px, 20px);
-}
-.logo:hover .bar-4::after, .logo:focus .bar-4::after {
-  transform: rotate(45deg) translate(-20px, 20px);
+  transform: rotate(50deg) translate(-1.13em, 1.3em);
+  width: 1.77em;
 }
 body.touch .logo:hover .bar-4::after, body.touch .logo:focus .bar-4::after {
-  transform: rotate(45deg) translate(-28px, 28px);
+  transform: rotate(45deg) translate(-1.75em, 1.75em);
 }
 
 /* attempt to stop hover animation when a user clicks on mobile */

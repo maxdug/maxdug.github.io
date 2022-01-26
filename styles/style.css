@@ -53,6 +53,10 @@ For ascii art, I used ANSI Regular and 4Max from http://patorjk.com/software/taa
   margin: 0;
 } /* Used as a reset for everything ever */
 
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
 html {
   -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
   overflow-y: scroll;
@@ -79,6 +83,7 @@ body {
   color: #555;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  align-items: center;
 }
 
 /* body#play {
@@ -475,10 +480,10 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 
   ┌─ Header
   ├─ Main
-  │  ├─ Containers
-  │  │   ├─ Multi Column Content
-  │  │   │  └─ html elements
-  │  │   └─ Components
+  │  ├─ Containers (small, medium, large, full)
+  │  │   ├─ Multi Column Content (sixth, fifth, fourth, third, half, two-thirds)
+  │  │   │  └─ html elements (h1, p, img, video)
+  │  │   └─ Components (hero, etc..)
   │  └─ Single Column Content
   │      └─ html elements
   └─ Footer
@@ -514,8 +519,17 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 .container {
   margin: 0;
 }
-
-main, section, .paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth, .fifth  {
+main, section {
+ display: flex;
+ flex-flow: column;
+ justify-content: center;
+ align-items: center;
+ flex-grow: 1;
+}
+.fourteenforty, .tentwentyfour, .article, .full {
+  width: calc(100% - var(--x-doublemargin-l));
+}
+.paralax, .fourteenforty, .tentwentyfour, .article, .full, .two-thirds, .half, .third, .fourth, .fifth  {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -567,30 +581,30 @@ main {
 
 /* 1440 - Outside of paralax and heros, largest scanable width. Users shouldn't have to turn their head. */
 .fourteenforty {
-  width: 100%;
+  /* flex: 1 0 300px; */
+  /* margin: 0 auto; */
   max-width: 1440px;
-  padding: 0 calc(50% - 720px - var(--x-doublemargin-l));
 }
 .fourteenforty.no-margin, .container.fourteenforty {
-  padding: 0 calc(50% - 720px);
+  /* padding: 0 calc(50% - 720px); */
 }
 /* 1024 - Used for Most not full screen content */
 .tentwentyfour {
-  width: 100%;
+  /* flex: 1 0 300px; */
+  /* margin: 0 auto; */
   max-width: 1024px;
-  padding: 0 calc(50% - 512px - var(--x-doublemargin-l));
 }
 .tentwentyfour.no-margin, .container.tentwentyfour {
-  padding: 0 calc(50% - 512px);
+  /* padding: 0 calc(50% - 512px); */
 }
 /* 720 - Designed for best legibility of large amounts of text information */
 .article {
-  width: 100%;
+  /* flex: 1 0 300px; */
+  /* margin: 0 auto; */
   max-width: 720px;
-  padding: 0 calc(50% - 360px - var(--x-doublemargin-l));
 }
 .article.no-margin, .container.article {
-  padding: 0 calc(50% - 360px);
+  /* padding: 0 calc(50% - 360px); */
 }
 .full {
   width: 100%;
@@ -662,16 +676,15 @@ div:hover .img-caption {
 
 --------------------------------------*/
 header, footer {
-  width: 100%;
   letter-spacing: .1em;
   color: #333;
   display: flex;
-  padding: 0px calc(50% - 720px);
+  width: 100%;
   max-width: 1440px;
-  justify-content: space-around;
+  height: 45px;
   flex-flow: row wrap;
+  justify-content: center;
   align-items: center;
-  justify-content: flex-end;
 }
 
 
@@ -688,7 +701,7 @@ header {
 	top: 0;
 	z-index: 999;
   /* background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%); */
-  padding: 11px calc(50% - 720px);
+  justify-content: flex-end;
 }
 
 
@@ -759,11 +772,13 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 
 .header-overlay {
   background: linear-gradient(to top, rgba(255, 255, 255, .95) 0%, rgba(360, 360, 360, 0.85) 100%);
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100%;
+  height: 45px;
+  top: 0;
   left: 0;
   transition: 350ms ease-in;
+  z-index: 9;
 }
 .hide {
   opacity: 0;
@@ -778,12 +793,10 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 .logo {
   display: inline-block;
   position: absolute;
-  height: 1.68em;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  top: .6em;
+  transform: translatex(-50%);
   text-decoration: none;
-  font-size: 16px;
 }
 @media (max-width: 600px) {
   .logo {
@@ -898,12 +911,12 @@ body.touch .logo:hover .bar-1, body.touch .logo:focus .bar-1 {
     width: .93em;
   }
   100% {
-    transform: rotate(45deg) translate(-.43em, .43em);
+    transform: rotate(45deg) translate(-.44em, .45em);
     width: 1.87em;
   }
 }
 .bar-1::after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.44em, .45em);
 }
 body.home .bar-1::after {
   animation: 4s ease-in-out bar-1c;
@@ -913,7 +926,7 @@ body.home .bar-1::after {
   width: .93em;
 }
 body.touch .logo:hover .bar-1::after, body.touch .logo:focus .bar-1::after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.44em, .45em);
   width: 1.87em;
 }
 
@@ -972,30 +985,30 @@ body.touch .logo:hover .bar-2, body.touch .logo:focus .bar-2 {
 
 @keyframes bar-2c { /*after*/
   0% {
-    transform: rotate(55deg) translate(-.33em, .45em);
+    transform: rotate(55deg) translate(-.33em, .46em);
     width: 1.68em;
   }
   66% {
-    transform: rotate(55deg) translate(-.33em, .45em);
+    transform: rotate(55deg) translate(-.33em, .46em);
     width: 1.68em;
   }
   100% {
-    transform: rotate(45deg) translate(-.43em, .43em);
+    transform: rotate(45deg) translate(-.45em, .45em);
     width: 1.87em;
   }
 }
 .bar-2:after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.45em, .45em);
 }
 body.home .bar-2:after {
   animation: 4s ease-in-out bar-2c;
 }
 .logo:hover .bar-2::after, .logo:focus .bar-2::after {
-  transform: rotate(55deg) translate(-.33em, .45em);
+  transform: rotate(55deg) translate(-.33em, .46em);
   width: 1.68em;
 }
 body.touch .logo:hover .bar-2::after, body.touch .logo:focus .bar-2::after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.45em, .45em);
   width: 1.87em;
 }
 
@@ -1062,12 +1075,12 @@ body.touch .logo:hover .bar-3, body.touch .logo:focus .bar-3 {
     width: 1.68em;
   }
   100% {
-    transform: rotate(45deg) translate(-.43em, .43em);
+    transform: rotate(45deg) translate(-.44em, .45em);
     width: 1.87em;
   }
 }
 .bar-3:after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.44em, .45em);
 }
 body.home .bar-3:after {
   animation: 4s ease-in-out bar-3c;
@@ -1077,7 +1090,7 @@ body.home .bar-3:after {
   width: 1.68em;
 }
 body.touch .logo:hover .bar-3::after, body.touch .logo:focus .bar-3::after {
-  transform: rotate(45deg) translate(-.43em, .43em);
+  transform: rotate(45deg) translate(-.44em, .45em);
   width: 1.87em;
 }
 
@@ -1142,15 +1155,14 @@ body.touch .logo:hover .bar-4, body.touch .logo:focus .bar-4 {
     width: 1.77em;
   }
   100% {
-    transform: rotate(45deg) translate(-1.75em, 1.75em);
+    transform: rotate(45deg) translate(-1.75em, 1.76em);
     width: 1.87em;
   }
 }
 .bar-4:after {
-  transform: rotate(45deg) translate(-1.74em, 1.74em);
+  transform: rotate(45deg) translate(-1.75em, 1.76em);
 }
 body.home .bar-4:after {
-  transform: rotate(45deg) translate(-1.75em, 1.75em);
   animation: 4s ease-in-out bar-4c;
 }
 .logo:hover .bar-4::after, .logo:focus .bar-4::after {
@@ -1158,7 +1170,7 @@ body.home .bar-4:after {
   width: 1.77em;
 }
 body.touch .logo:hover .bar-4::after, body.touch .logo:focus .bar-4::after {
-  transform: rotate(45deg) translate(-1.75em, 1.75em);
+  transform: rotate(45deg) translate(-1.75em, 1.76em);
 }
 
 /* attempt to stop hover animation when a user clicks on mobile */
@@ -1175,6 +1187,14 @@ body.touch .logo:hover span::before, body.touch .logo:hover span::after {
       88""   Yb   dP Yb   dP   88   88""   88"Yb
       88      YbodP   YbodP    88   888888 88  Yb
 */
+footer::before {
+content: "";
+width: 100%;
+height: 45px;
+background: linear-gradient(to bottom, rgba(250, 250, 250, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
+position: absolute;
+z-index: -1;
+}
 footer {
 	justify-self: flex-end;
   background: linear-gradient(to bottom, rgba(250, 250, 250, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
@@ -1519,7 +1539,7 @@ body.touch .tile img.tile-logo {
 #access-form .form-field {
   position:relative;
   flex: 1 0 160px;
-  margin: .9em .8rem;
+  margin: .9em 0;
   letter-spacing: .03em;
 }
 
@@ -1620,7 +1640,7 @@ pointer-events: inherit; */
   display: none;
 }
 
-.node:nth-child(1) .node-title {
+.node:first-of-type .node-title {
   border-radius: 20px 20px 0 0;
 }
 .node:last-child .node-title {
@@ -1675,25 +1695,17 @@ pointer-events: inherit; */
 }
 
 .checklist {
-  /* display: none; */
-  display: flex;
-  width: calc(100% - 40px);
-  margin: 0;
-  padding: 0;
+  display: none;
+  width: 100%;
+  padding: 20px;
   list-style: none;
   color: white;
   background: #00000024;
   flex-flow: row wrap;
-  transition: height 350ms ease-in-out;
-  height: 0;
-  overflow: hidden;
 }
 
 .node:checked~.checklist {
-  /* display: flex; */
-  height: calc(100% - 88px);
-  padding: 20px;
-  transition: height 350ms ease-in-out;
+  display: flex;
 }
 .checklist input {
   display: inherit;

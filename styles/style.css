@@ -515,10 +515,7 @@ body.touch button, body.touch [type="submit"], body.touch [type="button"], body.
 .margin-s {
   margin: var(--y-margin-s) var(--x-margin-s);
 }
-/* no margin */
-.container {
-  margin: 0;
-}
+
 main, section {
  display: flex;
  flex-flow: column;
@@ -542,7 +539,11 @@ main, section {
 .dark h1, .dark h2, .dark h3, .dark h4, .dark p {
   color: white;
 }
-
+/* no margin */
+.container {
+  margin: 0;
+  width: 100%;
+}
 section {
   width: 100%;
   background-position: center;

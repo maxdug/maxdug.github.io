@@ -549,10 +549,17 @@ section {
   background-position: center;
   background-size: cover;
   padding: 2rem 0;
+  position: relative;
+}
+#presentation section {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 0;
   min-height: calc(100vh - 4rem);
   position: relative;
 }
-main section:nth-child(1) {
+#presentation main section:nth-child(1) {
   margin-top: -45px;
 }
 

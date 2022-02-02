@@ -92,7 +92,9 @@ body {
 } */
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */
+  --primary: hsl(324, 100%, 45.5%); /* pink */
   --primary-gradient: radial-gradient(hsl(230, 100%, 70%), hsl(190, 100%, 50%));
+  --primary-gradient: radial-gradient(hsl(324, 100%, 70%), hsl(324, 100%, 50%));
 }
 
 .video {
@@ -272,6 +274,7 @@ p a:hover::after, p a:focus::after {
   width: 100%;
   height: 2px;
   background: linear-gradient(to right, hsl(210deg 100% 40%), hsl(210deg 100% 70%), hsl(210deg 100% 40%));
+  background: linear-gradient(to right, hsl(324deg 100% 40%), hsl(324deg 100% 70%), hsl(324deg 100% 40%));
   animation: 350ms ease-in-out nav-bar;
 }
 
@@ -767,6 +770,7 @@ nav a:hover::after, nav a:focus::after {
   width: 100%;
   height: 2px;
   background: linear-gradient(to right, hsl(210deg 100% 40%), hsl(210deg 100% 70%), hsl(210deg 100% 40%));
+  background: linear-gradient(to right, hsl(324deg 100% 40%), hsl(324deg 100% 70%), hsl(324deg 100% 40%));
   animation: 350ms ease-in-out nav-bar;
 }
 /* Doesn't work, but leaving as idea for future */
@@ -805,6 +809,7 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
   top: .6em;
   transform: translatex(-50%);
   text-decoration: none;
+  height: 1.8em; /* Creates larger touch target */
 }
 @media (max-width: 600px) {
   .logo {
@@ -855,6 +860,7 @@ body.touch nav a:hover::after, body.touch nav a:focus::after {
 .logo:focus .bar-4::after {
   background: var(--primary);
   background: linear-gradient(55deg, hsl(209.8, 100%, 37.8%), hsl(210.2, 100%, 72.7%));
+  background: linear-gradient(55deg, hsl(324, 100%, 37.8%), hsl(324, 100%, 72.7%));
 }
 @keyframes bar-1a {
   0% {
@@ -1573,6 +1579,7 @@ body.touch .tile img.tile-logo {
   position: absolute;
   content: '';
   background: linear-gradient(to right, hsl(210deg 100% 48%), hsl(210deg 100% 80%), hsl(210deg 100% 48%));
+  background: linear-gradient(to right, hsl(324deg 100% 48%), hsl(324deg 100% 80%), hsl(324deg 100% 48%));
   height: 3px;
   width: 100%;
   left: 0;

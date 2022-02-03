@@ -1201,17 +1201,17 @@ body.touch .logo:hover span::before, body.touch .logo:hover span::after {
       88""   Yb   dP Yb   dP   88   88""   88"Yb
       88      YbodP   YbodP    88   888888 88  Yb
 */
-footer::before {
+/* footer::before {
 content: "";
 width: 100%;
 height: 45px;
 background: linear-gradient(to bottom, rgba(250, 250, 250, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
 position: absolute;
 z-index: -1;
-}
+} */
 footer {
 	justify-self: flex-end;
-  background: linear-gradient(to bottom, rgba(250, 250, 250, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%);
+  /* background: linear-gradient(to bottom, rgba(250, 250, 250, 0.9) 0%, rgba(360, 360, 360, 0.9) 100%); */
 }
 .footer-space {
 	flex: 1 0 auto;

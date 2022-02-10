@@ -163,11 +163,11 @@ input {
   text-align: center;
 }
 
-.txt-rt {
+.txt-right {
   text-align: right;
 }
 
-.txt-lt {
+.txt-left {
   text-align: left;
 }
 .txt-sm {
@@ -1330,6 +1330,7 @@ body.touch .footer-links a span {
   background-position: center;
   background-size: cover;
   position: relative;
+  flex-flow: row wrap;
 }
 .hero-overlay {
     background: radial-gradient(rgba(0,0,0,.15) 0%, rgba(0,0,0,.0) 100%);
@@ -1376,6 +1377,12 @@ body.touch .footer-links a span {
   margin: 10px;
   filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.1));
   fill: white;
+}
+.full-height {
+  height: 80vh;
+  text-align: center;
+  color: white;
+  align-content: center;
 }
 
 .hero-b {

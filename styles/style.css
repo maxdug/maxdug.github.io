@@ -1272,6 +1272,15 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
 .footer-links .linkedin span {
   margin-right: -95px;
 }
+.footer-links .strava span {
+  margin-right: -80px;
+}
+.footer-links .goodreads span {
+  margin-right: -107px;
+}
+.footer-links .github span {
+  margin-right: -79px;
+}
 .footer-links a:hover span, .footer-links a:focus span {
     margin-right: 0;
 }

@@ -1267,19 +1267,22 @@ footer a:hover .footerIcon, footer a:focus .footerIcon {
     transition: 350ms ease-in-out;
 }
 .footer-links .contact span {
-  margin-right: -91px;
+  margin-right: -65px;
 }
 .footer-links .linkedin span {
-  margin-right: -95px;
+  margin-right: -70px;
 }
 .footer-links .strava span {
-  margin-right: -80px;
+  margin-right: -55px;
 }
 .footer-links .goodreads span {
-  margin-right: -107px;
+  margin-right: -86px;
+}
+.footer-links .duolingo span {
+  margin-right: -72px;
 }
 .footer-links .github span {
-  margin-right: -79px;
+  margin-right: -56px;
 }
 .footer-links a:hover span, .footer-links a:focus span {
     margin-right: 0;

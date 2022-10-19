@@ -14,6 +14,10 @@ document.getElementById('access-form').addEventListener('submit', function check
 
   && document.getElementById('bcg-input').value == 'letmein') window.location.href = '/bcg/bcg.html';
 
+  if (document.getElementById('cvs-input')
+
+  && document.getElementById('cvs-input').value == 'letmein') window.location.href = '/cvs/cvs.html';
+
 });
 
 

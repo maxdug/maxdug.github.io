@@ -122,7 +122,10 @@ input {
 }
 
 
-
+/* Sort */
+.rounded {
+  border-radius: 20px;
+}
 
 
 

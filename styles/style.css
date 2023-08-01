@@ -122,7 +122,10 @@ input {
 }
 
 
-
+/* Sort */
+.rounded {
+  border-radius: 20px;
+}
 
 
 
@@ -1532,7 +1535,7 @@ img.tile-logo {
   transition: transform 350ms ease-in-out;
   /* filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.2)); */
 }
-#play .tile:hover .title, body#play.touch .title {
+.logoless:hover .title, body#play.touch .title {
   transform: translate(0, 0);
 }
 
@@ -1544,7 +1547,7 @@ body.touch .tile img.tile-logo {
 }
 
 /* More Content */
-.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco, .maxduggan .maxduggan, .sani .sani, .labaguette .labaguette, .bluecollar .bluecollar, .halloween .halloween, .sideroad .sideroad, .origin .origin, .truckin .keep-trucking {
+.nixon .nixon, .bcg .bcg, .citi .citi, .uwm .uwm, .puma .puma, .lazboy .lazboy, .twc .twc, .remesh .remesh, .nyandco .nyandco, .maxduggan .maxduggan, .sani .sani, .labaguette .labaguette, .bluecollar .bluecollar, .halloween .halloween, .sideroad .sideroad, .astoria-runners .astoria-runners, .truckin .keep-trucking {
   display: none;
 }
 

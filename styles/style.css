@@ -1471,7 +1471,7 @@ body.touch .footer-links a span {
 }
 
 .tile-overlay {
-  opacity: 0;
+  opacity: .9;
   background: radial-gradient(rgba(0, 0, 0, 0.4) 0%,rgba(0, 0, 0, 0.2) 33%, rgba(0, 0, 0, 0) 100%);
   position: absolute;
   width: 100%;
@@ -1486,8 +1486,8 @@ body.touch .tile-overlay {
   /* display: inline-block; */
 }
 .tile svg, .tile img.tile-logo {
-  opacity: 0;
-  transform: scale(.95);
+  opacity: .9;
+  transform: scale(.75);
   max-width: clamp(calc(60% - 20px),33vw,calc(70% - 20px));
   max-height: clamp(calc(35% - 20px),9vw,calc(45% - 20px));
   margin: 10px;

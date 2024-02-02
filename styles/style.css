@@ -80,7 +80,7 @@ body {
   height: calc(100vh - 45px);
   flex-direction: column;
   margin: 45px 0 0;
-  color: #555;
+  color: #333;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   align-items: center;
@@ -744,7 +744,7 @@ nav a {
   font-size: .9rem;
 	text-decoration: none;
   transition: 350ms ease-in-out;
-  color: #555;
+  color: #333;
 }
 #design .work, #play .play {
   color: #333;
@@ -1444,11 +1444,11 @@ body.touch .footer-links a span {
 .tile {
   display: block;
   flex: 1 0 250px;
-  min-width: calc(25% - 4px);
+  min-width: calc(26% - 4px);
   margin: 2px;
 }
 .tile.double {
-  min-width: calc(50% - 4px);
+  min-width: calc(48% - 4px);
 }
 .tile a {
   display: flex;

@@ -1,8 +1,8 @@
 ---
-layout: project
+layout: play
 title: Max &nbsp;❭&nbsp; Work &nbsp;❭&nbsp; La Baguette
 description: Identity design for a Cafe &amp; Bakery.
-section: design
+section: play
 class: labaguette
 ---
 <div class="container tentwentyfour">
@@ -11,7 +11,7 @@ class: labaguette
 
 <div class="third" markdown="1">
 # **LA BAGUETTE**<br>CAFE &amp; BAKERY
-#### **Project Type** | Concept Work
+#### **Project Type** | Branding / Packaging Concept
 La Baguette is a family owned cafe & bakery. In this branding, I used color distinguish the cafe (green) and bakery (blue) sides of the business. The logotype was created using hand lettering and made a set of food symbols based on the staple foods.
 
 </div>

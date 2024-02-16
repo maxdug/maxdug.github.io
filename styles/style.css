@@ -1568,6 +1568,12 @@ img.tile-logo {
 .logoless:hover .title, body#play.touch .title {
   transform: translate(0, 0);
 }
+/* 
+.play-home .tile a:hover .title, .play-home .tile a:focus .title {
+  height: 100%;
+  align-items: center;
+  transition: transform 350ms ease-in-out;
+} */
 
 body.touch .tile svg,
 body.touch .tile img.tile-logo {

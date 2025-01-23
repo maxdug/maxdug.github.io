@@ -9,7 +9,7 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
-I believe the purpose of life is to live - interacting with the world, eating, sleeping, having fun. This page is a collection of the principles that help me as I try to live my life. I organize it here to help me organize it in my mind. A freshmen philosophy major might destroy it, but it works for me! :)
+I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection of the principles that guide me through life. I organize it here to help me organize it in my mind. A freshman philosophy major might tear it apart, but it works for me! :)
 
 ## Guiding Principles
 I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.

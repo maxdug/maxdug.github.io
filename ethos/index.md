@@ -14,7 +14,9 @@ Here's how I try to live my life. I organize it here to help me organize it in m
 ## Ethics vs Ideals
 I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.
 
-## Core Guiding Principles
+## Guiding Principles
+
+### Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
 1. #### Do no harm
     * Don't impede the freedom of others
@@ -31,7 +33,6 @@ This is a priority list - I value not harming others above my own happiness, and
         * Happiness can be grown, nourished and protected. 
         * This is not just self confidence, it's not a belief in your skills, it's a beliefe in your value.
         * Core skill is abililitiy to reframe life in a positive light
-
 3. #### Help others
     * Do the **most** good
     * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
@@ -44,7 +45,7 @@ This is a priority list - I value not harming others above my own happiness, and
     * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because of their enviroment and basic human desires that become warped or accelerated.
 5. #### Sometimes I'm wrong / Don't lie to myself
 
-## Practical Rules
+### Practical Principles
 * #### Make tomorrow simpler
     * Live in the physical world following leave no trace, everything in it's place 
     * Identify what matters, elimnate the rest

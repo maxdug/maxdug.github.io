@@ -1,7 +1,8 @@
+---
 layout: default
 title: Max &nbsp;❭&nbsp; Ethos
 description: How I try to live my life
-section: play
+section: design
 class: ethos
 ---
 

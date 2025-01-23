@@ -340,6 +340,7 @@ q .author {
 }
 
 ul {
+  width: 100%;
   list-style: disc;
   padding: 0 0 0 20px;
   margin: 0 0 10px 0;
@@ -352,6 +353,7 @@ ul {
   display: inline;
 }
 ol {
+  width: 100%
   list-style: decimal;
   padding: 0 0 0 20px;
   margin: 0 0 10px 0;

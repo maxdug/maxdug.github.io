@@ -12,7 +12,7 @@ class: ethos
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection of the principles that guide me through life. I organize it here to help me organize it in my mind. A freshman philosophy major might tear it apart, but it works for me! :)
 
 ## Guiding Principles
-I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.
+My goal is ethical guidelines for my thoughts and actions, rather than ideals about how the world should be.
 
 ### Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!

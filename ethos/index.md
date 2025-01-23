@@ -39,24 +39,12 @@ This is a priority list. Example: I need to protect my inner happiness before he
     * Priority order in which I should provide any support I can. Emotional and Material
         1. Partner
         2. Friends & Family
-            * Make an effort to go and see friends in person
-            * Gifts should be consumable
-                * Experiences
-                * Food
-                * Books
-                * Stories/ photos
         3. Society
-            * Have faith in humanity
-            * Factors that affect ability to change someone's mind
-                * Thier original belief
-                * What they value
-                * What/ Who they trust
         4. Environment
             * Promote Leave no trace
             * Use as little as possible to accomplish my goals
-4. People are inherently good
-    * Banality of evil
-        * my belief or choice to believe in people could also be logicaly the reverse. The people in the world that we see as the most "evil" are just hyper cases of people acting on human traights we all have and exibit. There is no pure evil, just ordinary people whos basic bad traights get turned into extremes. 
+4. **People are inherently good / Banality of evil**
+    * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because of their enviroment and basic human desires that become warped or accelerated.
 
 ## Practical Rules
 * Make tomorrow simpler
@@ -79,6 +67,10 @@ This is a priority list. Example: I need to protect my inner happiness before he
 	    * It’s important to engage with others with proper introductions that relay that I am an individual with an open mind and good intentions, not a representative of any group, like liberal or conservative.
         * Don't engage stranger individualy
         * Let your opinion be known to groups
+        * Factors that affect ability to change someone's mind
+            * Thier original belief
+            * What they value
+            * What/ Who they trust
 * Don't Complain if you are going to do it anyway
 * Deal with what is weighing most on your mind
 * Keep to the Plan, One task at a time

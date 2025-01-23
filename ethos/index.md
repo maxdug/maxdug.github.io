@@ -9,12 +9,10 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
-Here's how I try to live my life. I organize it here to help me organize it in my mind. A freshmen philosophy major might destroy it, but it works for me! :)
-
-## Ethics vs Ideals
-I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.
+I believe the purpose of life is to live - interacting with the world, eating, sleeping, having fun. This page is a collection of the principles that help me as I try to live my life. I organize it here to help me organize it in my mind. A freshmen philosophy major might destroy it, but it works for me! :)
 
 ## Guiding Principles
+I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.
 
 ### Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
@@ -93,10 +91,6 @@ This is a priority list - I value not harming others above my own happiness, and
 * #### Cut out people that hold you back
 * #### Change environment to accomplish goals
 
-
-## Purpose
-I believe the purpose of life is to live - interacting with the world, eating, sleeping, having fun.
-
 ### Goals
 What is my ideal perfect year, month, decade. Not specific goals, but things that I want to reocurr 
 * visiting old friends
@@ -107,8 +101,6 @@ What is my ideal perfect year, month, decade. Not specific goals, but things tha
 * car camping trips
 * weekly friend hangouts
 * cultural events like plays and concerts
-     
-
 
 ## Applications
 ### Traditional Examples

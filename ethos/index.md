@@ -9,10 +9,10 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
-I organize this here to help me organize it in my mind.
+This is how I try to live my life. I organize this here to help me organize it in my mind.
 
-## Core pillars
-This is a priority list, so the classic example: I need to protect my inner happiness before helping others - can't pour from an empty cup.
+## Core pillars / rules
+This is a priority list. Example: I need to protect my inner happiness before helping others - can't pour from an empty cup.
 
 1. Do no harm
     * Don't impede the freedom of others

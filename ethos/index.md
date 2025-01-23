@@ -15,7 +15,7 @@ Here's how I try to live my life. I organize it here to help me organize it in m
 I aim to have ethical guidelines for my actions and thoughts, not ideals of how the world should be.
 
 ## Core Guiding Principles
-This is a priority list. For example, I protect my own happiness before helping others — I can't pour from an empty cup!
+This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
 1. #### Do no harm
     * Don't impede the freedom of others
         * People, Enviroment, Animals

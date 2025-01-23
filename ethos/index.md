@@ -9,7 +9,11 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
+Ethos / Religion / Philosophy / Maxims / Rules
 This is how I try to live my life. My recipe for more happiness and less suffering. I organize this here to help me organize it in my mind.
+
+## Ethics vs Ideals
+The goal is to have etihical models by which I guide my actions and thoughts, but not ideals of the ways the word should be.
 
 ## Core pillars / rules
 This is a priority list. Example: I need to protect my inner happiness before helping others - can't pour from an empty cup.
@@ -50,7 +54,8 @@ This is a priority list. Example: I need to protect my inner happiness before he
 ## Purpose
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, having fun.
 
-### Traditional Appllication Examples
+## Applications
+### Traditional Examples
 * The Trolley Problem: A runaway trolley is heading towards five people tied to a track. You can pull a lever to divert the trolley onto another track, where it will kill one person instead. The dilemma is whether to take action that results in one death to save five.
     * I would pull the lever. I see this as aligning best with my rule #1 and doing **less** harm.
 * The Lifeboat Dilemma: A lifeboat is overcrowded and at risk of sinking. If one person is thrown overboard, the others will survive. The dilemma involves deciding whether to sacrifice one person for the greater good.
@@ -58,6 +63,6 @@ I believe the purpose of life is to live - interacting with the world, eating, s
 * The Doctor's Dilemma: A doctor has five patients who need organ transplants to survive. A healthy patient comes in for a check-up. The dilemma is whether to sacrifice the healthy patient to save the five.
     * I would not sacrifice the health patient. They are not breaking the exception to rule #1 - I am not defending the others from that person, I would be harming that person. Helping others comes after doing no harm.
 
-### Real Life Appllication Examples
+### Real Life Examples
 * Someone does ...
 </div>

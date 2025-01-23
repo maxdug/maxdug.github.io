@@ -16,7 +16,7 @@ This is how I try to live my life. My recipe for more happiness and less sufferi
 ## Ethics vs Ideals
 The goal is to have etihical models by which I guide my actions and thoughts, but not ideals of the ways the word should be.
 
-## Core Rules / Pillars
+## Core Rules / Pillars / Guiding Principles
 This is a priority list. Example: I need to protect my inner happiness before helping others - can't pour from an empty cup.
 1. **Do no harm**
     * Don't impede the freedom of others
@@ -32,6 +32,7 @@ This is a priority list. Example: I need to protect my inner happiness before he
         * Happiness from outcomes is like relying on medication to manage pain, while happiness from knowing you are acting within your beliefs is like feeling good because your treated the underlying issue causing pain. Achievements give you hits of happiness, but can also have withdrawal. This dependency limits your freedom.
         * Happiness can be grown, nourished and protected. 
         * This is not just self confidence, it's not a belief in your skills, it's a beliefe in your value.
+        * Core skill is abililitiy to reframe life in a positive light
 
 3. **Help others**
     * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
@@ -53,6 +54,10 @@ This is a priority list. Example: I need to protect my inner happiness before he
         4. Environment
             * Promote Leave no trace
             * Use as little as possible to accomplish my goals
+4. People are inherently good
+    * Banality of evil
+        * my belief or choice to believe in people could also be logicaly the reverse. The people in the world that we see as the most "evil" are just hyper cases of people acting on human traights we all have and exibit. There is no pure evil, just ordinary people whos basic bad traights get turned into extremes. 
+
 
 ## Practical Rules
 * Make tomorrow simpler
@@ -76,6 +81,19 @@ This is a priority list. Example: I need to protect my inner happiness before he
 * Deal with what is weighing most on your mind
 * Keep to the Plan, One task at a time
 * Don't rush anything you don't have to
+* Prioritize Sleep
+    * no phone, tv, or anything in the bedroom.
+    * The bedroom is only for sleep, sex, and clothes
+* Prioritize Exersise
+    * every day eliptical and stretching routine or running
+* Eat real Food
+    * Eat real food
+    * not to much
+    * mostly plants
+* Entertainment is not a hobby
+* Don't be an asshole, defer to others whenever possible
+
+
 * Work to be healthy
 
 
@@ -83,6 +101,19 @@ This is a priority list. Example: I need to protect my inner happiness before he
 
 ## Purpose
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, having fun.
+
+### Goals
+What is my ideal perfect year, month, decade. Not specific goals, but things that I want to reocurr 
+* visiting old friends
+* big hiking trips
+* longer time with family
+* regular medical and dental checkins
+* beach trips
+* car camping trips
+* weekly friend hangouts
+* cultural events like plays and concerts
+     
+
 
 ## Applications
 ### Traditional Examples

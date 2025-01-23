@@ -72,6 +72,12 @@ This is a priority list. Example: I need to protect my inner happiness before he
         * I need to have a plan in place for the problem of encountering a cheater or lier. My philosophy of "Don't Engage Stupid", conflicts with the need for having a backbone and defending truth. This has been on my mind with the recent election, where I wish I would have posted on social media and talked more openly about the reasons for my views. I think my decisions on whether to disengage or not should be based on my analysis of my chances of effecting change. How do I make this analysis quicker? Could I group types of behavior that I should overlook and types that I should call out or provide an alternative argument. I'm thinking that most 1 on 1 stanger interactions are near impossible to affect change. I think of the Chris Deloux song cowboy hat. Introductions are key to affecting strangers - not letting them loop me into a group they hate, but keeping myself viewed as an individual. after introductions, even with friends and family. Are there charactaristics that make it not worth the effort of explaining - "Stupid"? How do I deal with groups. 
         * Don't engage stranger individualy
         * Let your opinion be known to groups
+* Don't Complain if you are going to do it anyway
+* Deal with what is weighing most on your mind
+* Keep to the Plan, One task at a time
+* Don't rush anything you don't have to
+* Work to be healthy
+
 
 
 

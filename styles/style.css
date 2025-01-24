@@ -361,6 +361,9 @@ ol {
 li {
   margin-bottom: .5rem;
 }
+li ul {
+  margin-top: .5rem;
+}
 
 
 /*

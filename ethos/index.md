@@ -53,21 +53,32 @@ This is a priority list - I value not harming others above my own happiness, and
 
 ### 7. Shit happens, Focus on what I can control and accept what I cannot.
 * Dichotomy of control
+* Without obstacles, life would be dull
+* Stop struggling and embrace life without avoiding or seeking.
+    * (Pick the handcuffs open calmly, wriggling would just cut up my wrists)
+
 
 ## Practical Principles
 ### Make tomorrow simpler
-* Live in the physical world following leave no trace, everything in it's place 
 * Identify what matters, elimnate the rest
+* Practice interrupt coalescing by alowing interruptions and micro-tasks to accumulate in categories, to be delt with all at once at a planned times.
+* Planning and organizing reduces cognative load
+
+### Inteligence is creating future opportunity
+
+### Live simply
+* Consume as little as possible
+* Leave no trace
+* Eat pescitarian
+* Recycle and resuse
+* Avoid plastics
+
+### Don't live based on an assumed future or past
+* Ability to let go previous visions or expectations
+* Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
+* Lifetime of trips instead of the trip of a lifetime
 * Trust that my mind is a powerful filter and let's go of memories I don't need
-* Don't live based on an assumed future or past
-    * Ability to let go previous visions or expectations
-    * Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
-    * Lifetime of trips instead of the trip of a lifetime
-* Optimize (not minimize) Personal to allow for Friends, Family, and Work
-* Constantly distill and summarize clutter, both physical and mental
-* Planning reduces cognative load
-* Inteligence is creating future opportunity
-    * Organization helps
+
 
 ### Don't Engage Stupid
 * People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
@@ -86,10 +97,15 @@ This is a priority list - I value not harming others above my own happiness, and
 ### Don't Complain if you are going to do it anyway
 
 ### Deal with what is weighing most on your mind
+* Investigate to discover what's most on my mind
 
 ### Keep to the Plan, One task at a time
 
 ### Don't rush anything you don't have to
+* Generally if I feel rushed it's because I'm mismanaging time and not allocating to the right areas
+
+### It's not just important to do the right thing; it's also crucial to do it at the right time.
+* There is power in our ability to chose some of our challenges and when we take them on
 
 ### Prioritize Sleep
 * no phone, tv, or anything in the bedroom.
@@ -100,8 +116,6 @@ This is a priority list - I value not harming others above my own happiness, and
 
 ### Eat real Food
 * Eat real food, not to much, mostly plants
-
-### Entertainment is not a hobby
 
 ### Don't be an asshole, defer to others whenever possible
 
@@ -117,13 +131,13 @@ This is a priority list - I value not harming others above my own happiness, and
 
 ### Be able to compromise
 
-### It's not just important to do the right thing; it's also crucial to do it at the right time.
-
 ### Do the next thing on your mind
 
 ### Be satisfied, there are always upgrades, but there cost doesn't always add value
 
 ### Identify and avoid activities that are done as a form of avoidance or distraction vs enjoyed for their own benefit (Doom Scrolling, Drinking, TV binging)
+* Addictions and obsessions distract us from a full life experience and stick us in that one thing
+* Entertainment is not a hobby
 
 ## Applications
 

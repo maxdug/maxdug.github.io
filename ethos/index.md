@@ -20,6 +20,7 @@ This is a priority list - I value not harming others above my own happiness, and
     * Never share another's secret unless it causes harm
 * Unless in defence of others or self
 * Always pay my debts
+
 ### 2. Be happy
 * Happiness is a state of knowing who I am that I'm living according to my ethos, it's not something obtained. With this belief, I can be happy in a chaotic world, even in negative situations.
 * Other terminology would be contintment or peace with life
@@ -28,6 +29,7 @@ This is a priority list - I value not harming others above my own happiness, and
 * Happiness can be grown, nourished and protected. 
 * This is not just self confidence, it's not a belief in my skills, it's a beliefe in my value.
 * Core skill is abililitiy to reframe life in a positive light
+
 ### 3. Help others
 * Do the **most** good
 * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
@@ -37,14 +39,18 @@ This is a priority list - I value not harming others above my own happiness, and
     3. Society
     4. Environment
 * Lift other up
+
 ### 4. Believe in People
 * People are inherently good / Banality of evil
 * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because their circumstances warp and accelerate and basic human desires.
+
 ### 5. Don't lie to myself
 * Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
+
 ### 6. Don't defend my honor, it doesn't need defending
 * My integrity is not affected by the opinion of others.
 * It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
+
 ### 7. Shit happens, Focus on what I can control and accept what I cannot.
 * Dichotomy of control
 
@@ -62,6 +68,7 @@ This is a priority list - I value not harming others above my own happiness, and
 * Planning reduces cognative load
 * Inteligence is creating future opportunity
     * Organization helps
+
 ### Don't Engage Stupid
 * People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
 * If safe, don't agree with something you don't agree with.
@@ -75,32 +82,51 @@ This is a priority list - I value not harming others above my own happiness, and
         * Thier original belief
         * What they value
         * What/ Who they trust
+
 ### Don't Complain if you are going to do it anyway
+
 ### Deal with what is weighing most on your mind
+
 ### Keep to the Plan, One task at a time
+
 ### Don't rush anything you don't have to
+
 ### Prioritize Sleep
 * no phone, tv, or anything in the bedroom.
 * The bedroom is only for sleep, sex, and clothes
+
 ### Prioritize Exersise
 * every day eliptical and stretching routine or running
+
 ### Eat real Food
 * Eat real food, not to much, mostly plants
+
 ### Entertainment is not a hobby
+
 ### Don't be an asshole, defer to others whenever possible
+
 ### Generally I don't drink
 * I don't wish to be drunk ever again, I believe I can have more fun this way
 * My evolving list of exceptions include wedding toasts, trying someones drink for taste, and when I know it will be only one drink
+
 ### Cut out people that hold you back
+
 ### Change environment to accomplish goals
+
 ### Don't obsess  over people or concepts like money or success
+
 ### Be able to compromise
+
 ### It's not just important to do the right thing; it's also crucial to do it at the right time.
+
 ### Do the next thing on your mind
+
 ### Be satisfied, there are always upgrades, but there cost doesn't always add value
+
 ### Identify and avoid activities that are done as a form of avoidance or distraction vs enjoyed for their own benefit (Doom Scrolling, Drinking, TV binging)
 
 ## Applications
+
 ### Traditional Examples
 * **The Trolley Problem:** A runaway trolley is heading towards five people tied to a track. You can pull a lever to divert the trolley onto another track, where it will kill one person instead. The dilemma is whether to take action that results in one death to save five.
     * I would pull the lever. I see this as aligning best with my rule #1 and doing **less** harm.
@@ -111,4 +137,5 @@ This is a priority list - I value not harming others above my own happiness, and
 
 ### Real Life Examples
 * Someone does ...
+
 </div>

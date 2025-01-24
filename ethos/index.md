@@ -11,16 +11,16 @@ class: ethos
 # My Ethos
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind.
 
-### Core Principles
+## Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
-1. #### Do no harm
+1. ### Do no harm
     * Don't impede the freedom of others
         * People, Enviroment, Animals
         * Don't make decisions for other people
         * Never share another's secret unless it causes harm
     * Unless in defence of others or self
     * Always pay my debts
-2. #### Be happy
+2. ### Be happy
     * Happiness is a state of knowing who you are and that you are living according to your ethos, it's not something obtained. With this belief, we can be happy in a chaotic world, even in negative situations.
         * Other terminology would be contintment or peace with life
         * The goal is to protect this state
@@ -28,7 +28,7 @@ This is a priority list - I value not harming others above my own happiness, and
         * Happiness can be grown, nourished and protected. 
         * This is not just self confidence, it's not a belief in your skills, it's a beliefe in your value.
         * Core skill is abililitiy to reframe life in a positive light
-3. #### Help others
+3. ### Help others
     * Do the **most** good
     * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
     * Priority order in which I should provide any support I can. Emotional and Material
@@ -38,15 +38,15 @@ This is a priority list - I value not harming others above my own happiness, and
         4. Environment
     * Lift other up
 
-4. #### People are inherently good / Banality of evil
+4. ### People are inherently good / Banality of evil
     * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because of their enviroment and basic human desires that become warped or accelerated.
-5. #### Don't lie to myself
+5. ### Don't lie to myself
     * Thoughts affect our feelings and actions, allowing yourself to fantasize over a lie
-6. #### I have no honor to defend
+6. ### I have no honor to defend
     * It becomes easier to not be controled by rage and cortisol in a stressfull situation if you remove any possibility of offence
 
-### Practical Principles
-* #### Make tomorrow simpler
+## Practical Principles
+* ### Make tomorrow simpler
     * Live in the physical world following leave no trace, everything in it's place 
     * Identify what matters, elimnate the rest
     * Trust that my mind is a powerful filter and let's go of memories I don't need
@@ -59,8 +59,8 @@ This is a priority list - I value not harming others above my own happiness, and
     * Planning reduces cognative load
     * Inteligence is creating future opportunity
         * Organization helps
-* #### Shit happens - Deal with it or move on
-* #### Don't Engage Stupid
+* ### Shit happens - Deal with it or move on
+* ### Don't Engage Stupid
     * People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
     * If safe, don't agree with something you don't agree with.
         * It is ok to lie if it will difuse a dangerous situation and not cause additional harm.
@@ -74,27 +74,24 @@ This is a priority list - I value not harming others above my own happiness, and
             * Thier original belief
             * What they value
             * What/ Who they trust
-* #### Don't Complain if you are going to do it anyway
-* #### Deal with what is weighing most on your mind
-* #### Keep to the Plan, One task at a time
-* #### Don't rush anything you don't have to
-* #### Prioritize Sleep
+* ### Don't Complain if you are going to do it anyway
+* ### Deal with what is weighing most on your mind
+* ### Keep to the Plan, One task at a time
+* ### Don't rush anything you don't have to
+* ### Prioritize Sleep
     * no phone, tv, or anything in the bedroom.
     * The bedroom is only for sleep, sex, and clothes
-* #### Prioritize Exersise
+* ### Prioritize Exersise
     * every day eliptical and stretching routine or running
-* #### Eat real Food
+* ### Eat real Food
     * Eat real food, not to much, mostly plants
-* #### Entertainment is not a hobby
-* #### Don't be an asshole, defer to others whenever possible
-* #### Generally I don't drink
+* ### Entertainment is not a hobby
+* ### Don't be an asshole, defer to others whenever possible
+* ### Generally I don't drink
     * I don't wish to be drunk ever again, I believe I can have more fun this way
     * My evolving list of exceptions include wedding toasts, trying someones drink for taste, and when I know it will be only one drink
-* #### Cut out people that hold you back
-* #### Change environment to accomplish goals
-
-
-
+* ### Cut out people that hold you back
+* ### Change environment to accomplish goals
 
 ## Applications
 ### Traditional Examples

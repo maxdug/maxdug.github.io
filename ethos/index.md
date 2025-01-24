@@ -9,22 +9,22 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
-I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
+I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
 
 ## Core Principles
-This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
+This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)
+
 ### 1. Do no harm
 * Don't impede the freedom of others
-    * People, Enviroment, Animals
     * Don't make decisions for other people
     * Never share another's secret unless it causes harm
-* Unless in defence of others or self
-* Always pay my debts
+* Preserve the natural world
+* Exception: Unless in defence of others or self
 
 ### 2. Be happy
-* Happiness is a state of knowing who I am that I'm living according to my ethos, it's not something obtained. With this belief, I can be happy in a chaotic world, even in negative situations.
-* Other terminology would be contintment or peace with life
-* The goal is to protect this state
+* Happiness is a state of peace, knowing who I am that I'm living according to my ethos, it's not something obtained. 
+    * I can be happy in a chaotic world, even in negative situations.
+    * The goal is to protect this state
 * Happiness from outcomes is like using medication for pain relief, while happiness from living my values is like addressing the root cause of the pain. Achievements can give me quick bursts of happiness, but they can also lead to dependency that can limit my freedom.
 * Happiness can be grown, nourished and protected. 
 * This is not just self confidence, it's not a belief in my skills, it's a beliefe in my value.

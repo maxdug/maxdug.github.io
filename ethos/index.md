@@ -73,11 +73,26 @@ This is a priority list - I value not harming others above my own happiness, and
 * Recycle and resuse
 * Avoid plastics
 
+
+### Be self sufficient, but able to accept help
+* Don't Spend Money
+* Having a craft that can be exchanged for the means of Independence 
+* Independence isn't inherent
+
+### Don't substitute labor for thinking something through
+
 ### Don't live based on an assumed future or past
 * Ability to let go previous visions or expectations
 * Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
 * Lifetime of trips instead of the trip of a lifetime
 * Trust that my mind is a powerful filter and let's go of memories I don't need
+* Accept that there is no normal routine, there will always be unique challenges
+
+
+### Prioritize building and maintaining relationships
+* They take work, but lead to increased happiness and quality of life
+* I value community
+* It only works with those who you can be yourself with
 
 
 ### Don't Engage Stupid
@@ -94,14 +109,23 @@ This is a priority list - I value not harming others above my own happiness, and
         * What they value
         * What/ Who they trust
 
+
+### Don't absorb news at face value
+* News is not reality 
+* Don't check news
+* Don't read, listen or watch the news. When I hear something I will try and confirm with a valid source.
+* News is generally exaggerated 
+* Things tend towards a normal bell curve
+* Things are generally always getting better throughout history
+
+
 ### Don't Complain if you are going to do it anyway
 
 ### Deal with what is weighing most on your mind
 * Investigate to discover what's most on my mind
+* This helps get you going again
 
-### Keep to the Plan, One task at a time
-
-### Don't rush anything you don't have to
+### Don't rush, Keep to the Plan, One task at a time
 * Generally if I feel rushed it's because I'm mismanaging time and not allocating to the right areas
 
 ### It's not just important to do the right thing; it's also crucial to do it at the right time.
@@ -123,21 +147,30 @@ This is a priority list - I value not harming others above my own happiness, and
 * I don't wish to be drunk ever again, I believe I can have more fun this way
 * My evolving list of exceptions include wedding toasts, trying someones drink for taste, and when I know it will be only one drink
 
-### Cut out people that hold you back
-
 ### Change environment to accomplish goals
+* Cut out people that hold you back
 
 ### Don't obsess  over people or concepts like money or success
 
 ### Be able to compromise
 
-### Do the next thing on your mind
+### Be willing to specialize - let go of some knowing all skills
+* Accept that in my lifetime, I won't be able to accomplish everything, I have to choose my pirorities
 
 ### Be satisfied, there are always upgrades, but there cost doesn't always add value
 
 ### Identify and avoid activities that are done as a form of avoidance or distraction vs enjoyed for their own benefit (Doom Scrolling, Drinking, TV binging)
 * Addictions and obsessions distract us from a full life experience and stick us in that one thing
 * Entertainment is not a hobby
+
+### Acknowledge that my happiest state is being busy
+
+
+### Avoid people and groups that value Measures of Accomplishment, social capital, Power Dynamics, Revenge / justice, Spiritual Beliefs, and ascetics
+* Measures of Accomplishment: Wealth, success, achievement
+* Social capital: Respect, loyalty, influence, loyalty, position, fame, popularity
+* Power Dynamics: Authority, status, leadership
+
 
 ## Applications
 

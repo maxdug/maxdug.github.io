@@ -9,10 +9,7 @@ class: ethos
 <div class="article" markdown="1">
 
 # My Ethos
-I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection of the principles that guide me through life. I organize it here to help me organize it in my mind. A freshman philosophy major might tear it apart, but it works for me! :)
-
-## Guiding Principles
-My goal is ethical guidelines for my thoughts and actions, rather than ideals about how the world should be.
+I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This page is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind.
 
 ### Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
@@ -39,9 +36,14 @@ This is a priority list - I value not harming others above my own happiness, and
         2. Friends & Family
         3. Society
         4. Environment
+    * Lift other up
+
 4. #### People are inherently good / Banality of evil
     * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because of their enviroment and basic human desires that become warped or accelerated.
-5. #### Sometimes I'm wrong / Don't lie to myself
+5. #### Don't lie to myself
+    * Thoughts affect our feelings and actions, allowing yourself to fantasize over a lie
+6. #### I have no honor to defend
+    * It becomes easier to not be controled by rage and cortisol in a stressfull situation if you remove any possibility of offence
 
 ### Practical Principles
 * #### Make tomorrow simpler
@@ -91,16 +93,8 @@ This is a priority list - I value not harming others above my own happiness, and
 * #### Cut out people that hold you back
 * #### Change environment to accomplish goals
 
-### Goals
-What is my ideal perfect year, month, decade. Not specific goals, but things that I want to reocurr 
-* visiting old friends
-* big hiking trips
-* longer time with family
-* regular medical and dental checkins
-* beach trips
-* car camping trips
-* weekly friend hangouts
-* cultural events like plays and concerts
+
+
 
 ## Applications
 ### Traditional Examples

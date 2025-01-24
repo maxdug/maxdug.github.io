@@ -38,11 +38,13 @@ This is a priority list - I value not harming others above my own happiness, and
         4. Environment
     * Lift other up
 
-4. ### People are inherently good / Banality of evil
+4. ### Believe in People
+    * People are inherently good / Banality of evil
     * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because their circumstances warp and accelerate and basic human desires.
 5. ### Don't lie to myself
     * Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
-6. ### I have no honor to defend
+6. ### Don't defend my honor, it doesn't need defending
+    * My integrity is not affected by the opinion of others.
     * It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
 
 ## Practical Principles

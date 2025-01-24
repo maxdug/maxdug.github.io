@@ -13,93 +13,92 @@ I believe the purpose of life is to live - interacting with the world, eating, s
 
 ## Core Principles
 This is a priority list - I value not harming others above my own happiness, and securing my inner peace before acting to help others — I can't pour from an empty cup!
-1. ### Do no harm
-    * Don't impede the freedom of others
-        * People, Enviroment, Animals
-        * Don't make decisions for other people
-        * Never share another's secret unless it causes harm
-    * Unless in defence of others or self
-    * Always pay my debts
-2. ### Be happy
-    * Happiness is a state of knowing who I am that I'm living according to my ethos, it's not something obtained. With this belief, I can be happy in a chaotic world, even in negative situations.
-        * Other terminology would be contintment or peace with life
-        * The goal is to protect this state
-        * Happiness from outcomes is like using medication for pain relief, while happiness from living my values is like addressing the root cause of the pain. Achievements can give me quick bursts of happiness, but they can also lead to dependency that can limit my freedom.
-        * Happiness can be grown, nourished and protected. 
-        * This is not just self confidence, it's not a belief in my skills, it's a beliefe in my value.
-        * Core skill is abililitiy to reframe life in a positive light
-3. ### Help others
-    * Do the **most** good
-    * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
-    * Priority order in which I should provide any support I can. Emotional and Material
-        1. Partner
-        2. Friends & Family
-        3. Society
-        4. Environment
-    * Lift other up
-
-4. ### Believe in People
-    * People are inherently good / Banality of evil
-    * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because their circumstances warp and accelerate and basic human desires.
-5. ### Don't lie to myself
-    * Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
-6. ### Don't defend my honor, it doesn't need defending
-    * My integrity is not affected by the opinion of others.
-    * It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
+### 1. Do no harm
+* Don't impede the freedom of others
+    * People, Enviroment, Animals
+    * Don't make decisions for other people
+    * Never share another's secret unless it causes harm
+* Unless in defence of others or self
+* Always pay my debts
+### 2. Be happy
+* Happiness is a state of knowing who I am that I'm living according to my ethos, it's not something obtained. With this belief, I can be happy in a chaotic world, even in negative situations.
+* Other terminology would be contintment or peace with life
+* The goal is to protect this state
+* Happiness from outcomes is like using medication for pain relief, while happiness from living my values is like addressing the root cause of the pain. Achievements can give me quick bursts of happiness, but they can also lead to dependency that can limit my freedom.
+* Happiness can be grown, nourished and protected. 
+* This is not just self confidence, it's not a belief in my skills, it's a beliefe in my value.
+* Core skill is abililitiy to reframe life in a positive light
+### 3. Help others
+* Do the **most** good
+* Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
+* Priority order in which I should provide any support I can. Emotional and Material
+    1. Partner
+    2. Friends & Family
+    3. Society
+    4. Environment
+* Lift other up
+### 4. Believe in People
+* People are inherently good / Banality of evil
+* I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because their circumstances warp and accelerate and basic human desires.
+### 5. Don't lie to myself
+* Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
+### 6. Don't defend my honor, it doesn't need defending
+* My integrity is not affected by the opinion of others.
+* It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
+### 7. Shit happens, Focus on what I can control and accept what I cannot.
+* Dichotomy of control
 
 ## Practical Principles
-* ### Make tomorrow simpler
-    * Live in the physical world following leave no trace, everything in it's place 
-    * Identify what matters, elimnate the rest
-    * Trust that my mind is a powerful filter and let's go of memories I don't need
-    * Don't live based on an assumed future or past
-        * Ability to let go previous visions or expectations
-        * Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
-        * Lifetime of trips instead of the trip of a lifetime
-    * Optimize (not minimize) Personal to allow for Friends, Family, and Work
-    * Constantly distill and summarize clutter, both physical and mental
-    * Planning reduces cognative load
-    * Inteligence is creating future opportunity
-        * Organization helps
-* ### Shit happens - Deal with it or move on
-* ### Focus on what I can control and accept what I cannot. (dichotomy of control)
-* ### Don't Engage Stupid
-    * People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
-    * If safe, don't agree with something you don't agree with.
-        * It is ok to lie if it will difuse a dangerous situation and not cause additional harm.
-    * How to manage when you can’t disengage?
-    * This doesn’t mean that I won’t share knowledge when I believe it can make a difference. 
-    * I want to avoid triggering defensive reactions in others.
-        * Ask them to describe both sides argument or view of the situation?
-	    * It’s important to engage with others with proper introductions that relay that I am an individual with an open mind and good intentions, not a representative of any group, like liberal or conservative.
-        * Factors that affect ability to change someone's mind
-            * Thier original belief
-            * What they value
-            * What/ Who they trust
-* ### Don't Complain if you are going to do it anyway
-* ### Deal with what is weighing most on your mind
-* ### Keep to the Plan, One task at a time
-* ### Don't rush anything you don't have to
-* ### Prioritize Sleep
-    * no phone, tv, or anything in the bedroom.
-    * The bedroom is only for sleep, sex, and clothes
-* ### Prioritize Exersise
-    * every day eliptical and stretching routine or running
-* ### Eat real Food
-    * Eat real food, not to much, mostly plants
-* ### Entertainment is not a hobby
-* ### Don't be an asshole, defer to others whenever possible
-* ### Generally I don't drink
-    * I don't wish to be drunk ever again, I believe I can have more fun this way
-    * My evolving list of exceptions include wedding toasts, trying someones drink for taste, and when I know it will be only one drink
-* ### Cut out people that hold you back
-* ### Change environment to accomplish goals
-* ### Don't obsess  over people or concepts like money or success
-* ### Be able to compromise
-* ### It's not just important to do the right thing; it's also crucial to do it at the right time.
-* ### Do the next thing on your mind
-* ### Be satisfied, there are always upgrades, but there cost doesn't always add value
-* ### Identify and avoid activities that are done as a form of avoidance or distraction vs enjoyed for their own benefit (Doom Scrolling, Drinking, TV binging)
+### Make tomorrow simpler
+* Live in the physical world following leave no trace, everything in it's place 
+* Identify what matters, elimnate the rest
+* Trust that my mind is a powerful filter and let's go of memories I don't need
+* Don't live based on an assumed future or past
+    * Ability to let go previous visions or expectations
+    * Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
+    * Lifetime of trips instead of the trip of a lifetime
+* Optimize (not minimize) Personal to allow for Friends, Family, and Work
+* Constantly distill and summarize clutter, both physical and mental
+* Planning reduces cognative load
+* Inteligence is creating future opportunity
+    * Organization helps
+### Don't Engage Stupid
+* People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
+* If safe, don't agree with something you don't agree with.
+    * It is ok to lie if it will difuse a dangerous situation and not cause additional harm.
+* How to manage when you can’t disengage?
+* This doesn’t mean that I won’t share knowledge when I believe it can make a difference. 
+* I want to avoid triggering defensive reactions in others.
+    * Ask them to describe both sides argument or view of the situation?
+    * It’s important to engage with others with proper introductions that relay that I am an individual with an open mind and good intentions, not a representative of any group, like liberal or conservative.
+    * Factors that affect ability to change someone's mind
+        * Thier original belief
+        * What they value
+        * What/ Who they trust
+### Don't Complain if you are going to do it anyway
+### Deal with what is weighing most on your mind
+### Keep to the Plan, One task at a time
+### Don't rush anything you don't have to
+### Prioritize Sleep
+* no phone, tv, or anything in the bedroom.
+* The bedroom is only for sleep, sex, and clothes
+### Prioritize Exersise
+* every day eliptical and stretching routine or running
+### Eat real Food
+* Eat real food, not to much, mostly plants
+### Entertainment is not a hobby
+### Don't be an asshole, defer to others whenever possible
+### Generally I don't drink
+* I don't wish to be drunk ever again, I believe I can have more fun this way
+* My evolving list of exceptions include wedding toasts, trying someones drink for taste, and when I know it will be only one drink
+### Cut out people that hold you back
+### Change environment to accomplish goals
+### Don't obsess  over people or concepts like money or success
+### Be able to compromise
+### It's not just important to do the right thing; it's also crucial to do it at the right time.
+### Do the next thing on your mind
+### Be satisfied, there are always upgrades, but there cost doesn't always add value
+### Identify and avoid activities that are done as a form of avoidance or distraction vs enjoyed for their own benefit (Doom Scrolling, Drinking, TV binging)
 
 ## Applications
 ### Traditional Examples

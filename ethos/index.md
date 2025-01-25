@@ -172,6 +172,11 @@ This list is prioritized: not harming others comes before securing my own happin
 * Power Dynamics: Authority, status, leadership
 
 
+## Priorities and Values
+### To maintain and protect
+### To activly Pursue
+
+
 ## Applications
 
 ### Traditional Examples

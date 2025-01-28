@@ -6,6 +6,16 @@ section: personal
 class: ethos
 ---
 
+<div class="container tentwentyfour">
+
+<!-- M E N U -->
+<div class="fourth" markdown="1">
+
+[Applications](#applications)
+
+</div>
+
+<!-- C O N T E N T -->
 <div class="article" markdown="1">
 
 # My Ethos
@@ -177,7 +187,7 @@ This list is prioritized: not harming others comes before securing my own happin
 ### To activly Pursue
 
 
-## Applications
+## Applications {#applications}
 
 ### Traditional Examples
 * **The Trolley Problem:** A runaway trolley is heading towards five people tied to a track. You can pull a lever to divert the trolley onto another track, where it will kill one person instead. The dilemma is whether to take action that results in one death to save five.
@@ -191,3 +201,4 @@ This list is prioritized: not harming others comes before securing my own happin
 * Someone does ...
 
 </div>
+</div><!-- End Container -->

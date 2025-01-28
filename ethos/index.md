@@ -9,7 +9,7 @@ class: ethos
 <div class="container tentwentyfour">
 
 <!-- M E N U -->
-<div class="fourth" markdown="1">
+<div class="fourth" markdown="1" style="position: fixed; width: 100%; left: 0;">
 
 [Applications](#applications)
 

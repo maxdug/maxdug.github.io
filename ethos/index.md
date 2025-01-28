@@ -6,8 +6,10 @@ section: personal
 class: ethos
 ---
 
+<div style="display: flex; flex-flow: row wrap; width: 100%; margin: 0; padding: 0;">
+
 <!-- M E N U -->
-<div markdown="1" style="width: 30%; position: fixed; left: 20px; top: 20px; font-size: 14px;">
+<div markdown="1" style="flex: 0 1 auto; margin:0; padding: 0;  font-size: 14px;">
 
 * [My Ethos](#myethos)
     * [Core Rules](#coreprinciples)
@@ -27,7 +29,7 @@ class: ethos
 </div>
 
 <!-- C O N T E N T -->
-<div class="article" style="margin-left: 30%" markdown="1">
+<div style="flex: 0 1 auto; margin: 0; padding: 0;" markdown="1">
 
 # My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
@@ -210,5 +212,7 @@ This list is prioritized: not harming others comes before securing my own happin
 
 ### Real Life Examples
 * Someone does ...
+
+</div>
 
 </div>

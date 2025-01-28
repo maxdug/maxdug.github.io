@@ -7,7 +7,7 @@ class: ethos
 ---
 
 <!-- M E N U -->
-<div markdown="1" style="position: fixed; left: 0;">
+<div markdown="1" style="width: 20%; position: fixed; left: 0;">
 
 * [My Ethos](#myethos)
     * [Core Rules](#coreprinciples)
@@ -18,7 +18,7 @@ class: ethos
         * [Believe in People](#believeinpeople)
         * [Don't Lie to Myself](#dontlietomax)
     * [Practical Principles](#practicalprinciples)
-            * [Make tomorrow simpler](#dontlietomax)
+        * [Make tomorrow simpler](#dontlietomax)
     * [Priorities and Values](#prioritiesandvalues)
         * [To maintain and protect](#prioritiesandvalues)
         * [To activly Pursue](#prioritiesandvalues)
@@ -27,7 +27,7 @@ class: ethos
 </div>
 
 <!-- C O N T E N T -->
-<div class="article" markdown="1">
+<div class="article" style="padding-left: 20%" markdown="1">
 
 # My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)

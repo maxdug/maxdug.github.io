@@ -11,9 +11,15 @@ class: ethos
 <!-- M E N U -->
 <div class="fourth" markdown="1" style="position: fixed; width: 100%; left: 0;">
 
-[Applications](#applications)
+* [Core Principles](#coreprinciples)
+* [Practical Principles](#practicalprinciples)
+* [Applications](#applications)
 
 </div>
+
+<div class="fourth" markdown="1" style="width: 200px;">
+</div>
+
 
 <!-- C O N T E N T -->
 <div class="article" markdown="1">
@@ -21,7 +27,7 @@ class: ethos
 # My Ethos
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
 
-## Core Principles
+## Core Principles {#coreprinciples}
 This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)
 
 ### 1. Do no harm
@@ -68,7 +74,7 @@ This list is prioritized: not harming others comes before securing my own happin
     * (Pick the handcuffs open calmly, wriggling would just cut up my wrists)
 
 
-## Practical Principles
+## Practical Principles {#practicalprinciples}
 ### Make tomorrow simpler
 * Identify what matters, elimnate the rest
 * Practice interrupt coalescing by alowing interruptions and micro-tasks to accumulate in categories, to be delt with all at once at a planned times.
@@ -182,7 +188,7 @@ This list is prioritized: not harming others comes before securing my own happin
 * Power Dynamics: Authority, status, leadership
 
 
-## Priorities and Values
+## Priorities and Values {#prioritiesandvalues}
 ### To maintain and protect
 ### To activly Pursue
 

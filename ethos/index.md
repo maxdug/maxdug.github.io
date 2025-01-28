@@ -6,38 +6,43 @@ section: personal
 class: ethos
 ---
 
-<div class="container tentwentyfour">
-
 <!-- M E N U -->
-<div class="fourth" markdown="1" style="position: fixed; width: 100%; left: 0;">
+<div markdown="1" style="position: fixed; left: 0;">
 
-* [Core Principles](#coreprinciples)
-* [Practical Principles](#practicalprinciples)
-* [Applications](#applications)
+* [My Ethos](#myethos)
+    * [Core Rules](#coreprinciples)
+        1. [Do no harm](#donoharm)
+        2. [Be Happy](#behappy)
+        3. [Help Others](#helpothers)
+    * [Core Principles](#coreprinciples)
+        * [Believe in People](#believeinpeople)
+        * [Don't Lie to Myself](#dontlietomax)
+    * [Practical Principles](#practicalprinciples)
+            * [Make tomorrow simpler](#dontlietomax)
+    * [Priorities and Values](#prioritiesandvalues)
+        * [To maintain and protect](#prioritiesandvalues)
+        * [To activly Pursue](#prioritiesandvalues)
+    * [Applications](#applications)
 
 </div>
-
-<div class="fourth" markdown="1" style="width: 200px;">
-</div>
-
 
 <!-- C O N T E N T -->
 <div class="article" markdown="1">
 
-# My Ethos
+# My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
 
 ## Core Principles {#coreprinciples}
 This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)
 
-### 1. Do no harm
+### 1. Do no harm {#donoharm}
 * Don't impede the freedom of others
     * Don't make decisions for other people
     * Never share another's secret unless it causes harm
 * Preserve the natural world
 * Exception: Unless in defence of others or self
 
-### 2. Be happy
+### 2. Be happy {#behappy}
 * Happiness is a state of peace, knowing who I am that I'm living according to my ethos, it's not something obtained. 
     * I can be happy in a chaotic world, even in negative situations.
     * The goal is to protect this state
@@ -46,7 +51,7 @@ This list is prioritized: not harming others comes before securing my own happin
 * This is not just self confidence, it's not a belief in my skills, it's a beliefe in my value.
 * Core skill is abililitiy to reframe life in a positive light
 
-### 3. Help others
+### 3. Help others {#helpothers}
 * Do the **most** good
 * Sometimes not doing this would interfer with our default happiness / self worth and therefore some level of sacrifice is required
 * Priority order in which I should provide any support I can. Emotional and Material
@@ -56,18 +61,20 @@ This list is prioritized: not harming others comes before securing my own happin
     4. Environment
 * Lift other up
 
-### 4. Believe in People
+## Core Principles {#core}
+
+### Believe in People {#believeinpeople}
 * People are inherently good / Banality of evil
 * I choose to believe in humanity. I believe there is no "evil", just extreme cases of people acting in extreme ways because their circumstances warp and accelerate and basic human desires.
 
-### 5. Don't lie to myself
+### Don't lie to myself {#dontlietomax}
 * Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
 
-### 6. Don't defend my honor, it doesn't need defending
+### Don't defend my honor, it doesn't need defending
 * My integrity is not affected by the opinion of others.
 * It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
 
-### 7. Shit happens, Focus on what I can control and accept what I cannot.
+### Shit happens, Focus on what I can control and accept what I cannot.
 * Dichotomy of control
 * Without obstacles, life would be dull
 * Stop struggling and embrace life without avoiding or seeking.
@@ -79,21 +86,19 @@ This list is prioritized: not harming others comes before securing my own happin
 * Identify what matters, elimnate the rest
 * Practice interrupt coalescing by alowing interruptions and micro-tasks to accumulate in categories, to be delt with all at once at a planned times.
 * Planning and organizing reduces cognative load
+* Inteligence is creating future opportunity, and simplification is one of the best ways to create opportunity
 
-### Inteligence is creating future opportunity
-
-### Live simply
+### Strive to live simply and self sufficient
+* Don't Spend Money
+* Having a craft that can be exchanged for the means of Independence 
+* Independence isn't inherent
 * Consume as little as possible
 * Leave no trace
 * Eat pescitarian
 * Recycle and resuse
 * Avoid plastics
 
-
-### Be self sufficient, but able to accept help
-* Don't Spend Money
-* Having a craft that can be exchanged for the means of Independence 
-* Independence isn't inherent
+### Accept help when needed
 
 ### Don't substitute labor for thinking something through
 
@@ -207,4 +212,3 @@ This list is prioritized: not harming others comes before securing my own happin
 * Someone does ...
 
 </div>
-</div><!-- End Container -->

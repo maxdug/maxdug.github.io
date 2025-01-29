@@ -187,6 +187,7 @@ input {
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: .03em;
   width: 100%;
+  scroll-margin-top: 50px;
 }
 h1,
 h1 a:link,

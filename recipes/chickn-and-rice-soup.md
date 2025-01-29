@@ -9,6 +9,7 @@ class: recipes
 <div class="article" markdown="1">
 
 # Chick'n & Rice Soup
+![Enchiladas Verde](https://maxduggan.com/cvs/cvs-hero.jpg "Enchiladas Verde")
 
 ## Make the Chick'n
 * In large glass bowl, mix together

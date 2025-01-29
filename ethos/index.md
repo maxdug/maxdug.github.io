@@ -12,7 +12,7 @@ class: ethos
 <div markdown="1" style="flex: 1 1 0%; min-width: 200px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
 
 * [My Ethos](#myethos)
-    * [Core Rules](#coreprinciples)
+    * [Core Rules](#corerules)
         1. [Do no harm](#donoharm)
         2. [Be Happy](#behappy)
         3. [Help Others](#helpothers)
@@ -43,7 +43,7 @@ class: ethos
 # My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
 
-## Core Principles {#coreprinciples}
+## Core Rules {#corerules}
 This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)
 
 ### 1. Do no harm {#donoharm}
@@ -81,24 +81,24 @@ This list is prioritized: not harming others comes before securing my own happin
 ### Don't lie to myself {#dontlietomax}
 * Thoughts affect our feelings and actions, allowing myself to fantasize over a lie
 
-### Don't defend my honor, it doesn't need defending
+### Don't defend my honor, it doesn't need defending {#dontdefendhonor}
 * My integrity is not affected by the opinion of others.
 * It becomes easier to not be controled by rage and cortisol in a stressfull situation if I remove any possibility of offence
 
-### Shit happens, Focus on what I can control and accept what I cannot.
+### Shit happens, Focus on what I can control and accept what I cannot. {#shithappens}
 * Dichotomy of control
 * Without obstacles, life would be dull
 * Stop struggling and embrace life without avoiding or seeking.
     * (Pick the handcuffs open calmly, wriggling would just cut up my wrists)
 
 ## Practical Principles {#practicalprinciples}
-### Make tomorrow simpler
+### Make tomorrow simpler {#maketomorrowsimpler}
 * Identify what matters, elimnate the rest
 * Practice interrupt coalescing by alowing interruptions and micro-tasks to accumulate in categories, to be delt with all at once at a planned times.
 * Planning and organizing reduces cognative load
 * Inteligence is creating future opportunity, and simplification is one of the best ways to create opportunity
 
-### Strive to live simply and self sufficient
+### Strive to live simply and self sufficient {#livesimply}
 * Don't Spend Money
 * Having a craft that can be exchanged for the means of Independence 
 * Independence isn't inherent
@@ -108,11 +108,11 @@ This list is prioritized: not harming others comes before securing my own happin
 * Recycle and resuse
 * Avoid plastics
 
-### Accept help when needed
+### Accept help when needed {#accepthelp}
 
-### Don't substitute labor for thinking something through
+### Don't substitute labor for thinking something through {#thinkitthrough}
 
-### Don't live based on an assumed future or past
+### Don't live based on an assumed future or past {#liveinreality}
 * Ability to let go previous visions or expectations
 * Example: Don't wait around on inheritences or "when we have more money" or "when things normalize"
 * Lifetime of trips instead of the trip of a lifetime
@@ -120,13 +120,13 @@ This list is prioritized: not harming others comes before securing my own happin
 * Accept that there is no normal routine, there will always be unique challenges
 
 
-### Prioritize building and maintaining relationships
+### Prioritize building and maintaining relationships {#prioritize people}
 * They take work, but lead to increased happiness and quality of life
 * I value community
 * It only works with those who you can be yourself with
 
 
-### Don't Engage Stupid
+### Don't Engage Stupid {#dont engage}
 * People are neither good nor bad, there is ignorance who talk about others being good or bad ar typically bad.
 * If safe, don't agree with something you don't agree with.
     * It is ok to lie if it will difuse a dangerous situation and not cause additional harm.
@@ -141,7 +141,7 @@ This list is prioritized: not harming others comes before securing my own happin
         * What/ Who they trust
 
 
-### Don't absorb news at face value
+### Don't absorb news at face value {#nonews}
 * News is not reality 
 * Don't check news
 * Don't read, listen or watch the news. When I hear something I will try and confirm with a valid source.

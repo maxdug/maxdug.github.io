@@ -14,6 +14,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 ## Mains
 * [BBQ Tofu & Rice](./bbq-tofu-rice)
 * [Meatloaf, Mashed Potatoes, & Green Beans](./meatloaf)
+* [Potato Wraps with chips](./potato-wraps)
 * [Chick'n & Rice Soup](./chickn-and-rice-soup)
 * [Enchiladas Verde](./enchiladas-verde)
 

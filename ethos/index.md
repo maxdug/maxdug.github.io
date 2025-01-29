@@ -23,6 +23,14 @@ class: ethos
         * [Focus on what I can control & accept what I can't](#dontlietomax)
     * [Practical Principles](#practicalprinciples)
         * [Make tomorrow simpler](#dontlietomax)
+        * [Strive to live simply and self sufficient](#dontlietomax)
+        * [Accept help when needed](#dontlietomax)
+        * [Don't substitute labor for thinking something through](#dontlietomax)
+        * [Don't live based on an assumed future or past](#dontlietomax)
+        * [rioritize building and maintaining relationships](#dontlietomax)
+        * [Don't Engage Stupid](#dontlietomax)
+        * [Don't absorb news at face value](#dontlietomax)
+        * [Make tomorrow simpler](#dontlietomax)
     * [Priorities and Values](#prioritiesandvalues)
         * [To maintain and protect](#prioritiesandvalues)
         * [To activly Pursue](#prioritiesandvalues)
@@ -83,7 +91,6 @@ This list is prioritized: not harming others comes before securing my own happin
 * Without obstacles, life would be dull
 * Stop struggling and embrace life without avoiding or seeking.
     * (Pick the handcuffs open calmly, wriggling would just cut up my wrists)
-
 
 ## Practical Principles {#practicalprinciples}
 ### Make tomorrow simpler

@@ -62,5 +62,7 @@ Serves 4 | 2 hrs
 * ½ cup fine dry bread crumbs
 * 1 cup grated Parmigiano-Reggiano cheese
 * Maple syrup
+* green beans 
+* 5 golden potatoes
 
 </div>

@@ -9,7 +9,7 @@ class: ethos
 <div style="display: flex; flex-flow: row wrap; width: 100%; max-width: 1024px; margin: 0 auto; padding: 0; align-items:flex-start;">
 
 <!-- M E N U -->
-<div markdown="1" style="flex: 1 1 10%; min-width: 300px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
+<div markdown="1" style="flex: 1 1 0%; min-width: 170px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
 
 * [My Ethos](#myethos)
     * [Core Rules](#coreprinciples)
@@ -19,6 +19,8 @@ class: ethos
     * [Core Principles](#coreprinciples)
         * [Believe in People](#believeinpeople)
         * [Don't Lie to Myself](#dontlietomax)
+        * [Don't defend my honor](#believeinpeople)
+        * [Focus on what I can control & accept what I can't](#dontlietomax)
     * [Practical Principles](#practicalprinciples)
         * [Make tomorrow simpler](#dontlietomax)
     * [Priorities and Values](#prioritiesandvalues)
@@ -29,7 +31,7 @@ class: ethos
 </div>
 
 <!-- C O N T E N T -->
-<div style="flex: 1 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">
+<div style="flex: 3 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">
 
 # My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)

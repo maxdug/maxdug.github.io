@@ -9,7 +9,7 @@ class: ethos
 <div style="display: flex; flex-flow: row wrap; width: 100%; max-width: 1024px; margin: 0 auto; padding: 0; align-items:flex-start;">
 
 <!-- M E N U -->
-<div markdown="1" style="flex: 1 1 0%; min-width: 170px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
+<div markdown="1" style="flex: 1 1 0%; min-width: 200px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
 
 * [My Ethos](#myethos)
     * [Core Rules](#coreprinciples)
@@ -19,21 +19,20 @@ class: ethos
     * [Core Principles](#coreprinciples)
         * [Believe in People](#believeinpeople)
         * [Don't Lie to Myself](#dontlietomax)
-        * [Don't defend my honor](#believeinpeople)
-        * [Focus on what I can control & accept what I can't](#dontlietomax)
+        * [Don't defend my honor](#dontdefendmyhonor)
+        * [Focus on what I can control & accept what I can't](#shithappens)
     * [Practical Principles](#practicalprinciples)
-        * [Make tomorrow simpler](#dontlietomax)
-        * [Strive to live simply and self sufficient](#dontlietomax)
-        * [Accept help when needed](#dontlietomax)
-        * [Don't substitute labor for thinking something through](#dontlietomax)
-        * [Don't live based on an assumed future or past](#dontlietomax)
-        * [rioritize building and maintaining relationships](#dontlietomax)
-        * [Don't Engage Stupid](#dontlietomax)
-        * [Don't absorb news at face value](#dontlietomax)
-        * [Make tomorrow simpler](#dontlietomax)
+        * [Make tomorrow simpler](#maketomorrowsimpler)
+        * [Strive to live simply and self sufficient](#livesimply)
+        * [Accept help when needed](#accepthelp)
+        * [Don't substitute labor for thinking something through](#thinkitthrough)
+        * [Don't live based on an assumed future or past](#liveinreality)
+        * [Prioritize building and maintaining relationships](#prioritizepeople)
+        * [Don't Engage Stupid](#dontengage)
+        * [Don't absorb news at face value](#nonews)
     * [Priorities and Values](#prioritiesandvalues)
-        * [To maintain and protect](#prioritiesandvalues)
-        * [To activly Pursue](#prioritiesandvalues)
+        * [To maintain and protect](#tomaintain)
+        * [To activly Pursue](#topersue)
     * [Applications](#applications)
 
 </div>

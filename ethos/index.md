@@ -55,6 +55,7 @@ class: ethos
     </li>
 		<li><a class="xxs" target="external" href="https://codepen.io/eduardoboucas/pen/BNyKwO">No JS Menu - Eduardo Boucas</a></li>
   </ul>
+  </div>
 
 <!-- C O N T E N T -->
 <div style="flex: 3 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">

@@ -1996,7 +1996,7 @@ width: 100%;
   position: fixed;
   z-index: 999;
   top: 10px;
-  right: 10px;
+  left: 10px;
   padding: 10px 10px 0;
   display: inline-block;
   border: 0;
@@ -2068,7 +2068,7 @@ width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
-.nav {
+.burger-nav {
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.5s ease-in-out;
@@ -2083,7 +2083,7 @@ width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
-.burger-check:checked ~ .nav {
+.burger-check:checked ~ .burger-nav {
   max-height: 500px;
   transition: max-height 0.5s ease-in-out;
   padding: 10px 20px;
@@ -2093,13 +2093,13 @@ width: 100%;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
 }
 
-.nav ul {
+.burger-nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.nav li {
+.burger-nav li {
   list-style: none;
 }
 

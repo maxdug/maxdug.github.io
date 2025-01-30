@@ -6,4 +6,4 @@ Attempt is to create a minimalist portfolio site
 * [My Life Philosophy](https://maxduggan.com/ethos)
 
 ### Future
-Pondering moving to elevently over jekyll
+* Pondering moving to elevently with theme eleventy-garden over jekyll

@@ -37,6 +37,25 @@ class: ethos
 
 </div>
 
+<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+  <div class="nav">
+    <ul>
+      <li><a href="#top">Top of Page</a></li>
+      <li><a href="#breakpoints">Breakpoints</a></li>
+      <li><a href="#colors">Colors</a></li>
+      <li><a href="#type">Typography</a></li>
+      <li>
+       <input class="menu-check" id="menu-check" type="checkbox">
+       <label for="menu-check" class="pointer">Icons</label>
+       <ul class="second-level-menu">
+        <li>Action</li>
+        <li>label</li>
+        <li>navigation</li>
+      </ul>
+    </li>
+		<li><a class="xxs" target="external" href="https://codepen.io/eduardoboucas/pen/BNyKwO">No JS Menu - Eduardo Boucas</a></li>
+  </ul>
+
 <!-- C O N T E N T -->
 <div style="flex: 3 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">
 

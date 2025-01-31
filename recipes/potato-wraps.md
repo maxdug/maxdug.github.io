@@ -60,5 +60,24 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
   </button>
 </div>
 
+ <div id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
+ * 5 large Red Potatoes
+* Wrap Tortillas
+* 1 avocado or premad Guacamole
+* BBQ sauce
+* Spinach
+* Scallions
+* Chips
+</div>
+<script>
+  function copyDivToClipboard() {
+      var range = document.createRange();
+      range.selectNode(document.getElementById("grocerylist"));
+      window.getSelection().removeAllRanges(); // clear current selection
+      window.getSelection().addRange(range); // to select text
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();// to deselect
+  }
+</script>
 
 

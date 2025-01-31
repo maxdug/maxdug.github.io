@@ -54,7 +54,7 @@
     <div class="article">
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
-        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerylist">Jump to Grocery Checklist</a></p>
+        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerylist">Jump to Grocery List</a></p>
         <p><img src="{{page.heroimage}}" alt="{{page.description}}" title="{{page.title}}"></p>
         {{ content }}
         <button class="btn-outline" onclick="copyDivToClipboard()">
@@ -64,7 +64,7 @@
         <script>
           function copyDivToClipboard() {
               var range = document.createRange();
-              range.selectNode(document.getElementById("grocerylist"));
+              range.selectNode(document.getElementById("copygrocerylist"));
               window.getSelection().removeAllRanges(); // clear current selection
               window.getSelection().addRange(range); // to select text
               document.execCommand("copy");

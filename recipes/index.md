@@ -12,12 +12,6 @@ class: recipes
 My wife and I are pescitarian, but all of the recipes below are vegitarian or vegan. I like to translate all of the recipes to have ingredient amount inline in the directions. Groccery checklists are at the bottom of each recipe.
 
 ## Mains
-<ul class="post-list">
-{% for post in page.categories.recipes %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
-{% endfor %}
-</ul>
-
 <ul>
   {% for post in site.categories.recipes %}
     {% if post.url %}

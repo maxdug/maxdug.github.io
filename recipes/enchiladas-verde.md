@@ -5,6 +5,8 @@ description: Checklist of daily life
 section: guide
 class: guide
 tags: main
+resource: true
+categories: [recipes]
 ---
 
 <div class="article dark">

@@ -29,6 +29,11 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
   </ul>
 {% endfor %}
 
+#### new tag test
+{% for post in site.tags[page.tag] %}
+<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
+
 ## Ingredients
 ## Bread
 ## Desserts

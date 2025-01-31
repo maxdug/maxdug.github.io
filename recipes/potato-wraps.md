@@ -69,6 +69,9 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Scallions
 * Chips
 </div>
+<button onclick="copyDivToClipboard()">
+  Copy text 2
+</button>
 <script>
   function copyDivToClipboard() {
       var range = document.createRange();

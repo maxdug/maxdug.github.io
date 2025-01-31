@@ -41,9 +41,9 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Finally, add on the potatoes and wrap it up.
 
 
-## Grocery Checklist
+## Grocery Checklist {#grocerychecklist}
 
-<textarea id="myInput" class="js-test-textarea" cols="35" rows="4" markdown="1">
+<textarea id="myInput" cols="35" rows="10" markdown="1">
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -51,7 +51,7 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Spinach
 * Scallions
 * Chips
-  </textarea>
+</textarea>
 
 <div class="tooltip">
 <button onclick="myFunction()" onmouseout="outFunc()">

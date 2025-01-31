@@ -49,6 +49,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 
 #### Category test 5
 <!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
+<ul>
 {% for page in site.pages %}
   {% if page.resource == true %}
     {% if page.categories contains 'recipes' %}
@@ -56,7 +57,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
     {% endif %}
   {% endif %}
 {% endfor %}
-
+</ul>
 
 ## Ingredients
 ## Bread

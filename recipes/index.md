@@ -50,11 +50,10 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 #### Category test 5
 <!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
 {% for page in site.pages %}
-  {% if page.categories contains 'recipes' %}
-    <div class="item">
-      <h3>{{page.title}}</h3>
-      <p>{{page.description}}</p>
-    </div>
+  {% if page.resource == true %}
+    {% if page.categories contains 'recipes' %}
+            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+    {% endif %}
   {% endif %}
 {% endfor %}
 

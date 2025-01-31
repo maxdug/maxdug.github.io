@@ -57,25 +57,21 @@
         <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerychecklist">Jump to Grocery Checklist</a></p>
         <p><img src="{{page.heroimage}}" alt="{{page.description}}" title="{{page.title}}"></p>
         {{ content }}
+        <button class="btn-outline" onclick="copyDivToClipboard()">
+          Copy List
+        </button>
+        
+        <script>
+          function copyDivToClipboard() {
+              var range = document.createRange();
+              range.selectNode(document.getElementById("grocerylist"));
+              window.getSelection().removeAllRanges(); // clear current selection
+              window.getSelection().addRange(range); // to select text
+              document.execCommand("copy");
+              window.getSelection().removeAllRanges();// to deselect
+          }
+        </script>
     </div>
 </main>
 {% include footer.html %}
-
-<script>
-    function myFunction() {
-      var copyText = document.getElementById("myInput");
-      copyText.select();
-      copyText.setSelectionRange(0, 99999);
-      navigator.clipboard.writeText(copyText.value);
-      
-      var tooltip = document.getElementById("myTooltip");
-      tooltip.innerHTML = "Copied: " + copyText.value;
-    }
-    
-    function outFunc() {
-      var tooltip = document.getElementById("myTooltip");
-      tooltip.innerHTML = "Copy to clipboard";
-    }
-</script>
-
 

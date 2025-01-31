@@ -4,11 +4,10 @@ title: Chick'n & Rice Soup
 description: Chick'n & Rice Soup
 section: recipes
 class: recipes
-date:   2019-03-27 15:33:42 -0600
 categories: recipes
 tags: main
 cooktime: 40 minutes
-servingsize: 6 wraps
+servingsize: Serves 4
 heroimage: https://www.foodista.com/sites/default/files/styles/featured/public/field/image/creamy-chicken-wild-rice-soup-large-62131.jpg
 resource: true
 categories: [recipes]

@@ -20,25 +20,11 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
   {% endfor %}
 </ul>
 
+#### Tag test
 {% for tag in site.tags %}
   <h3>{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
-
-#### new tag test
-{% for post in site.tags[page.tag] %}
-<li><a href="{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-
-#### Tag test 3
-{% for tag in site.tags %}
-  <h3>{{ tag[0] }}</h3>
-  <ul>
-    {% for page in tag[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>

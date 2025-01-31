@@ -4,17 +4,13 @@ title: BBQ Tofu & Rice
 description: BBQ Tofu & Rice
 section: recipes
 class: recipes
-date:   2019-03-27 15:33:42 -0600
 categories: recipes
 cooktime: 40 minutes
-servingsize: 6 wraps
-heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandfull-19.jpg?resize=2497%2C3745&ssl=1
+servingsize: Serves 4
+heroimage: https://www.thissavoryvegan.com/wp-content/uploads/2022/04/korean-bbq-tofu-bowls-4-683x1024.jpg
 resource: true
 categories: [recipes]
 ---
-
-# BBQ Tofu & Rice
-![BBQ Tofu & Rice](https://www.thissavoryvegan.com/wp-content/uploads/2022/04/korean-bbq-tofu-bowls-4-683x1024.jpg "BBQ Tofu & Rice")
 
 ## Directions
 * Two and a half hours before serving, start drying out the tofu: Place the slices in a single layer between clean, dry dish towels or double layers of paper towels. Press to remove water from the tofu, and let stand for 2 hours, replacing the soaked towels once or twice, until there is very little water left in the tofu. (You can press and dry the tofu quickly, and use it immediately, but it will be less crisp.)

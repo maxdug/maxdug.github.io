@@ -21,7 +21,6 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 </ul>
 
 * [BBQ Tofu & Rice](./bbq-tofu-rice)
-* [Meatloaf, Mashed Potatoes, & Green Beans](./meatloaf)
 * [Potato Wraps with chips](./potato-wraps)
 * [Chick'n & Rice Soup](./chickn-and-rice-soup)
 * [Enchiladas Verde](./enchiladas-verde)
@@ -29,5 +28,15 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 ## Ingredients
 ## Bread
 ## Desserts
+
+## Grocerly lists
+I include a grocery list for each recipe with a link to copy it to your clipboard. But note that I don't include what I consider frequent ingredients that we always keep in stock. These include:
+* Basic spices: Salt, Garlic Powder, Cumin, etc...
+* Oils: Olive, Vegtable, etc...
+* Rice
+* Bread Flour
+* Bread Crumbs
+* Miso Paste
+* Nutritional Yeast
 
 </div>

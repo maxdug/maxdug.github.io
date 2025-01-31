@@ -23,7 +23,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 ## Desserts
 
 <ul class="post-list">
-{% for post in site.recipes limit:10 %}
+{% for post in site.posts limit:10 %}
   <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
 {% endfor %}
 </ul>

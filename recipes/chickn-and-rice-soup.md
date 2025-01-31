@@ -13,9 +13,6 @@ resource: true
 categories: [recipes]
 ---
 
-# Chick'n & Rice Soup
-![Enchiladas Verde](https://maxduggan.com/cvs/cvs-hero.jpg "Enchiladas Verde")
-
 ## Make the Chick'n
 * In large glass bowl, mix together
     * 1 1/2 teaspoons salt

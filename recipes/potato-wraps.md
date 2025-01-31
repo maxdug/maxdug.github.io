@@ -40,6 +40,14 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Then a layer of scallions
 * Finally, add on the potatoes and wrap it up.
 
+
+
+<div style="display:inline-block; vertical-align:top;">
+  <button class="js-copy-bob-btn">Set clipboard to BOB</button><br /><br />
+  <button class="js-copy-jane-btn">Set clipboard to JANE</button>
+</div>
+<div style="display:inline-block;">
+  <textarea class="js-test-textarea" cols="35" rows="4" markdown="1">
 ## Grocery Checklist
 * 5 large Red Potatoes
 * Wrap Tortillas
@@ -48,3 +56,5 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Spinach
 * Scallions
 * Chips
+  </textarea>
+</div>

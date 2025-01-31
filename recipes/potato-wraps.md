@@ -41,14 +41,9 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Finally, add on the potatoes and wrap it up.
 
 
-
-<div style="display:inline-block; vertical-align:top;">
-  <button class="js-copy-bob-btn">Set clipboard to BOB</button><br /><br />
-  <button class="js-copy-jane-btn">Set clipboard to JANE</button>
-</div>
-<div style="display:inline-block;">
-  <textarea class="js-test-textarea" cols="35" rows="4" markdown="1">
 ## Grocery Checklist
+
+<textarea id="myInput" class="js-test-textarea" cols="35" rows="4" markdown="1">
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -57,4 +52,13 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Scallions
 * Chips
   </textarea>
+
+<div class="tooltip">
+<button onclick="myFunction()" onmouseout="outFunc()">
+  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+  Copy text
+  </button>
 </div>
+
+
+

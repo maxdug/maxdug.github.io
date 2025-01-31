@@ -42,9 +42,8 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Then a layer of scallions
 * Finally, add on the potatoes and wrap it up.
 
-## Grocery List {#grocerylist}
+## Grocery List {#grocerychecklist}
 <div class="full" id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
-
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -52,5 +51,4 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Spinach
 * Scallions
 * Chips
-
 </div>

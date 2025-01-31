@@ -1,7 +1,7 @@
 ---
 layout: recipe
 title: Potato Wraps with chips
-description: Potato Wraps with chips
+description: Potatoes, Guacamole, Spinach, & BBQ Sauce
 section: recipes
 class: recipes
 cooktime: 40 minutes

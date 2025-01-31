@@ -1,0 +1,67 @@
+---
+layout: recipe
+title: Meatloaf, Mashed Potatoes, & Green Beans
+description: Mushroom and lentil Meatloaf
+date:   2019-03-27 15:33:42 -0600
+categories: recipes
+tags: main
+cooktime: 2 hrs
+servingsize: Serves 4
+heroimage: https://www.allrecipes.com/thmb/4SX-CBI-kmLpm0-Qr8SzLq3FGk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/IMG_4013-2000-f431ef022dd848129c2b9140c3d0a8b2.jpg
+---
+
+## Directions
+* Preheat the oven to 375º F 
+* Very generously grease casserole dish
+* Chop 2 lb of mushrooms and add to dutch oven
+* Chop 1 white onion and add to dutch oven
+* Add 2 tablespoons of oil and and sauté about 10 minutes on medium-high heat
+* Add 1 teaspoon salt 
+* Add 2 tablespoons tomato paste
+* Add 2 teaspoons vegtable stock base
+* Add 1 1/2 cups water
+* Add 1 cup of lentils
+* Cook additional 20 minutes
+* Turn off heat and use emersion blender to mash up about 1/2 of the mixture
+* Add 2 tablespoon of bob's redmill egg replacer
+* Add 2 tablespoons soy sauce
+* Add 2 tablespoons olive oil
+* Add 2 teaspoons Worcestershire sauce
+* Add 1 teaspoon onion powder
+* Add 1 teaspoon garlic powder
+* Add 1 teaspoon freshly ground black pepper
+* Add ¼ teaspoon dried oregano
+* Add ¼ teaspoon dried thyme
+* Add 1 pinch cayenne pepper, or to taste
+* Add 2 tablespoons ketchup
+* Add 1 cup fine dry bread crumbs
+* Add 1 cup grated Parmigiano-Reggiano cheese
+* Mix thoroughly and transfer mixture into casserole dish and cover with aluminum foil
+* Bake for 1 hour
+* Remove and Let the loaf sit for 10 to 15 minutes
+* Increase the oven temperature to 450º F
+* While the loaf is resting, mix the glaze together in a small bowl
+    * Add 2 tablespoons of ketchup
+    * Add 1 tablespoon of maple syrup
+* Remove aluminum foil and glaze the meatloaf
+* Return to the oven and bake 15 minutes
+
+## Grocery List {#grocerylist}
+<div class="full" id="copygrocerylist" onclick="copyDivToClipboard()" markdown="1">
+
+* 2 pounds brown mushrooms, sliced
+* 1 white onion
+* 2 tablespoons tomato paste
+* 2 teaspoons beef base (such as Better than Bouillon®)
+* 1 cup cooked black lentils
+* 2 tablespoon of bob's redmill egg replacer
+* 2 tablespoons soy sauce
+* 2 teaspoons Worcestershire sauce
+* 4 tablespoons ketchup
+* ½ cup fine dry bread crumbs
+* 1 cup grated Parmigiano-Reggiano cheese
+* Maple syrup
+* green beans 
+* 5 golden potatoes
+
+</div>

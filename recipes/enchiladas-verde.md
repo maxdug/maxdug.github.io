@@ -4,6 +4,7 @@ title: Max &nbsp;❭&nbsp; Daily Guide
 description: Checklist of daily life
 section: guide
 class: guide
+tags: main
 ---
 
 <div class="article dark">

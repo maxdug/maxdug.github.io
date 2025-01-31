@@ -42,8 +42,7 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 
 
 ## Grocery Checklist {#grocerychecklist}
-
-<div id="myInput" markdown="1" contenteditable>
+<div id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -53,25 +52,8 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Chips
 </div>
 
-<div class="tooltip">
-<button onclick="myFunction()" onmouseout="outFunc()">
-  <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
-  Copy text
-  </button>
-</div>
+<input onclick="copyDivToClipboard() class="btn-outline" type="submit" value="Copy Text">
 
- <div id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
- * 5 large Red Potatoes
-* Wrap Tortillas
-* 1 avocado or premad Guacamole
-* BBQ sauce
-* Spinach
-* Scallions
-* Chips
-</div>
-<button onclick="copyDivToClipboard()">
-  Copy text 2
-</button>
 <script>
   function copyDivToClipboard() {
       var range = document.createRange();

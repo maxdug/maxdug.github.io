@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: recipe
 title: BBQ Tofu & Rice
 description: BBQ Tofu & Rice
 section: recipes
 class: recipes
+date:   2019-03-27 15:33:42 -0600
+categories: recipes
+cooktime: 40 minutes
+servingsize: 6 wraps
+heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandfull-19.jpg?resize=2497%2C3745&ssl=1
 ---
-
-<div class="article" markdown="1">
 
 # BBQ Tofu & Rice
 ![BBQ Tofu & Rice](https://www.thissavoryvegan.com/wp-content/uploads/2022/04/korean-bbq-tofu-bowls-4-683x1024.jpg "BBQ Tofu & Rice")
@@ -25,7 +28,9 @@ class: recipes
 * Broil, turning once, until the sauce thickens and bubbles, 2 to 3 minutes per side. 
 * Serve hot.
 
-## Grocery Checklist
+## Grocery List {#grocerylist}
+<div class="full" id="copygrocerylist" onclick="copyDivToClipboard()" markdown="1">
+
 * 1 pound extra-firm tofu, cut into 1/2-inch slices
 * 1 tablespoon vegetable oil
 * 1 tablespoon unsalted butter or vegan butter

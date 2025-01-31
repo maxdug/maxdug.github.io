@@ -1,12 +1,15 @@
 ---
-layout: default
+layout: recipe
 title: Chick'n & Rice Soup
 description: Chick'n & Rice Soup
 section: recipes
 class: recipes
+date:   2019-03-27 15:33:42 -0600
+categories: recipes
+cooktime: 40 minutes
+servingsize: 6 wraps
+heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandfull-19.jpg?resize=2497%2C3745&ssl=1
 ---
-
-<div class="article" markdown="1">
 
 # Chick'n & Rice Soup
 ![Enchiladas Verde](https://maxduggan.com/cvs/cvs-hero.jpg "Enchiladas Verde")
@@ -38,7 +41,9 @@ class: recipes
 * Make Carrots optional
 * Cut chickn pieces into smaller pieces (Sugar cube size)
 
-## Grocery Checklist
+## Grocery List {#grocerylist}
+<div class="full" id="copygrocerylist" onclick="copyDivToClipboard()" markdown="1">
+
 * 1 1/2 cups (180g) vital wheat gluten
 * 1 medium yellow onion
 * 2 cups carrots

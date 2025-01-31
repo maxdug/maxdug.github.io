@@ -20,11 +20,6 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
   {% endfor %}
 </ul>
 
-* [BBQ Tofu & Rice](./bbq-tofu-rice)
-* [Potato Wraps with chips](./potato-wraps)
-* [Chick'n & Rice Soup](./chickn-and-rice-soup)
-* [Enchiladas Verde](./enchiladas-verde)
-
 ## Ingredients
 ## Bread
 ## Desserts

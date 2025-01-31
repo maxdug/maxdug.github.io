@@ -12,6 +12,11 @@ class: recipes
 My wife and I are pescitarian, but all of the recipes below are vegitarian or vegan. I like to translate all of the recipes to have ingredient amount inline in the directions. Groccery checklists are at the bottom of each recipe.
 
 ## Mains
+<ul class="post-list">
+{% for post in page.categories.recipes %}
+  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
+{% endfor %}
+</ul>
 * [BBQ Tofu & Rice](./bbq-tofu-rice)
 * [Meatloaf, Mashed Potatoes, & Green Beans](./meatloaf)
 * [Potato Wraps with chips](./potato-wraps)
@@ -21,11 +26,5 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 ## Ingredients
 ## Bread
 ## Desserts
-
-<ul class="post-list">
-{% for post in category.recipes %}
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></article></li>
-{% endfor %}
-</ul>
 
 </div>

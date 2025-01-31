@@ -43,7 +43,7 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 
 ## Grocery Checklist {#grocerychecklist}
 
-<div id="myInput" markdown="1">
+<div id="myInput" markdown="1" contenteditable>
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole

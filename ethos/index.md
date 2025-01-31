@@ -59,6 +59,9 @@ class: ethos
 <!-- C O N T E N T -->
 <div style="flex: 3 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">
 
+* Incorporate Personal Policies
+    * My more practical specific to me policies like I don't drink here or I don't loan money to friends or ... These are a great way to say no to people. You say I don't do XYZ, its against my policy. People tend to respect this more than a specific reason for saying no.
+
 # My Ethos {#myethos}
 I believe the purpose of life is to live - interacting with the world, eating, sleeping, and having fun. This is a collection ethical guidelines for my thoughts and actions, rather than ideals about how the world should be. I organize it here to help me organize it in my mind. (Lot's of organization needed)
 

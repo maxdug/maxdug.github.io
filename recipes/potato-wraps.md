@@ -43,7 +43,7 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 
 ## Grocery Checklist {#grocerychecklist}
 
-<textarea id="myInput" cols="35" rows="10" markdown="1">
+<div id="myInput" markdown="1">
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -51,7 +51,7 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Spinach
 * Scallions
 * Chips
-</textarea>
+</div>
 
 <div class="tooltip">
 <button onclick="myFunction()" onmouseout="outFunc()">

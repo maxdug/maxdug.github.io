@@ -17,7 +17,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 {% for page in site.pages %}
   {% if page.resource == true %}
     {% if page.categories contains 'recipes' %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+            <li><a href="{{ page.url }}">{{ page.title }} | {{ page.cooktime }} | {{ page.servingsize }}</a></li>
     {% endif %}
   {% endif %}
 {% endfor %}

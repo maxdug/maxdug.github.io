@@ -42,8 +42,9 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Then a layer of scallions
 * Finally, add on the potatoes and wrap it up.
 
-## Grocery Checklist {#grocerychecklist}
-<div id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
+## Grocery List {#grocerylist}
+<div class="full" id="grocerylist" onclick="copyDivToClipboard()" markdown="1">
+
 * 5 large Red Potatoes
 * Wrap Tortillas
 * 1 avocado or premad Guacamole
@@ -51,17 +52,5 @@ heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandf
 * Spinach
 * Scallions
 * Chips
+
 </div>
-
-<input onclick="copyDivToClipboard() class="btn-outline" type="submit" value="Copy Text">
-
-<script>
-  function copyDivToClipboard() {
-      var range = document.createRange();
-      range.selectNode(document.getElementById("grocerylist"));
-      window.getSelection().removeAllRanges(); // clear current selection
-      window.getSelection().addRange(range); // to select text
-      document.execCommand("copy");
-      window.getSelection().removeAllRanges();// to deselect
-  }
-</script>

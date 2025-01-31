@@ -54,7 +54,7 @@
     <div class="article">
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
-        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerychecklist">Jump to Grocery Checklist</a></p>
+        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerylist">Jump to Grocery Checklist</a></p>
         <p><img src="{{page.heroimage}}" alt="{{page.description}}" title="{{page.title}}"></p>
         {{ content }}
         <button class="btn-outline" onclick="copyDivToClipboard()">
@@ -74,4 +74,3 @@
     </div>
 </main>
 {% include footer.html %}
-

@@ -31,6 +31,7 @@ My wife and I are pescitarian, but all of the recipes below are vegitarian or ve
 {% endfor %}
 
 #### Category test 4
+<!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
 {% for cat in site.category-list %}
 ### {{ cat }}
 <ul>

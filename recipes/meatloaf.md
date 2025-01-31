@@ -7,6 +7,8 @@ categories: recipes
 cooktime: 2 hrs
 servingsize: Serves 4
 heroimage: https://www.allrecipes.com/thmb/4SX-CBI-kmLpm0-Qr8SzLq3FGk4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/IMG_4013-2000-f431ef022dd848129c2b9140c3d0a8b2.jpg
+resource: true
+categories: [recipes]
 ---
 
 ## Directions

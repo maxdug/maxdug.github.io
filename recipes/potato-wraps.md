@@ -1,5 +1,5 @@
 ---
-layout: recipe
+layout: default
 title: Potato Wraps with chips
 description: Potato Wraps with chips
 section: recipes

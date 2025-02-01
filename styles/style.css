@@ -2161,7 +2161,6 @@ body.recipes {
   background-color: linen;
 }
 
-
 body.recipes h1 {
   font-size: 48px;
   margin: 30px 0 16px;
@@ -2185,4 +2184,8 @@ body.recipes p {
   font-size: 22px;
   margin: 0 0 16px;
   line-height: 19px;
+}
+
+body.recipes ul {
+  margin: 0 0 32px;
 }

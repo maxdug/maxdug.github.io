@@ -1,5 +1,6 @@
 ---
 layout: recipe
+section: recipes
 title: Meatloaf, Mashed Potatoes, & Green Beans
 description: Mushroom and lentil Meatloaf
 cooktime: 2 1/2 hrs

@@ -105,4 +105,4 @@ categories: [recipes]
 
 </div>
 
-![{{page.description}}](./meatloaf-plated.jpg "{{page.title}}")
+![{{page.description}}](./meatloaf-out-of-oven.jpg "{{page.title}}")

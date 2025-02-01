@@ -2194,3 +2194,10 @@ body.recipes ul {
 body.recipes li ul {
   margin-top: 8px;
 }
+
+body.recipes {
+  h1, h2, h3, h4, h5, h6, p {
+    margin: -0.8% 0 16px 0;
+    line-height: 140%;
+  }
+}

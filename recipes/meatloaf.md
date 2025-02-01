@@ -2,7 +2,6 @@
 layout: recipe
 title: Meatloaf, Mashed Potatoes, & Green Beans
 description: Mushroom and lentil Meatloaf
-categories: recipes
 cooktime: 2 1/2 hrs
 servingsize: Serves 6
 heroimage: ./meatloaf-plated.jpg
@@ -18,10 +17,9 @@ categories: [recipes]
 * Saute for 5 minutes
 * Start choping 16oz of mushrooms while onions are sauteing
 * Sauté additional 5 minutes on medium-high heat
-* Add 1 teaspoon salt 
 * Add 1 tablespoon of minced garlic
 * Add 2 tablespoons tomato paste
-* Add 2 teaspoons vegtable stock base
+* Add 1 teaspoons vegtable stock base (Better than bullion)
 * Add 1 cup water
 * Add 3/4 cup of lentils and cover
 * Cook for 20 minutes stiring every 5 minutes
@@ -63,14 +61,16 @@ categories: [recipes]
 ### Makin Gravy
 * Add 3 tablespoons olive oil to large large and set to medium heat
 * Add 1/2 cup of milk (Dairy or alternative at any cream level)
-* Add 1/2 cup of veggie broth
-* Stir in 1 tablespoon of amino acids (or soy sauce)
+* Add 1/2 cup of water
+* Add 1 teaspoons vegtable stock base (Better than bullion)
+* Stir in 2 tablespoons of amino acids (or soy sauce)
 * Add a 1/4 teaspoon of salt
 * Add a 1/4 teaspoon of garlic powder
 * Add a 1/2 teaspoon of onion powder
 * generously pepper
-* Add 1 tsp GravyMaster®
-* Sift in the 1/4 cup flour and cook, stirring frequently, for three minutes to thicken.
+* Add 2 tsp GravyMaster®
+* Sift in the 1/4 cup flour
+* cook, stirring frequently, for three minutes to thicken
 
 ### Back to Meatloaf
 * Increase the oven temperature to 450º F

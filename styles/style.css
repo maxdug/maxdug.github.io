@@ -2160,3 +2160,29 @@ body.recipes {
   font-size: 20px;
   background-color: linen;
 }
+
+
+body.recipes h1 {
+  font-size: 48px;
+  margin: 30px 0 16px;
+  line-height: 48px;
+}
+
+body.recipes h2 {
+  font-size: 36px;
+  margin: 0 0 24px;
+  line-height: 26px;
+}
+
+body.recipes h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 16px;
+  line-height: 20px;
+}
+
+body.recipes p {
+  font-size: 22px;
+  margin: 0 0 16px;
+  line-height: 19px;
+}

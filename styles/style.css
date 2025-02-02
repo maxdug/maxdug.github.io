@@ -2226,6 +2226,7 @@ body.recipes {
     height: 350px;
     border: 2px solid black;
     border-radius: 10px;
+    margin-bottom: 24px;
   }
   .btn-outline {
     cursor: pointer;

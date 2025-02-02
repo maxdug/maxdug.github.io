@@ -2202,7 +2202,7 @@ body.recipes {
     padding-bottom: 16px;
   }
   ul {
-    padding: 0 0 24px 20px;
+    padding: 0 0 24px 32px;
     margin: 0;
     list-style: var(--list-bullet);  
   }

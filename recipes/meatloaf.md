@@ -105,5 +105,3 @@ categories: [recipes]
 * GravyMaster®
 
 </div>
-
-![{{page.description}}](./meatloaf-out-of-oven.jpg "{{page.title}}")

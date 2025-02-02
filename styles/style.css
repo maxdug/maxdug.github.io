@@ -2196,8 +2196,32 @@ body.recipes li ul {
 }
 
 body.recipes {
-  h1, h2, h3, h4, h5, h6, p {
-    margin: -0.8% 0 16px 0;
-    line-height: 140%;
+  h1, h2, h3, h4, p {
+    padding: 0 0 24px;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 90%;
+    margin: -0.2em 0;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 110%;
+    margin: -0.34em 0;
+  }
+  h3 {
+    font-size: 32px;
+    line-height: 110%;
+    margin: -0.36em 0;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 110%;
+    margin: -0.38em 0;
+  }
+  p {
+    font-size: 16px;
+    line-height: 110%;
+    margin: -0.4em 0;
   }
 }

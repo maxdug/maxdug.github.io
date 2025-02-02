@@ -12,7 +12,7 @@ class: recipes
 This page is a work in progress - I'm slowly bringing in my recipes from my notes app. All of the recipes below are vegitarian or vegan. Ingredient amounts are place inline in the directions. Groccery lists are at the bottom of each recipe.
 </div>
 
-<div class="article container">
+<div class="article container" markdown="1">
   <div class="half" markdown="1">
 
   ## Mains

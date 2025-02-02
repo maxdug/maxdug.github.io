@@ -2212,7 +2212,7 @@ body.recipes {
   img {
     margin-bottom: 24px;
   }
-  ul > li::before {
+  /* ul > li::before {
     --dark-mode-invert-filter: var(--list-bullet-dark-mode-invert-filter);
     content: var(--list-bullet);
     position: absolute;
@@ -2224,5 +2224,9 @@ body.recipes {
     height: 1em;
     line-height: 1;
     opacity: var(--list-bullet-opacity);
+  } */
+  li::marker {
+    font-size: 36px;
+    line-height: 0;
   }
 }

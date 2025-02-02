@@ -2158,41 +2158,9 @@ ul.second-level-menu {
 
 body.recipes {
   font-family: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
-  font-size: 20px;
+  font-size: 18px;
   background-color: linen;
-}
-
-body.recipes h1 {
-  font-size: 48px;
-  margin: 30px 0 16px;
-  line-height: 48px;
-}
-
-body.recipes h2 {
-  font-size: 36px;
-  margin: 0 0 24px;
-  line-height: 26px;
-}
-
-body.recipes h3 {
-  font-size: 24px;
-  font-weight: bold;
-  margin: 0 0 16px;
-  line-height: 20px;
-}
-
-body.recipes p {
-  font-size: 22px;
-  margin: 0 0 24px;
-  line-height: 30px;
-}
-
-body.recipes ul {
-  margin: 0 0 32px;
-}
-
-body.recipes li ul {
-  margin-top: 8px;
+  padding-top: 50px;
 }
 
 body.recipes {
@@ -2217,15 +2185,22 @@ body.recipes {
     padding: 0 0 16px;
   }
   h4 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 110%;
     margin: -0.38em 0;
     padding: 0 0 16px;
   }
   p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 110%;
     margin: -0.4em 0;
     padding: 0 0 16px;
+  }
+  ul {
+    margin: 0 0 32px;
+  }
+  
+  li ul {
+    margin-top: 8px;
   }
 }

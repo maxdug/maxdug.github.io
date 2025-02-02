@@ -2164,37 +2164,35 @@ body.recipes {
 }
 
 body.recipes {
+  h1, h2, h3, h4 {
+    font-weight: bold;
+    padding-bottom: 24px;
+  }
   h1 {
     font-size: 48px;
     line-height: 90%;
-    margin: -0.2em 0;
-    padding: 0 0 24px;
-    font-weight: bold;
+    margin: -0.03em 0 -0.19em;
   }
   h2 {
     font-size: 40px;
     line-height: 110%;
-    margin: -0.34em 0;
-    padding: 0 0 24px;
-    font-weight: bold;
+    margin: -0.12em 0 -0.29em;
   }
   h3 {
     font-size: 24px;
     line-height: 110%;
-    margin: -0.38em 0;
-    padding: 0 0 16px;
+    margin: -0.11em 0 -0.3em;
   }
   h4 {
     font-size: 22px;
     line-height: 110%;
-    margin: -0.38em 0;
-    padding: 0 0 16px;
+    margin: -0.11em 0 -0.29em;
   }
   p {
     font-size: 18px;
     line-height: 110%;
-    margin: -0.4em 0;
-    padding: 0 0 16px;
+    margin: -0.13em 0 -0.3em;
+    padding-bottom: 24px;
   }
   ul {
     margin: 0 0 32px;

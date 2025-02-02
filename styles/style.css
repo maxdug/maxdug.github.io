@@ -2191,14 +2191,14 @@ body.recipes {
   }
   p {
     font-size: 18px;
-    line-height: 110%;
-    margin: -0.13em 0 -0.3em;
+    line-height: 140%;
+    margin: -0.27em 0 -0.43em;
     padding-bottom: 24px;
   }
   li {
     font-size: 18px;
-    line-height: 110%;
-    margin: -0.13em 0 -0.3em;
+    line-height: 140%;
+    margin: -0.27em 0 -0.43em;
     padding-bottom: 16px;
   }
   ul {
@@ -2212,21 +2212,11 @@ body.recipes {
   img {
     margin-bottom: 24px;
   }
-  /* ul > li::before {
-    --dark-mode-invert-filter: var(--list-bullet-dark-mode-invert-filter);
-    content: var(--list-bullet);
-    position: absolute;
-    z-index: 1;
-    display: block;
-    left: calc(var(--list-left-padding) - 1.375em);
-    top: 0.35em;
-    width: 0.75em;
-    height: 1em;
-    line-height: 1;
-    opacity: var(--list-bullet-opacity);
-  } */
   li::marker {
     font-size: 36px;
     line-height: 0;
+  }
+  b, strong {
+    font-weight: bold;
   }
 }

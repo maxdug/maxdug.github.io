@@ -10,22 +10,66 @@ class: recipes
 
 # Recipes
 This page is a work in progress - I'm slowly bringing in my recipes from my notes app. All of the recipes below are vegitarian or vegan. Ingredient amounts are place inline in the directions. Groccery lists are at the bottom of each recipe.
+</div>
 
-## Mains
-<!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
-<ul>
-{% for page in site.pages %}
-  {% if page.resource == true %}
-    {% if page.categories contains 'recipes' %}
-            <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
+<div class="article container">
+  <div class="half" markdown="1">
+
+  ## Mains
+  <!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
+  <ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% if page.categories contains 'recipes' %}
+              <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
+      {% endif %}
     {% endif %}
-  {% endif %}
-{% endfor %}
-</ul>
+  {% endfor %}
+  </ul>
+  </div>
 
-## Ingredients
-## Bread
-## Desserts
+  <div class="half" markdown="1">
+
+  ## Ingredients
+  <ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% if page.categories contains 'recipes' %}
+              <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+  </div>
+
+  <div class="half" markdown="1">
+
+  ## Bread
+  <ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% if page.categories contains 'recipes' %}
+              <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+  </div>
+
+  <div class="half" markdown="1">
+
+  ## Desserts
+  <ul>
+  {% for page in site.pages %}
+    {% if page.resource == true %}
+      {% if page.categories contains 'recipes' %}
+              <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+  </div>
+</div>
 
 ## Grocery Lists
 I include a grocery list for each recipe with a link to copy it to your clipboard. But note that I don't include what I consider frequent ingredients that we always keep in stock. These include:

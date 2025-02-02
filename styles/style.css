@@ -2212,4 +2212,17 @@ body.recipes {
   img {
     margin-bottom: 24px;
   }
+  ul > li::before {
+    --dark-mode-invert-filter: var(--list-bullet-dark-mode-invert-filter);
+    content: var(--list-bullet);
+    position: absolute;
+    z-index: 1;
+    display: block;
+    left: calc(var(--list-left-padding) - 1.375em);
+    top: 0.35em;
+    width: 0.75em;
+    height: 1em;
+    line-height: 1;
+    opacity: var(--list-bullet-opacity);
+  }
 }

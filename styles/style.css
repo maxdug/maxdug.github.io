@@ -2174,9 +2174,9 @@ body.recipes {
     margin: -0.03em 0 -0.19em;
   }
   h2 {
-    font-size: 40px;
+    font-size: 36px;
     line-height: 110%;
-    margin: -0.12em 0 -0.29em;
+    margin: -0.12em 0 -0.3em;
   }
   h3 {
     font-size: 24px;
@@ -2195,10 +2195,9 @@ body.recipes {
     padding-bottom: 24px;
   }
   ul {
-    margin: 0 0 32px;
+    padding: 0 0 24px;
   }
-  
   li ul {
-    margin-top: 8px;
+    padding: 8px 0 0;
   }
 }

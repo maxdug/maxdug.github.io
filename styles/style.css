@@ -95,6 +95,7 @@ body {
   --primary: hsl(324, 100%, 45.5%); /* pink */
   --primary-gradient: radial-gradient(hsl(230, 100%, 70%), hsl(190, 100%, 50%));
   --primary-gradient: radial-gradient(hsl(324, 100%, 70%), hsl(324, 100%, 50%));
+  --list-bullet: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10"><path d="M 5 0 C 4 4 4 4 0 5 C 4 6 4 6 5 10 C 6 6 6 6 10 5 C 6 4 6 4 5 0 z M 5 2.5 C 5.5 4.5 5.5 4.5 7.5 5 C 5.5 5.5 5.5 5.5 5 7.5 C 4.5 5.5 4.5 5.5 2.5 5 C 4.5 4.5 4.5 4.5 5 2.5 z"/></svg>')
 }
 
 .video {
@@ -2203,7 +2204,8 @@ body.recipes {
   ul {
     padding: 0 0 24px 20px;
     margin: 0;
-    list-style: circle;  }
+    list-style: var(--list-bullet);  
+  }
   li ul {
     padding: 8px 0 0;
   }

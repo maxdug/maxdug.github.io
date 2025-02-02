@@ -6,9 +6,6 @@
         <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="#grocerylist">Jump to Grocery List</a> | <a class="btn-outline" onclick="copyDivToClipboard()">Copy List</a> | <a href="/recipes">View All Recipes</a></p>
         <img src="{{page.heroimage}}" alt="{{page.description}}" title="{{page.title}}">
         {{ content }}
-        <button class="btn-outline" onclick="copyDivToClipboard()">
-          Copy List
-        </button>
         <p>{{ page.cooktime }} | {{ page.servingsize }} | <a href="">Jump to Top</a> | <a class="btn-outline" onclick="copyDivToClipboard()">Copy List</a> | <a href="/recipes">View All Recipes</a></p>
         <script>
           function copyDivToClipboard() {

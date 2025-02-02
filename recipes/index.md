@@ -27,7 +27,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
 ## Bread
 ## Desserts
 
-## Grocerly lists
+## Grocery Lists
 I include a grocery list for each recipe with a link to copy it to your clipboard. But note that I don't include what I consider frequent ingredients that we always keep in stock. These include:
 * Basic spices: Salt, Garlic Powder, Cumin, etc...
 * Oils: Olive, Vegtable, etc...

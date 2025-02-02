@@ -2224,4 +2224,7 @@ body.recipes {
     width: 100%;
     height: 300px;
   }
+  .btn-outline {
+    cursor: pointer;
+  }
 }

@@ -17,20 +17,20 @@
               window.getSelection().removeAllRanges();// to deselect
           }
         </script>
+        <script>
+          var elem = document.getElementById("recipes");
+          function openFullscreen() {
+            if (elem.requestFullscreen) {
+              elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+              elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+              elem.msRequestFullscreen();
+            }
+          }
+          </script>
     </div>
 </main>
 {% include footer.html %}
 
 
-<script>
-  var elem = document.getElementById("recipes");
-  function openFullscreen() {
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) { /* Safari */
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE11 */
-      elem.msRequestFullscreen();
-    }
-  }
-  </script>

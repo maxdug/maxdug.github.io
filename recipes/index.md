@@ -71,6 +71,8 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
   </div>
 </div>
 
+<div class="article" markdown="1">
+
 ## Grocery Lists
 I include a grocery list for each recipe with a link to copy it to your clipboard. But note that I don't include what I consider frequent ingredients that we always keep in stock. These include:
 * Basic spices: Salt, Garlic Powder, Cumin, etc...

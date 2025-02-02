@@ -3,7 +3,7 @@
     <div class="article">
         <h1>{{ page.title }}</h1>
         <p>{{ page.description }}</p>
-        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a class="btn-outline" onclick="copyDivToClipboard()">Copy Grocery List</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
+        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a onclick="copyDivToClipboard()">Copy Grocery List</a> | <a onclick="copenFullscreen()">Fullscreen</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
         <div id="recipe-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
         {{ content }}
         <p>{{ page.cooktime }} | {{ page.servingsize }} | <a class="btn-outline" onclick="copyDivToClipboard()">Copy Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
@@ -20,3 +20,17 @@
     </div>
 </main>
 {% include footer.html %}
+
+
+<script>
+  var elem = document.getElementById("recipes");
+  function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+  }
+  </script>

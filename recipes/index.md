@@ -12,10 +12,10 @@ class: recipes
 This page is a work in progress - I'm slowly bringing in my recipes from my notes app. All of the recipes below are vegitarian or vegan. Ingredient amounts are place inline in the directions. Groccery lists are at the bottom of each recipe.
 </div>
 
-<div class="article container" markdown="1">
+<div class="article container">
   <div class="half" markdown="1">
 
-  ## Mains
+## Mains
   <!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
   <ul>
   {% for page in site.pages %}
@@ -30,7 +30,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
 
   <div class="half" markdown="1">
 
-  ## Ingredients
+## Ingredients
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
@@ -44,7 +44,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
 
   <div class="half" markdown="1">
 
-  ## Bread
+## Bread
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
@@ -58,7 +58,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
 
   <div class="half" markdown="1">
 
-  ## Desserts
+## Desserts
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}

@@ -76,6 +76,17 @@
                   });
               }
             </script>
+                <button onclick="changeFontSize(1)">Increase Font Size</button>
+                <button onclick="changeFontSize(-1)">Decrease Font Size</button>
+            
+                <script>
+                    function changeFontSize(delta) {
+                        const body = document.body;
+                        const currentSize = window.getComputedStyle(body).fontSize;
+                        const newSize = parseFloat(currentSize) + delta; // Adjust the font size
+                        body.style.fontSize = newSize + 'px'; // Set the new font size
+                    }
+                </script>
     </div>
 </main>
 {% include footer.html %}

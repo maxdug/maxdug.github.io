@@ -2228,7 +2228,7 @@ body.recipes {
     border-radius: 10px;
     margin-bottom: 24px;
   }
-  .btn-outline {
+  a {
     cursor: pointer;
   }
 }

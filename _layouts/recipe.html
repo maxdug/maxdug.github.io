@@ -1,12 +1,13 @@
 {% include header.html %}
 <main>
     <div class="article">
+        <p>{{ page.cooktime }} | {{ page.servingsize }}</p>
         <h1>{{ page.title }}</h1>
-        <p>{{ page.cooktime }} | {{ page.servingsize }} | {{ page.description }}</p>
+        <p>{{ page.description }}</p>
         <p><a onclick="copyDivToClipboard()">Copy Grocery List</a> | <a onclick="openFullscreen()">Fullscreen</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
 
 
-          <a onclick="changeFontSize(0.1)">Increase Font Size</a> | <a onclick="changeFontSize(-0.1)">Decrease Font Size</a> | <a onclick="resetFontSize()">Reset Font Size</a>
+        <p><a onclick="changeFontSize(0.1)">Increase Font Size</a> | <a onclick="changeFontSize(-0.1)">Decrease Font Size</a> | <a onclick="resetFontSize()">Reset Font Size</a></p>
 
         <div id="recipe-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
         {{ content }}

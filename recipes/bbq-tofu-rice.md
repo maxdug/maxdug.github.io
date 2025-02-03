@@ -7,7 +7,7 @@ class: recipes
 categories: recipes
 cooktime: 40 minutes
 servingsize: Serves 4
-heroimage: https://www.thissavoryvegan.com/wp-content/uploads/2022/04/korean-bbq-tofu-bowls-4-683x1024.jpg
+heroimage: ./bbq-tofu.jpg
 resource: true
 categories: [recipes]
 ---

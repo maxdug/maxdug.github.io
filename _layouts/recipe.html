@@ -3,9 +3,11 @@
     <div class="article">
         <h1>{{ page.title }}</h1>
         <p>{{ page.cooktime }} | {{ page.servingsize }} | {{ page.description }}</p>
-        <p><a onclick="copyDivToClipboard()">Copy Grocery List</a> | <a onclick="openFullscreen()">Fullscreen</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a>          <a id="btn-decrease" class="btn btn-default" type="button">A-/a>
-          <a id="btn-orig" class="btn btn-default" type="button">A</a>
-          <a onclick="changeFontSize()" >A+</a></p>
+        <p><a onclick="copyDivToClipboard()">Copy Grocery List</a> | <a onclick="openFullscreen()">Fullscreen</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
+
+
+          <a onclick="changeFontSize(1)">Increase Font Size</a> | <a onclick="changeFontSize(-1)">Decrease Font Size</a> | <a onclick="resetFontSize()">Reset Font Size</a>
+
         <div id="recipe-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
         {{ content }}
         <p>{{ page.cooktime }} | {{ page.servingsize }} | <a class="btn-outline" onclick="copyDivToClipboard()">Copy Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
@@ -45,48 +47,23 @@
               }
             }
             </script>
-            <script>
-              var $affectedElements = $("p, h1, h2, h3, h4, h5, h6"); // Can be extended, ex. $("div, p, span.someClass")
+    <script>
+      function changeFontSize(delta) {
+          const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+          elements.forEach(element => {
+              const currentSize = window.getComputedStyle(element).fontSize;
+              const newSize = parseFloat(currentSize) + delta; // Adjust the font size in em
+              element.style.fontSize = newSize + 'em'; // Set the new font size
+          });
+      }
 
-              // Storing the original size in a data attribute so size can be reset
-              $affectedElements.each( function(){
-                var $this = $(this);
-                $this.data("orig-size", $this.css("font-size") );
-              });
-
-              $("#btn-increase").click(function(){
-                changeFontSize(1);
-              })
-
-              $("#btn-decrease").click(function(){
-                changeFontSize(-1);
-              })
-
-              $("#btn-orig").click(function(){
-                $affectedElements.each( function(){
-                      var $this = $(this);
-                      $this.css( "font-size" , $this.data("orig-size") );
-                });
-              })
-
-              function changeFontSize(direction){
-                  $affectedElements.each( function(){
-                      var $this = $(this);
-                      $this.css( "font-size" , parseInt($this.css("font-size"))+direction );
-                  });
-              }
-            </script>
-                <button onclick="changeFontSize(1)">Increase Font Size</button>
-                <button onclick="changeFontSize(-1)">Decrease Font Size</button>
-            
-                <script>
-                    function changeFontSize(delta) {
-                        const body = document.body;
-                        const currentSize = window.getComputedStyle(body).fontSize;
-                        const newSize = parseFloat(currentSize) + delta; // Adjust the font size
-                        body.style.fontSize = newSize + 'px'; // Set the new font size
-                    }
-                </script>
+      function resetFontSize() {
+          const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+          elements.forEach(element => {
+              element.style.fontSize = '1em'; // Reset to default font size
+          });
+      }
+  </script>
     </div>
 </main>
 {% include footer.html %}

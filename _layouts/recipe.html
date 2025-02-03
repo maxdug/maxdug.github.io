@@ -48,7 +48,24 @@
               }
             }
             </script>
-    <script>
+                <script>
+                  function changeFontSize(delta) {
+                      const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+                      elements.forEach(element => {
+                          const currentSize = parseFloat(window.getComputedStyle(element).fontSize);
+                          const newSize = currentSize + (delta * 16); // Convert em to px for calculation
+                          element.style.fontSize = newSize / 16 + 'em'; // Set the new font size in em
+                      });
+                  }
+          
+                  function resetFontSize() {
+                      const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+                      elements.forEach(element => {
+                          element.style.fontSize = '1em'; // Reset to default font size
+                      });
+                  }
+              </script>
+    <!-- <script>
       function changeFontSize(delta) {
           const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
           elements.forEach(element => {
@@ -64,7 +81,7 @@
               element.style.fontSize = '1em'; // Reset to default font size
           });
       }
-  </script>
+  </script> -->
     </div>
 </main>
 {% include footer.html %}

@@ -5,35 +5,39 @@ description: BBQ Tofu & Rice
 section: recipes
 class: recipes
 categories: recipes
-cooktime: 40 minutes
-servingsize: Serves 4
+cooktime: 30 minutes + Pre-work
+servingsize: Serves 3
 heroimage: ./bbq-tofu.jpg
 resource: true
 categories: [recipes]
 ---
 
 ## Directions
-* Two and a half hours before serving, start drying out the tofu: Place the slices in a single layer between clean, dry dish towels or double layers of paper towels. Press to remove water from the tofu, and let stand for 2 hours, replacing the soaked towels once or twice, until there is very little water left in the tofu. (You can press and dry the tofu quickly, and use it immediately, but it will be less crisp.)
-* Heat a broiler to its highest setting. Heat a large skillet over medium and add the oil and butter, swirling to cover the bottom. 
-* Pour the tamari into a small, shallow dish. 
-* Press the tofu one last time. 
-* Quickly dip both sides of a single slice in the tamari and place it in the skillet. 
-    * (Be careful as the liquid may lead to hot pops from the oil.) 
-    * Repeat with the remaining tofu slices and tamari.
-* Cook until the tofu gets the same beautiful golden brown on both sides, 2 to 3 minutes per side. 
-* While the tofu browns, spread half of the barbecue sauce on a small rimmed baking sheet. 
-* Transfer the tofu to the barbecue sauce on the sheet, then cover with the remaining sauce. 
-* Broil, turning once, until the sauce thickens and bubbles, 2 to 3 minutes per side. 
-* Serve hot.
+* Two and a half hours before serving, drain tofu and cut tofu into cubes
+* Place back in tofu tub and place in freezer
+* Mix sauce in medium-large metal bowl
+    * 2 tablespoons ketchup
+    * 1 tablespoon sriracha
+    * 4 tablespoons bbq sauce
+    * few drops of liquid smoke
+* Heat oven to 400 on convection
+* Start 1 cup of rice
+* Line a baking sheet with partment paper
+* Spread out tofu on partchment paper
+* Use silicon brush to add a good glob of sauce on each tofu
+* Bake 10 minutes and flip
+* Resauce and sprinkle with sesame seads
+* Bake additional 20 minutes
+* Serve rice with some soy sauce and extra sauce over tofus
 
 ## Grocery List {#grocerylist}
 <div class="full" id="copygrocerylist" onclick="copyDivToClipboard()" markdown="1">
 
-* 1 pound extra-firm tofu, cut into 1/2-inch slices
-* 1 tablespoon vegetable oil
-* 1 tablespoon unsalted butter or vegan butter
-* 1 tablespoon tamari
-* 1/2 cup barbecue sauce
-* 1 cup Jasmine rice
+* Extra-firm tofu
+* Barbecue sauce
+* Jasmine rice
+* Soy Sauce
+* Ketchup
+* Sesame Seeds
 
 </div>

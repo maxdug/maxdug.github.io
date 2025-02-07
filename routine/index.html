@@ -278,7 +278,7 @@ class: guide
 
   <script src="./NoSleep.min.js"></script>
 
-  <input type="button" id="toggle" value="Wake Lock is enabled">
+  <input type="button" id="toggle" value="Wake Lock is disabled">
 
   <script>
     var noSleep = new NoSleep();
@@ -290,7 +290,7 @@ class: guide
         noSleep.enable(); // keep the screen on!
         wakeLockEnabled = true;
         toggleEl.value = "Wake Lock is enabled";
-        document.body.style.backgroundColor = "green";
+        document.body.style.backgroundColor = "#268484";
       } else {
         noSleep.disable(); // let the screen turn off.
         wakeLockEnabled = false;

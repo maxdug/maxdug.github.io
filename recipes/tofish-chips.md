@@ -5,7 +5,7 @@ description: Battered tofu and fries
 section: recipes
 class: recipes
 categories: recipes
-cooktime: 345 minutes + Prep
+cooktime: 45 minutes + Prep
 servingsize: Serves 4
 heroimage: ./tofish-chips.jpg
 resource: true

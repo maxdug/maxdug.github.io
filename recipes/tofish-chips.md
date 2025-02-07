@@ -5,9 +5,9 @@ description: Battered tofu and fries
 section: recipes
 class: recipes
 categories: recipes
-cooktime: 30 minutes + Pre-work
-servingsize: Serves 3
-heroimage: ./bbq-tofu.jpg
+cooktime: 345 minutes + Prep
+servingsize: Serves 4
+heroimage: ./tofish-chips.jpg
 resource: true
 categories: [recipes]
 ---

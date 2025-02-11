@@ -13,32 +13,29 @@ categories: [recipes]
 ---
 
 ## Directions
-### Recent Notes
 
-* 3 tablespoons of soy sauce
-* not using the extra juice from the mock duck can
-* only 1 tablespoon of fish sauce
-* maybe some sugar and rice
+* Slice 1 shallot and move to dutch oven
+* Put 3 tablespoons of capers in a ramekin, then drain water out with spoon
+* Start cooking 1 cup of rice
+* Add 3 tablespoons butter to dutch oven
+* Add 3 tablespoons of olive oil
+* Cook shallots until translucent
+* Cut head of cauliflower into bite-sized pieces
+* Turn off heat
+* Pepper generously
+* Add 1 teaspoon of kosher salt
+* Add 1 tablespoon of flour
+* Mix on low heat until you have a roux
+* Add the ¾ cup of vegtable stock
+* Add cauliflower including little crumbles
+* Stir and cook on medium with lid for 5 minutes
+* Add juice of two lemons 
+* Add rice
+* Stir on high heat until most of the liquid has reduced and everything is properly sizzling
+* Mix in capers
+* Serve
 
-* Chop 1 green bell pepper and move to dutch oven
-* Chop and add 1 white onion
-* Chop and add 1 jalapeño
-* Chop and add 1 small head of brocoli
-* Start 1 cup of rice
-* Add 1/4 cup of water and 3 tablespoons of Toasted Sesame Oil (Not chili oil)
-* Sauté till just starting to brown and water is gone
-* Chop 1/4 cup Fresh Thai Basil
-* Add 1 can of drained mock duck
-* Add 1/4 stick of butter and crisp / caramelize all
-* Add the 2 tablespoons minced garlic
-* Add the Basil
-* Add 3 Tablespoons Fish Sauce
-* Add Thai chili paste
-* Add 1 cup of water
-* Cook for additional 5 minutes
-* Serve with sauce in bottom of bowlate with rice on top, then veggie/duck mixture
-* https://baldchef.com/thai-duck-with-chili-basil-recipe/
-* https://easykitchenguide.com/thai-duck-with-chili-basil-recipe/
+Slice lemon
 
 
 ## Grocery List {#grocerylist}

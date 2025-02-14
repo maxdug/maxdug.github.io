@@ -2232,10 +2232,12 @@ body.recipes {
     cursor: pointer;
   }
 }
+
 #clock {
   font-size: 11em;
-  margin: 40vh 50%;
+  margin: 36vh 50%;
 }
+
 html:has(.guide) {
   overflow: hidden;
 }

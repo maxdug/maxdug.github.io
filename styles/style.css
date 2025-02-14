@@ -2232,3 +2232,7 @@ body.recipes {
     cursor: pointer;
   }
 }
+#clock {
+  font-size: 11em;
+  margin: 30vh 50%;
+}

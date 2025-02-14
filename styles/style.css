@@ -2236,3 +2236,6 @@ body.recipes {
   font-size: 11em;
   margin: 40vh 50%;
 }
+html:has(.guide) {
+  overflow: hidden;
+}

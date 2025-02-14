@@ -277,57 +277,55 @@ class: guide
 </label></span><!-- End Bed Prep -->
 
 
-</div><!-- End Guide Container -->
 
-  <script src="/scripts/nosleep.js></script>
-
-  <input type="button" id="toggle" value="Wake Lock is disabled">
+<!-- <input type="button" id="toggle" value="Wake Lock is disabled"> -->
 
 
-<div class="container">
-  <div class="header">
-    <h1>Pomodoro Timer</h1>
+<div class="row">
+  <div class="col-half knob-wrapper">
+    <h5>Session Length</h5>
+    <input type="text" value="25" size="5" id="session-knob" />
   </div>
-  
-  <div class="row">
-    <div class="col-half knob-wrapper">
-      <h5>Session Length</h5>
-      <input type="text" value="25" size="5" id="session-knob" />
-    </div>
-    <div class="col-half knob-wrapper">
-      <h5>Break Length</h5>
-      <input type="text" value="5" size="5" id="break-knob" />
-    </div>
+  <div class="col-half knob-wrapper">
+    <h5>Break Length</h5>
+    <input type="text" value="5" size="5" id="break-knob" />
   </div>
-  
-  <div class="buttons">
-    <a id="cmd-reset" class="btn btn-red"><i class="fa fa-undo"></i> Reset</a>
-    <a id="cmd-pause" class="btn btn-yellow hidden"><i class="fa fa-pause"></i> Pause</a>
-    <a id="cmd-go" class="btn btn-green"><i class="fa fa-play"></i> Start</a>
-  </div>
-  
-  <div class="buttons-mute">
-    <a id="cmd-mute" class="btn btn-mute"><i class="fa fa-volume-up"></i></a>
-    <a id="cmd-unmute" class="btn btn-mute hidden"><i class="fa fa-volume-off"></i></a>
-  </div>
-  
-  <div class="timer knob-wrapper">
-    <input type="text" value="1500" size="5" id="timer-display" />
-  </div>
-  
-  <audio id="snd-endofbreak" preload="auto">
-    <source src="http://owentosh.com/public/codepen/endofbreak.m4a">
-    <source src="http://owentosh.com/public/codepen/endofbreak.wav">
-  </audio>
-  
-  <audio id="snd-endofsession" preload="auto">
-    <source src="http://owentosh.com/public/codepen/endofsession.m4a">
-    <source src="http://owentosh.com/public/codepen/endofsession.wav">
-  </audio>
-  
 </div>
 
+<div class="buttons">
+  <a id="cmd-reset" class="btn btn-red"><i class="fa fa-undo"></i> Reset</a>
+  <a id="cmd-pause" class="btn btn-yellow hidden"><i class="fa fa-pause"></i> Pause</a>
+  <a id="cmd-go" class="btn btn-green"><i class="fa fa-play"></i> Start</a>
+</div>
+
+<div class="buttons-mute">
+  <a id="cmd-mute" class="btn btn-mute"><i class="fa fa-volume-up"></i></a>
+  <a id="cmd-unmute" class="btn btn-mute hidden"><i class="fa fa-volume-off"></i></a>
+</div>
+
+<div class="timer knob-wrapper">
+  <input type="text" value="1500" size="5" id="timer-display" />
+</div>
+
+<audio id="snd-endofbreak" preload="auto">
+  <source src="http://owentosh.com/public/codepen/endofbreak.m4a">
+  <source src="http://owentosh.com/public/codepen/endofbreak.wav">
+</audio>
+
+<audio id="snd-endofsession" preload="auto">
+  <source src="http://owentosh.com/public/codepen/endofsession.m4a">
+  <source src="http://owentosh.com/public/codepen/endofsession.wav">
+</audio>
+
+</div><!-- End Guide Container -->
+
+
+<script src="/scripts/nosleep.js"></script>
+
+
   <script>
+    window.onload = NoSleep; // Trigger the function on page load
+
     var noSleep = new NoSleep();
 
     var wakeLockEnabled = false;

@@ -2238,6 +2238,6 @@ body.recipes {
   margin: 36vh 50%;
 }
 
-html:has(.guide) {
-  overflow: hidden;
+html:has(.guide)::-webkit-scrollbar {
+  width: 0px;
 }

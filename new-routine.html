@@ -281,7 +281,7 @@ class: guide
 <!-- <input type="button" id="toggle" value="Wake Lock is disabled"> -->
 
 
-<div class="row">
+<!-- <div class="row">
   <div class="col-half knob-wrapper">
     <h5>Session Length</h5>
     <input type="text" value="25" size="5" id="session-knob" />
@@ -315,7 +315,7 @@ class: guide
 <audio id="snd-endofsession" preload="auto">
   <source src="http://owentosh.com/public/codepen/endofsession.m4a">
   <source src="http://owentosh.com/public/codepen/endofsession.wav">
-</audio>
+</audio> -->
 
 </div><!-- End Guide Container -->
 
@@ -326,26 +326,26 @@ class: guide
   <script>
     window.onload = NoSleep; // Trigger the function on page load
 
-    var noSleep = new NoSleep();
+    // var noSleep = new NoSleep();
 
-    var wakeLockEnabled = false;
-    var toggleEl = document.querySelector("#toggle");
-    toggleEl.addEventListener('click', function() {
-      if (!wakeLockEnabled) {
-        noSleep.enable(); // keep the screen on!
-        wakeLockEnabled = true;
-        toggleEl.value = "Wake Lock is enabled";
-        document.body.style.backgroundColor = "#268484";
-      } else {
-        noSleep.disable(); // let the screen turn off.
-        wakeLockEnabled = false;
-        toggleEl.value = "Wake Lock is disabled";
-        document.body.style.backgroundColor = "";
-      }
-    }, false);
+    var wakeLockEnabled = true;
+    // var toggleEl = document.querySelector("#toggle");
+    // toggleEl.addEventListener('click', function() {
+    //   if (!wakeLockEnabled) {
+    //     noSleep.enable(); // keep the screen on!
+    //     wakeLockEnabled = true;
+    //     toggleEl.value = "Wake Lock is enabled";
+    //     document.body.style.backgroundColor = "#268484";
+    //   } else {
+    //     noSleep.disable(); // let the screen turn off.
+    //     wakeLockEnabled = false;
+    //     toggleEl.value = "Wake Lock is disabled";
+    //     document.body.style.backgroundColor = "";
+    //   }
+    // }, false);
   </script>
 
-  <script>
+  <!-- <script>
 
 $(document).ready(function() {
   
@@ -522,7 +522,7 @@ $(document).ready(function() {
   }
 });
 
-  </script>
+  </script> -->
 
 <script>
   function updateClock() {

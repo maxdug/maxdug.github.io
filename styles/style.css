@@ -2243,9 +2243,11 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 #scratchpad {
+  width: 80vw;
+  margin: 10vh auto;
   box-sizing: border-box;
-  font-family: Times;
-  font-size: 3em;
+  font-family: Baskerville;
+  font-size: 3.5em;
   outline: none;
   color: #222;
 }

@@ -2241,3 +2241,11 @@ body.recipes {
 html:has(.guide)::-webkit-scrollbar {
   width: 0px;
 }
+
+#scratchpad {
+  box-sizing: border-box;
+  font-family: Times;
+  font-size: 3em;
+  outline: none;
+  color: #222;
+}

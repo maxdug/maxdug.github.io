@@ -6,6 +6,8 @@ section: none
 class: none
 ---
 
+<div id="clock"></div>
+
 <div id="scratchpad" contenteditable autofocus>
     Scratchpad for temporary notes. Delete and retype here!
 </div>
@@ -13,6 +15,54 @@ class: none
 <script src="/scripts/nosleep.js"></script>
 
 <input type="button" id="toggle" value="Keep screen awake">
+
+<a onclick="openFullscreen()">Fullscreen</a> 
+
+<script>
+  function updateClock() {
+      const now = new Date();
+      const hours = String(now.getHours()).padStart(2, '0');
+      const minutes = String(now.getMinutes()).padStart(2, '0');
+      document.getElementById('clock').textContent = `${hours}:${minutes}`;
+  }
+
+  setInterval(updateClock, 1000);
+  updateClock(); // Initial call to display clock immediately
+</script>
+
+<script>
+    /* Get the documentElement (<html>) to display the page in fullscreen */
+    var elem = document.documentElement;
+    
+    /* View in fullscreen */
+    function openFullscreen() {
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) { /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) { /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+    
+    </script>
+
+<script>
+  /* Get the documentElement (<html>) to display the page in fullscreen */
+  var elem = document.documentElement;
+  
+  /* View in fullscreen */
+  function openFullscreen() {
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.webkitRequestFullscreen) { /* Safari */
+      elem.webkitRequestFullscreen();
+    } else if (elem.msRequestFullscreen) { /* IE11 */
+      elem.msRequestFullscreen();
+    }
+  }
+  
+  </script>
 
 <script>
     var noSleep = new NoSleep();

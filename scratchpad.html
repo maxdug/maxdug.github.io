@@ -9,3 +9,37 @@ class: none
 <div id="scratchpad" contenteditable autofocus>
     Scratchpad for temporary notes. Delete and retype here!
 </div>
+
+<script src="/scripts/nosleep.js"></script>
+
+<input type="button" id="toggle" value="Wake Lock is disabled">
+
+<script>
+    var noSleep = new NoSleep();
+
+    var wakeLockEnabled = false;
+    var toggleEl = document.querySelector("#toggle");
+    toggleEl.addEventListener('click', function() {
+      if (!wakeLockEnabled) {
+        noSleep.enable(); // keep the screen on!
+        wakeLockEnabled = true;
+        toggleEl.value = "Wake Lock is enabled";
+        document.body.style.backgroundColor = "#268484";
+      } else {
+        noSleep.disable(); // let the screen turn off.
+        wakeLockEnabled = false;
+        toggleEl.value = "Wake Lock is disabled";
+        document.body.style.backgroundColor = "";
+      }
+    }, false);
+  </script>
+
+<!-- 
+
+- Idea from https://big-writer.yay.boo/ 
+- I don't want to over complicate it, but I could add a clear all button and a copy to clipboard button
+- Add where it deletes all text when a user clicks in - WAIT - this could be bad if you've been using the page and accidentily click. What if it could be on first click? Or even after initial delay the text clears.
+- Should I add a blinking cursor?
+- On mobile, the font is getting overwritten because of specificity of media queries
+
+-->

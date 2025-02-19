@@ -2236,6 +2236,7 @@ body.recipes {
 #clock {
   font-size: 11em;
   margin: 36vh 50%;
+  color: #ffb3ab;
 }
 
 html:has(.guide)::-webkit-scrollbar {
@@ -2249,5 +2250,5 @@ html:has(.guide)::-webkit-scrollbar {
   font-family: Baskerville;
   font-size: 3.5em;
   outline: none;
-  color: #ffb3ab;
+  color: #7ec6c6;
 }

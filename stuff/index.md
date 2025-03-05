@@ -1,5 +1,15 @@
+---
+layout: default
+title: Purchase Roadmap
+description: Prioritized buying roadmap of stuff I want to purchase as I embrace a no-spend lifestyle, focusing on what truly enhances my life while avoiding unnecessary expenses.
+section: none
+class: none
+---
+
 # Purchases
 This is a prioritized roadmap of stuff I want to buy. I have done a no-spend year and am a big fan and thought to myself: how do I have a no-spend life. It's hard because you can't go through life never buying anything, but how to reduce. I think this roadmap might be the answer. I will add items here as I have in the past and this will give me a few key benefits. First it will alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. Secondly it will allow me to prioritize stuff, give me a space to compare wx to yz. I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
+
+Outside of no buy year, allow myself to buy 1 personal item per every 2 months
 
 1. Hair clip for lotioning face
 2. Topeak E-BOOSTER® DIGITAL air pump
@@ -70,6 +80,31 @@ https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/ul
 Buy new bathroom ceilling light
 
     https://antiquelampsupply.com/search?options%5Bprefix%5D=last&page=1&q=Fitter+Wired+Flush+Mount+Ceiling+Fixture
+
+Bearikade weekender
+Tenkara Rod Setup
+LiteAF Featherweight Fanny pack
+Vargo Titianium Pocket Cleats
+New Underquilt
+Fountain Pen
+GG Sternum Strap
+https://suluk46.com/product/kapiktitaniumcoffeedrip/
+https://suluk46.com/product/uki-buck-saw/
+https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
+https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
+FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
+Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
+Big Starter Wok Set (Out of Stock, Accepting Backorders. ETA June) - 14'' Natural Nonstick Woks - Woks - Natural Nonstick - Woks
+Best Keychain Mini Thermometer—Backpacking & Car Thermometer
+Roll top fanny pack
+Reflective Triangles
+Jumper Cables
+tire chains
+game and watch legend of zelda edition
+Etsy paddle ball set
+Washing Bag – Package Free
+New Steamer Insert
+oxo julien peeler for carrots
 
 
 

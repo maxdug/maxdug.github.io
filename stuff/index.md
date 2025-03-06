@@ -19,16 +19,42 @@ Outside of no buy year, allow myself to buy 1 personal item per every 2 months
 
 Format: Item - Job to be done or problem being solved - Specific Item I've researched
 
-### Personal Purchases
+### Personal Day-to-Day Quality of Life Purchases
 1. Hair clip 
     - Hold my hair back while I lotion my face
-1. Bike pump 
-    - My current bike pump is finicky and realeases lots of air when you pull off the  tire - Topeak E-BOOSTER® DIGITAL air pump
-    - Maybe I just need to replace the head on my current pump?
-1. Bike cable & Chain
+    - I feel like this is something I could buy local if I found the right shop
+    - Other use case is if I start cutting my own hair, maybe I do need more than one
 1. Buy Suit bag
+    - Need to check, Have 2 I think but three suits
+    - Does not need to be fancy travel one, I can switch and use my fancy travel one for whichever color I'm using
+    - Just simple cotton bag
+1. More sweater hangers
+  - need to count and figure out how many I need, match existing style
+1. Bike pump adapter
+    - My current bike pump is finicky and realeases lots of air when you pull off the  tire
+    - Multiple options bookmarked, need to look at preferences and sizes
+1. Bike cables
+    - Allow me to fix and get rid of bike
+1. Bike Chain
+    - Worried that I'm allowing my bike cog to wear out
 1. Bigger Trimmer for cutting my own hair
-1. glass nail file
+    - I wonder if Matthew & Caleb have one I could borrow to see if this is something I want to do long-term
+1. Glass nail file
+    - Could I use one of my diamond files
+1. hard drive case for SSD
+    - I think I'm actually good with current setup
+1. Stud Finder
+    - could get when needed 
+1. Yoga matt bag
+    - Need to check if Donia's bag fits and if she has gifted it to us
+1. New toolbox
+    - Don't love current system, but there really isn't a need
+1. EDJY Fingernail Cutter
+    - Would be helpful with toenails, but should wait and see 
+1. laser level
+    - Self-Leveling Cross Line Laser Level. Should buy when we have a need again.
+
+### Suff for Hobbies & Fun
 1. Canon to Nikon Lense Adapter
 1. Engin Cycles Seat Post Collar from crustbikes.com
 1. alpha sleeping bag liner
@@ -37,21 +63,14 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - or Run Cushion High Arch from superfeet
 1. Wayfinder Carbon Fork - 1 1/8" Steerer from Wilde
     - Would give more tire clearance
-1. new toolbox
-1. laser level
-    - Self-Leveling Cross Line Laser Level
 1. purple wolf tooth Water Bottle Cage Bolts
 1. Fake Meat by Isa Chandra Moskowitz
 1. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
 1. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
 1. Klein Tools 1-1/2 in. to 4 in., 6 in. Grip-It Strap Wrench, Handle
-1. Topeak SHUTTLE™ GAUGE DIGITAL
-1. EDJY Fingernail Cutter
-1. hard drive case for SSD
 1. Jump rope 
-1. Fancy wine glasses Kira cb2
 1. padded bike shorts
-1. vNon-quick release bolts for bike
+1. Non-quick release bolts for bike
 1. Saftey Pizza
 1. cable cherries
 1. change AE1 battery and film
@@ -66,7 +85,6 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Tenkara Rod Setup
 1. LiteAF Featherweight Fanny pack
 1. Vargo Titianium Pocket Cleats
-1. New Underquilt
 1. Fountain Pen
 1. GG Sternum Strap
 1. https://suluk46.com/product/kapiktitaniumcoffeedrip/
@@ -79,6 +97,8 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. game and watch legend of zelda edition
 
 ### Joint Purchases
+1. New Camera
+1. House Trim
 1. Tember's Noweigan Candles
 1. Bike Rack
 1. Fancy rotex 880 label maker
@@ -108,6 +128,8 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. New Steamer Insert
 1. oxo julien peeler for carrots
 1. Tools to complete projects?
+1. Fancy wine glasses Kira cb2
+
 
 
 

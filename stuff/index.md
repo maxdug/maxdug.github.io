@@ -7,109 +7,111 @@ class: none
 ---
 
 # Purchases
-This is a prioritized roadmap of stuff I want to buy. I have done a no-spend year and am a big fan and thought to myself: how do I have a no-spend life. It's hard because you can't go through life never buying anything, but how to reduce. I think this roadmap might be the answer. I will add items here as I have in the past and this will give me a few key benefits. First it will alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. Secondly it will allow me to prioritize stuff, give me a space to compare wx to yz. I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
+This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.
 
+Key benefits:
+1. Alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. 
+2. Allows me to prioritize stuff, give me a space to compare wx to yz. 
+
+I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
 
 Outside of no buy year, allow myself to buy 1 personal item per every 2 months
 
-1. Hair clip for lotioning face
-2. Topeak E-BOOSTER® DIGITAL air pump
-3. Bike cable & Chain
-4. Buy Suit bag
-5. Bike Rack
-6. Bigger Trimmer for cutting my own hair
-7. glass nail file
+Format: Item - Job to be done or problem being solved - Specific Item I've researched
 
-
-0. Standing Desk
-0. Tember's Noweigan Candles
-0. Canon to Nikon Lense Adapter
-0. Fancy rotex 880 label maker
-0. Office chair - Eams aluminum group
-0. Engin Cycles Seat Post Collar from crustbikes.com
-0. alpha sleeping bag liner
-0.  Ergon CF Allroad Pro Carbon Setback seat post
-0. carbon new balance insoles
+### Personal Purchases
+1. Hair clip 
+    - Hold my hair back while I lotion my face
+1. Bike pump 
+    - My current bike pump is finicky and realeases lots of air when you pull off the  tire - Topeak E-BOOSTER® DIGITAL air pump
+1. Bike cable & Chain
+1. Buy Suit bag
+1. Bigger Trimmer for cutting my own hair
+1. glass nail file
+1. Canon to Nikon Lense Adapter
+1. Engin Cycles Seat Post Collar from crustbikes.com
+1. alpha sleeping bag liner
+1.  Ergon CF Allroad Pro Carbon Setback seat post
+1. carbon new balance insoles
     - or Run Cushion High Arch from superfeet
-0. Wayfinder Carbon Fork - 1 1/8" Steerer from Wilde
+1. Wayfinder Carbon Fork - 1 1/8" Steerer from Wilde
     - Would give more tire clearance
-0. new toolbox
-0. laser level
+1. new toolbox
+1. laser level
     - Self-Leveling Cross Line Laser Level
-0. purple wolf tooth Water Bottle Cage Bolts
-0. Be Home Measuring Cups with Handle and measuring spoons from Cedar and Hyde
-0. Fake Meat by Isa Chandra Moskowitz
-0. new bathroom ceilling light
-0. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
-0. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
-0. Mother Earth's Plantasia by Mort Garson on Vinyl
-0. Klein Tools 1-1/2 in. to 4 in., 6 in. Grip-It Strap Wrench, Handle
-0. Topeak SHUTTLE™ GAUGE DIGITAL
-0. EDJY Fingernail Cutter
-0. hard drive case for SSD
-0. Don't buy food for bodega or any personal snacks
+1. purple wolf tooth Water Bottle Cage Bolts
+1. Fake Meat by Isa Chandra Moskowitz
+1. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
+1. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
+1. Klein Tools 1-1/2 in. to 4 in., 6 in. Grip-It Strap Wrench, Handle
+1. Topeak SHUTTLE™ GAUGE DIGITAL
+1. EDJY Fingernail Cutter
+1. hard drive case for SSD
+1. Jump rope 
+1. Fancy wine glasses Kira cb2
+1. padded bike shorts
+1. vNon-quick release bolts for bike
+1. Saftey Pizza
+1. cable cherries
+1. change AE1 battery and film
+1. new river underquilt
+1. gg sternum strap
+1. [Bob Will Record](https://www.amazon.com/What-Makes-Holler-Club-Cowtown/dp/B08QRXR7D3/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=)
+1. [Folding saw](https://www.rei.com/product/197888/silky-bigboy-2000-outback-folding-saw)
+    - [lighter version](https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/microlight-saw-by-renegade-outdoor)
+1. [Beanie?](https://www.sweaterchalet.com/dachstein-woolwear/dw-7120-adult-hat-1/#cc-m-product-12091448031)
+1. [Lighter trowel](https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/ultralight-trowel-by-boglerco)
+1. Bearikade weekender
+1. Tenkara Rod Setup
+1. LiteAF Featherweight Fanny pack
+1. Vargo Titianium Pocket Cleats
+1. New Underquilt
+1. Fountain Pen
+1. GG Sternum Strap
+1. https://suluk46.com/product/kapiktitaniumcoffeedrip/
+1. https://suluk46.com/product/uki-buck-saw/
+1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
+1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
+1. FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
+1. Best Keychain Mini Thermometer—Backpacking & Car Thermometer
+1. Roll top fanny pack
+1. game and watch legend of zelda edition
 
-
-#buy graphite carving from Batle Studio
-
-    batlestudio.com
-
-Tools to complete projects?
-Do I want to buy a trimmer
-sugar bowl from mogutable in brooklyn
-paint thinner
-Jump rope 
-Fancy wine glasses Kira cb2
-Microface comic
-graphite carving from Batle Studio
-padded bike shorts
-vNon-quick release bolts for bike
-Saftey Pizza
-cable cherries
-change AE1 battery and film
-Tember doesn’t have a pack cover
-m&C board game
-new river underquilt
-gg sternum strap
-https://www.amazon.com/What-Makes-Holler-Club-Cowtown/dp/B08QRXR7D3/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=
- https://www.rei.com/product/197888/silky-bigboy-2000-outback-folding-saw
-https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/microlight-saw-by-renegade-outdoor
-https://www.sweaterchalet.com/dachstein-woolwear/dw-7120-adult-hat-1/#cc-m-product-12091448031
-https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/ultralight-trowel-by-boglerco
- Small Shoe Horn
-
-Buy new bathroom ceilling light
-
-    https://antiquelampsupply.com/search?options%5Bprefix%5D=last&page=1&q=Fitter+Wired+Flush+Mount+Ceiling+Fixture
-
-Bearikade weekender
-Tenkara Rod Setup
-LiteAF Featherweight Fanny pack
-Vargo Titianium Pocket Cleats
-New Underquilt
-Fountain Pen
-GG Sternum Strap
-https://suluk46.com/product/kapiktitaniumcoffeedrip/
-https://suluk46.com/product/uki-buck-saw/
-https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
-https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
-FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
-Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
-Big Starter Wok Set (Out of Stock, Accepting Backorders. ETA June) - 14'' Natural Nonstick Woks - Woks - Natural Nonstick - Woks
-Best Keychain Mini Thermometer—Backpacking & Car Thermometer
-Roll top fanny pack
-Reflective Triangles
-Jumper Cables
-tire chains
-game and watch legend of zelda edition
-Etsy paddle ball set
-Washing Bag – Package Free
-New Steamer Insert
-oxo julien peeler for carrots
+### Joint Purchases
+1. Tember's Noweigan Candles
+1. Bike Rack
+1. Fancy rotex 880 label maker
+1. Office chair - Eams aluminum group
+1. Standing Desk
+1. Be Home Measuring Cups with Handle and measuring spoons from Cedar and Hyde
+1. new bathroom ceilling light
+1. Mother Earth's Plantasia by Mort Garson on Vinyl
+1. Foil shaver
+1. Graphite carving from [Batle Studio](https://batlestudio.com)
+1. sugar bowl from mogutable in brooklyn
+1. paint thinner
+1. Microface comic
+1. Tember doesn’t have a pack cover
+1. m&C board game
+1. M&C oven mitts
+1. Abducktion
+1. Small Shoe Horn
+1. [Buy new bathroom ceilling light](https://antiquelampsupply.com/search?options%5Bprefix%5D=last&page=1&q=Fitter+Wired+Flush+Mount+Ceiling+Fixture)
+1. Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
+1. Big Starter Wok Set (Out of Stock, Accepting Backorders. ETA June) - 14'' Natural Nonstick Woks - Woks - Natural Nonstick - Woks
+1. Reflective Triangles
+1. Jumper Cables
+1. tire chains
+1. Etsy paddle ball set
+1. Washing Bag – Package Free
+1. New Steamer Insert
+1. oxo julien peeler for carrots
+1. Tools to complete projects?
 
 
 
-## No buy / spend year rules
+### Rules
+- Don't buy food for bodega or any personal snacks
 - Approved purchases
   - Food
   - Consumable goods
@@ -130,12 +132,12 @@ oxo julien peeler for carrots
     - How often will I use this item?	
     - How long do I expect this item to last?	
     - What is the storage or care cost?	
-    - Can I share or borrow this item?	H
+    - Can I share or borrow this item?
     - Have I done all my research?	
     - Can I buy used?	Can I make it?	
     - Can I get a non-plastic version?
-    - Would the best version of me buy this?	
-    - Online or Local?	
+    - Would the best version of me buy this?
+    - Can I buy it localy or wait until I come across it?
     - What is the urgency level?
 
 

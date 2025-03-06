@@ -9,6 +9,7 @@ class: none
 # Purchases
 This is a prioritized roadmap of stuff I want to buy. I have done a no-spend year and am a big fan and thought to myself: how do I have a no-spend life. It's hard because you can't go through life never buying anything, but how to reduce. I think this roadmap might be the answer. I will add items here as I have in the past and this will give me a few key benefits. First it will alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. Secondly it will allow me to prioritize stuff, give me a space to compare wx to yz. I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
 
+
 Outside of no buy year, allow myself to buy 1 personal item per every 2 months
 
 1. Hair clip for lotioning face
@@ -121,6 +122,23 @@ oxo julien peeler for carrots
   - Books
   - Online courses
   - Dining out
+- Checklist for a purchase or aquisition
+    - Who am I buying for?	To impress others?
+    - Does this item bring me joy or provide opportunity	
+    - Can I afford it?	
+    - Am I replacing something?	
+    - How often will I use this item?	
+    - How long do I expect this item to last?	
+    - What is the storage or care cost?	
+    - Can I share or borrow this item?	H
+    - Have I done all my research?	
+    - Can I buy used?	Can I make it?	
+    - Can I get a non-plastic version?
+    - Would the best version of me buy this?	
+    - Online or Local?	
+    - What is the urgency level?
+
+
 - I think my last time I did this was either 2020 or 2021 because I remember
 - travel?
 - Restraunts?
@@ -140,3 +158,8 @@ oxo julien peeler for carrots
 - do I ask for gifts
 - 
 - [https://www.nytimes.com/2017/12/15/opinion/sunday/shopping-consumerism.html?unlocked_article_code=1.ak4.Ripk.1aWM9S4DjBvL](https://www.nytimes.com/2017/12/15/opinion/sunday/shopping-consumerism.html?unlocked_article_code=1.ak4.Ripk.1aWM9S4DjBvL)
+
+
+
+
+

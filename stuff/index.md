@@ -24,6 +24,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - Hold my hair back while I lotion my face
 1. Bike pump 
     - My current bike pump is finicky and realeases lots of air when you pull off the  tire - Topeak E-BOOSTER® DIGITAL air pump
+    - Maybe I just need to replace the head on my current pump?
 1. Bike cable & Chain
 1. Buy Suit bag
 1. Bigger Trimmer for cutting my own hair

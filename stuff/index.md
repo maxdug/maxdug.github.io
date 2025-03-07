@@ -55,45 +55,45 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - Self-Leveling Cross Line Laser Level. Should buy when we have a need again.
 
 ### Suff for Hobbies & Fun
-1. Canon to Nikon Lense Adapter
-1. Engin Cycles Seat Post Collar from crustbikes.com
+#### Backpacking
 1. alpha sleeping bag liner
+1. new river underquilt
+    - I guinunly forget, is this for winter hammock camping?
+1. gg sternum strap
+    - Do I want this for less bounce with my murmur
+1. Bearikade weekender
+1. Tenkara Rod Setup
+1. Vargo Titianium Pocket Cleats
+1. GG Sternum Strap
+1. Best Keychain Mini Thermometer—Backpacking & Car Thermometer
+1. Roll top fanny pack
+1. Folding saw for camping and playing with wood stove from Suluk 46
+
+#### Biking
+1. Engin Cycles Seat Post Collar from crustbikes.com
 1.  Ergon CF Allroad Pro Carbon Setback seat post
-1. carbon new balance insoles
-    - or Run Cushion High Arch from superfeet
 1. Wayfinder Carbon Fork - 1 1/8" Steerer from Wilde
     - Would give more tire clearance
 1. purple wolf tooth Water Bottle Cage Bolts
-1. Fake Meat by Isa Chandra Moskowitz
-1. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
-1. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
 1. Klein Tools 1-1/2 in. to 4 in., 6 in. Grip-It Strap Wrench, Handle
-1. Jump rope 
 1. padded bike shorts
 1. Non-quick release bolts for bike
 1. Saftey Pizza
 1. cable cherries
+
+1. Canon to Nikon Lense Adapter
+    - FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
 1. change AE1 battery and film
-1. new river underquilt
-1. gg sternum strap
+1. carbon new balance insoles
+    - or Run Cushion High Arch from superfeet
+1. Fake Meat by Isa Chandra Moskowitz
+1. Jump rope 
+1. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
+1. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
 1. [Bob Will Record](https://www.amazon.com/What-Makes-Holler-Club-Cowtown/dp/B08QRXR7D3/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=)
-1. [Folding saw](https://www.rei.com/product/197888/silky-bigboy-2000-outback-folding-saw)
-    - [lighter version](https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/microlight-saw-by-renegade-outdoor)
-1. [Beanie?](https://www.sweaterchalet.com/dachstein-woolwear/dw-7120-adult-hat-1/#cc-m-product-12091448031)
-1. [Lighter trowel](https://www.garagegrowngear.com/collections/new-to-garage-grown-gear/products/ultralight-trowel-by-boglerco)
-1. Bearikade weekender
-1. Tenkara Rod Setup
-1. LiteAF Featherweight Fanny pack
-1. Vargo Titianium Pocket Cleats
 1. Fountain Pen
-1. GG Sternum Strap
-1. https://suluk46.com/product/kapiktitaniumcoffeedrip/
-1. https://suluk46.com/product/uki-buck-saw/
 1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
 1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
-1. FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
-1. Best Keychain Mini Thermometer—Backpacking & Car Thermometer
-1. Roll top fanny pack
 1. game and watch legend of zelda edition
 
 ### Joint Purchases

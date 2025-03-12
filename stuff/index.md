@@ -9,15 +9,24 @@ class: none
 # Purchases
 This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.
 
-Key benefits:
-1. Alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. 
-2. Allows me to prioritize stuff, give me a space to compare wx to yz. 
-
 I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
 
 Outside of no buy year, allow myself to buy 1 personal item per every 2 months
 
 Format: Item - Job to be done or problem being solved - Specific Item I've researched
+
+#### Table of Contents
+- [Overview](#overview)
+- [Key Benefits](#key-benefits)
+- [Personal](#personal)
+    - [Quality of Life](#)
+    - [Hobbies](#)
+
+Key benefits:
+1. Alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. 
+2. Allows me to prioritize stuff, give me a space to compare wx to yz. 
+
+
 
 ### Personal Day-to-Day Quality of Life Purchases
 1. Hair clip 

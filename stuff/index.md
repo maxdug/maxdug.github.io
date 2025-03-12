@@ -7,7 +7,7 @@ class: none
 ---
 
 <!-- M E N U -->
-<div markdown="1" style="position: fixed; top: 0; right: 0;">
+<!-- <div markdown="1" style="position: fixed; top: 0; right: 0;">
 **Table of Contents**
 - [Philosophy](#philosophy)
     - [Overview](#overview)
@@ -25,11 +25,11 @@ class: none
         - [Semi-functional](#semi-functional)
         - [Purley for pleasure](#purley-for-pleasure)
         - [Tember Gifts](#tember-gifts)
-</div>
+</div> -->
 
 <!-- M E N U -->
 <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
-  <div class="burger-nav" markdown="1">
+<div class="burger-nav" markdown="1">
 - Table of Contents
 - [Philosophy](#philosophy)
     - [Overview](#overview)

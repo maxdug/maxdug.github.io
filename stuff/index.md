@@ -224,26 +224,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 
 <!-- M E N U -->
 <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
-<div class="burger-nav">
-    <ul>
-        <li><a href="#top">Top of Page</a></li>
-        <li><a href="#breakpoints">Breakpoints</a></li>
-        <li><a href="#colors">Colors</a></li>
-        <li><a href="#type">Typography</a></li>
-        <li>
-            <input class="menu-check" id="menu-check" type="checkbox">
-            <label for="menu-check" class="pointer">Icons</label>
-            <ul class="second-level-menu">
-            <li>Action</li>
-            <li>label</li>
-            <li>navigation</li>
-            </ul>
-        </li>
-    </ul>
-  </div><!-- End Menu -->
-
-
-<div  markdown="1" style="background-color: white;>
+<div  class="burger-nav" markdown="1" style="background-color: white;">
 - [Philosophy](#philosophy)
     - [Overview](#overview)
     - [Key Benefits](#key-benefits)
@@ -261,4 +242,6 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
         - [Purley for pleasure](#purley-for-pleasure)
         - [Tember Gifts](#tember-gifts)
         
-</div>
+</div><!-- End Menu -->
+
+

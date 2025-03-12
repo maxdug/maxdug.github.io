@@ -6,29 +6,90 @@ section: none
 class: none
 ---
 
-# Purchases
+**Table of Contents**
+- [Philosophy](#philosophy)
+    - [Overview](#overview)
+    - [Key Benefits](#key-benefits)
+    - [Checklist](#checklist)
+    - [Rules](#rules)
+- [Roadmap](#roadmap)
+    - [Personal](#personal)
+        - [Quality of Life](#quality-of-life)
+        - [Hobbies](#hobbies)
+            - [Backpacking](#backpacking)
+            - [Biking](#biking)
+    - [Joint Purchases](#joint-purchases)
+        - [Functional](#functional)
+        - [Semi-functional](#semi-functional)
+        - [Purley for pleasure](#purley-for-pleasure)
+        - [Tember Gifts](#tember-gifts)
+
+# Philosophy
+## Overview
 This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.
 
-I want things I purchase to follow some guidelines I've setup in a previous spreadsheet I used for this, but I don't think I will attach this to each item the way I did on that spreadsheet. I want this to be simpler. This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
+This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
 
-Outside of no buy year, allow myself to buy 1 personal item per every 2 months
-
-Format: Item - Job to be done or problem being solved - Specific Item I've researched
-
-#### Table of Contents
-- [Overview](#overview)
-- [Key Benefits](#key-benefits)
-- [Personal](#personal)
-    - [Quality of Life](#)
-    - [Hobbies](#)
-
-Key benefits:
+## Key benefits:
 1. Alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. 
 2. Allows me to prioritize stuff, give me a space to compare wx to yz. 
 
+## Checklist
+- Who am I buying for?	To impress others?
+- Does this item bring me joy or provide opportunity	
+- Can I afford it?	
+- Am I replacing something?	
+- How often will I use this item?	
+- How long do I expect this item to last?	
+- What is the storage or care cost?	
+- Can I share or borrow this item?
+- Have I done all my research?	
+- Can I buy used?	Can I make it?	
+- Can I get a non-plastic version?
+- Would the best version of me buy this?
+- Can I buy it localy or wait until I come across it?
+- What is the urgency level?
+
+### Rules
+- Don't buy food for bodega or any personal snacks
+- Approved purchases
+  - Food
+  - Consumable goods
+  - Replacement items
+  - Experiences or vacations
+  - Etc.
+- Explicitly not Approved
+  - Gifts
+  - Clothing and decor
+  - Books
+  - Online courses
+  - Dining out
+  - I think my last time I did this was either 2020 or 2021 because I remember
+- travel?
+- Restraunts?
+- Races?
+- Eating out?
+- Snacks when alone?
+- take out alone?
+- food from the groccery store when Tember is gone?
+- Gifts?
+  - Give people books, experiences, my time, etc…. dog sitting, 
+- am I allowed to shop, even if I’m not going to purchase
+  - Is this fake fun
+- Really it is mostly the food I buy in secret that makes me feel bad and slowly eats my money.
+- I am not going to document every purchase I make
+- I accept gifts
+- I never ask for gifts
+- I allow myself to buy 1 personal item per every 2 months
 
 
-### Personal Day-to-Day Quality of Life Purchases
+
+# Rodamap
+Format: Item - Job to be done or problem being solved - Specific Item I've researched
+
+## Personal
+
+### Day-to-Day Quality of Life Purchases
 1. Hair clip 
     - Hold my hair back while I lotion my face
     - I feel like this is something I could buy local if I found the right shop
@@ -156,57 +217,6 @@ Key benefits:
 1. Fancy wine glasses Kira cb2
 1. Fancy Noweigan Candles
 
-
-### Rules
-- Don't buy food for bodega or any personal snacks
-- Approved purchases
-  - Food
-  - Consumable goods
-  - Replacement items
-  - Experiences or vacations
-  - Etc.
-- Explicitly not Approved
-  - Gifts
-  - Clothing and decor
-  - Books
-  - Online courses
-  - Dining out
-- Checklist for a purchase or aquisition
-    - Who am I buying for?	To impress others?
-    - Does this item bring me joy or provide opportunity	
-    - Can I afford it?	
-    - Am I replacing something?	
-    - How often will I use this item?	
-    - How long do I expect this item to last?	
-    - What is the storage or care cost?	
-    - Can I share or borrow this item?
-    - Have I done all my research?	
-    - Can I buy used?	Can I make it?	
-    - Can I get a non-plastic version?
-    - Would the best version of me buy this?
-    - Can I buy it localy or wait until I come across it?
-    - What is the urgency level?
-
-
-- I think my last time I did this was either 2020 or 2021 because I remember
-- travel?
-- Restraunts?
-- Races?
-- Eating out?
-- Snacks when alone?
-- take out alone?
-- food from the groccery store when Tember is gone?
-- Gifts?
-  - Give people books, experiences, my time, etc…. dog sitting, 
-- am I allowed to shop, even if I’m not going to purchase
-  - Is this fake fun
-- bike tubes?
-- What is my plan for after, which of my rules could I just make permenant. I allready don’t buy much. Really it is mostly the food I buy in secret that makes me feel bad and slowly eats my money.
-- Am I going to document every purchase I do make
-- Do I accept gifts
-- do I ask for gifts
-- 
-- [https://www.nytimes.com/2017/12/15/opinion/sunday/shopping-consumerism.html?unlocked_article_code=1.ak4.Ripk.1aWM9S4DjBvL](https://www.nytimes.com/2017/12/15/opinion/sunday/shopping-consumerism.html?unlocked_article_code=1.ak4.Ripk.1aWM9S4DjBvL)
 
 
 

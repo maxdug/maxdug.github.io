@@ -39,19 +39,27 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - Worried that I'm allowing my bike cog to wear out
 1. Bigger Trimmer for cutting my own hair
     - I wonder if Matthew & Caleb have one I could borrow to see if this is something I want to do long-term
-1. Glass nail file
-    - Could I use one of my diamond files
-1. hard drive case for SSD
-    - I think I'm actually good with current setup
-1. Stud Finder
-    - could get when needed 
-1. [Yoga mat sling](https://www.huggermugger.com/strap-sling-yoga-mat-carrier/?sku=AC-STRAP-SLING-NAVY)
-1. New toolbox
-    - Don't love current system, but there really isn't a need
-1. EDJY Fingernail Cutter
-    - Would be helpful with toenails, but should wait and see 
 1. laser level
     - Self-Leveling Cross Line Laser Level. Should buy when we have a need again.
+    - Probably harbor frieght model
+1. [Yoga mat sling](https://www.huggermugger.com/strap-sling-yoga-mat-carrier/?sku=AC-STRAP-SLING-NAVY)
+1. New toolbox
+    - Don't love current system, but there really isn't a big need at the moment
+    - would want something with drawers so each tool can have it's space
+    - I like my tool roll and could do some sewing to make it better
+    - I could also buy more hooks to better hang some big tools down in the cage
+1. Microface comic
+
+
+1. EDJY Fingernail Cutter
+    - Would be helpful with toenails, but should wait and see 
+1. Stud Finder
+    - could get when needed 
+    - Realized I didn't need, you can totally just use a magnet
+1. hard drive case for SSD
+    - I think I'm actually good with current setup
+1. Glass nail file
+    - Could I use one of my diamond files
 
 ### Suff for Hobbies & Fun
 #### Backpacking
@@ -67,6 +75,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Best Keychain Mini Thermometer—Backpacking & Car Thermometer
 1. Roll top fanny pack
 1. Folding saw for camping and playing with wood stove from Suluk 46
+1. Tember doesn’t have a pack cover
 
 #### Biking
 1. Engin Cycles Seat Post Collar from crustbikes.com
@@ -96,40 +105,47 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. game and watch legend of zelda edition
 
 ### Joint Purchases
-1. New Camera
-1. House Trim
-1. Tember's Noweigan Candles
+#### Functional
 1. Bike Rack
+    - Want to start buying groceries with the bike
 1. Fancy rotex 880 label maker
 1. Office chair - Eams aluminum group
 1. Standing Desk
-1. Be Home Measuring Cups with Handle and measuring spoons from Cedar and Hyde
-1. new bathroom ceilling light
-1. Mother Earth's Plantasia by Mort Garson on Vinyl
 1. Foil shaver
-1. Graphite carving from [Batle Studio](https://batlestudio.com)
-1. sugar bowl from mogutable in brooklyn
 1. paint thinner
-1. Microface comic
-1. Tember doesn’t have a pack cover
-1. m&C board game
-1. M&C oven mitts
-1. Abducktion
 1. Small Shoe Horn
-1. [Buy new bathroom ceilling light](https://antiquelampsupply.com/search?options%5Bprefix%5D=last&page=1&q=Fitter+Wired+Flush+Mount+Ceiling+Fixture)
-1. Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
-1. Big Starter Wok Set (Out of Stock, Accepting Backorders. ETA June) - 14'' Natural Nonstick Woks - Woks - Natural Nonstick - Woks
 1. Reflective Triangles
 1. Jumper Cables
 1. tire chains
-1. Etsy paddle ball set
+1. Clothers Steamer
 1. Washing Bag – Package Free
-1. New Steamer Insert
 1. oxo julien peeler for carrots
 1. Tools to complete projects?
+1. Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
+    - Don't really need any more
+
+#### Semi-functional
+1. New Camera
+    - Could get old one fixed
+        - Image quality truly is good enough
+        - could maybe get better lenses used since it out of date
+    - really want smaller size and full frame sensor
+1. House Trim
+    - Possibly want to do this in conjunction with new living room sound system since we could hide some cables and mount speakers in corners
+1. Be Home Measuring Cups with Handle and measuring spoons from Cedar and Hyde
+1. [Buy new bathroom ceilling light](https://antiquelampsupply.com/search?options%5Bprefix%5D=last&page=1&q=Fitter+Wired+Flush+Mount+Ceiling+Fixture)
+1. sugar bowl from mogutable in brooklyn
+
+#### Purley for pleasure
+1. Mother Earth's Plantasia by Mort Garson on Vinyl
+1. Graphite carving from [Batle Studio](https://batlestudio.com)
+1. Oven mitts Gift
+1. Abducktion
+1. Etsy paddle ball set
+
+### Possible Tember Gifts
 1. Fancy wine glasses Kira cb2
-
-
+1. Fancy Noweigan Candles
 
 
 ### Rules

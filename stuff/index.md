@@ -7,7 +7,7 @@ class: none
 ---
 
 <!-- M E N U -->
-<div markdown="1" style="position: fixed; top: 0; left: 0;">
+<div markdown="1" style="position: fixed; top: 0; right: 0;">
 **Table of Contents**
 - [Philosophy](#philosophy)
     - [Overview](#overview)
@@ -27,29 +27,29 @@ class: none
         - [Tember Gifts](#tember-gifts)
 </div>
 
+<!-- M E N U -->
 <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
   <div class="burger-nav">
     <ul markdown="1">
-        **Table of Contents**
-        - [Philosophy](#philosophy)
-            - [Overview](#overview)
-            - [Key Benefits](#key-benefits)
-            - [Checklist](#checklist)
-            - [Rules](#rules)
-        - [Roadmap](#roadmap)
-            - [Personal](#personal)
-                - [Quality of Life](#quality-of-life)
-                - [Hobbies](#hobbies)
-                    - [Backpacking](#backpacking)
-                    - [Biking](#biking)
-            - [Joint Purchases](#joint-purchases)
-                - [Functional](#functional)
-                - [Semi-functional](#semi-functional)
-                - [Purley for pleasure](#purley-for-pleasure)
-                - [Tember Gifts](#tember-gifts)
-        </li>
+- Table of Contents
+- [Philosophy](#philosophy)
+    - [Overview](#overview)
+    - [Key Benefits](#key-benefits)
+    - [Checklist](#checklist)
+    - [Rules](#rules)
+- [Roadmap](#roadmap)
+    - [Personal](#personal)
+        - [Quality of Life](#quality-of-life)
+        - [Hobbies](#hobbies)
+            - [Backpacking](#backpacking)
+            - [Biking](#biking)
+    - [Joint Purchases](#joint-purchases)
+        - [Functional](#functional)
+        - [Semi-functional](#semi-functional)
+        - [Purley for pleasure](#purley-for-pleasure)
+        - [Tember Gifts](#tember-gifts)
     </ul>
-  </div>
+  </div><!-- End Menu -->
 
 # Philosophy
 ## Overview

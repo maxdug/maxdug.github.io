@@ -163,20 +163,19 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Saftey Pizza
 1. cable cherries
 
+#### Other
 1. Canon to Nikon Lense Adapter
     - FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
 1. change AE1 battery and film
 1. carbon new balance insoles
     - or Run Cushion High Arch from superfeet
-1. Fake Meat by Isa Chandra Moskowitz
+1. Fake Meat Book by Isa Chandra Moskowitz
 1. Jump rope 
 1. Half A Hundred Years Vinyl AUTOGRAPHED from Aleeep at the wheel
 1. Still the King Vinyl - AUTOGRAPHED from Asleep at the Wheel
 1. [Bob Will Record](https://www.amazon.com/What-Makes-Holler-Club-Cowtown/dp/B08QRXR7D3/ref=tmm_vnl_swatch_0?_encoding=UTF8&qid=&sr=)
-1. Fountain Pen
-1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
-1. https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword
-1. game and watch legend of zelda edition
+1. [Mastering The Art of Extraordinary Bread Book](https://www.astoriabookshop.com/?searchtype=keyword&qs=Bread+Baker%E2%80%99s+Apprentice%3A+Mastering+The+Art+Of+Extraordinary+Bread&qs_file=&q=h.tviewer&using_sb=status&qsb=keyword)
+1. Game and Watch Legend of Zelda Edition
 
 ### Joint Purchases
 #### Functional

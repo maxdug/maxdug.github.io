@@ -27,27 +27,7 @@ class: none
         - [Tember Gifts](#tember-gifts)
 </div> -->
 
-<!-- M E N U -->
-<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
-<div class="burger-nav" markdown="1">
-- Table of Contents
-- [Philosophy](#philosophy)
-    - [Overview](#overview)
-    - [Key Benefits](#key-benefits)
-    - [Checklist](#checklist)
-    - [Rules](#rules)
-- [Roadmap](#roadmap)
-    - [Personal](#personal)
-        - [Quality of Life](#quality-of-life)
-        - [Hobbies](#hobbies)
-            - [Backpacking](#backpacking)
-            - [Biking](#biking)
-    - [Joint Purchases](#joint-purchases)
-        - [Functional](#functional)
-        - [Semi-functional](#semi-functional)
-        - [Purley for pleasure](#purley-for-pleasure)
-        - [Tember Gifts](#tember-gifts)
-  </div><!-- End Menu -->
+
 
 # Philosophy
 ## Overview
@@ -243,7 +223,27 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Fancy Noweigan Candles
 
 
-
+<!-- M E N U -->
+<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
+<div class="burger-nav" markdown="1">
+- Table of Contents
+- [Philosophy](#philosophy)
+    - [Overview](#overview)
+    - [Key Benefits](#key-benefits)
+    - [Checklist](#checklist)
+    - [Rules](#rules)
+- [Roadmap](#roadmap)
+    - [Personal](#personal)
+        - [Quality of Life](#quality-of-life)
+        - [Hobbies](#hobbies)
+            - [Backpacking](#backpacking)
+            - [Biking](#biking)
+    - [Joint Purchases](#joint-purchases)
+        - [Functional](#functional)
+        - [Semi-functional](#semi-functional)
+        - [Purley for pleasure](#purley-for-pleasure)
+        - [Tember Gifts](#tember-gifts)
+  </div><!-- End Menu -->
 
 
 

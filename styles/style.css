@@ -2330,6 +2330,9 @@ html:has(.guide)::-webkit-scrollbar {
 
 .docMenu-nav {
  display: none;
+ position: absolute;
+ top: 40px;
+ left: 20px;
 }
 
 .docMenu-check:checked ~ .docMenu-nav {

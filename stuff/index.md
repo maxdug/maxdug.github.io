@@ -223,6 +223,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 
 
 <!-- M E N U -->
+<div>
 <input class="docMenu-check" id="docMenu-check" type="checkbox"><label for="burger-check" class="docMenu"></label>
 <div  class="docMenu-nav" markdown="1" style="background-color: white;">
 - [Philosophy](#philosophy)
@@ -243,5 +244,5 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
         - [Tember Gifts](#tember-gifts)
         
 </div><!-- End Menu -->
-
+</div>
 

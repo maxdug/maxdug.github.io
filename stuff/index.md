@@ -45,8 +45,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - I think I'm actually good with current setup
 1. Stud Finder
     - could get when needed 
-1. Yoga matt bag
-    - Need to check if Donia's bag fits and if she has gifted it to us
+1. [Yoga mat sling](https://www.huggermugger.com/strap-sling-yoga-mat-carrier/?sku=AC-STRAP-SLING-NAVY)
 1. New toolbox
     - Don't love current system, but there really isn't a need
 1. EDJY Fingernail Cutter

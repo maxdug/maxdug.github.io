@@ -6,6 +6,8 @@ section: none
 class: none
 ---
 
+<!-- M E N U -->
+<div markdown="1" style="flex: 1 1 0%; min-width: 200px; margin:0; padding: 0; position: -webkit-sticky; position:sticky; align-self:flex-start; font-size: 14px;justify-self:flex-start; top:110px;">
 **Table of Contents**
 - [Philosophy](#philosophy)
     - [Overview](#overview)
@@ -23,6 +25,8 @@ class: none
         - [Semi-functional](#semi-functional)
         - [Purley for pleasure](#purley-for-pleasure)
         - [Tember Gifts](#tember-gifts)
+</div>
+
 
 # Philosophy
 ## Overview

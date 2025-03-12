@@ -2251,7 +2251,7 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 
-/* .docMenu {
+.docMenu {
   background: var(--light);
   position: fixed;
   z-index: 999;
@@ -2326,7 +2326,7 @@ html:has(.guide)::-webkit-scrollbar {
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
   -webkit-transition: -webkit-transform 0.5s ease-in-out;
-} */
+}
 
 .docMenu-nav {
  display: none;

@@ -27,9 +27,8 @@ class: none
         - [Tember Gifts](#tember-gifts)
 </div> -->
 
-
-
 # Philosophy
+
 ## Overview
 This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.
 
@@ -225,8 +224,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 
 <!-- M E N U -->
 <input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
-<div class="burger-nav" markdown="1">
-- Table of Contents
+<div class="burger-nav" markdown="1" style="background-color: white;">
 - [Philosophy](#philosophy)
     - [Overview](#overview)
     - [Key Benefits](#key-benefits)
@@ -243,6 +241,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
         - [Semi-functional](#semi-functional)
         - [Purley for pleasure](#purley-for-pleasure)
         - [Tember Gifts](#tember-gifts)
+
   </div><!-- End Menu -->
 
 

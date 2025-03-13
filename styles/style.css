@@ -2254,13 +2254,11 @@ html:has(.guide)::-webkit-scrollbar {
   position: fixed;
   z-index: 600;
   bottom: 20px;
-  right: calc(50vw - 116px);
+  right: calc(50% - 116px);
   display: inline-block;
   border: 0;
   outline: 0;
   cursor: pointer;
-  width: 190px;
-  height: 44px;
   padding: 11px 10px 11px 47px;
   background: white;
   border: 1px solid black;

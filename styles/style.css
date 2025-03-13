@@ -2302,10 +2302,6 @@ html:has(.guide)::-webkit-scrollbar {
   display: none;
 }
 
-.docMenu-check:checked ~ .docMenu {
- 
-}
-
 .docMenu-check:checked ~ .docMenu:before {
   transform: rotate(-45deg) translateY(9px) translateX(-8px);
   -webkit-transform: rotate(-45deg) translateY(9px) translateX(-8px);
@@ -2325,14 +2321,22 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-nav {
- display: none;
- position: fixed;
- top: 40px;
- left: 20px;
- padding: 20px;
- border-radius: 20px;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 60px;
+  border-radius: 20px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .docMenu-check:checked ~ .docMenu-nav {
  display: inline-block;
+}
+
+.docMenu-nav ul {
+  margin: auto auto;
+  width: fit-content;
+  height: fit-content;
 }

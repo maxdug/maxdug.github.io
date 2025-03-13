@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Purchase Roadmap
+title: Money & Stuff
 description: Prioritized buying roadmap of stuff I want to purchase as I embrace a no-spend lifestyle, focusing on what truly enhances my life while avoiding unnecessary expenses.
 section: none
 class: none

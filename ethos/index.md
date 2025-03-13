@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Max &nbsp;❭&nbsp; Ethos
+title: My Ethos
 description: How I try to live my life
 section: personal
 class: ethos

@@ -37,25 +37,37 @@ class: ethos
 
 </div>
 
-<input class="burger-check" id="burger-check" type="checkbox"><label for="burger-check" class="burger"></label>
-  <div class="burger-nav">
-    <ul>
-        <li><a href="#top">Top of Page</a></li>
-        <li><a href="#breakpoints">Breakpoints</a></li>
-        <li><a href="#colors">Colors</a></li>
-        <li><a href="#type">Typography</a></li>
-        <li>
-            <input class="menu-check" id="menu-check" type="checkbox">
-            <label for="menu-check" class="pointer">Icons</label>
-            <ul class="second-level-menu">
-            <li>Action</li>
-            <li>label</li>
-            <li>navigation</li>
-            </ul>
-        </li>
-    </ul>
-  </div>
-
+<!-- M E N U -->
+<div><!-- Keeps the input and labe from being wrapped in markdown P -->
+<input class="docMenu-check" id="docMenu-check" type="checkbox">
+<label for="docMenu-check" class="docMenu">Ethos</label>
+<div  class="docMenu-nav" markdown="1" style="background-color: white;">
+* [My Ethos](#myethos)
+    * [Core Rules](#corerules)
+        1. [Do no harm](#donoharm)
+        2. [Be Happy](#behappy)
+        3. [Help Others](#helpothers)
+    * [Core Principles](#coreprinciples)
+        * [Believe in People](#believeinpeople)
+        * [Don't Lie to Myself](#dontlietomax)
+        * [Don't defend my honor](#dontdefendmyhonor)
+        * [Focus on what I can control & accept what I can't](#shithappens)
+    * [Practical Principles](#practicalprinciples)
+        * [Make tomorrow simpler](#maketomorrowsimpler)
+        * [Strive to live simply and self sufficient](#livesimply)
+        * [Accept help when needed](#accepthelp)
+        * [Don't substitute labor for thinking something through](#thinkitthrough)
+        * [Don't live based on an assumed future or past](#liveinreality)
+        * [Prioritize building and maintaining relationships](#prioritizepeople)
+        * [Don't Engage Stupid](#dontengage)
+        * [Don't absorb news at face value](#nonews)
+    * [Priorities and Values](#prioritiesandvalues)
+        * [To maintain and protect](#tomaintain)
+        * [To activly Pursue](#topersue)
+    * [Applications](#applications)
+        
+</div><!-- End Menu -->
+</div>
 <!-- C O N T E N T -->
 <div style="flex: 3 1 10%; max-width: 720px;  margin: 20px; padding: 0;" markdown="1">
 
@@ -246,3 +258,16 @@ This list is prioritized: not harming others comes before securing my own happin
 </div>
 
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const overlayMenu = document.querySelector('.docMenu-nav');
+    const menuLinks = overlayMenu.querySelectorAll('a');
+
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            document.getElementById('docMenu-check').checked = false;
+        });
+    });
+});
+    </script>

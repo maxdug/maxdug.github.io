@@ -9,7 +9,7 @@ class: none
 <!-- M E N U -->
 <div><!-- Keeps the input and labe from being wrapped in markdown P -->
 <input class="docMenu-check" id="docMenu-check" type="checkbox">
-<label for="docMenu-check" class="docMenu">Table of Contents</label>
+<label for="docMenu-check" class="docMenu">Money & Stuff</label>
 <div  class="docMenu-nav" markdown="1" style="background-color: white;">
 - [Philosophy](#my-philosophy-on-money-and-stuff)
     - [Overview](#overview)

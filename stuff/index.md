@@ -236,5 +236,16 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Fancy Noweigan Candles
 
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const overlayMenu = document.querySelector('.docMenu-nav');
+    const menuLinks = overlayMenu.querySelectorAll('a');
 
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            document.getElementById('docMenu-check').checked = false;
+        });
+    });
+});
+    </script>
 

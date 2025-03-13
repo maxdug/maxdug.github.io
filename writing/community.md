@@ -2,7 +2,7 @@
 layout: document
 title: Community
 description: My thoughts on how to interat with my local community.
-section: none
+section: writing
 class: community
 ---
 

@@ -2304,6 +2304,8 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-check:checked ~ .docMenu {
+  transform: rotate(45deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(45deg) translateY(-4px) translateX(-5px);
   border-bottom: 4px solid transparent;
   transition: border-bottom 0.8s ease-in-out;
   -webkit-transition: border-bottom 0.8s ease-in-out;
@@ -2311,8 +2313,8 @@ html:has(.guide)::-webkit-scrollbar {
 
 .docMenu-check:checked ~ .docMenu:before {
   margin-top: 7px;
-  transform: rotate(-405deg) translateY(1px) translateX(-3px);
-  -webkit-transform: rotate(-405deg) translateY(1px) translateX(-3px);
+  transform: rotate(-45deg) translateY(1px) translateX(-3px);
+  -webkit-transform: rotate(-45deg) translateY(1px) translateX(-3px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
@@ -2320,8 +2322,8 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-check:checked ~ .docMenu:after {
-  transform: rotate(405deg) translateY(-4px) translateX(-5px);
-  -webkit-transform: rotate(405deg) translateY(-4px) translateX(-5px);
+  transform: rotate(45deg) translateY(-4px) translateX(-5px);
+  -webkit-transform: rotate(45deg) translateY(-4px) translateX(-5px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;

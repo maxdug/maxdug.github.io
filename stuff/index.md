@@ -273,6 +273,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Append the anchor to the list item
         listItem.appendChild(anchor);
 
+        // Set the indentation based on the heading level
+        listItem.style.marginLeft = `${(heading.tagName.charAt(1) - 1) * 20}px`;
+
         // Append the list item to the table of contents list
         tocList.appendChild(listItem);
     });

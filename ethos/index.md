@@ -6,38 +6,6 @@ section: personal
 class: ethos
 ---
 
-<!-- M E N U -->
-<div><!-- Keeps the input and labe from being wrapped in markdown P -->
-<input class="docMenu-check" id="docMenu-check" type="checkbox">
-<label for="docMenu-check" class="docMenu">Ethos</label>
-<div  class="docMenu-nav" markdown="1" style="background-color: white;">
-* [My Ethos](#myethos)
-    * [Core Rules](#corerules)
-        1. [Do no harm](#donoharm)
-        2. [Be Happy](#behappy)
-        3. [Help Others](#helpothers)
-    * [Core Principles](#coreprinciples)
-        * [Believe in People](#believeinpeople)
-        * [Don't Lie to Myself](#dontlietomax)
-        * [Don't defend my honor](#dontdefendmyhonor)
-        * [Focus on what I can control & accept what I can't](#shithappens)
-    * [Practical Principles](#practicalprinciples)
-        * [Make tomorrow simpler](#maketomorrowsimpler)
-        * [Strive to live simply and self sufficient](#livesimply)
-        * [Accept help when needed](#accepthelp)
-        * [Don't substitute labor for thinking something through](#thinkitthrough)
-        * [Don't live based on an assumed future or past](#liveinreality)
-        * [Prioritize building and maintaining relationships](#prioritizepeople)
-        * [Don't Engage Stupid](#dontengage)
-        * [Don't absorb news at face value](#nonews)
-    * [Priorities and Values](#prioritiesandvalues)
-        * [To maintain and protect](#tomaintain)
-        * [To activly Pursue](#topersue)
-    * [Applications](#applications)
-        
-</div><!-- End Menu -->
-</div>
-
 * Incorporate Personal Policies
     * My more practical specific to me policies like I don't drink here or I don't loan money to friends or ... These are a great way to say no to people. You say I don't do XYZ, its against my policy. People tend to respect this more than a specific reason for saying no.
 
@@ -221,16 +189,3 @@ This list is prioritized: not harming others comes before securing my own happin
 
 ### Real Life Examples
 * Someone does ...
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const overlayMenu = document.querySelector('.docMenu-nav');
-    const menuLinks = overlayMenu.querySelectorAll('a');
-
-    menuLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            document.getElementById('docMenu-check').checked = false;
-        });
-    });
-});
-</script>

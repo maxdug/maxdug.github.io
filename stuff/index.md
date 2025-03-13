@@ -7,9 +7,11 @@ class: none
 ---
 
 <!-- M E N U -->
-<!-- <div markdown="1" style="position: fixed; top: 0; right: 0;">
-**Table of Contents**
-- [Philosophy](#philosophy)
+<div><!-- Keeps the input and labe from being wrapped in markdown P -->
+<input class="docMenu-check" id="docMenu-check" type="checkbox">
+<label for="docMenu-check" class="docMenu"></label>
+<div  class="docMenu-nav" markdown="1" style="background-color: white;">
+- [Philosophy](#my-philosophy-of-money-and-stuff)
     - [Overview](#overview)
     - [Key Benefits](#key-benefits)
     - [Checklist](#checklist)
@@ -25,14 +27,27 @@ class: none
         - [Semi-functional](#semi-functional)
         - [Purley for pleasure](#purley-for-pleasure)
         - [Tember Gifts](#tember-gifts)
-</div> -->
+        
+</div><!-- End Menu -->
+</div>
 
-# Philosophy
+# My Philosophy of Money and Stuff
 
 ## Overview
 This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.
 
 This could also be an area for people to see what I would want as a gift or if they have the thing, maybe trade for it. I am very very particular and don't like gifts that aren't the thing I imagine having for life - that is just wasteful.
+
+spend a dollar to save a penny
+
+### When to Upgrade
+Even if an item is not completely broken, is there a point where there are enough other factors to justify an upgrade?
+- Will the upgrade use less resouces (upgrading from an old truck to a Prius)
+- Is the original item in a shape that it can't be donated (It's going live in a landfill eventualy, so why not have it start degrading sooner)
+- Will the upgrade improve quality of life in ways that save resources (Buying a less finicky rice cooker get's you to eat at home moer)
+- Is the new item of a quality that you believe it will last you the rest of your life?
+- When it comes to recycling, or disposing of stuff, I value my life sometimes over being perfect. Big companies have made us feel like the waste problem is soley on the consumers shoulders. I will continue to get rid of things that don't add value to my life so that I can maintain a simple space, but start to buy from companies that support repair.
+
 
 ## Key benefits:
 1. Alow me to think about it more - having to open a editor and type something into a priority list allows you to think if it's really going to improve your quality of life over something else or just saving to be more financially secure. 
@@ -221,27 +236,5 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Fancy Noweigan Candles
 
 
-<!-- M E N U -->
-<div>
-<input class="docMenu-check" id="docMenu-check" type="checkbox"><label for="docMenu-check" class="docMenu"></label>
-<div  class="docMenu-nav" markdown="1" style="background-color: white;">
-- [Philosophy](#philosophy)
-    - [Overview](#overview)
-    - [Key Benefits](#key-benefits)
-    - [Checklist](#checklist)
-    - [Rules](#rules)
-- [Roadmap](#roadmap)
-    - [Personal](#personal)
-        - [Quality of Life](#quality-of-life)
-        - [Hobbies](#hobbies)
-            - [Backpacking](#backpacking)
-            - [Biking](#biking)
-    - [Joint Purchases](#joint-purchases)
-        - [Functional](#functional)
-        - [Semi-functional](#semi-functional)
-        - [Purley for pleasure](#purley-for-pleasure)
-        - [Tember Gifts](#tember-gifts)
-        
-</div><!-- End Menu -->
-</div>
+
 

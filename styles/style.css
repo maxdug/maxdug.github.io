@@ -2338,5 +2338,11 @@ html:has(.guide)::-webkit-scrollbar {
 .docMenu-nav ul {
   margin: auto auto;
   width: fit-content;
-  height: fit-content;
+  list-style: none;
+  font-size: 1.2rem;
+  padding: 0;
+}
+
+.docMenu-nav li {
+  margin: .5em 0 .5em 1.5em;
 }

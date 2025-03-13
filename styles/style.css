@@ -231,12 +231,12 @@ h3 a:hover {
   color: Black;
 }
 h4 {
-  font-size: .9rem;
+  font-size: 1.1rem;
   margin: .7em 0 .6em;
   color: #333;
   font-weight: 300;
   text-decoration: none;
-  /* text-transform: uppercase; */
+  font-weight: bold;
 }
 h4 a:hover {
   color: Black;

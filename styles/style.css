@@ -2264,10 +2264,7 @@ html:has(.guide)::-webkit-scrollbar {
   outline: 0;
   padding: 0;
   cursor: pointer;
-  border-bottom: 4px solid currentColor;
   width: 28px;
-  transition: border-bottom 1s ease-in-out;
-  -webkit-transition: border-bottom 1s ease-in-out;
 }
 
 .docMenu::-moz-focus-inner {
@@ -2304,11 +2301,7 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-check:checked ~ .docMenu {
-  transform: rotate(45deg) translateY(-4px) translateX(-5px);
-  -webkit-transform: rotate(45deg) translateY(-4px) translateX(-5px);
-  border-bottom: 4px solid transparent;
-  transition: border-bottom 0.8s ease-in-out;
-  -webkit-transition: border-bottom 0.8s ease-in-out;
+ 
 }
 
 .docMenu-check:checked ~ .docMenu:before {

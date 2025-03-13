@@ -11,23 +11,7 @@ class: none
 <input class="docMenu-check" id="docMenu-check" type="checkbox">
 <label for="docMenu-check" class="docMenu">Money & Stuff</label>
 <div  class="docMenu-nav" markdown="1" style="background-color: white;">
-- [Philosophy](#my-philosophy-on-money-and-stuff)
-    - [Overview](#overview)
-    - [Key Benefits](#key-benefits)
-    - [Checklist](#checklist)
-    - [Rules](#rules)
-- [Roadmap](#roadmap)
-    - [Personal](#personal)
-        - [Quality of Life](#quality-of-life)
-        - [Hobbies](#hobbies)
-            - [Backpacking](#backpacking)
-            - [Biking](#biking)
-    - [Joint Purchases](#joint-purchases)
-        - [Functional](#functional)
-        - [Semi-functional](#semi-functional)
-        - [Purley for pleasure](#purley-for-pleasure)
-        - [Tember Gifts](#tember-gifts)
-        
+    <ul id="toc-list"></ul>        
 </div><!-- End Menu -->
 </div>
 
@@ -234,11 +218,6 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 ### Possible Tember Gifts
 1. Fancy wine glasses Kira cb2
 1. Fancy Noweigan Candles
-
-<div id="toc">
-    <h3>Table of Contents</h3>
-    <ul id="toc-list"></ul>
-</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

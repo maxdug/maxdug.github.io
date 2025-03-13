@@ -221,7 +221,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const overlayMenu = document.querySelector('.docMenu-nav');
+    const overlayMenu = document.querySelector('.toc-list');
     const menuLinks = overlayMenu.querySelectorAll('a');
 
     menuLinks.forEach(link => {

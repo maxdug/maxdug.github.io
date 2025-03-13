@@ -2263,7 +2263,6 @@ html:has(.guide)::-webkit-scrollbar {
   background: white;
   border: 1px solid black;
   border-radius: 30px;
-  overflow: scroll;
 }
 
 .docMenu::-moz-focus-inner {
@@ -2336,6 +2335,7 @@ html:has(.guide)::-webkit-scrollbar {
   border-radius: 20px;
   width: 100vw;
   height: 100vh;
+  overflow: scroll;
 }
 
 .docMenu-check:checked ~ .docMenu-nav {

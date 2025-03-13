@@ -9,9 +9,9 @@ class: none
 <!-- M E N U -->
 <div><!-- Keeps the input and labe from being wrapped in markdown P -->
 <input class="docMenu-check" id="docMenu-check" type="checkbox">
-<label for="docMenu-check" class="docMenu"></label>
+<label for="docMenu-check" class="docMenu">Table of Contents</label>
 <div  class="docMenu-nav" markdown="1" style="background-color: white;">
-- [Philosophy](#my-philosophy-of-money-and-stuff)
+- [Philosophy](#my-philosophy-on-money-and-stuff)
     - [Overview](#overview)
     - [Key Benefits](#key-benefits)
     - [Checklist](#checklist)
@@ -31,7 +31,7 @@ class: none
 </div><!-- End Menu -->
 </div>
 
-# My Philosophy of Money and Stuff
+# My Philosophy on Money and Stuff
 
 ## Overview
 This roadmap outlines the items I want to acquire, helping me be intentional and avoid wastefulness.

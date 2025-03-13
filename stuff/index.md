@@ -6,15 +6,6 @@ section: none
 class: none
 ---
 
-<!-- M E N U -->
-<div><!-- Keeps the input and labe from being wrapped in markdown P -->
-<input class="docMenu-check" id="docMenu-check" type="checkbox">
-<label for="docMenu-check" class="docMenu">Money & Stuff</label>
-<div  class="docMenu-nav" style="background-color: white;">
-    <ul id="toc-list"></ul>        
-</div><!-- End Menu -->
-</div>
-
 # My Philosophy on Money and Stuff
 
 ## Overview
@@ -219,45 +210,4 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Fancy wine glasses Kira cb2
 1. Fancy Noweigan Candles
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const overlayMenu = document.querySelector('.toc-list');
-    const menuLinks = overlayMenu.querySelectorAll('a');
-
-    menuLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            document.getElementById('docMenu-check').checked = false;
-        });
-    });
-});
-    </script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Select all headings with IDs
-    const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
-
-    // Get the table of contents list element
-    const tocList = document.getElementById('toc-list');
-
-    // Create a list item for each heading
-    headings.forEach(heading => {
-        const listItem = document.createElement('li');
-        const anchor = document.createElement('a');
-
-        // Set the href attribute to the heading's ID
-        anchor.href = `#${heading.id}`;
-        anchor.textContent = heading.textContent;
-
-        // Append the anchor to the list item
-        listItem.appendChild(anchor);
-
-        // Set the indentation based on the heading level
-        listItem.style.marginLeft = `${(heading.tagName.charAt(1) - 1) * 20}px`;
-
-        // Append the list item to the table of contents list
-        tocList.appendChild(listItem);
-    });
-});
-</script>
 

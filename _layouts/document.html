@@ -14,8 +14,7 @@
     
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const overlayMenu = document.querySelector('.toc-list');
-    const menuLinks = overlayMenu.querySelectorAll('a');
+    const menuLinks = document.querySelectorAll('.docMenu-nav a');
 
     menuLinks.forEach(link => {
         link.addEventListener('click', function() {

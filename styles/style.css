@@ -2276,8 +2276,8 @@ html:has(.guide)::-webkit-scrollbar {
   border-bottom: 4px solid currentColor;
   width: 28px;
   height: 4px;
-  transform: rotate(0deg) translateY(0px) translateX(0px);
-  -webkit-transform: rotate(0deg) translateY(0px) translateX(0px);
+  transform: rotate(0deg) translateY(7px) translateX(0px);
+  -webkit-transform: rotate(0deg) translateY(7px) translateX(0px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
@@ -2290,8 +2290,8 @@ html:has(.guide)::-webkit-scrollbar {
   border-bottom: 4px solid currentColor;
   width: 28px;
   height: 4px;
-  transform: rotate(0deg) translateY(0px) translateX(0px);
-  -webkit-transform: rotate(0deg) translateY(0px) translateX(0px);
+  transform: rotate(0deg) translateY(13px) translateX(0px);
+  -webkit-transform: rotate(0deg) translateY(13px) translateX(0px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
@@ -2307,8 +2307,8 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-check:checked ~ .docMenu:before {
-  transform: rotate(-45deg) translateY(1px) translateX(-3px);
-  -webkit-transform: rotate(-45deg) translateY(1px) translateX(-3px);
+  transform: rotate(-45deg) translateY(9px) translateX(-8px);
+  -webkit-transform: rotate(-45deg) translateY(9px) translateX(-8px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;
@@ -2316,8 +2316,8 @@ html:has(.guide)::-webkit-scrollbar {
 }
 
 .docMenu-check:checked ~ .docMenu:after {
-  transform: rotate(45deg) translateY(-4px) translateX(-5px);
-  -webkit-transform: rotate(45deg) translateY(-4px) translateX(-5px);
+  transform: rotate(45deg) translateY(5px) translateX(6px);
+  -webkit-transform: rotate(45deg) translateY(5px) translateX(6px);
   transition: -webkit-transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-in-out, -webkit-transform 0.5s ease-in-out;

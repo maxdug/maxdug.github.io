@@ -235,6 +235,10 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Fancy wine glasses Kira cb2
 1. Fancy Noweigan Candles
 
+<div id="toc">
+    <h3>Table of Contents</h3>
+    <ul id="toc-list"></ul>
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -248,4 +252,30 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
     </script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all headings with IDs
+    const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+
+    // Get the table of contents list element
+    const tocList = document.getElementById('toc-list');
+
+    // Create a list item for each heading
+    headings.forEach(heading => {
+        const listItem = document.createElement('li');
+        const anchor = document.createElement('a');
+
+        // Set the href attribute to the heading's ID
+        anchor.href = `#${heading.id}`;
+        anchor.textContent = heading.textContent;
+
+        // Append the anchor to the list item
+        listItem.appendChild(anchor);
+
+        // Append the list item to the table of contents list
+        tocList.appendChild(listItem);
+    });
+});
+</script>
 

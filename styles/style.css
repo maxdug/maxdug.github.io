@@ -2353,3 +2353,32 @@ html:has(.guide)::-webkit-scrollbar {
 .docMenu-nav li {
   margin: .5em 0 .5em 1.5em;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}

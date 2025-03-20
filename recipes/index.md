@@ -62,7 +62,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
-      {% if page.categories contains 'recipes' %}
+      {% if page.categories contains 'desserts' %}
               <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
       {% endif %}
     {% endif %}

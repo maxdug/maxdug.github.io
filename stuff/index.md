@@ -111,6 +111,9 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - I like my tool roll and could do some sewing to make it better
     - I could also buy more hooks to better hang some big tools down in the cage
 1. Microface comic
+1. Paniers
+    - Could put my current basket on whatever rack I buy?
+    - Start with this and move to paniers if needed
 
 
 1. EDJY Fingernail Cutter

@@ -84,6 +84,9 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 ## Personal
 
 ### Day-to-Day Quality of Life Purchases
+1. Bike Rack
+    - Want to start buying groceries with the bike
+1. Fancy rotex 880 label maker
 1. [Yoga mat sling](https://www.huggermugger.com/strap-sling-yoga-mat-carrier/?sku=AC-STRAP-SLING-NAVY)
     - Want to start biking to Yoga Agora
 1. Metal box for storing new clippers and guards
@@ -119,6 +122,11 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - I think I'm actually good with current setup
 1. Glass nail file
     - Could I use one of my diamond files
+1. Office chair - Eams aluminum group
+1. Standing Desk
+1. Foil shaver
+1. Small Shoe Horn
+
 
 ### Suff for Hobbies & Fun
 #### Backpacking
@@ -148,7 +156,7 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 1. Saftey Pizza
 1. cable cherries
 
-#### Other
+### Other
 1. Canon to Nikon Lense Adapter
     - FotodioX Pro Lens Mount Adapter for Canon FD Lens to FD-NIKF-PRO
 1. change AE1 battery and film
@@ -164,23 +172,13 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 
 ### Joint Purchases
 #### Functional
-1. Bike Rack
-    - Want to start buying groceries with the bike
-1. Fancy rotex 880 label maker
-1. Office chair - Eams aluminum group
-1. Standing Desk
-1. Foil shaver
+Some of the stuff I buy is for joint benefit, but if I plan to pay for it fully, I'm putting it under my list
 1. paint thinner
-1. Small Shoe Horn
 1. Reflective Triangles
 1. Jumper Cables
 1. tire chains
-1. Clothers Steamer
+1. Clothes Steamer
 1. Washing Bag – Package Free
-1. oxo julien peeler for carrots
-1. Tools to complete projects?
-1. Taylor & Ng 5 Piece Non-Stick Carbon Steel Wok Set with Lid & Reviews | Wayfair
-    - Don't really need any more
 
 #### Semi-functional
 1. New Camera

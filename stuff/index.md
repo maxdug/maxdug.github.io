@@ -84,16 +84,13 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
 ## Personal
 
 ### Day-to-Day Quality of Life Purchases
-1. Hair clip 
-    - Hold my hair back while I lotion my face
-    - I feel like this is something I could buy local if I found the right shop
-    - Other use case is if I start cutting my own hair, maybe I do need more than one
-1. Buy Suit bag
-    - Need to check, Have 2 I think but three suits
-    - Does not need to be fancy travel one, I can switch and use my fancy travel one for whichever color I'm using
-    - Just simple cotton bag
-1. More sweater hangers
-  - need to count and figure out how many I need, match existing style
+1. [Yoga mat sling](https://www.huggermugger.com/strap-sling-yoga-mat-carrier/?sku=AC-STRAP-SLING-NAVY)
+    - Want to start biking to Yoga Agora
+1. Metal box for storing new clippers and guards
+    - liking the trustco t-190 stacking boxes
+    - Could also try and find a low cost stainless bento box from hmart or restraunt supply
+    - like the idea of metal box that can stack
+    - there is a bigger trustco t-30 that has a handle and I could do in foam cut-out style of smaller boxes inside
 1. Bike pump adapter
     - My current bike pump is finicky and realeases lots of air when you pull off the  tire
     - Multiple options bookmarked, need to look at preferences and sizes
@@ -101,8 +98,6 @@ Format: Item - Job to be done or problem being solved - Specific Item I've resea
     - Allow me to fix and get rid of bike
 1. Bike Chain
     - Worried that I'm allowing my bike cog to wear out
-1. Bigger Trimmer for cutting my own hair
-    - I wonder if Matthew & Caleb have one I could borrow to see if this is something I want to do long-term
 1. laser level
     - Self-Leveling Cross Line Laser Level. Should buy when we have a need again.
     - Probably harbor frieght model

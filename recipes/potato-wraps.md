@@ -10,7 +10,7 @@ cooktime: 40 minutes
 servingsize: 6 wraps
 heroimage: https://i0.wp.com/wellandfull.com/wp-content/uploads/2016/12/wellandfull-19.jpg?resize=2497%2C3745&ssl=1
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 * used too much spinach

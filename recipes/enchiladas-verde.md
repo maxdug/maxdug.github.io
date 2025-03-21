@@ -10,7 +10,7 @@ cooktime: 40 minutes
 servingsize: Serves 4
 heroimage: ./enchiladas-verde.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Directions

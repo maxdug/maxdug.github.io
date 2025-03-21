@@ -10,7 +10,7 @@ cooktime: 40 minutes
 servingsize: Serves 4
 heroimage: https://www.foodista.com/sites/default/files/styles/featured/public/field/image/creamy-chicken-wild-rice-soup-large-62131.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Make the Chick'n

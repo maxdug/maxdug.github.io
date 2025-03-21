@@ -9,7 +9,7 @@ cooktime: 45 minutes + Prep
 servingsize: Serves 4
 heroimage: ./tofish-chips.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Directions

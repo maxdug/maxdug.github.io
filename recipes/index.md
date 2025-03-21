@@ -20,7 +20,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
-      {% if page.categories contains 'recipes' %}
+      {% if page.categories contains 'mains' %}
               <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
       {% endif %}
     {% endif %}
@@ -34,7 +34,7 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
-      {% if page.categories contains 'recipes' %}
+      {% if page.categories contains 'ingredients' %}
               <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
       {% endif %}
     {% endif %}
@@ -44,11 +44,11 @@ This page is a work in progress - I'm slowly bringing in my recipes from my note
 
   <div class="half" markdown="1">
 
-## Bread
+## Breads
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
-      {% if page.categories contains 'recipes' %}
+      {% if page.categories contains 'breads' %}
               <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
       {% endif %}
     {% endif %}

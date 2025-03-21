@@ -7,7 +7,7 @@ cooktime: 2 1/2 hrs
 servingsize: Serves 6
 heroimage: ./meatloaf-plated.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Directions

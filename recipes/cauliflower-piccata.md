@@ -9,7 +9,7 @@ cooktime: 30 minutes
 servingsize: Serves 4
 heroimage: ./.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Directions

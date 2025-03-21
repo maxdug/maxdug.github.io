@@ -9,7 +9,7 @@ cooktime: 30 minutes + Pre-work
 servingsize: Serves 3
 heroimage: ./bbq-tofu.jpg
 resource: true
-categories: [recipes]
+categories: [recipes, mains]
 ---
 
 ## Directions

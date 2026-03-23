@@ -1,17 +1,28 @@
 {% include header.html %}
 <main>
     <div class="article">
+        <p><a href="/books">All books</a></p>
         <p>{{ page.genre }}</p>
         <h1>{{ page.title }}</h1>
         <p>By {{ page.author }}</p>
         <p>{{ page.description }}</p>
-        <p><a href="/books">View All books</a></p>
+        <p>Published: {{ page.published }}   |   Origin: {{ page.country }}   |   Origin: {{ page.country }}</p>
+        <p>Pages: {{ page.pages }}   |   Time: {{ page.time }}   |   Felt: {{ page.relativelength }}</p>
+        <p>I finished via {{ page.media }} on {{ page.date }}</p>
 
-        <div id="recipe-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
+        <div id="book-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
+        <h2>Review</h2>
         {{ content }}
-        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a class="btn-outline" onclick="copyDivToClipboard()">Copy Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
     </div>
 </main>
 {% include footer.html %}
+
+
+categories: [reccomended, long, cried, wellwritten]
+genre:	[Novel, Fiction, Mystery, Magical Realism]
+reccomendation: Would reccomend
+cried: cried
+quality: Well written
+problems: no hangups
 
 

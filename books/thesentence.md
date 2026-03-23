@@ -9,17 +9,19 @@ heroimage: https://upload.wikimedia.org/wikipedia/en/thumb/0/02/TheSentenceLouis
 resource: true
 categories: [reccomended, long, cried, wellwritten]
 author:	Louise Erdrich
-genre:	[Fiction, Mystery, Magical Realism]
+genre:	[Novel, Fiction, Mystery, Magical Realism]
 published: November 9, 2021
 country: United States
 media: Audiobook
 pages:	387
+time: 12 Hours
+relativelength: Felt long
+reccomendation: Would reccomend
+cried: cried
+quality: Well written
+problems: no hangups
+dateread: 26/03/22
 ---
-
-Novel
-12 hours
-Would reccomend, Cried, Felt long, Well written, no hangups 
-Date finished: 26/03/22
 
 ### Review {#review}
 On 1x I felt the narration was whispy, but at 2x I really liked it. Something about the voice matched the character in my head.

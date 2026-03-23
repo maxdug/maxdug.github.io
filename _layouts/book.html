@@ -1,0 +1,89 @@
+{% include header.html %}
+<main>
+    <div class="article">
+        <p>{{ page.cooktime }} | {{ page.servingsize }}</p>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.description }}</p>
+        <p><a onclick="copyDivToClipboard()">Copy Grocery List</a> | <a onclick="openFullscreen()">Fullscreen</a> | <a href="#grocerylist">Jump to Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
+
+
+        <p><a onclick="changeFontSize(0.1)">Increase Font Size</a> | <a onclick="changeFontSize(-0.1)">Decrease Font Size</a> | <a onclick="resetFontSize()">Reset Font Size</a></p>
+
+        <div id="recipe-hero" style="background-image: url({{page.heroimage}});">&nbsp;</div>
+        {{ content }}
+        <p>{{ page.cooktime }} | {{ page.servingsize }} | <a class="btn-outline" onclick="copyDivToClipboard()">Copy Grocery List</a> | <a href="/recipes">View All Recipes</a></p>
+        <script>
+          function copyDivToClipboard() {
+              var range = document.createRange();
+              range.selectNode(document.getElementById("copygrocerylist"));
+              window.getSelection().removeAllRanges(); // clear current selection
+              window.getSelection().addRange(range); // to select text
+              document.execCommand("copy");
+              window.getSelection().removeAllRanges();// to deselect
+          }
+        </script>
+          <script>
+            /* Get the documentElement (<html>) to display the page in fullscreen */
+            var elem = document.documentElement;
+            
+            /* View in fullscreen */
+            function openFullscreen() {
+              if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+              } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+              } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+              }
+            }
+            
+            /* Close fullscreen */
+            function closeFullscreen() {
+              if (document.exitFullscreen) {
+                document.exitFullscreen();
+              } else if (document.webkitExitFullscreen) { /* Safari */
+                document.webkitExitFullscreen();
+              } else if (document.msExitFullscreen) { /* IE11 */
+                document.msExitFullscreen();
+              }
+            }
+            </script>
+                <script>
+                  function changeFontSize(delta) {
+                      const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+                      elements.forEach(element => {
+                          const currentSize = parseFloat(window.getComputedStyle(element).fontSize);
+                          const newSize = currentSize + (delta * 16); // Convert em to px for calculation
+                          element.style.fontSize = newSize / 16 + 'em'; // Set the new font size in em
+                      });
+                  }
+          
+                  function resetFontSize() {
+                      const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+                      elements.forEach(element => {
+                          element.style.fontSize = '1em'; // Reset to default font size
+                      });
+                  }
+              </script>
+    <!-- <script>
+      function changeFontSize(delta) {
+          const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+          elements.forEach(element => {
+              const currentSize = window.getComputedStyle(element).fontSize;
+              const newSize = parseFloat(currentSize) + delta; // Adjust the font size in em
+              element.style.fontSize = newSize + 'em'; // Set the new font size
+          });
+      }
+
+      function resetFontSize() {
+          const elements = document.querySelectorAll('h1, h2, h3, h4, p, li');
+          elements.forEach(element => {
+              element.style.fontSize = '1em'; // Reset to default font size
+          });
+      }
+  </script> -->
+    </div>
+</main>
+{% include footer.html %}
+
+

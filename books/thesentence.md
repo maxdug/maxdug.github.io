@@ -7,7 +7,7 @@ class: books
 categories: books
 cooktime: 30 minutes + Pre-work
 servingsize: Serves 3
-heroimage: ./bbq-tofu.jpg
+heroimage: https://upload.wikimedia.org/wikipedia/en/thumb/0/02/TheSentenceLouiseErdrich.jpg/250px-TheSentenceLouiseErdrich.jpg
 resource: true
 categories: [reccomended, long, cried, wellwritten]
 ---

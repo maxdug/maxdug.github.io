@@ -32,12 +32,12 @@ I don't love the star system - maybe a kind of tagging system.
 <div class="article container">
   <div class="half" markdown="1">
 
-## Mains
+## Reccomended
   <!-- Using https://stackoverflow.com/questions/17118551/generating-a-list-of-pages-not-posts-in-a-given-category#17913214 -->
   <ul>
   {% for page in site.pages %}
     {% if page.resource == true %}
-      {% if page.categories contains 'mains' %}
+      {% if page.categories contains 'reccomended' %}
               <li><b><a href="{{ page.url }}">{{ page.title }}</a></b><br>{{ page.cooktime }} | {{ page.servingsize }}</li>
       {% endif %}
     {% endif %}

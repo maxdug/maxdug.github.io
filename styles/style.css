@@ -2224,15 +2224,8 @@ body.recipes {
     border-radius: 10px;
     margin-bottom: 24px;
   }
-    #book-hero {
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    height: 350px;
-    border: 2px solid black;
-    border-radius: 10px;
-    margin-bottom: 24px;
-  }
+
+
   a {
     cursor: pointer;
   }
@@ -2390,4 +2383,15 @@ tbody tr:nth-child(even) {
 
 tbody tr:nth-child(odd) {
   background-color: #ffffff;
+}
+
+
+.book-hero {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 24px;
 }

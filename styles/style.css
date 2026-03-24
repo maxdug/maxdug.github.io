@@ -87,7 +87,16 @@ body {
 }
 
 body#play {
-  background: ultramarine;
+  background: aquamarine;
+  span.txt-lg {
+    font-family: math;
+    font-weight: 900;
+    font-size: 7rem;
+    color: #00e095;
+    line-height: 61%;
+    padding: 0;
+    margin: 0;
+  }
 }
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */

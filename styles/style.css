@@ -88,14 +88,14 @@ body {
 
 body#play {
   background: aquamarine;
-  span.txt-lg {
+  h1, h2, h3, h4, h5, h6, .txt-lg {
     font-family: math;
     font-weight: 900;
-    font-size: 7rem;
     color: #00e095;
+  }
+  span.txt-lg {
+    font-size: 7rem;
     line-height: 61%;
-    padding: 0;
-    margin: 0;
   }
 }
 :root {

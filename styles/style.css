@@ -2401,7 +2401,7 @@ body.books {
   background-color: #ff6c6c;
   padding-top: 50px;
 }
-article.bookbox {
+.bookbox {
   h1, h2, h3, h4, h5, h6, p, div, span {
   padding: 10px;
   margin: 0;

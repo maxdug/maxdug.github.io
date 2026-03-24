@@ -2401,11 +2401,13 @@ body.books {
   background-color: #ff6c6c;
   padding-top: 50px;
 }
-.bookbox {
+.article.bookbox {
+
   h1, h2, h3, h4, h5, h6, p, div, span {
   padding: 10px;
   margin: 0;
   border: black 2px solid;
   color: black;
 }
+
 }

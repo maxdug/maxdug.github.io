@@ -101,6 +101,9 @@ body#play {
     border-radius: 3rem;
     margin: 10px;
   }
+.tile a:is(:focus, :hover) {
+  border: solid 10px #00e095;
+  }
 }
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */

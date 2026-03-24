@@ -86,7 +86,8 @@ body {
   align-items: center;
 }
 
-body#play {
+/* Specific for Play landing */
+body.play {
   background: aquamarine;
   h1, h2, h3, h4, h5, h6, .txt-lg {
     font-family: math;

@@ -1,9 +1,9 @@
 ---
 layout: default
+section: play
+uniquepage: recipes
 title: Recipes
 description: Recipes
-section: recipes
-class: recipes
 ---
 
 <div class="article" markdown="1">

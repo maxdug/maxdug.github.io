@@ -97,6 +97,10 @@ body#play {
     font-size: 7rem;
     line-height: 61%;
   }
+  .tile a {
+    border-radius: 3rem;
+    margin: 10px;
+  }
 }
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */

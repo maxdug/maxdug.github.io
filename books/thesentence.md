@@ -2,7 +2,7 @@
 layout: book
 title: The Sentence
 description: A Native American woman with a haunted past faces new ghosts at her bookstore job, all while navigating the pandemic and evolving relationships with loved ones.
-section: personal
+section: books
 class: books
 categories: books
 heroimage: https://upload.wikimedia.org/wikipedia/en/thumb/0/02/TheSentenceLouiseErdrich.jpg/250px-TheSentenceLouiseErdrich.jpg

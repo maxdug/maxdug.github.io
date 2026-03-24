@@ -86,10 +86,9 @@ body {
   align-items: center;
 }
 
-/* body#play {
-  background: url(/play/play-bg.jpg);
-  background-size: cover;
-} */
+body#play {
+  background: ultramarine;
+}
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */
   --primary: hsl(324, 100%, 45.5%); /* pink */

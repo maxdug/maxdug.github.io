@@ -86,10 +86,18 @@ body {
   align-items: center;
 }
 
+/* Affects all play pages */
+body#play {
+    h1, h2, h3, h4, h5, h6 {
+    font-family: math;
+    font-weight: 900;
+    color: #00e095;
+  }
+}
 /* Specific for Play landing */
 body.play {
   background: aquamarine;
-  h1, h2, h3, h4, h5, h6, .txt-lg {
+  .txt-lg {
     font-family: math;
     font-weight: 900;
     color: #00e095;
@@ -106,6 +114,8 @@ body.play {
   border: solid 10px #00e095;
   }
 }
+
+
 :root {
   --primary: hsl(210, 100%, 45.5%); /* Darker DodgerBlue */
   --primary: hsl(324, 100%, 45.5%); /* pink */

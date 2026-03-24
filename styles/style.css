@@ -2387,12 +2387,6 @@ tbody tr:nth-child(odd) {
   background-color: #ffffff;
 }
 
-body.books {
-  font-family: "Source Serif Pro", "Apple Garamond", "Baskerville", "Libre Baskerville", "Droid Serif", "Times New Roman", "Times", serif, "Noto Emoji", "Quivira";
-  font-size: 18px;
-  background-color: #ff6c6c;
-  padding-top: 50px;
-}
 .book-hero {
     background-position: center;
     background-size: contain;
@@ -2401,7 +2395,13 @@ body.books {
     background-repeat: no-repeat;
 }
 body.books {
-  .h1, h2, h3, h4, h5, h6, p {
+  font-family: Courier, monospaced;
+  color: white;
+  font-size: 18px;
+  background-color: #ff6c6c;
+  padding-top: 50px;
+
+  h1, h2, h3, h4, h5, h6, p, div, span {
   padding: 10px;
   margin: 0;
   border: white 2px solid;

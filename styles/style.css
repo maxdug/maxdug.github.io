@@ -2436,5 +2436,10 @@ body.books {
 
 /*  A S T O R I A   R U N N E R S  */
 body.astoria-runners {
-  background: rgb(255, 184, 255);
+  background: white;
+
+  h1, h2, h3, h4, h5, h6 {
+  font-family: Lato, sans-serif;
+  color: #70f;
+  }
 }

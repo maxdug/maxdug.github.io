@@ -81,7 +81,7 @@ body {
   flex-direction: column;
   margin: 45px 0 0;
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   align-items: center;
 }

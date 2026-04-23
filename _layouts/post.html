@@ -3,9 +3,8 @@
 
 <div class="article">
 
-# {{ page.title }}
-
-{{ page.category }} | {{ page.date | date: "%d %B %Y" }}
+<h1>{{ page.title }}</h1>
+<div>{{ page.category }} | {{ page.date | date: "%d %B %Y" }}</div>
 
   {% if page.image or page.video %}
       <a href="#" class="image-anchor">
@@ -22,12 +21,11 @@
 
   {{ content }}
 
-</div>
-
-<!-- next and prious button -->
+  <!-- next and prious button -->
         {% if page.previous.url %}
         <h1 class="blog_previous"><a href="{{page.previous.url}}"><img src="/images/previous.png" alt="previous" />{{page.previous.title}}</a></h1> {% endif %} {% if page.next.url %}
         <h1 class="blog_next"><a href="{{page.next.url}}"><img src="/images/next.png" alt="next" />{{page.next.title}}</a></h1> {% endif %}
 
+</div>
 </main>
 {% include footer.html %}

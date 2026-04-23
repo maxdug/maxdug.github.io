@@ -1,14 +1,10 @@
 {% include header.html %}
+<main>
 
-<!-- post -->
-<div class="post_nav">
-	<span class="fours"><a href="{{ page.title.url }}"><b>{{ page.title }}</b></a></span>
-	<span class="fours center">{{ page.category }}</span>
-	<span class="fours right">
-		<!-- this is where coment identifier went, using date instead-->
-    {{ page.date | date: "%d %B %Y" }}
-	</span>
-	<br class="clear"/>
+<div class="article container">
+
+  {{ page.title }} | {{ page.category }} | {{ page.date | date: "%d %B %Y" }}
+
 </div>
 
 
@@ -30,7 +26,6 @@
 
   {{ content }}
 
-<br class="clear"/>
 </div><!-- end post -->
 
 
@@ -39,5 +34,5 @@
         <h1 class="blog_previous"><a href="{{page.previous.url}}"><img src="/images/previous.png" alt="previous" />{{page.previous.title}}</a></h1> {% endif %} {% if page.next.url %}
         <h1 class="blog_next"><a href="{{page.next.url}}"><img src="/images/next.png" alt="next" />{{page.next.title}}</a></h1> {% endif %}
 
-
+</main>
 {% include footer.html %}

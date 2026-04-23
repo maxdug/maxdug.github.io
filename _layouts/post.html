@@ -1,15 +1,11 @@
 {% include header.html %}
 <main>
 
-<div class="article container">
+<div class="article">
 
-  {{ page.title }} | {{ page.category }} | {{ page.date | date: "%d %B %Y" }}
+# {{ page.title }}
 
-</div>
-
-
-<!-- begin post -->
-<div class="blog_post">
+{{ page.category }} | {{ page.date | date: "%d %B %Y" }}
 
   {% if page.image or page.video %}
       <a href="#" class="image-anchor">
@@ -26,8 +22,7 @@
 
   {{ content }}
 
-</div><!-- end post -->
-
+</div>
 
 <!-- next and prious button -->
         {% if page.previous.url %}

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Creating a writing habit
+title:  "Creating a writing habit"
 date:   2017-03-28 12:00:00 -0500
 categories: backpacking pictures
 tags: rambling

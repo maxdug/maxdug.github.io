@@ -1,9 +1,7 @@
 ---
-layout: blog
+layout: base
 ---
-
-{% include header.html %}
-<main>
+<div class="article">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
@@ -65,5 +63,4 @@ layout: blog
       </div>
     {%- endif %}
   {%- endif -%}
-</main>
-{% include footer.html %}
+  </div>

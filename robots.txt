@@ -6,3 +6,4 @@ Disallow: /remesh/
 Disallow: /about/
 Disallow: /cvs/
 Disallow: /ticketmaster/
+Disallow: /blog/

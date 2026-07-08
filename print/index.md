@@ -9,6 +9,8 @@ class: print
 <div class="article" markdown="1">
 
 # Print
-* [Dental Insurance card](/dental-id-card.pdf)
+* [Dental Insurance card](/dental-id-card.pdf){:target="_blank"}
+* [Network List](/network-list.png){:target="_blank"}
+
 
 </div>

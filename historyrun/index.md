@@ -1,24 +1,16 @@
 ---
 layout: document
-title: History Run
+title: Astoria Runners History Run 2026
 description: Astoria Runners History Run 2026
 section: personal
 class: astoria-runners
 uniquepage: astoria-runners
 ---
 
-<div class="hero" style="background-image: url(../play/astoria-runners/00-hero.jpg); background-position: center center;">
-  <span class="hero-overlay"></span>
-  <img src="../play/astoria-runners/Logo.svg" alt="Astoria Runners Logo">
-</div>
-
 <video class="rounded" style="outline: white 2px solid; outline-offset: -1px;" autoplay loop muted>
     <source src="../play/astoria-runners/half-video.mp4" type="video/mp4">
 </video>
 
-![Alt text](../play/astoria-runners/half-video.mp4)
-
-# Astoria Runners History Run 2026 {#historyrun}
 Welcome! This run will be 7ish miles with an extra bit for the marathon runners. 
 
 As we go through this tour, I encourage people to call out personal landmarks that mean something to them and share stories about there experience at restraunts, parks and other landmarks we pass.
@@ -26,12 +18,14 @@ As we go through this tour, I encourage people to call out personal landmarks th
 ## 01 NYC & Queens
 Let's establish some context and talk about New York City and Queens. Stretching is encouraged during this section.
 
-* **New York metropolitan area, also called the Tri-State area:**   	19,426,449 people | 4,669 sq mi 
-* **NYC Population:**   8,804,190 | 300 sq mi 
-* **Queens population:**    2,405,464 | 178 sq mi
-* **Astoria population:** 	198,608 | 4 sq mi
-* **Salt Lake City, Utah:**      215,548 | 110.81 sq mi 
-* **Wyoming:**  	588,753 | 97,813 sq mi 
+|  Location  |  Population |  Area  |
+|------------|-------------|--------|
+| **New York metropolitan area, also called the Tri-State area** | 19,426,449 people | 4,669 sq mi |
+| **NYC Population** | 8,804,190 | 300 sq mi |
+| **Queens population** | 2,405,464 | 178 sq mi |
+| **Astoria population** | 198,608 | 4 sq mi |
+| **Salt Lake City, Utah** | 215,548 | 111 sq mi |
+| **Wyoming** | 588,753 | 97,813 sq mi |
 
 **The start** 
 * Ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.

@@ -27,7 +27,7 @@ Let's establish some context and talk about New York City and Queens. Stretching
 | **Salt Lake City, Utah** | 215,548 | 111 |
 | **Wyoming** | 588,753 | 97,813 |
 
-**The start** 
+**Early History** 
 * Ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.
     * The largest population of Lenape is about 12,000 in Oklahoma
 
@@ -47,21 +47,23 @@ Queens was established as one of the original 12 counties of the Province of New
 Five towns: Flushing, Hempstead, Jamaica, Newtown, and Oyster Bay
 
 
-## Astoria Park
+## 02 Astoria Park
 * 60 acres
 * Planned in 1905 and officialy designated in 1913
 * Originaly contained Pot Cove, a Native American settlement used for maize cultivation and fishing
 
-## 01 William Hallet
-William hallet came from England in 1648  to farm and moved here in 1662
-1665 Indians burned his farm down
-
-He owned all of Astoria
-Naming it Hallets cove
-1708 Two of his escaped slaved snuck into the house and murdered the entire family of William hallet the third 
-First capital crime recorded in queens county.
+## 03 William Hallet
+* William hallet came from England in 1648  to farm and moved here in 1662
+* 1665 Indians burned his farm down
+* He owned all of Astoria
+* Naming it Hallets cove
+* 1708 Two of his escaped slaved snuck into the house and murdered the entire family of William hallet the third 
+    * First capital crime recorded in queens county.
 
 ## 02 Access Oasis
+* Started 2023 to nurture the disability community, allies & neighbors in Queens, NYC with an inclusive community garden where accessibility is built-in, and everyone can grow. 
+* Beds build by Astoria Wood Workers
+* Little Library painting by my lovely wife
 
 ## 03 Eagle Electric Manufacturing Company / Pistilli Riverview East
 * Founded 1920
@@ -71,16 +73,18 @@ First capital crime recorded in queens county.
 * and it's where we hold book club
 
 ## 04 Astoria Park Pool
-Opened 1936
-WPA Project during The Great Depression
-36 52 64 olympic trials were held at the pool
-According to wiki, it's the 24th largest pool in the world and 9th in the US
+* Opened 1936
+* WPA Project during The Great Depression
+* 36 52 64 olympic trials were held at the pool
+* According to wiki, it's the 24th largest pool in the world and 9th in the US
+![Alt text](/pool-1.jpg)
+
 Charles Poletti Power Project
 started generating electricity in 1977
 gradually phased out starting in 2002, replaced by a newer, cleaner facility on the same site in 2005
 plant was shuttered in 2010 following a lawsuit and years of community opposition.
 nickname "Asthma Alley". In 2021, New York State approved a plan to build a 100-megawatt battery system, the East River Storage System, on the site, in order to store and discharge renewable energy.
-![Alt text](/pool-1.jpg)
+
 
 
 
@@ -97,6 +101,7 @@ chartered for $350 by St. Mark's Evangelical Lutheran Church
 1,358 passengers and 30 officers and crew; fewer than 150 of the passengers were estimated to be adult males over 21. Of those on board, there were 957 deaths and 180 injuries
 worst maritime disaster of the 20th century until the Titanic surpassed it eight years later in 1912
 until the September 11 attacks in 2001 was the deadliest manmade disaster of any sort in the New York area
+![General Slocum sinking](/general-slocum.jpg)
 
 ## Hellgate Bridge
 1917 brought trains over steel arch bridge, inspiration for Sydney harbor bridge
@@ -165,19 +170,15 @@ Astor never came here
 ## Roosevelt Island
 
 ## Queenboro Bridge
+Queenboro bridge opened in 1909 which was the first big connection to New York City
 
 ## 7 Tunnel
 
 ## Big Alice
+Ravenswood Generating Station: A significant part of Astoria’s industrial history, this power plant has been a landmark since the early 1960s.
 
-## Ravenswood / more astoria growth
-The land was acquired in 1814 by Col. George Gibbs
-After Gibbs Death, Many mansions wer built on the land
-Hamlet within the Town of Newtown until its absorption with the Village of Astoria and the hamlets of Hunters Point, Blissville, Sunnyside, Dutch Kills, Steinway, Bowery Bay and Middleton in Newtown Township into Long Island City in 1870.[33] In 1870, Ravenswood, along with several other hamlets and the Village of Astoria, merged to form Long Island City.[32]
-1898 the 5 bourous consolidate into New York City
-Queenboro bridge opened in 1909 which was the first big connection to New York City
-New York City Housing Athority Project was built in 1949 to 1951
-Mount Sinai Queens
+
+## Mount Sinai Queens
 Originally founded as Astoria Hospital in 1892
 originally located on Astoria Boulevard
 1896, a gala opening heralded Astoria Hospital’s new Tudor Building on Crescent Street between 30th Avenue and 30th Road, with sweeping views of Manhattan
@@ -185,55 +186,46 @@ Two years after moving to its new location, the hospital was forced to close due
 Then Marie Daly and John F. Daly bought the hospital and opened Daly’s Astoria Sanatorium in 1925 as a maternity hospital and a place where patients could recuperate from long illnesses
 A group of physicians purchased the hospital in 1949 and changed its name to Astoria General Hospital.
 
+## Astoria Center of Israel
+Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
 
-columbus square
-created by Angelo Racioppi with funds from the New York City Works Progress Administration Art Project
-Dedicated in 1941, it is in bronze on a cast stone base.
-The origins of the statue lie in the 1920s in the Italian-American community in Long Island and Astoria. It began raising money for the statue, but work stalled when the community couldn't afford a base.[2][3] By 1930, the Board of Aldermen had renamed the park, on the east side of the Astoria Boulevard (BMT Astoria Line) station, Columbus Square
-
-St. George's Episcopal Church
-A historic church established in 1826, showcasing beautiful Gothic Revival architecture.
-Trinity Lutheran Church
-Founded in 1890, this church is a landmark with a distinctive architectural style.
-Talk about rikers
-
-Ravenswood Generating Station: A significant part of Astoria’s industrial history, this power plant has been a landmark since the early 1960s.
-Astoria Studio Complex
-One of the oldest continuously operating movie studios in the United States, established in 1920.
-Bohemian Hall and Beer Garden
-This historic Czech beer garden dates back to 1910 and is one of the last remaining beer gardens in New York City.
-Riker-Lent Homestead
-Built in 1654, this is one of the oldest houses in New York City and is listed on the National Register of Historic Places.
-Kaufman Astoria Studios opened 1920 - predecessor to paramount
-Ditmars Park: A small, historic park offering a glimpse into the early recreational spaces of Astoria.
-The Brass Owl: This building has historical significance and has been repurposed into a popular boutique, reflecting the adaptive reuse of historic structures.
-Astoria Bank: Founded in 1888, it’s one of the oldest banks in the area and reflects the neighborhood’s financial history.
-Shady Park: Also known as Athens Square Park, it features statues of Greek philosophers and reflects the Greek heritage of the neighborhood.
-First Reformed Church of Astoria: A historic church with roots dating back to the 19th century, known for its distinctive architecture.
-Astoria Center of Israel: Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
-
+## Ravenswood / more astoria growth
+* The land was acquired in 1814 by Col. George Gibbs
+* After Gibbs Death, Many mansions wer built on the land
+* Hamlet within the Town of Newtown until its absorption with the Village of Astoria and the hamlets of Hunters Point, Blissville, Sunnyside, Dutch Kills, Steinway, Bowery Bay and Middleton in Newtown Township into Long Island City in 1870.  In 1870, Ravenswood, along with several other hamlets and the Village of Astoria, merged to form Long Island City.
+* New York City Housing Athority Project was built in 1949 to 1951
+![Ravenswood Map](/ravenswood-map.jpg)
 
 ## Kaufman Astoria Studios
-The Famous Players-Lasky film studio
+Originally built in 1920 as the Astoria Studio for Paramount Pictures, has been a significant site for filmmaking in New York City. It produced over 100 silent films in its early years and has since hosted numerous major films and television shows, becoming a historic landmark added to the National Register of Historic Places in 1978.
+The Famous Players-Lasky film studio that became Paramount Pictures
 ![The Famous Players-Lasky film studio](/studio.jpg)
 
 ## Museum of the Moving Image
-Located in the historic building of the former Astoria Studios, it showcases the history of film, television, and digital media.
+Established in 1988 in Astoria, New York, as the first museum in the U.S. dedicated to the art, history, and technology of film, television, and digital media. Originally known as the American Museum of the Moving Image, it has undergone significant renovations and expansions, including a major one completed in 2011, enhancing its facilities and exhibitions.
+Located in the historic building of the former Astoria Studios. One of the oldest continuously operating movie studios in the United States, established in 1920.
 
 ## Steinway clocks / street
-Little Egypt
-In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
+* Hellmans mayonnaise factory was on steinway street
+
+* Little Egypt
+    * In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
 
 Industry started coming to Astoria at the end of the 1800s and with it the Steinway company
-Hellmans mayonnaise factory was on steinway street
-Steinway Mansion
-Built in the 1850s, this historic mansion was once home to the Steinway family, famous for Steinway & Sons pianos.
 Heinreich Steinweg
 Starts in loft in Manhattan, but then buys 400 acres in Astoria and makes Steinway village to house his workers. He did this in part to get his employees away from Manhattan anarchy and labor movements
+
+
+Built in the 1850s, this historic mansion was once home to the Steinway family, famous for Steinway & Sons pianos.
+Heinreich Steinweg
+![Stainway mansion](/steinway-mansion.jpg)
+
 Built a theme park called north beach that fell into disrepair and was later turned into Laguardia airport
 Archive
+![North Beach Amussment Park](/north-beach-park.jpg)
 
 ## 31 Ave Open Streets
+Started in 2020 during the pandemic, has evolved to take up more space and truly own the street. Hosts movies, Yoga classes, farmers markets, free library swaps, and everything community.
 
 ## BMT Astoria Line
 * formerly the IRT Astoria Line reached Astoria in 1917
@@ -251,6 +243,8 @@ Archive
 * Queens is the most diverse county in the entire country /  the world
 
 ## Newtown Ave
+Named for the town it runs to; Newtown, a former division of Queens County, is now roughly the neighborhoods of Elmhurst, Middle Village, Maspeth and Glendale. An old road that originally served as an Indian trail and became a main route to early settler William Hallett’s farm in the mid-17th century. It was colloquially called Hellgate Ferry Road.
+![Hellgate Ferry Rd](/hellgate-ferry-rd.jpg)
 
 ## Astoria Library
-
+Opened on February 28, 1899, originally as part of the Long Island City Public Library. It became part of the Queens Library system in 1901, contributing to the expansion of library services throughout the borough. We have 3 Libraries in Astoria! 

@@ -12,44 +12,18 @@ uniquepage: astoria-runners
   <img src="../play/astoria-runners/Logo.svg" alt="Astoria Runners Logo">
 </div>
 
-<div class="tentwentyfour container" style="margin-top: 2vw; margin-bottom: 4vw;">
-  <div class="third">
-    <h2>Chosen direction</h2>
-    <p>The new logo keeps the familiar A shape, but looks more like a playful twist on a classic runners sash. The new identity is to be used on our social media pages, calendar, and even ‘fits for in person events!</p>
-  </div>
-  <div class="two-thirds">
-    <video class="rounded" style="outline: white 2px solid; outline-offset: -1px;" autoplay loop muted>
-      <source src="half-video.mp4" type="video/mp4">
-    </video>
-  </div>
-</div>
+<video class="rounded" style="outline: white 2px solid; outline-offset: -1px;" autoplay loop muted>
+    <source src="./play/astoria-runners/half-video.mp4" type="video/mp4">
+</video>
 
 # Astoria Runners History Run 2026 {#historyrun}
 Welcome! This run will be 7ish miles with an extra bit for the marathon runners. 
 
 As we go through this tour, I encourage people to call out personal landmarks that mean something to them and share stories about there experience at restraunts, parks and other landmarks we pass.
 
-<<<<<<< HEAD
 ## 01 NYC & Queens
-=======
-## Overview
 * **Queens population:**    2,405,464
 * **Astoria population:** 	198,608 
->>>>>>> e66675417cb34bfd92ca87d113c327a583a5acb2
-
-<<<<<<< HEAD
-* **Queens population:**    2,405,464
-* **Astoria population:** 	198,608 
-=======
-## 1835 Stephen Halsey
-![Alt text](/halsey.jpg)
-Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
-In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
-
-## Core Rules {#corerules}
-This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)
->>>>>>> e66675417cb34bfd92ca87d113c327a583a5acb2
-
 
 
 ## Astoria Park
@@ -66,11 +40,6 @@ He owned all of Astoria
 Naming it Hallets cove
 1708 Two of his escaped slaved snuck into the house and murdered the entire family of William hallet the third 
 First capital crime recorded in queens county.
-
-## 1835 Stephen Halsey
-![Alt text](/halsey.jpg)
-Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
-In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
 
 ## 02 Access Oasis
 
@@ -91,31 +60,41 @@ started generating electricity in 1977
 gradually phased out starting in 2002, replaced by a newer, cleaner facility on the same site in 2005
 plant was shuttered in 2010 following a lawsuit and years of community opposition.
 nickname "Asthma Alley". In 2021, New York State approved a plan to build a 100-megawatt battery system, the East River Storage System, on the site, in order to store and discharge renewable energy.
-General Slocum Disaster
-a sidewheel passenger steamboat that caught fire in 1904
-chartered for $350 by St. Mark's Evangelical Lutheran Church
-1,358 passengers and 30 officers and crew; fewer than 150 of the passengers were estimated to be adult males over 21. Of those on board, there were 957 deaths and 180 injuries
-worst maritime disaster of the 20th century until the Titanic surpassed it eight years later in 1912
-until the September 11 attacks in 2001 was the deadliest manmade disaster of any sort in the New York area
-Hellgate
+
+
+
+## 06 Hellgate
 narrow tidal strait
 corruption of the Dutch phrase Hellegat
 Name bestowed by dutch explorer sometime around 1614–1616
 gat means inshore channel or strait connecting coastal waters with the open sea
 helle gate might translate as "clear opening"
-Hellgate Bridge
+
+## 05 General Slocum Disaster
+a sidewheel passenger steamboat that caught fire in 1904
+chartered for $350 by St. Mark's Evangelical Lutheran Church
+1,358 passengers and 30 officers and crew; fewer than 150 of the passengers were estimated to be adult males over 21. Of those on board, there were 957 deaths and 180 injuries
+worst maritime disaster of the 20th century until the Titanic surpassed it eight years later in 1912
+until the September 11 attacks in 2001 was the deadliest manmade disaster of any sort in the New York area
+
+## Hellgate Bridge
 1917 brought trains over steel arch bridge, inspiration for Sydney harbor bridge
 originally known as the New York Connecting Railroad Bridge
 consists of five spans, which connect the New York City boroughs of the Bronx to the north with Queens to the south
 The bridge carries two tracks of Amtrak's Northeast Corridor and one freight track between Astoria, Queens, and Port Morris, Bronx, via Randalls and Wards Islands.
 The bridge was renovated in the 1990s following three decades of deterioration.
 When the Triborough (now RFK) Bridge nearby was first proposed in 1920, some suggested that the Hell Gate Bridge's main span could be retrofitted with an upper deck for vehicular and pedestrian use, Civic organizations across the city supported the extra deck
-Triborough bridge
+
+## Triborough bridge
 more expensive than the hoover dam
 inished in 1936 great depression era
 Tony Bennet (Astoria born) sang at the opening of the bridge
  designed by the guy that did the Verrazano narrows and GW bridge
-02 Steven Halsey (Fur Trader)
+## 02 Steven Halsey (Fur Trader)
+## 1835 Stephen Halsey
+![Alt text](/halsey.jpg)
+Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
+In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
 1839 - Bought Hallets Cove and started laying out streets. 
 Saw the area when traveling from Flushing to Manhattan by ferry
 Tries to get investment money from fellow fur trader John Jacob Astor. 

@@ -2,7 +2,7 @@
 layout: document
 title: History Run
 description: Astoria Runners History Run 2026
-section: play
+section: personal
 class: astoria-runners
 uniquepage: astoria-runners
 ---
@@ -12,10 +12,31 @@ uniquepage: astoria-runners
   <img src="../play/astoria-runners/Logo.svg" alt="Astoria Runners Logo">
 </div>
 
+<div class="tentwentyfour container" style="margin-top: 2vw; margin-bottom: 4vw;">
+  <div class="third">
+    <h2>Chosen direction</h2>
+    <p>The new logo keeps the familiar A shape, but looks more like a playful twist on a classic runners sash. The new identity is to be used on our social media pages, calendar, and even ‘fits for in person events!</p>
+  </div>
+  <div class="two-thirds">
+    <video class="rounded" style="outline: white 2px solid; outline-offset: -1px;" autoplay loop muted>
+      <source src="half-video.mp4" type="video/mp4">
+    </video>
+  </div>
+</div>
+
 # Astoria Runners History Run 2026 {#historyrun}
-Welcome, this run will be 9ish miles with an extra bit for the marathon runners. Today’s run will be a little bit different in that we won’t be ending back at the park, but rather over near Kaufmen Astoria Studios around 36th Ave and Steinway. After that, Andrew will lead the marathoners on for more miles.
+Welcome! This run will be 7ish miles with an extra bit for the marathon runners. 
 
+As we go through this tour, I encourage people to call out personal landmarks that mean something to them and share stories about there experience at restraunts, parks and other landmarks we pass.
 
+## Overview
+* **Queens population:**    2,405,464
+* **Astoria population:** 	198,608 
+
+## 1835 Stephen Halsey
+![Alt text](/halsey.jpg)
+Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
+In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
 
 ## Core Rules {#corerules}
 This list is prioritized: not harming others comes before securing my own happiness, which comes before helping others. (I can't pour from an empty cup!)

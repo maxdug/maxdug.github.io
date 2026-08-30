@@ -18,14 +18,14 @@ As we go through this tour, I encourage people to call out personal landmarks th
 ## 01 NYC & Queens
 Let's establish some context and talk about New York City and Queens. Stretching is encouraged during this section.
 
-|  Location  |  Population |  Area  |
+|  Location  |  Population |  Area (Sq mi)  |
 |------------|-------------|--------|
-| **New York metropolitan area, also called the Tri-State area** | 19,426,449 people | 4,669 sq mi |
-| **NYC Population** | 8,804,190 | 300 sq mi |
-| **Queens population** | 2,405,464 | 178 sq mi |
-| **Astoria population** | 198,608 | 4 sq mi |
-| **Salt Lake City, Utah** | 215,548 | 111 sq mi |
-| **Wyoming** | 588,753 | 97,813 sq mi |
+| **New York metro / Tri-State area** | 19,426,449 | 4,669 |
+| **NYC Population** | 8,804,190 | 300 |
+| **Queens population** | 2,405,464 | 178 |
+| **Astoria population** | 198,608 | 4 |
+| **Salt Lake City, Utah** | 215,548 | 111 |
+| **Wyoming** | 588,753 | 97,813 |
 
 **The start** 
 * Ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.
@@ -184,41 +184,19 @@ originally located on Astoria Boulevard
 Two years after moving to its new location, the hospital was forced to close due to the lack of city funding
 Then Marie Daly and John F. Daly bought the hospital and opened Daly’s Astoria Sanatorium in 1925 as a maternity hospital and a place where patients could recuperate from long illnesses
 A group of physicians purchased the hospital in 1949 and changed its name to Astoria General Hospital.
-Athens Square Park
-Over 120 nationalities represented in the neighborhood
-Two we are exceptionaly known for are Little Egypt and greek population
-Two waves of greek immigration - early 1900s - major wave in 1960s after WWII after right wing military takes over Greece. Largest greek city outside of Greece and Cyprus.
-Queens is the most diverse county in the entire country /  the world
-BMT Astoria Line
-formerly the IRT Astoria Line reached Astoria in 1917
-Interborough Rapid Transit Company (IRT) and Brooklyn–Manhattan Transit Corporation (BMT)
-using IRT-sized cars until 1949
-Originoly trains went between Grand Central
-The platforms at the seven stations on the Astoria Line were lengthened to 610 feet (190 m) to accommodate ten-car (60') trains in 1950
-A 1920s Transit Commission study proposed extending the line northwest across or under Randalls and Wards Islands back into Manhattan as a crosstown line at 125th Street, roughly following the route of what is now the Triborough Bridge.
-In 1998, an extension of the BMT Astoria Line to LaGuardia Airport was planned as part of a $1.2 billion package to provide access to the New York City airports with funding from the MTA, the Port Authority and the city.
+
+
 columbus square
 created by Angelo Racioppi with funds from the New York City Works Progress Administration Art Project
 Dedicated in 1941, it is in bronze on a cast stone base.
 The origins of the statue lie in the 1920s in the Italian-American community in Long Island and Astoria. It began raising money for the statue, but work stalled when the community couldn't afford a base.[2][3] By 1930, the Board of Aldermen had renamed the park, on the east side of the Astoria Boulevard (BMT Astoria Line) station, Columbus Square
-Little Egypt
-In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
-Steinway
-Industry started coming to Astoria at the end of the 1800s and with it the Steinway company
-Hellmans mayonnaise factory was on steinway street
-Steinway Mansion
-Built in the 1850s, this historic mansion was once home to the Steinway family, famous for Steinway & Sons pianos.
-Heinreich Steinweg
-Starts in loft in Manhattan, but then buys 400 acres in Astoria and makes Steinway village to house his workers. He did this in part to get his employees away from Manhattan anarchy and labor movements
-Built a theme park called north beach that fell into disrepair and was later turned into Laguardia airport
-Archive
+
 St. George's Episcopal Church
 A historic church established in 1826, showcasing beautiful Gothic Revival architecture.
 Trinity Lutheran Church
 Founded in 1890, this church is a landmark with a distinctive architectural style.
 Talk about rikers
-Museum of the Moving Image
-Located in the historic building of the former Astoria Studios, it showcases the history of film, television, and digital media.
+
 Ravenswood Generating Station: A significant part of Astoria’s industrial history, this power plant has been a landmark since the early 1960s.
 Astoria Studio Complex
 One of the oldest continuously operating movie studios in the United States, established in 1920.
@@ -235,5 +213,44 @@ First Reformed Church of Astoria: A historic church with roots dating back to th
 Astoria Center of Israel: Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
 
 
-## The Famous Players-Lasky film studio
-![Alt text](/studio.jpg)
+## Kaufman Astoria Studios
+The Famous Players-Lasky film studio
+![The Famous Players-Lasky film studio](/studio.jpg)
+
+## Museum of the Moving Image
+Located in the historic building of the former Astoria Studios, it showcases the history of film, television, and digital media.
+
+## Steinway clocks / street
+Little Egypt
+In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
+
+Industry started coming to Astoria at the end of the 1800s and with it the Steinway company
+Hellmans mayonnaise factory was on steinway street
+Steinway Mansion
+Built in the 1850s, this historic mansion was once home to the Steinway family, famous for Steinway & Sons pianos.
+Heinreich Steinweg
+Starts in loft in Manhattan, but then buys 400 acres in Astoria and makes Steinway village to house his workers. He did this in part to get his employees away from Manhattan anarchy and labor movements
+Built a theme park called north beach that fell into disrepair and was later turned into Laguardia airport
+Archive
+
+## 31 Ave Open Streets
+
+## BMT Astoria Line
+* formerly the IRT Astoria Line reached Astoria in 1917
+* Interborough Rapid Transit Company (IRT) and Brooklyn–Manhattan Transit Corporation (BMT)
+* using IRT-sized cars until 1949
+* Originoly trains went between Grand Central
+* The platforms at the seven stations on the Astoria Line were lengthened to 610 feet (190 m) to accommodate ten-car (60') trains in 1950
+* A 1920s Transit Commission study proposed extending the line northwest across or under Randalls and Wards Islands back into Manhattan as a crosstown line at 125th Street, roughly following the route of what is now the Triborough Bridge.
+* In 1998, an extension of the BMT Astoria Line to LaGuardia Airport was planned as part of a $1.2 billion package to provide access to the New York City airports with funding from the MTA, the Port Authority and the city.
+
+## Athens Square Park
+* Over 120 nationalities represented in the neighborhood
+* Two we are exceptionaly known for are Little Egypt and greek population
+* Two waves of greek immigration - early 1900s - major wave in 1960s after WWII after right wing military takes over Greece. Largest greek city outside of Greece and Cyprus.
+* Queens is the most diverse county in the entire country /  the world
+
+## Newtown Ave
+
+## Astoria Library
+

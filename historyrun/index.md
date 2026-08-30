@@ -15,6 +15,8 @@ Welcome! This run will be 7ish miles with an extra bit for the marathon runners.
 
 As we go through this tour, I encourage people to call out personal landmarks that mean something to them and share stories about there experience at restraunts, parks and other landmarks we pass.
 
+Brief on Astoria Runners History
+
 ## 01 NYC & Queens
 Let's establish some context and talk about New York City and Queens. Stretching is encouraged during this section.
 
@@ -27,24 +29,6 @@ Let's establish some context and talk about New York City and Queens. Stretching
 | **Salt Lake City, Utah** | 215,548 | 111 |
 | **Wyoming** | 588,753 | 97,813 |
 
-**Early History** 
-* Ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.
-    * The largest population of Lenape is about 12,000 in Oklahoma
-
-**1524**
-First documented visit to New York Harbor by a European was Italian explorer Giovanni da Verrazzano.
-
-|
-
-**1609**
-English explorer Henry Hudson rediscovered New York Harbor while searching for the Northwest Passage to the Orient for the Dutch East India Company. He claimed the area for the Dutch which is why we’ll see lot’s of Dutch names in this tour.
-
-|
-
-**1683**
-Queens was established as one of the original 12 counties of the Province of New York. The settlement was named after the English Queen and Portuguese royal princess Catherine of Braganza. 
-
-Five towns: Flushing, Hempstead, Jamaica, Newtown, and Oyster Bay
 
 
 ![Timeline](/nyc-context.jpg)
@@ -178,23 +162,26 @@ Queenboro bridge opened in 1909 which was the first big connection to New York C
 ## 22 Big Alice
 Ravenswood Generating Station: A significant part of Astoria’s industrial history, this power plant has been a landmark since the early 1960s.
 
-## Ravenswood / more astoria growth
+## 23 Ravenswood / more astoria growth
 * The land was acquired in 1814 by Col. George Gibbs
 * After Gibbs Death, Many mansions wer built on the land
 * Hamlet within the Town of Newtown until its absorption with the Village of Astoria and the hamlets of Hunters Point, Blissville, Sunnyside, Dutch Kills, Steinway, Bowery Bay and Middleton in Newtown Township into Long Island City in 1870.  In 1870, Ravenswood, along with several other hamlets and the Village of Astoria, merged to form Long Island City.
 * New York City Housing Athority Project was built in 1949 to 1951
 ![Ravenswood Map](/ravenswood-map.jpg)
 
-## Kaufman Astoria Studios
+## 24 Frank Sinatra School of the arts
+* founded in 2001 by singer Tony Bennett and his wife, Susan Benedetto, in Astoria, Queens. The school offers specialized programs in various arts disciplines and is known for its high graduation and college enrollment rates.
+
+## 25 Kaufman Astoria Studios
 Originally built in 1920 as the Astoria Studio for Paramount Pictures, has been a significant site for filmmaking in New York City. It produced over 100 silent films in its early years and has since hosted numerous major films and television shows, becoming a historic landmark added to the National Register of Historic Places in 1978.
 The Famous Players-Lasky film studio that became Paramount Pictures
 ![The Famous Players-Lasky film studio](/studio.jpg)
 
-## Museum of the Moving Image
+## 26 Museum of the Moving Image
 Established in 1988 in Astoria, New York, as the first museum in the U.S. dedicated to the art, history, and technology of film, television, and digital media. Originally known as the American Museum of the Moving Image, it has undergone significant renovations and expansions, including a major one completed in 2011, enhancing its facilities and exhibitions.
 Located in the historic building of the former Astoria Studios. One of the oldest continuously operating movie studios in the United States, established in 1920.
 
-## Steinway clocks / street
+## 27 Steinway
 * Hellmans mayonnaise factory was on steinway street
 
 Industry started coming to Astoria at the end of the 1800s and with it the Steinway company
@@ -209,14 +196,14 @@ Built a theme park called north beach that fell into disrepair and was later tur
 Archive
 ![North Beach Amussment Park](/north-beach-park.jpg)
 
-## Little Egypt
+## 28 Little Egypt
 * In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
 
 
-## 31 Ave Open Streets
+## 29 31 Ave Open Streets
 Started in 2020 during the pandemic, has evolved to take up more space and truly own the street. Hosts movies, Yoga classes, farmers markets, free library swaps, and everything community.
 
-## BMT Astoria Line
+## 30 BMT Astoria Line
 * formerly the IRT Astoria Line reached Astoria in 1917
 * Interborough Rapid Transit Company (IRT) and Brooklyn–Manhattan Transit Corporation (BMT)
 * using IRT-sized cars until 1949
@@ -225,13 +212,13 @@ Started in 2020 during the pandemic, has evolved to take up more space and truly
 * A 1920s Transit Commission study proposed extending the line northwest across or under Randalls and Wards Islands back into Manhattan as a crosstown line at 125th Street, roughly following the route of what is now the Triborough Bridge.
 * In 1998, an extension of the BMT Astoria Line to LaGuardia Airport was planned as part of a $1.2 billion package to provide access to the New York City airports with funding from the MTA, the Port Authority and the city.
 
-## Athens Square Park
+## 31 Athens Square Park
 * Over 120 nationalities represented in the neighborhood
 * Two we are exceptionaly known for are Little Egypt and greek population
 * Two waves of greek immigration - early 1900s - major wave in 1960s after WWII after right wing military takes over Greece. Largest greek city outside of Greece and Cyprus.
 * Queens is the most diverse county in the entire country /  the world
 
-## Mount Sinai Queens
+## 32 Mount Sinai Queens
 Originally founded as Astoria Hospital in 1892
 originally located on Astoria Boulevard
 1896, a gala opening heralded Astoria Hospital’s new Tudor Building on Crescent Street between 30th Avenue and 30th Road, with sweeping views of Manhattan
@@ -239,12 +226,12 @@ Two years after moving to its new location, the hospital was forced to close due
 Then Marie Daly and John F. Daly bought the hospital and opened Daly’s Astoria Sanatorium in 1925 as a maternity hospital and a place where patients could recuperate from long illnesses
 A group of physicians purchased the hospital in 1949 and changed its name to Astoria General Hospital.
 
-## Astoria Center of Israel
+## 33 Astoria Center of Israel
 Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
 
-## Newtown Ave
+## 34 Newtown Ave
 Named for the town it runs to; Newtown, a former division of Queens County, is now roughly the neighborhoods of Elmhurst, Middle Village, Maspeth and Glendale. An old road that originally served as an Indian trail and became a main route to early settler William Hallett’s farm in the mid-17th century. It was colloquially called Hellgate Ferry Road.
 ![Hellgate Ferry Rd](/hellgate-ferry-rd.jpg)
 
-## Astoria Library
+## 35 Astoria Library
 Opened on February 28, 1899, originally as part of the Long Island City Public Library. It became part of the Queens Library system in 1901, contributing to the expansion of library services throughout the borough. We have 3 Libraries in Astoria! 

@@ -2,13 +2,14 @@
 layout: document
 title: History Run
 description: Astoria Runners History Run 2026
-section: personal
-class: ethos
+section: play
+class: astoria-runners
+uniquepage: astoria-runners
 ---
 
-<div class="hero" style="background-image: url(00-hero.jpg); background-position: center center;">
+<div class="hero" style="background-image: url(../play/astoria-runners/00-hero.jpg); background-position: center center;">
   <span class="hero-overlay"></span>
-  <img src="Logo.svg" alt="Astoria Runners Logo">
+  <img src="../play/astoria-runners/Logo.svg" alt="Astoria Runners Logo">
 </div>
 
 # Astoria Runners History Run 2026 {#historyrun}

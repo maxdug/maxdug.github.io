@@ -33,7 +33,24 @@ Let's establish some context and talk about New York City and Queens. Stretching
 * **Salt Lake City, Utah:**      215,548 | 110.81 sq mi 
 * **Wyoming:**  	588,753 | 97,813 sq mi 
 
+**The start** 
+* Ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.
+    * The largest population of Lenape is about 12,000 in Oklahoma
 
+**1524**
+First documented visit to New York Harbor by a European was Italian explorer Giovanni da Verrazzano.
+
+|
+
+**1609**
+English explorer Henry Hudson rediscovered New York Harbor while searching for the Northwest Passage to the Orient for the Dutch East India Company. He claimed the area for the Dutch which is why we’ll see lot’s of Dutch names in this tour.
+
+|
+
+**1683**
+Queens was established as one of the original 12 counties of the Province of New York. The settlement was named after the English Queen and Portuguese royal princess Catherine of Braganza. 
+
+Five towns: Flushing, Hempstead, Jamaica, Newtown, and Oyster Bay
 
 
 ## Astoria Park
@@ -44,8 +61,7 @@ Let's establish some context and talk about New York City and Queens. Stretching
 ## 01 William Hallet
 William hallet came from England in 1648  to farm and moved here in 1662
 1665 Indians burned his farm down
-ancestral land of the the Lenape, Carnarsie, and Matinecock Peoples.
-The largest population of Lenape is about 12,000 in Oklahoma
+
 He owned all of Astoria
 Naming it Hallets cove
 1708 Two of his escaped slaved snuck into the house and murdered the entire family of William hallet the third 

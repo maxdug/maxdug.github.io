@@ -24,8 +24,16 @@ Welcome! This run will be 7ish miles with an extra bit for the marathon runners.
 As we go through this tour, I encourage people to call out personal landmarks that mean something to them and share stories about there experience at restraunts, parks and other landmarks we pass.
 
 ## 01 NYC & Queens
-* **Queens population:**    2,405,464
-* **Astoria population:** 	198,608 
+Let's establish some context and talk about New York City and Queens. Stretching is encouraged during this section.
+
+* **New York metropolitan area, also called the Tri-State area:**   	19,426,449 people | 4,669 sq mi 
+* **NYC Population:**   8,804,190 | 300 sq mi 
+* **Queens population:**    2,405,464 | 178 sq mi
+* **Astoria population:** 	198,608 | 4 sq mi
+* **Salt Lake City, Utah:**      215,548 | 110.81 sq mi 
+* **Wyoming:**  	588,753 | 97,813 sq mi 
+
+
 
 
 ## Astoria Park
@@ -62,6 +70,7 @@ started generating electricity in 1977
 gradually phased out starting in 2002, replaced by a newer, cleaner facility on the same site in 2005
 plant was shuttered in 2010 following a lawsuit and years of community opposition.
 nickname "Asthma Alley". In 2021, New York State approved a plan to build a 100-megawatt battery system, the East River Storage System, on the site, in order to store and discharge renewable energy.
+![Alt text](/pool-1.jpg)
 
 
 
@@ -103,41 +112,55 @@ Tries to get investment money from fellow fur trader John Jacob Astor.
 Names after him to entice him. 
 Astor does invest some, but not near as much as Halsey. 
 Astor never came here
-03A 12th St
-once known as Woolsey Street
-1800s wealthy manhattanites built estates and mansions to summer in Astoria
-Much of upper Manhattan was still unbuilt and you could see the cliffs of the Palisades from high points in Astoria
-03B Tara House
-Reminiscent of the mansion in Gone with the Wind
-Built in 1832
-—was built in 1832. 
-Owned by Dr. Baylies, a local physician, it has seventeen rooms and nineteen fireplaces.
-Astoria Houses
-05 Astoria Ferry in Hallet's Cove
-Opened 2017
-Route goes to the Financial District and back
-04 Two Coves Community Garden
-More than 200 active local residents
-Long wait list but about 30 people get plots every year
-Open April through November
-Built up around 2006 from a grass roots movement
-In the late 1990s, Astoria’s Goodwill Industries had proposed turning the lot into a park, but their plans fell through, she said. 
- received supplies from the city Parks Department’s Green Thumb program
-04B Welling Court Mural Project
-Started in the Fall of 2009 to help beautify the neighborhood working off the momentum of the community garden
-An evolving outdoor art gallery featuring murals by artists from around the world, reflecting the neighborhood’s vibrant cultural scene.
-06 Piano Factory
-German immigrants Hugo Sohmer and Joseph Kuder founded a piano manufacturing company called Sohmer & Co and In 1886, Sohmer & Co. built a factory in Astoria
-Has since been converted into highly sought after residences
-07 Socrates Sculpture Park
-Socrates Sculpture Park was an abandoned riverside landfill and llegal dumpsite 
-In1986 a coalition artists and community members transformed it into an open studio and exhibition space for artists.
-Noguchi Musuem
-Roosevelt Island
-Queenboro Bridge
-7 Tunnel
-Big Alice
-Ravenswood / more astoria growth
+
+## 03A 12th St
+* once known as Woolsey Street
+* 1800s wealthy manhattanites built estates and mansions to summer in Astoria
+* Much of upper Manhattan was still unbuilt and you could see the cliffs of the Palisades from high points in Astoria
+
+## 03B Tara House
+* Reminiscent of the mansion in Gone with the Wind
+* Built in 1832
+* was built in 1832. 
+* Owned by Dr. Baylies, a local physician, it has seventeen rooms and nineteen fireplaces.
+
+## Astoria Houses
+
+## 05 Astoria Ferry in Hallet's Cove
+* Opened 2017
+* Route goes to the Financial District and back
+
+## 04 Two Coves Community Garden
+* More than 200 active local residents
+* Long wait list but about 30 people get plots every year
+* Open April through November
+* Built up around 2006 from a grass roots movement
+* In the late 1990s, Astoria’s Goodwill Industries had proposed turning the lot into a park, but their plans fell through, she said. 
+*  received supplies from the city Parks Department’s Green Thumb program
+
+## 04B Welling Court Mural Project
+* Started in the Fall of 2009 to help beautify the neighborhood working off the momentum of the community garden
+* An evolving outdoor art gallery featuring murals by artists from around the world, reflecting the neighborhood’s vibrant cultural scene.
+
+## 06 Piano Factory
+* German immigrants Hugo Sohmer and Joseph Kuder founded a piano manufacturing company called Sohmer & Co and In 1886, Sohmer & Co. built a factory in Astoria
+* Has since been converted into highly sought after residences
+
+## 07 Socrates Sculpture Park
+* Socrates Sculpture Park was an abandoned riverside landfill and llegal dumpsite 
+* In1986 a coalition artists and community members transformed it into an open studio and exhibition space for artists.
+
+## Noguchi Musuem
+
+## Roosevelt Island
+
+## Queenboro Bridge
+
+## 7 Tunnel
+
+## Big Alice
+
+## Ravenswood / more astoria growth
 The land was acquired in 1814 by Col. George Gibbs
 After Gibbs Death, Many mansions wer built on the land
 Hamlet within the Town of Newtown until its absorption with the Village of Astoria and the hamlets of Hunters Point, Blissville, Sunnyside, Dutch Kills, Steinway, Bowery Bay and Middleton in Newtown Township into Long Island City in 1870.[33] In 1870, Ravenswood, along with several other hamlets and the Village of Astoria, merged to form Long Island City.[32]
@@ -200,3 +223,7 @@ Astoria Bank: Founded in 1888, it’s one of the oldest banks in the area and re
 Shady Park: Also known as Athens Square Park, it features statues of Greek philosophers and reflects the Greek heritage of the neighborhood.
 First Reformed Church of Astoria: A historic church with roots dating back to the 19th century, known for its distinctive architecture.
 Astoria Center of Israel: Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
+
+
+## The Famous Players-Lasky film studio
+![Alt text](/studio.jpg)

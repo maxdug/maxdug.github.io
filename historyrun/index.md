@@ -47,6 +47,8 @@ Queens was established as one of the original 12 counties of the Province of New
 Five towns: Flushing, Hempstead, Jamaica, Newtown, and Oyster Bay
 
 
+![Timeline](/nyc-context.jpg)
+
 ## 02 Astoria Park
 * 60 acres
 * Planned in 1905 and officialy designated in 1913
@@ -77,47 +79,44 @@ Five towns: Flushing, Hempstead, Jamaica, Newtown, and Oyster Bay
 * WPA Project during The Great Depression
 * 36 52 64 olympic trials were held at the pool
 * According to wiki, it's the 24th largest pool in the world and 9th in the US
-![Alt text](/pool-1.jpg)
+![Pool](/pool-1.jpg)
 
-Charles Poletti Power Project
-started generating electricity in 1977
-gradually phased out starting in 2002, replaced by a newer, cleaner facility on the same site in 2005
-plant was shuttered in 2010 following a lawsuit and years of community opposition.
-nickname "Asthma Alley". In 2021, New York State approved a plan to build a 100-megawatt battery system, the East River Storage System, on the site, in order to store and discharge renewable energy.
-
-
-
+## 05 Charles Poletti Power Project
+* started generating electricity in 1977
+* gradually phased out starting in 2002, replaced by a newer, cleaner facility on the same site in 2005
+* plant was shuttered in 2010 following a lawsuit and years of community opposition.
+* nickname "Asthma Alley". In 2021, New York State approved a plan to build a 100-megawatt battery system, the East River Storage System, on the site, in order to store and discharge renewable energy.
 
 ## 06 Hellgate
-narrow tidal strait
-corruption of the Dutch phrase Hellegat
-Name bestowed by dutch explorer sometime around 1614–1616
-gat means inshore channel or strait connecting coastal waters with the open sea
-helle gate might translate as "clear opening"
+* narrow tidal strait
+* corruption of the Dutch phrase Hellegat
+* Name bestowed by dutch explorer sometime around 1614–1616
+* gat means inshore channel or strait connecting coastal waters with the open sea
+* helle gate might translate as "clear opening"
 
-## 05 General Slocum Disaster
-a sidewheel passenger steamboat that caught fire in 1904
-chartered for $350 by St. Mark's Evangelical Lutheran Church
-1,358 passengers and 30 officers and crew; fewer than 150 of the passengers were estimated to be adult males over 21. Of those on board, there were 957 deaths and 180 injuries
-worst maritime disaster of the 20th century until the Titanic surpassed it eight years later in 1912
+## 07 General Slocum Disaster
+* a sidewheel passenger steamboat that caught fire in 1904
+* chartered for $350 by St. Mark's Evangelical Lutheran Church
+* 1,358 passengers and 30 officers and crew; fewer than 150 of the passengers were estimated to be adult males over 21. Of those on board, there were 957 deaths and 180 injuries
+* worst maritime disaster of the 20th century until the Titanic surpassed it eight years later in 1912
 until the September 11 attacks in 2001 was the deadliest manmade disaster of any sort in the New York area
 ![General Slocum sinking](/general-slocum.jpg)
 
-## Hellgate Bridge
-1917 brought trains over steel arch bridge, inspiration for Sydney harbor bridge
-originally known as the New York Connecting Railroad Bridge
-consists of five spans, which connect the New York City boroughs of the Bronx to the north with Queens to the south
-The bridge carries two tracks of Amtrak's Northeast Corridor and one freight track between Astoria, Queens, and Port Morris, Bronx, via Randalls and Wards Islands.
-The bridge was renovated in the 1990s following three decades of deterioration.
-When the Triborough (now RFK) Bridge nearby was first proposed in 1920, some suggested that the Hell Gate Bridge's main span could be retrofitted with an upper deck for vehicular and pedestrian use, Civic organizations across the city supported the extra deck
+## 08 Hellgate Bridge
+* 1917 brought trains over steel arch bridge, inspiration for Sydney harbor bridge
+* originally known as the New York Connecting Railroad Bridge
+* consists of five spans, which connect the New York City boroughs of the Bronx to the north with Queens to the south
+* The bridge carries two tracks of Amtrak's Northeast Corridor and one freight track between Astoria, Queens, and Port Morris, Bronx, via Randalls and Wards Islands.
+* The bridge was renovated in the 1990s following three decades of deterioration.
+* When the Triborough (now RFK) Bridge nearby was first proposed in 1920, some suggested that the Hell Gate Bridge's main span could be retrofitted with an upper deck for vehicular and pedestrian use, Civic organizations across the city supported the extra deck
 
-## Triborough bridge
-more expensive than the hoover dam
-inished in 1936 great depression era
-Tony Bennet (Astoria born) sang at the opening of the bridge
+## 09 Triborough bridge
+* more expensive than the hoover dam
+* inished in 1936 great depression era
+* Tony Bennet (Astoria born) sang at the opening of the bridge
  designed by the guy that did the Verrazano narrows and GW bridge
 
-## 02 1835 Steven Halsey (Fur Trader)
+## 10 1835 Steven Halsey (Fur Trader)
 ![Alt text](/halsey.jpg)
 Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
 In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
@@ -128,24 +127,26 @@ Names after him to entice him.
 Astor does invest some, but not near as much as Halsey. 
 Astor never came here
 
-## 03A 12th St
+## 11 12th St
 * once known as Woolsey Street
 * 1800s wealthy manhattanites built estates and mansions to summer in Astoria
 * Much of upper Manhattan was still unbuilt and you could see the cliffs of the Palisades from high points in Astoria
 
-## 03B Tara House
+## 12 Tara House
+* Big white one
 * Reminiscent of the mansion in Gone with the Wind
 * Built in 1832
 * was built in 1832. 
 * Owned by Dr. Baylies, a local physician, it has seventeen rooms and nineteen fireplaces.
 
-## Astoria Houses
+## 13 Astoria Houses
+public housing complex in Queens, New York, completed in November 1951, consisting of 22 buildings with over 2,600 residents. It underwent significant renovations starting in 2016, funded by FEMA, to enhance safety and resilience against disasters.
 
-## 05 Astoria Ferry in Hallet's Cove
+## 14 Astoria Ferry in Hallet's Cove
 * Opened 2017
 * Route goes to the Financial District and back
 
-## 04 Two Coves Community Garden
+## 15 Two Coves Community Garden
 * More than 200 active local residents
 * Long wait list but about 30 people get plots every year
 * Open April through November
@@ -153,41 +154,29 @@ Astor never came here
 * In the late 1990s, Astoria’s Goodwill Industries had proposed turning the lot into a park, but their plans fell through, she said. 
 *  received supplies from the city Parks Department’s Green Thumb program
 
-## 04B Welling Court Mural Project
+## 16 Welling Court Mural Project
 * Started in the Fall of 2009 to help beautify the neighborhood working off the momentum of the community garden
 * An evolving outdoor art gallery featuring murals by artists from around the world, reflecting the neighborhood’s vibrant cultural scene.
 
-## 06 Piano Factory
+## 17 Piano Factory
 * German immigrants Hugo Sohmer and Joseph Kuder founded a piano manufacturing company called Sohmer & Co and In 1886, Sohmer & Co. built a factory in Astoria
 * Has since been converted into highly sought after residences
 
-## 07 Socrates Sculpture Park
+## 18 Socrates Sculpture Park
 * Socrates Sculpture Park was an abandoned riverside landfill and llegal dumpsite 
 * In1986 a coalition artists and community members transformed it into an open studio and exhibition space for artists.
 
-## Noguchi Musuem
+## 19 Noguchi Musuem
+* established in 1985 in Long Island City, Queens, was created by sculptor Isamu Noguchi to showcase his work and preserve his artistic legacy. It was the first museum in the U.S. founded by a living artist and features a sculpture garden and various exhibitions of Noguchi's sculptures, designs, and architectural models.
 
-## Roosevelt Island
+## 20 Roosevelt Island
+* originally called Minnehanonck by the Lenape and Varken Eylandt (Hog Island) by the Dutch, later becoming Blackwell’s Island. From the 1820s it housed prisons, hospitals, and asylums, including the notorious Lunatic Asylum exposed by Nellie Bly in 1887. Renamed Welfare Island in 1921, it was rededicated as Roosevelt Island in 1973 in honor of President Franklin D. Roosevelt.
 
-## Queenboro Bridge
+## 21 Queenboro Bridge
 Queenboro bridge opened in 1909 which was the first big connection to New York City
 
-## 7 Tunnel
-
-## Big Alice
+## 22 Big Alice
 Ravenswood Generating Station: A significant part of Astoria’s industrial history, this power plant has been a landmark since the early 1960s.
-
-
-## Mount Sinai Queens
-Originally founded as Astoria Hospital in 1892
-originally located on Astoria Boulevard
-1896, a gala opening heralded Astoria Hospital’s new Tudor Building on Crescent Street between 30th Avenue and 30th Road, with sweeping views of Manhattan
-Two years after moving to its new location, the hospital was forced to close due to the lack of city funding
-Then Marie Daly and John F. Daly bought the hospital and opened Daly’s Astoria Sanatorium in 1925 as a maternity hospital and a place where patients could recuperate from long illnesses
-A group of physicians purchased the hospital in 1949 and changed its name to Astoria General Hospital.
-
-## Astoria Center of Israel
-Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
 
 ## Ravenswood / more astoria growth
 * The land was acquired in 1814 by Col. George Gibbs
@@ -208,13 +197,9 @@ Located in the historic building of the former Astoria Studios. One of the oldes
 ## Steinway clocks / street
 * Hellmans mayonnaise factory was on steinway street
 
-* Little Egypt
-    * In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
-
 Industry started coming to Astoria at the end of the 1800s and with it the Steinway company
 Heinreich Steinweg
 Starts in loft in Manhattan, but then buys 400 acres in Astoria and makes Steinway village to house his workers. He did this in part to get his employees away from Manhattan anarchy and labor movements
-
 
 Built in the 1850s, this historic mansion was once home to the Steinway family, famous for Steinway & Sons pianos.
 Heinreich Steinweg
@@ -223,6 +208,10 @@ Heinreich Steinweg
 Built a theme park called north beach that fell into disrepair and was later turned into Laguardia airport
 Archive
 ![North Beach Amussment Park](/north-beach-park.jpg)
+
+## Little Egypt
+* In the 1990s, Steinway Street between 28th Avenue and Astoria Boulevard saw the establishment of many Arabic shops, restaurants, and cafes, which is unofficially called "Little Egypt", due to the number of Arabs residing there and the mostly Egyptian shops and lounges there. First notable shop opened in 1987 when yours truly was born
+
 
 ## 31 Ave Open Streets
 Started in 2020 during the pandemic, has evolved to take up more space and truly own the street. Hosts movies, Yoga classes, farmers markets, free library swaps, and everything community.
@@ -241,6 +230,17 @@ Started in 2020 during the pandemic, has evolved to take up more space and truly
 * Two we are exceptionaly known for are Little Egypt and greek population
 * Two waves of greek immigration - early 1900s - major wave in 1960s after WWII after right wing military takes over Greece. Largest greek city outside of Greece and Cyprus.
 * Queens is the most diverse county in the entire country /  the world
+
+## Mount Sinai Queens
+Originally founded as Astoria Hospital in 1892
+originally located on Astoria Boulevard
+1896, a gala opening heralded Astoria Hospital’s new Tudor Building on Crescent Street between 30th Avenue and 30th Road, with sweeping views of Manhattan
+Two years after moving to its new location, the hospital was forced to close due to the lack of city funding
+Then Marie Daly and John F. Daly bought the hospital and opened Daly’s Astoria Sanatorium in 1925 as a maternity hospital and a place where patients could recuperate from long illnesses
+A group of physicians purchased the hospital in 1949 and changed its name to Astoria General Hospital.
+
+## Astoria Center of Israel
+Founded in 1926, this synagogue is a significant cultural and religious site in the neighborhood.
 
 ## Newtown Ave
 Named for the town it runs to; Newtown, a former division of Queens County, is now roughly the neighborhoods of Elmhurst, Middle Village, Maspeth and Glendale. An old road that originally served as an Indian trail and became a main route to early settler William Hallett’s farm in the mid-17th century. It was colloquially called Hellgate Ferry Road.

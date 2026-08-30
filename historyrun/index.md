@@ -176,6 +176,7 @@ Ravenswood Generating Station: A significant part of Astoria’s industrial hist
 Originally built in 1920 as the Astoria Studio for Paramount Pictures, has been a significant site for filmmaking in New York City. It produced over 100 silent films in its early years and has since hosted numerous major films and television shows, becoming a historic landmark added to the National Register of Historic Places in 1978.
 The Famous Players-Lasky film studio that became Paramount Pictures
 ![The Famous Players-Lasky film studio](/studio.jpg)
+ Sesame Street has been taped here since 1993
 
 ## 26 Museum of the Moving Image
 Established in 1988 in Astoria, New York, as the first museum in the U.S. dedicated to the art, history, and technology of film, television, and digital media. Originally known as the American Museum of the Moving Image, it has undergone significant renovations and expansions, including a major one completed in 2011, enhancing its facilities and exhibitions.

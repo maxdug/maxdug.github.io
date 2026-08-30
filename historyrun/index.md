@@ -13,8 +13,10 @@ uniquepage: astoria-runners
 </div>
 
 <video class="rounded" style="outline: white 2px solid; outline-offset: -1px;" autoplay loop muted>
-    <source src="./play/astoria-runners/half-video.mp4" type="video/mp4">
+    <source src="../play/astoria-runners/half-video.mp4" type="video/mp4">
 </video>
+
+![Alt text](../play/astoria-runners/half-video.mp4)
 
 # Astoria Runners History Run 2026 {#historyrun}
 Welcome! This run will be 7ish miles with an extra bit for the marathon runners. 
@@ -90,8 +92,8 @@ more expensive than the hoover dam
 inished in 1936 great depression era
 Tony Bennet (Astoria born) sang at the opening of the bridge
  designed by the guy that did the Verrazano narrows and GW bridge
-## 02 Steven Halsey (Fur Trader)
-## 1835 Stephen Halsey
+
+## 02 1835 Steven Halsey (Fur Trader)
 ![Alt text](/halsey.jpg)
 Stephen Halsey, often viewed as the Father of Astoria Source: J.S. Kelsey’s History of Long Island City New York.
 In 1835, a wealthy fur merchant named Stephen Halsey, then living in Flushing, moved to the Hallets Point area with the intention of expanding the rural settlement into a new and thriving village.
